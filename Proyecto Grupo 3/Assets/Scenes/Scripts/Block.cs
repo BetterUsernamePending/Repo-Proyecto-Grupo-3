@@ -15,7 +15,7 @@ public class Block : MonoBehaviour
     public float F => G + H;
     public bool walkable = false;
     public int height;
-    public Vector3 coord = Vector3.zero; 
+    public static Vector3 coord = Vector3.zero; //modificar ese "vector 3 zero" por una funcion que asigne los valores del vector 3 como su posicion en X,Y y Z (transform.position) 
     void Start()
     {
         coord = new Vector3(transform.position.x,transform.position.y,transform.position.z);
@@ -44,7 +44,7 @@ public class Block : MonoBehaviour
             if (hitColliders.Length > 0)
             {
                 neighborBlocks.Add(hitColliders[0].gameObject.GetComponent<Block>());
-                Debug.Log(hitColliders[0].gameObject.name);
+                //Debug.Log(hitColliders[0].gameObject.name);
             }
         }
     }
@@ -52,16 +52,14 @@ public class Block : MonoBehaviour
     public void SetG(float g) => G = g;
     public void SetH(float h) => H = h;
     public void SetConnection(Block block) => Connection = block;
-    public bool isWalkable(int height)
+    public bool isWalkable(int height,int jump)
     {
-        //meter acá la comparación entre la variable de altura actual del personaje y la altura del bloque
-        return walkable; //BORRAR ESTO
+       return jump>height;
     }
     public float GetDistance(Block targetBlock)
     {
-        return 1; //RESOLVER 
+        return ; //RESOLVER 
     }
-  
     void Update()
     {
         
