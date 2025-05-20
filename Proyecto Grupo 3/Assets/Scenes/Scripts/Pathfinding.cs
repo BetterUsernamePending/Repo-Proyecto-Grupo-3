@@ -7,9 +7,8 @@ using Unity.VisualScripting;
 
 public class Pathfinding
 {
-    public static List<Block> showPossible(Block startingBlock, int dist, int jump)
+    public static List<Block> showPossible(Block startingBlock, int dist, int jump) //crea una lista con las casillas posibles a las que se puede mover el jugador
     {
-        
         List<Block> toSearch = new List<Block>() { startingBlock };
         List<Block> processed = new List<Block>();
         List<Block> possibles = new List<Block>();
@@ -38,7 +37,7 @@ public class Pathfinding
 
         return possibles;
     }
-    public static List<Block> findPath(Block startingBlock, Block targetBlock, int jump) //targetBlock se define por el jugador (hacer sistema)
+    public static List<Block> findPath(Block startingBlock, Block targetBlock, int jump) //Crea una lista con los bloques en el camino mas corto hacia el targetBlock
     {
         List<Block> toSearch = new List<Block>() { startingBlock };
         List<Block> processed = new List<Block>();

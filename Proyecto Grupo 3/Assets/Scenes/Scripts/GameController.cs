@@ -16,4 +16,14 @@ public class GameController : MonoBehaviour
         yield return new WaitForSeconds(1);
         Pathfinding.showPossible(initBlock, 5, 4);
     }
+    
+    private void cameraReposition(bool currentp1)
+    {
+        //posiciona la camara sobre el personaje del jugador al iniciar el turno
+    }
+
+    private void loadScene()
+    {
+        //carga la escena correspondiente
+    }
 }

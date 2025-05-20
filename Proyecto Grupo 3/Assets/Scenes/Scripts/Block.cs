@@ -14,7 +14,7 @@ public class Block : MonoBehaviour
     public float H { get; private set; }
     public float F => G + H;
     public bool walkable = false;
-    public int height;
+    [SerializeField] public int height;
     public static Vector3 coord = Vector3.zero; //modificar ese "vector 3 zero" por una funcion que asigne los valores del vector 3 como su posicion en X,Y y Z (transform.position) 
     void Start()
     {
@@ -54,14 +54,11 @@ public class Block : MonoBehaviour
     public void SetConnection(Block block) => Connection = block;
     public bool isWalkable(int height,int jump)
     {
-       return jump>height;
+       return jump>height; //determina si el bloque es caminable o no
     }
-    public float GetDistance(Block targetBlock)
+    public float GetDistance(Block currentBlock, Block targetBlock)
     {
-        return ; //RESOLVER 
+        return ; //RESOLVER. Devuelve la distancia de un bloque a otro
     }
-    void Update()
-    {
-        
-    }
+   
 }
