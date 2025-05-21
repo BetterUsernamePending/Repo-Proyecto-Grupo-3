@@ -6,7 +6,7 @@ public class TurnController : MonoBehaviour
 {
     public bool currentp1 = true;
 
-    private void startTurn(bool currentp1)
+   /* private void startTurn(bool currentp1)
     {
         //comienza el turno y carga la UI correspondiente
     }
@@ -23,5 +23,5 @@ public class TurnController : MonoBehaviour
     {
         //timer del turno. Al terminarse el tiempo, el turno se saltea.
     }
-
+   */
 }

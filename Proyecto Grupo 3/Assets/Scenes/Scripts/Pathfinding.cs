@@ -11,31 +11,28 @@ public class Pathfinding
     {
         List<Block> toSearch = new List<Block>() { startingBlock };
         List<Block> processed = new List<Block>();
-        List<Block> possibles = new List<Block>();
-        int movesleft = dist;
-        while (toSearch.Count > 0 && movesleft > 0)
+        List<Block> nextToSearch = new List<Block>();
+        for (int i = 0; i < dist; i++)
         {
-            Block current = toSearch[0];
-            possibles.Add(current);
-            processed.Add(current);
-            toSearch.Remove(current);
-            foreach (Block block in current.Neighbors.Where(block =>
-                block.isWalkable(Mathf.Abs(current.height - block.height), jump) && !processed.Contains(block)))
+            foreach (var current in toSearch)
             {
-                var inSearch = toSearch.Contains(block);
-                if (!inSearch)
+                current.transform.position = new Vector3(current.transform.position.x, current.transform.position.y + 1, current.transform.position.z);
+                processed.Add(current);
+                Debug.Log(current.name);
+                foreach (Block block in current.Neighbors.Where(block => block.isWalkable(Mathf.Abs(current.height - block.height), jump)
+                && !processed.Contains(block)))
                 {
-                    toSearch.Add(block);
+                    if (!nextToSearch.Contains(block))
+                    {
+                        nextToSearch.Add(block);
+                    }
+
                 }
             }
-            movesleft--;
+            toSearch = new List<Block>(nextToSearch);
+            nextToSearch.Clear();
         }
-        for (int i = 0; i < possibles.Count; i++)
-        {
-            Debug.Log(possibles[i].name);
-        }
-
-        return possibles;
+        return processed;
     }
     public static List<Block> findPath(Block startingBlock, Block targetBlock, int jump) //Crea una lista con los bloques en el camino mas corto hacia el targetBlock
     {
@@ -52,7 +49,7 @@ public class Pathfinding
             processed.Add(current);
             toSearch.Remove(current);
 
-            foreach (Block block in current.Neighbors.Where(block => block.isWalkable(current.height,jump) == true && !processed.Contains(block)))
+            foreach (Block block in current.Neighbors.Where(block => block.isWalkable(current.height, jump) == true && !processed.Contains(block)))
             {
                 var inSearch = toSearch.Contains(block);
                 var costToNeighbor = current.G + 1;
@@ -64,7 +61,7 @@ public class Pathfinding
 
                     if (!inSearch)
                     {
-                        block.SetH(block.GetDistance(targetBlock));
+                        block.SetH(block.GetDistance(startingBlock, targetBlock));
                         toSearch.Add(block);
                     }
 

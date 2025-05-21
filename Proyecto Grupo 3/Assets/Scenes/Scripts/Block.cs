@@ -58,7 +58,7 @@ public class Block : MonoBehaviour
     }
     public float GetDistance(Block currentBlock, Block targetBlock)
     {
-        return ; //RESOLVER. Devuelve la distancia de un bloque a otro
+        return 0; //RESOLVER. Devuelve la distancia de un bloque a otro
     }
    
 }
