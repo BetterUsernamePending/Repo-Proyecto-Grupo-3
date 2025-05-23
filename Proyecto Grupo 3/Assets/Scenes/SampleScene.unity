@@ -147,7 +147,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 10054472}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 3}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -170,8 +170,9 @@ MonoBehaviour:
   m_Triggers:
     serializedVersion: 2
     m_Bits: 0
-  walkable: 0
+  obstacle: 0
   height: 0
+  coord: {x: 0, y: 0, z: 0}
 --- !u!65 &10054475
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -275,7 +276,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 75e94e9116c9e534f88442dcbdd715a6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  initBlock: {fileID: 391200163}
+  initBlock: {fileID: 1052111892}
 --- !u!4 &32526637
 Transform:
   m_ObjectHideFlags: 0
@@ -319,7 +320,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 38830781}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 2, y: 0, z: 2}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -342,8 +343,9 @@ MonoBehaviour:
   m_Triggers:
     serializedVersion: 2
     m_Bits: 0
-  walkable: 0
+  obstacle: 0
   height: 0
+  coord: {x: 0, y: 0, z: 0}
 --- !u!65 &38830784
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -446,7 +448,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 39971427}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 1, y: 0, z: 1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -469,8 +471,9 @@ MonoBehaviour:
   m_Triggers:
     serializedVersion: 2
     m_Bits: 0
-  walkable: 0
+  obstacle: 0
   height: 0
+  coord: {x: 0, y: 0, z: 0}
 --- !u!65 &39971430
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -573,7 +576,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 51340628}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -596,8 +599,9 @@ MonoBehaviour:
   m_Triggers:
     serializedVersion: 2
     m_Bits: 0
-  walkable: 0
+  obstacle: 0
   height: 0
+  coord: {x: 0, y: 0, z: 0}
 --- !u!65 &51340631
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -747,7 +751,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 73350517}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 2, y: 0, z: 3}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -770,8 +774,9 @@ MonoBehaviour:
   m_Triggers:
     serializedVersion: 2
     m_Bits: 0
-  walkable: 0
+  obstacle: 0
   height: 0
+  coord: {x: 0, y: 0, z: 0}
 --- !u!65 &73350520
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -874,7 +879,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 78492282}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 1, y: 0, z: 3}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -897,8 +902,9 @@ MonoBehaviour:
   m_Triggers:
     serializedVersion: 2
     m_Bits: 0
-  walkable: 0
+  obstacle: 0
   height: 0
+  coord: {x: 0, y: 0, z: 0}
 --- !u!65 &78492285
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1001,7 +1007,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 99357925}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 2, y: 0, z: 3}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -1024,8 +1030,9 @@ MonoBehaviour:
   m_Triggers:
     serializedVersion: 2
     m_Bits: 0
-  walkable: 0
+  obstacle: 0
   height: 0
+  coord: {x: 0, y: 0, z: 0}
 --- !u!65 &99357928
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1128,7 +1135,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 113477682}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 1, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -1151,8 +1158,9 @@ MonoBehaviour:
   m_Triggers:
     serializedVersion: 2
     m_Bits: 0
-  walkable: 0
+  obstacle: 0
   height: 0
+  coord: {x: 0, y: 0, z: 0}
 --- !u!65 &113477685
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1255,7 +1263,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 114642493}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 1, y: 0, z: 1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -1278,8 +1286,9 @@ MonoBehaviour:
   m_Triggers:
     serializedVersion: 2
     m_Bits: 0
-  walkable: 0
+  obstacle: 0
   height: 0
+  coord: {x: 0, y: 0, z: 0}
 --- !u!65 &114642496
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1382,7 +1391,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 114729777}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -1405,8 +1414,9 @@ MonoBehaviour:
   m_Triggers:
     serializedVersion: 2
     m_Bits: 0
-  walkable: 0
+  obstacle: 0
   height: 0
+  coord: {x: 0, y: 0, z: 0}
 --- !u!65 &114729780
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1509,7 +1519,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 116869180}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 3, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -1532,8 +1542,9 @@ MonoBehaviour:
   m_Triggers:
     serializedVersion: 2
     m_Bits: 0
-  walkable: 0
+  obstacle: 0
   height: 0
+  coord: {x: 0, y: 0, z: 0}
 --- !u!65 &116869183
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1710,7 +1721,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 130671727}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 2, y: 0, z: 1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -1733,8 +1744,9 @@ MonoBehaviour:
   m_Triggers:
     serializedVersion: 2
     m_Bits: 0
-  walkable: 0
+  obstacle: 0
   height: 0
+  coord: {x: 0, y: 0, z: 0}
 --- !u!1 &179855323
 GameObject:
   m_ObjectHideFlags: 0
@@ -1763,7 +1775,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 179855323}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 3, y: 0, z: 3}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -1786,8 +1798,9 @@ MonoBehaviour:
   m_Triggers:
     serializedVersion: 2
     m_Bits: 0
-  walkable: 0
+  obstacle: 0
   height: 0
+  coord: {x: 0, y: 0, z: 0}
 --- !u!65 &179855326
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1937,7 +1950,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 219911726}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 3, y: 0, z: 2}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -1960,8 +1973,9 @@ MonoBehaviour:
   m_Triggers:
     serializedVersion: 2
     m_Bits: 0
-  walkable: 0
+  obstacle: 0
   height: 0
+  coord: {x: 0, y: 0, z: 0}
 --- !u!65 &219911729
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2064,13 +2078,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 221611658}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.001459623, y: -0.0012975666, z: -0.000024564066, w: 0.9999981}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 2}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1491228197}
-  m_LocalEulerAnglesHint: {x: 0.167, y: -0.149, z: -0.003}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &221611660
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2087,8 +2101,9 @@ MonoBehaviour:
   m_Triggers:
     serializedVersion: 2
     m_Bits: 0
-  walkable: 0
+  obstacle: 0
   height: 0
+  coord: {x: 0, y: 0, z: 0}
 --- !u!65 &221611661
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2191,7 +2206,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 244058875}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 1, y: 0, z: 2}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -2214,8 +2229,9 @@ MonoBehaviour:
   m_Triggers:
     serializedVersion: 2
     m_Bits: 0
-  walkable: 0
+  obstacle: 0
   height: 0
+  coord: {x: 0, y: 0, z: 0}
 --- !u!65 &244058878
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2318,7 +2334,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 258929745}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -2341,8 +2357,9 @@ MonoBehaviour:
   m_Triggers:
     serializedVersion: 2
     m_Bits: 0
-  walkable: 0
+  obstacle: 0
   height: 0
+  coord: {x: 0, y: 0, z: 0}
 --- !u!65 &258929748
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2445,7 +2462,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 282218372}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 2, y: 0, z: 1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -2468,8 +2485,9 @@ MonoBehaviour:
   m_Triggers:
     serializedVersion: 2
     m_Bits: 0
-  walkable: 0
+  obstacle: 0
   height: 0
+  coord: {x: 0, y: 0, z: 0}
 --- !u!65 &282218375
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2544,6 +2562,87 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 282218372}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &291022679
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 291022682}
+  - component: {fileID: 291022681}
+  - component: {fileID: 291022680}
+  m_Layer: 0
+  m_Name: Character representation
+  m_TagString: Player
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &291022680
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 291022679}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cf844d2ca9c2e7f4ca2195c266b79e7b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  atk: 0
+  def: 0
+  spd: 0
+  hp: 0
+  mp: 0
+  jump: 0
+  dist: 0
+  currentBlock: {fileID: 0}
+  targetBlock: {fileID: 0}
+  Triggers:
+    serializedVersion: 2
+    m_Bits: 64
+--- !u!136 &291022681
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 291022679}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.5000001
+  m_Height: 2
+  m_Direction: 1
+  m_Center: {x: 0.000000059604645, y: 0, z: -0.00000008940697}
+--- !u!4 &291022682
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 291022679}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 1.5, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 325081129}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &318016171
 GameObject:
   m_ObjectHideFlags: 0
@@ -2572,13 +2671,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 318016171}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.001459623, y: -0.0012975666, z: -0.000024564066, w: 0.9999981}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 2}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 57952865}
-  m_LocalEulerAnglesHint: {x: 0.167, y: -0.149, z: -0.003}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &318016173
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2595,8 +2694,9 @@ MonoBehaviour:
   m_Triggers:
     serializedVersion: 2
     m_Bits: 0
-  walkable: 0
+  obstacle: 0
   height: 0
+  coord: {x: 0, y: 0, z: 0}
 --- !u!65 &318016174
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2699,7 +2799,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 319490171}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -2722,8 +2822,9 @@ MonoBehaviour:
   m_Triggers:
     serializedVersion: 2
     m_Bits: 0
-  walkable: 0
+  obstacle: 0
   height: 0
+  coord: {x: 0, y: 0, z: 0}
 --- !u!65 &319490174
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2798,6 +2899,92 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 319490171}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &325081128
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 325081129}
+  - component: {fileID: 325081131}
+  - component: {fileID: 325081130}
+  m_Layer: 0
+  m_Name: Cylinder
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &325081129
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 325081128}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 291022682}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!23 &325081130
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 325081128}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &325081131
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 325081128}
+  m_Mesh: {fileID: 10206, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1 &330585543
 GameObject:
   m_ObjectHideFlags: 0
@@ -2810,6 +2997,7 @@ GameObject:
   - component: {fileID: 330585545}
   - component: {fileID: 330585544}
   - component: {fileID: 330585547}
+  - component: {fileID: 330585548}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -2935,6 +3123,22 @@ MonoBehaviour:
     m_MipBias: 0
     m_VarianceClampScale: 0.9
     m_ContrastAdaptiveSharpening: 0
+--- !u!114 &330585548
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 330585543}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c49b4cc203aa6414fae5c798d1d0e7d6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_EventMask:
+    serializedVersion: 2
+    m_Bits: 64
+  m_MaxRayIntersections: 0
 --- !u!1 &337097362
 GameObject:
   m_ObjectHideFlags: 0
@@ -2963,7 +3167,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 337097362}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -2986,8 +3190,9 @@ MonoBehaviour:
   m_Triggers:
     serializedVersion: 2
     m_Bits: 0
-  walkable: 0
+  obstacle: 0
   height: 0
+  coord: {x: 0, y: 0, z: 0}
 --- !u!65 &337097365
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3090,7 +3295,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 339721535}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 3, y: 0, z: 1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -3113,8 +3318,9 @@ MonoBehaviour:
   m_Triggers:
     serializedVersion: 2
     m_Bits: 0
-  walkable: 0
+  obstacle: 0
   height: 0
+  coord: {x: 0, y: 0, z: 0}
 --- !u!65 &339721538
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3217,7 +3423,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 357181566}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 3, y: 0, z: 3}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -3240,8 +3446,9 @@ MonoBehaviour:
   m_Triggers:
     serializedVersion: 2
     m_Bits: 0
-  walkable: 0
+  obstacle: 0
   height: 0
+  coord: {x: 0, y: 0, z: 0}
 --- !u!65 &357181569
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3368,8 +3575,9 @@ MonoBehaviour:
   m_Triggers:
     serializedVersion: 2
     m_Bits: 0
-  walkable: 0
+  obstacle: 0
   height: 0
+  coord: {x: 0, y: 0, z: 0}
 --- !u!114 &357376354
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3386,8 +3594,9 @@ MonoBehaviour:
   m_Triggers:
     serializedVersion: 2
     m_Bits: 0
-  walkable: 0
+  obstacle: 0
   height: 0
+  coord: {x: 0, y: 0, z: 0}
 --- !u!65 &357376355
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3490,7 +3699,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 362174125}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -3513,8 +3722,9 @@ MonoBehaviour:
   m_Triggers:
     serializedVersion: 2
     m_Bits: 0
-  walkable: 0
+  obstacle: 0
   height: 0
+  coord: {x: 0, y: 0, z: 0}
 --- !u!65 &362174128
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3617,7 +3827,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 373750152}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 3, y: 0, z: 2}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -3640,8 +3850,9 @@ MonoBehaviour:
   m_Triggers:
     serializedVersion: 2
     m_Bits: 0
-  walkable: 0
+  obstacle: 0
   height: 0
+  coord: {x: 0, y: 0, z: 0}
 --- !u!65 &373750155
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3744,7 +3955,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 379355724}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 1, y: 0, z: 1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -3767,8 +3978,9 @@ MonoBehaviour:
   m_Triggers:
     serializedVersion: 2
     m_Bits: 0
-  walkable: 0
+  obstacle: 0
   height: 0
+  coord: {x: 0, y: 0, z: 0}
 --- !u!65 &379355727
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3871,7 +4083,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 391200161}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 3, y: 0, z: 1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -3894,8 +4106,9 @@ MonoBehaviour:
   m_Triggers:
     serializedVersion: 2
     m_Bits: 0
-  walkable: 0
+  obstacle: 0
   height: 0
+  coord: {x: 0, y: 0, z: 0}
 --- !u!65 &391200164
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3998,7 +4211,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 405356633}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 1, y: 0, z: 3}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -4021,8 +4234,9 @@ MonoBehaviour:
   m_Triggers:
     serializedVersion: 2
     m_Bits: 0
-  walkable: 0
+  obstacle: 0
   height: 0
+  coord: {x: 0, y: 0, z: 0}
 --- !u!65 &405356636
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -4125,7 +4339,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 409282834}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 1, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -4148,8 +4362,9 @@ MonoBehaviour:
   m_Triggers:
     serializedVersion: 2
     m_Bits: 0
-  walkable: 0
+  obstacle: 0
   height: 0
+  coord: {x: 0, y: 0, z: 0}
 --- !u!65 &409282837
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -4252,7 +4467,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 410151449}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 2, y: 0, z: 2}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -4275,8 +4490,9 @@ MonoBehaviour:
   m_Triggers:
     serializedVersion: 2
     m_Bits: 0
-  walkable: 0
+  obstacle: 0
   height: 0
+  coord: {x: 0, y: 0, z: 0}
 --- !u!65 &410151452
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -4379,7 +4595,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 416210882}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 3, y: 0, z: 3}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -4402,8 +4618,9 @@ MonoBehaviour:
   m_Triggers:
     serializedVersion: 2
     m_Bits: 0
-  walkable: 0
+  obstacle: 0
   height: 0
+  coord: {x: 0, y: 0, z: 0}
 --- !u!65 &416210885
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -4506,7 +4723,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 433973620}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -4529,8 +4746,9 @@ MonoBehaviour:
   m_Triggers:
     serializedVersion: 2
     m_Bits: 0
-  walkable: 0
+  obstacle: 0
   height: 0
+  coord: {x: 0, y: 0, z: 0}
 --- !u!65 &433973623
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -4633,7 +4851,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 436126686}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 2, y: 0, z: 1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -4656,8 +4874,9 @@ MonoBehaviour:
   m_Triggers:
     serializedVersion: 2
     m_Bits: 0
-  walkable: 0
+  obstacle: 0
   height: 0
+  coord: {x: 0, y: 0, z: 0}
 --- !u!65 &436126689
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -4784,8 +5003,9 @@ MonoBehaviour:
   m_Triggers:
     serializedVersion: 2
     m_Bits: 0
-  walkable: 0
+  obstacle: 0
   height: 0
+  coord: {x: 0, y: 0, z: 0}
 --- !u!114 &445026304
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4802,8 +5022,9 @@ MonoBehaviour:
   m_Triggers:
     serializedVersion: 2
     m_Bits: 0
-  walkable: 0
+  obstacle: 0
   height: 0
+  coord: {x: 0, y: 0, z: 0}
 --- !u!65 &445026305
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -4906,7 +5127,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 480468241}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 1, y: 0, z: 3}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -4929,8 +5150,9 @@ MonoBehaviour:
   m_Triggers:
     serializedVersion: 2
     m_Bits: 0
-  walkable: 0
+  obstacle: 0
   height: 0
+  coord: {x: 0, y: 0, z: 0}
 --- !u!65 &480468244
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -5033,7 +5255,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 497514171}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 3, y: 0, z: 3}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -5056,8 +5278,9 @@ MonoBehaviour:
   m_Triggers:
     serializedVersion: 2
     m_Bits: 0
-  walkable: 0
+  obstacle: 0
   height: 0
+  coord: {x: 0, y: 0, z: 0}
 --- !u!65 &497514174
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -5160,7 +5383,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 515848912}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 3, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -5183,8 +5406,9 @@ MonoBehaviour:
   m_Triggers:
     serializedVersion: 2
     m_Bits: 0
-  walkable: 0
+  obstacle: 0
   height: 0
+  coord: {x: 0, y: 0, z: 0}
 --- !u!65 &515848915
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -5287,7 +5511,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 535885634}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 1, y: 0, z: 1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -5310,8 +5534,9 @@ MonoBehaviour:
   m_Triggers:
     serializedVersion: 2
     m_Bits: 0
-  walkable: 0
+  obstacle: 0
   height: 0
+  coord: {x: 0, y: 0, z: 0}
 --- !u!65 &535885637
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -5488,7 +5713,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 536992031}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 1, y: 0, z: 1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -5511,8 +5736,9 @@ MonoBehaviour:
   m_Triggers:
     serializedVersion: 2
     m_Bits: 0
-  walkable: 0
+  obstacle: 0
   height: 0
+  coord: {x: 0, y: 0, z: 0}
 --- !u!1 &544653001
 GameObject:
   m_ObjectHideFlags: 0
@@ -5541,7 +5767,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 544653001}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 3}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -5564,8 +5790,9 @@ MonoBehaviour:
   m_Triggers:
     serializedVersion: 2
     m_Bits: 0
-  walkable: 0
+  obstacle: 0
   height: 0
+  coord: {x: 0, y: 0, z: 0}
 --- !u!65 &544653004
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -5668,7 +5895,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 571427581}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 2, y: 0, z: 3}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -5691,8 +5918,9 @@ MonoBehaviour:
   m_Triggers:
     serializedVersion: 2
     m_Bits: 0
-  walkable: 0
+  obstacle: 0
   height: 0
+  coord: {x: 0, y: 0, z: 0}
 --- !u!65 &571427584
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -5795,7 +6023,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 572487235}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 1, y: 0, z: 2}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -5818,8 +6046,9 @@ MonoBehaviour:
   m_Triggers:
     serializedVersion: 2
     m_Bits: 0
-  walkable: 0
+  obstacle: 0
   height: 0
+  coord: {x: 0, y: 0, z: 0}
 --- !u!65 &572487238
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -5922,7 +6151,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 583870840}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -5945,8 +6174,9 @@ MonoBehaviour:
   m_Triggers:
     serializedVersion: 2
     m_Bits: 0
-  walkable: 0
+  obstacle: 0
   height: 0
+  coord: {x: 0, y: 0, z: 0}
 --- !u!65 &583870843
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -6049,13 +6279,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 597541169}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.001459623, y: -0.0012975666, z: -0.000024564066, w: 0.9999981}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 2}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 204048251}
-  m_LocalEulerAnglesHint: {x: 0.167, y: -0.149, z: -0.003}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &597541171
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6072,8 +6302,9 @@ MonoBehaviour:
   m_Triggers:
     serializedVersion: 2
     m_Bits: 0
-  walkable: 0
+  obstacle: 0
   height: 0
+  coord: {x: 0, y: 0, z: 0}
 --- !u!65 &597541172
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -6176,7 +6407,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 607204120}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 2, y: 0, z: 1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -6199,8 +6430,9 @@ MonoBehaviour:
   m_Triggers:
     serializedVersion: 2
     m_Bits: 0
-  walkable: 0
+  obstacle: 0
   height: 0
+  coord: {x: 0, y: 0, z: 0}
 --- !u!65 &607204123
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -6303,7 +6535,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 625657531}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -6326,8 +6558,9 @@ MonoBehaviour:
   m_Triggers:
     serializedVersion: 2
     m_Bits: 0
-  walkable: 0
+  obstacle: 0
   height: 0
+  coord: {x: 0, y: 0, z: 0}
 --- !u!65 &625657534
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -6430,7 +6663,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 632080651}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 3}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -6453,8 +6686,9 @@ MonoBehaviour:
   m_Triggers:
     serializedVersion: 2
     m_Bits: 0
-  walkable: 0
+  obstacle: 0
   height: 0
+  coord: {x: 0, y: 0, z: 0}
 --- !u!65 &632080654
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -6557,7 +6791,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 632949029}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 2, y: 0, z: 1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -6580,8 +6814,9 @@ MonoBehaviour:
   m_Triggers:
     serializedVersion: 2
     m_Bits: 0
-  walkable: 0
+  obstacle: 0
   height: 0
+  coord: {x: 0, y: 0, z: 0}
 --- !u!65 &632949032
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -6684,7 +6919,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 650069225}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 2, y: 0, z: 3}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -6707,8 +6942,9 @@ MonoBehaviour:
   m_Triggers:
     serializedVersion: 2
     m_Bits: 0
-  walkable: 0
+  obstacle: 0
   height: 0
+  coord: {x: 0, y: 0, z: 0}
 --- !u!65 &650069228
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -6811,7 +7047,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 671164587}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 3}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -6834,8 +7070,9 @@ MonoBehaviour:
   m_Triggers:
     serializedVersion: 2
     m_Bits: 0
-  walkable: 0
+  obstacle: 0
   height: 0
+  coord: {x: 0, y: 0, z: 0}
 --- !u!65 &671164590
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -6938,7 +7175,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 677550328}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -6961,8 +7198,9 @@ MonoBehaviour:
   m_Triggers:
     serializedVersion: 2
     m_Bits: 0
-  walkable: 0
+  obstacle: 0
   height: 0
+  coord: {x: 0, y: 0, z: 0}
 --- !u!65 &677550331
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -7065,7 +7303,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 681422468}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 2, y: 0, z: 2}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -7088,8 +7326,9 @@ MonoBehaviour:
   m_Triggers:
     serializedVersion: 2
     m_Bits: 0
-  walkable: 0
+  obstacle: 0
   height: 0
+  coord: {x: 0, y: 0, z: 0}
 --- !u!65 &681422471
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -7266,7 +7505,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 776023294}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -7289,8 +7528,9 @@ MonoBehaviour:
   m_Triggers:
     serializedVersion: 2
     m_Bits: 0
-  walkable: 0
+  obstacle: 0
   height: 0
+  coord: {x: 0, y: 0, z: 0}
 --- !u!1 &791241587
 GameObject:
   m_ObjectHideFlags: 0
@@ -7319,7 +7559,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 791241587}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 3, y: 0, z: 1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -7342,8 +7582,9 @@ MonoBehaviour:
   m_Triggers:
     serializedVersion: 2
     m_Bits: 0
-  walkable: 0
+  obstacle: 0
   height: 0
+  coord: {x: 0, y: 0, z: 0}
 --- !u!65 &791241590
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -7446,7 +7687,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 793632090}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 2, y: 0, z: 3}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -7469,8 +7710,9 @@ MonoBehaviour:
   m_Triggers:
     serializedVersion: 2
     m_Bits: 0
-  walkable: 0
+  obstacle: 0
   height: 0
+  coord: {x: 0, y: 0, z: 0}
 --- !u!65 &793632093
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -7573,7 +7815,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 806422464}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 3}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -7596,8 +7838,9 @@ MonoBehaviour:
   m_Triggers:
     serializedVersion: 2
     m_Bits: 0
-  walkable: 0
+  obstacle: 0
   height: 0
+  coord: {x: 0, y: 0, z: 0}
 --- !u!65 &806422467
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -7724,8 +7967,9 @@ MonoBehaviour:
   m_Triggers:
     serializedVersion: 2
     m_Bits: 0
-  walkable: 0
+  obstacle: 0
   height: 0
+  coord: {x: 0, y: 0, z: 0}
 --- !u!114 &811609420
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7742,8 +7986,9 @@ MonoBehaviour:
   m_Triggers:
     serializedVersion: 2
     m_Bits: 0
-  walkable: 0
+  obstacle: 0
   height: 0
+  coord: {x: 0, y: 0, z: 0}
 --- !u!65 &811609421
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -7846,7 +8091,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 816000996}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 1, y: 0, z: 3}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -7869,8 +8114,9 @@ MonoBehaviour:
   m_Triggers:
     serializedVersion: 2
     m_Bits: 0
-  walkable: 0
+  obstacle: 0
   height: 0
+  coord: {x: 0, y: 0, z: 0}
 --- !u!65 &816000999
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -7973,13 +8219,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 816331914}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.001459623, y: -0.0012975666, z: -0.000024564066, w: 0.9999981}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 2}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1516811939}
-  m_LocalEulerAnglesHint: {x: 0.167, y: -0.149, z: -0.003}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &816331916
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7996,8 +8242,9 @@ MonoBehaviour:
   m_Triggers:
     serializedVersion: 2
     m_Bits: 0
-  walkable: 0
+  obstacle: 0
   height: 0
+  coord: {x: 0, y: 0, z: 0}
 --- !u!65 &816331917
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -8100,7 +8347,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 829410445}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -8123,8 +8370,9 @@ MonoBehaviour:
   m_Triggers:
     serializedVersion: 2
     m_Bits: 0
-  walkable: 0
+  obstacle: 0
   height: 0
+  coord: {x: 0, y: 0, z: 0}
 --- !u!65 &829410448
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -8276,7 +8524,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 840324542}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 1, y: 0, z: 2}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -8299,8 +8547,9 @@ MonoBehaviour:
   m_Triggers:
     serializedVersion: 2
     m_Bits: 0
-  walkable: 0
+  obstacle: 0
   height: 0
+  coord: {x: 0, y: 0, z: 0}
 --- !u!65 &840324545
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -8403,7 +8652,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 858404353}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 2, y: 0, z: 1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -8426,8 +8675,9 @@ MonoBehaviour:
   m_Triggers:
     serializedVersion: 2
     m_Bits: 0
-  walkable: 0
+  obstacle: 0
   height: 0
+  coord: {x: 0, y: 0, z: 0}
 --- !u!65 &858404356
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -8530,7 +8780,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 859467313}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 1, y: 0, z: 3}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -8553,8 +8803,9 @@ MonoBehaviour:
   m_Triggers:
     serializedVersion: 2
     m_Bits: 0
-  walkable: 0
+  obstacle: 0
   height: 0
+  coord: {x: 0, y: 0, z: 0}
 --- !u!65 &859467316
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -8629,6 +8880,51 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 859467313}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &866210694
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 866210696}
+  - component: {fileID: 866210695}
+  m_Layer: 0
+  m_Name: Turn handler
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &866210695
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 866210694}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 113e92d578cfa5a43b519e0184399712, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  currentp1: 1
+--- !u!4 &866210696
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 866210694}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1.4916282, y: 2.606251, z: -0.73588395}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &869776977
 GameObject:
   m_ObjectHideFlags: 0
@@ -8657,7 +8953,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 869776977}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 2, y: 0, z: 2}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -8680,8 +8976,9 @@ MonoBehaviour:
   m_Triggers:
     serializedVersion: 2
     m_Bits: 0
-  walkable: 0
+  obstacle: 0
   height: 0
+  coord: {x: 0, y: 0, z: 0}
 --- !u!65 &869776980
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -8784,7 +9081,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 879789760}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 2, y: 0, z: 2}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -8807,8 +9104,9 @@ MonoBehaviour:
   m_Triggers:
     serializedVersion: 2
     m_Bits: 0
-  walkable: 0
+  obstacle: 0
   height: 0
+  coord: {x: 0, y: 0, z: 0}
 --- !u!65 &879789763
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -8911,7 +9209,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 913971295}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 1, y: 0, z: 3}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -8934,8 +9232,9 @@ MonoBehaviour:
   m_Triggers:
     serializedVersion: 2
     m_Bits: 0
-  walkable: 0
+  obstacle: 0
   height: 0
+  coord: {x: 0, y: 0, z: 0}
 --- !u!65 &913971298
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -9038,7 +9337,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 941082581}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 2, y: 0, z: 2}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -9061,8 +9360,9 @@ MonoBehaviour:
   m_Triggers:
     serializedVersion: 2
     m_Bits: 0
-  walkable: 0
+  obstacle: 0
   height: 0
+  coord: {x: 0, y: 0, z: 0}
 --- !u!65 &941082584
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -9165,7 +9465,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 944762053}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 3, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -9188,8 +9488,9 @@ MonoBehaviour:
   m_Triggers:
     serializedVersion: 2
     m_Bits: 0
-  walkable: 0
+  obstacle: 0
   height: 0
+  coord: {x: 0, y: 0, z: 0}
 --- !u!65 &944762056
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -9292,7 +9593,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 947373748}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 3, y: 0, z: 3}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -9315,8 +9616,9 @@ MonoBehaviour:
   m_Triggers:
     serializedVersion: 2
     m_Bits: 0
-  walkable: 0
+  obstacle: 0
   height: 0
+  coord: {x: 0, y: 0, z: 0}
 --- !u!65 &947373751
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -9466,7 +9768,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 964997455}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 3}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -9489,8 +9791,9 @@ MonoBehaviour:
   m_Triggers:
     serializedVersion: 2
     m_Bits: 0
-  walkable: 0
+  obstacle: 0
   height: 0
+  coord: {x: 0, y: 0, z: 0}
 --- !u!65 &964997458
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -9593,7 +9896,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 965312569}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 1, y: 0, z: 3}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -9616,8 +9919,9 @@ MonoBehaviour:
   m_Triggers:
     serializedVersion: 2
     m_Bits: 0
-  walkable: 0
+  obstacle: 0
   height: 0
+  coord: {x: 0, y: 0, z: 0}
 --- !u!65 &965312572
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -9720,7 +10024,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 976275123}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 3, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -9743,8 +10047,9 @@ MonoBehaviour:
   m_Triggers:
     serializedVersion: 2
     m_Bits: 0
-  walkable: 0
+  obstacle: 0
   height: 0
+  coord: {x: 0, y: 0, z: 0}
 --- !u!65 &976275126
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -9847,7 +10152,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 980329794}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 1, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -9870,8 +10175,9 @@ MonoBehaviour:
   m_Triggers:
     serializedVersion: 2
     m_Bits: 0
-  walkable: 0
+  obstacle: 0
   height: 0
+  coord: {x: 0, y: 0, z: 0}
 --- !u!65 &980329797
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -10021,7 +10327,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 992019577}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 2, y: 0, z: 1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -10044,8 +10350,9 @@ MonoBehaviour:
   m_Triggers:
     serializedVersion: 2
     m_Bits: 0
-  walkable: 0
+  obstacle: 0
   height: 0
+  coord: {x: 0, y: 0, z: 0}
 --- !u!65 &992019580
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -10148,7 +10455,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1019035982}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 3, y: 0, z: 2}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -10171,8 +10478,9 @@ MonoBehaviour:
   m_Triggers:
     serializedVersion: 2
     m_Bits: 0
-  walkable: 0
+  obstacle: 0
   height: 0
+  coord: {x: 0, y: 0, z: 0}
 --- !u!65 &1019035985
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -10275,7 +10583,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1048235378}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 3, y: 0, z: 2}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -10298,8 +10606,9 @@ MonoBehaviour:
   m_Triggers:
     serializedVersion: 2
     m_Bits: 0
-  walkable: 0
+  obstacle: 0
   height: 0
+  coord: {x: 0, y: 0, z: 0}
 --- !u!65 &1048235381
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -10402,7 +10711,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1052111890}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 1, y: 0, z: 2}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -10425,8 +10734,9 @@ MonoBehaviour:
   m_Triggers:
     serializedVersion: 2
     m_Bits: 0
-  walkable: 0
+  obstacle: 0
   height: 0
+  coord: {x: 0, y: 0, z: 0}
 --- !u!65 &1052111893
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -10603,7 +10913,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1059006321}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 2, y: 0, z: 2}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -10626,8 +10936,9 @@ MonoBehaviour:
   m_Triggers:
     serializedVersion: 2
     m_Bits: 0
-  walkable: 0
+  obstacle: 0
   height: 0
+  coord: {x: 0, y: 0, z: 0}
 --- !u!1 &1064323338
 GameObject:
   m_ObjectHideFlags: 0
@@ -10656,7 +10967,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1064323338}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 3, y: 0, z: 2}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -10679,8 +10990,9 @@ MonoBehaviour:
   m_Triggers:
     serializedVersion: 2
     m_Bits: 0
-  walkable: 0
+  obstacle: 0
   height: 0
+  coord: {x: 0, y: 0, z: 0}
 --- !u!65 &1064323341
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -10857,7 +11169,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1074120058}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 1, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -10880,8 +11192,9 @@ MonoBehaviour:
   m_Triggers:
     serializedVersion: 2
     m_Bits: 0
-  walkable: 0
+  obstacle: 0
   height: 0
+  coord: {x: 0, y: 0, z: 0}
 --- !u!1 &1079063069
 GameObject:
   m_ObjectHideFlags: 0
@@ -10918,8 +11231,9 @@ MonoBehaviour:
   m_Triggers:
     serializedVersion: 2
     m_Bits: 0
-  walkable: 0
+  obstacle: 0
   height: 0
+  coord: {x: 0, y: 0, z: 0}
 --- !u!65 &1079063071
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -11002,7 +11316,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1079063069}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -11056,6 +11370,85 @@ Transform:
   - {fileID: 1506721293}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1108849706
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1108849709}
+  - component: {fileID: 1108849708}
+  - component: {fileID: 1108849707}
+  m_Layer: 0
+  m_Name: EventSystem
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1108849707
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1108849706}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 01614664b831546d2ae94a42149d80ac, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SendPointerHoverToParent: 1
+  m_MoveRepeatDelay: 0.5
+  m_MoveRepeatRate: 0.1
+  m_XRTrackingOrigin: {fileID: 0}
+  m_ActionsAsset: {fileID: -944628639613478452, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
+  m_PointAction: {fileID: -1654692200621890270, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
+  m_MoveAction: {fileID: -8784545083839296357, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
+  m_SubmitAction: {fileID: 392368643174621059, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
+  m_CancelAction: {fileID: 7727032971491509709, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
+  m_LeftClickAction: {fileID: 3001919216989983466, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
+  m_MiddleClickAction: {fileID: -2185481485913320682, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
+  m_RightClickAction: {fileID: -4090225696740746782, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
+  m_ScrollWheelAction: {fileID: 6240969308177333660, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
+  m_TrackedDevicePositionAction: {fileID: 6564999863303420839, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
+  m_TrackedDeviceOrientationAction: {fileID: 7970375526676320489, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
+  m_DeselectOnBackgroundClick: 1
+  m_PointerBehavior: 0
+  m_CursorLockBehavior: 0
+  m_ScrollDeltaPerTick: 6
+--- !u!114 &1108849708
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1108849706}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76c392e42b5098c458856cdf6ecaaaa1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_FirstSelected: {fileID: 0}
+  m_sendNavigationEvents: 1
+  m_DragThreshold: 10
+--- !u!4 &1108849709
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1108849706}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1140642340
 GameObject:
   m_ObjectHideFlags: 0
@@ -11084,7 +11477,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1140642340}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 3, y: 0, z: 3}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -11107,8 +11500,9 @@ MonoBehaviour:
   m_Triggers:
     serializedVersion: 2
     m_Bits: 0
-  walkable: 0
+  obstacle: 0
   height: 0
+  coord: {x: 0, y: 0, z: 0}
 --- !u!65 &1140642343
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -11211,7 +11605,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1149889010}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 2, y: 0, z: 1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -11234,8 +11628,9 @@ MonoBehaviour:
   m_Triggers:
     serializedVersion: 2
     m_Bits: 0
-  walkable: 0
+  obstacle: 0
   height: 0
+  coord: {x: 0, y: 0, z: 0}
 --- !u!65 &1149889013
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -11338,7 +11733,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1161518961}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 1, y: 0, z: 1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -11361,8 +11756,9 @@ MonoBehaviour:
   m_Triggers:
     serializedVersion: 2
     m_Bits: 0
-  walkable: 0
+  obstacle: 0
   height: 0
+  coord: {x: 0, y: 0, z: 0}
 --- !u!65 &1161518964
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -11465,7 +11861,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1162055165}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -11488,8 +11884,9 @@ MonoBehaviour:
   m_Triggers:
     serializedVersion: 2
     m_Bits: 0
-  walkable: 0
+  obstacle: 0
   height: 0
+  coord: {x: 0, y: 0, z: 0}
 --- !u!65 &1162055168
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -11592,7 +11989,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1165538297}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 3}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -11615,8 +12012,9 @@ MonoBehaviour:
   m_Triggers:
     serializedVersion: 2
     m_Bits: 0
-  walkable: 0
+  obstacle: 0
   height: 0
+  coord: {x: 0, y: 0, z: 0}
 --- !u!65 &1165538300
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -11719,7 +12117,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1211621511}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 1, y: 0, z: 2}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -11742,8 +12140,9 @@ MonoBehaviour:
   m_Triggers:
     serializedVersion: 2
     m_Bits: 0
-  walkable: 0
+  obstacle: 0
   height: 0
+  coord: {x: 0, y: 0, z: 0}
 --- !u!65 &1211621514
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -11870,8 +12269,9 @@ MonoBehaviour:
   m_Triggers:
     serializedVersion: 2
     m_Bits: 0
-  walkable: 0
+  obstacle: 0
   height: 0
+  coord: {x: 0, y: 0, z: 0}
 --- !u!114 &1232258320
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11888,8 +12288,9 @@ MonoBehaviour:
   m_Triggers:
     serializedVersion: 2
     m_Bits: 0
-  walkable: 0
+  obstacle: 0
   height: 0
+  coord: {x: 0, y: 0, z: 0}
 --- !u!65 &1232258321
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -11992,7 +12393,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1269658142}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 3, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -12015,8 +12416,9 @@ MonoBehaviour:
   m_Triggers:
     serializedVersion: 2
     m_Bits: 0
-  walkable: 0
+  obstacle: 0
   height: 0
+  coord: {x: 0, y: 0, z: 0}
 --- !u!65 &1269658145
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -12119,7 +12521,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1282724564}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 1, y: 0, z: 1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -12142,8 +12544,9 @@ MonoBehaviour:
   m_Triggers:
     serializedVersion: 2
     m_Bits: 0
-  walkable: 0
+  obstacle: 0
   height: 0
+  coord: {x: 0, y: 0, z: 0}
 --- !u!65 &1282724567
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -12246,7 +12649,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1283959654}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 3, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -12269,8 +12672,9 @@ MonoBehaviour:
   m_Triggers:
     serializedVersion: 2
     m_Bits: 0
-  walkable: 0
+  obstacle: 0
   height: 0
+  coord: {x: 0, y: 0, z: 0}
 --- !u!65 &1283959657
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -12373,7 +12777,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1289403832}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 3}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -12396,8 +12800,9 @@ MonoBehaviour:
   m_Triggers:
     serializedVersion: 2
     m_Bits: 0
-  walkable: 0
+  obstacle: 0
   height: 0
+  coord: {x: 0, y: 0, z: 0}
 --- !u!65 &1289403835
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -12500,7 +12905,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1304430881}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 3, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -12523,8 +12928,9 @@ MonoBehaviour:
   m_Triggers:
     serializedVersion: 2
     m_Bits: 0
-  walkable: 0
+  obstacle: 0
   height: 0
+  coord: {x: 0, y: 0, z: 0}
 --- !u!65 &1304430884
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -12627,7 +13033,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1305177237}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 1, y: 0, z: 1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -12650,8 +13056,9 @@ MonoBehaviour:
   m_Triggers:
     serializedVersion: 2
     m_Bits: 0
-  walkable: 0
+  obstacle: 0
   height: 0
+  coord: {x: 0, y: 0, z: 0}
 --- !u!65 &1305177240
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -12754,7 +13161,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1320105201}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 1, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -12777,8 +13184,9 @@ MonoBehaviour:
   m_Triggers:
     serializedVersion: 2
     m_Bits: 0
-  walkable: 0
+  obstacle: 0
   height: 0
+  coord: {x: 0, y: 0, z: 0}
 --- !u!65 &1320105204
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -12881,7 +13289,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1369571326}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 3, y: 0, z: 3}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -12904,8 +13312,9 @@ MonoBehaviour:
   m_Triggers:
     serializedVersion: 2
     m_Bits: 0
-  walkable: 0
+  obstacle: 0
   height: 0
+  coord: {x: 0, y: 0, z: 0}
 --- !u!65 &1369571329
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -13008,7 +13417,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1382687944}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 3, y: 0, z: 1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -13031,8 +13440,9 @@ MonoBehaviour:
   m_Triggers:
     serializedVersion: 2
     m_Bits: 0
-  walkable: 0
+  obstacle: 0
   height: 0
+  coord: {x: 0, y: 0, z: 0}
 --- !u!65 &1382687947
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -13135,7 +13545,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1387839443}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 1, y: 0, z: 2}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -13158,8 +13568,9 @@ MonoBehaviour:
   m_Triggers:
     serializedVersion: 2
     m_Bits: 0
-  walkable: 0
+  obstacle: 0
   height: 0
+  coord: {x: 0, y: 0, z: 0}
 --- !u!65 &1387839446
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -13262,7 +13673,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1393370145}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 1, y: 0, z: 3}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -13285,8 +13696,9 @@ MonoBehaviour:
   m_Triggers:
     serializedVersion: 2
     m_Bits: 0
-  walkable: 0
+  obstacle: 0
   height: 0
+  coord: {x: 0, y: 0, z: 0}
 --- !u!65 &1393370148
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -13389,7 +13801,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1419240443}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 3, y: 0, z: 2}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -13412,8 +13824,9 @@ MonoBehaviour:
   m_Triggers:
     serializedVersion: 2
     m_Bits: 0
-  walkable: 0
+  obstacle: 0
   height: 0
+  coord: {x: 0, y: 0, z: 0}
 --- !u!65 &1419240446
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -13516,7 +13929,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1420593340}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 1, y: 0, z: 2}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -13539,8 +13952,9 @@ MonoBehaviour:
   m_Triggers:
     serializedVersion: 2
     m_Bits: 0
-  walkable: 0
+  obstacle: 0
   height: 0
+  coord: {x: 0, y: 0, z: 0}
 --- !u!65 &1420593343
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -13667,8 +14081,9 @@ MonoBehaviour:
   m_Triggers:
     serializedVersion: 2
     m_Bits: 0
-  walkable: 0
+  obstacle: 0
   height: 0
+  coord: {x: 0, y: 0, z: 0}
 --- !u!114 &1440587180
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13685,8 +14100,9 @@ MonoBehaviour:
   m_Triggers:
     serializedVersion: 2
     m_Bits: 0
-  walkable: 0
+  obstacle: 0
   height: 0
+  coord: {x: 0, y: 0, z: 0}
 --- !u!65 &1440587181
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -13789,7 +14205,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1457588682}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 2, y: 0, z: 2}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -13812,8 +14228,9 @@ MonoBehaviour:
   m_Triggers:
     serializedVersion: 2
     m_Bits: 0
-  walkable: 0
+  obstacle: 0
   height: 0
+  coord: {x: 0, y: 0, z: 0}
 --- !u!65 &1457588685
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -13916,7 +14333,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1480907191}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 1, y: 0, z: 3}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -13939,8 +14356,9 @@ MonoBehaviour:
   m_Triggers:
     serializedVersion: 2
     m_Bits: 0
-  walkable: 0
+  obstacle: 0
   height: 0
+  coord: {x: 0, y: 0, z: 0}
 --- !u!65 &1480907194
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -14114,8 +14532,9 @@ MonoBehaviour:
   m_Triggers:
     serializedVersion: 2
     m_Bits: 0
-  walkable: 0
+  obstacle: 0
   height: 0
+  coord: {x: 0, y: 0, z: 0}
 --- !u!114 &1506721295
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14132,8 +14551,9 @@ MonoBehaviour:
   m_Triggers:
     serializedVersion: 2
     m_Bits: 0
-  walkable: 0
+  obstacle: 0
   height: 0
+  coord: {x: 0, y: 0, z: 0}
 --- !u!65 &1506721296
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -14354,8 +14774,9 @@ MonoBehaviour:
   m_Triggers:
     serializedVersion: 2
     m_Bits: 0
-  walkable: 0
+  obstacle: 0
   height: 0
+  coord: {x: 0, y: 0, z: 0}
 --- !u!114 &1534676519
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14372,8 +14793,9 @@ MonoBehaviour:
   m_Triggers:
     serializedVersion: 2
     m_Bits: 0
-  walkable: 0
+  obstacle: 0
   height: 0
+  coord: {x: 0, y: 0, z: 0}
 --- !u!65 &1534676520
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -14476,7 +14898,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1537159695}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 3, y: 0, z: 2}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -14499,8 +14921,9 @@ MonoBehaviour:
   m_Triggers:
     serializedVersion: 2
     m_Bits: 0
-  walkable: 0
+  obstacle: 0
   height: 0
+  coord: {x: 0, y: 0, z: 0}
 --- !u!65 &1537159698
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -14626,8 +15049,9 @@ MonoBehaviour:
   m_Triggers:
     serializedVersion: 2
     m_Bits: 0
-  walkable: 0
+  obstacle: 0
   height: 0
+  coord: {x: 0, y: 0, z: 0}
 --- !u!65 &1539126557
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -14730,7 +15154,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1566316203}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 1, y: 0, z: 2}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -14753,8 +15177,9 @@ MonoBehaviour:
   m_Triggers:
     serializedVersion: 2
     m_Bits: 0
-  walkable: 0
+  obstacle: 0
   height: 0
+  coord: {x: 0, y: 0, z: 0}
 --- !u!65 &1566316206
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -14857,7 +15282,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1584839728}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 3}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -14880,8 +15305,9 @@ MonoBehaviour:
   m_Triggers:
     serializedVersion: 2
     m_Bits: 0
-  walkable: 0
+  obstacle: 0
   height: 0
+  coord: {x: 0, y: 0, z: 0}
 --- !u!65 &1584839731
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -14984,7 +15410,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1594168295}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 3, y: 0, z: 2}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -15007,8 +15433,9 @@ MonoBehaviour:
   m_Triggers:
     serializedVersion: 2
     m_Bits: 0
-  walkable: 0
+  obstacle: 0
   height: 0
+  coord: {x: 0, y: 0, z: 0}
 --- !u!65 &1594168298
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -15111,7 +15538,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1595706619}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -15134,8 +15561,9 @@ MonoBehaviour:
   m_Triggers:
     serializedVersion: 2
     m_Bits: 0
-  walkable: 0
+  obstacle: 0
   height: 0
+  coord: {x: 0, y: 0, z: 0}
 --- !u!65 &1595706622
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -15238,7 +15666,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1624539310}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 3, y: 0, z: 1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -15261,8 +15689,9 @@ MonoBehaviour:
   m_Triggers:
     serializedVersion: 2
     m_Bits: 0
-  walkable: 0
+  obstacle: 0
   height: 0
+  coord: {x: 0, y: 0, z: 0}
 --- !u!65 &1624539313
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -15365,8 +15794,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1633187128}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 3, y: 0, z: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 2.92, y: 0, z: 0.92}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -15388,8 +15817,9 @@ MonoBehaviour:
   m_Triggers:
     serializedVersion: 2
     m_Bits: 0
-  walkable: 0
+  obstacle: 0
   height: 0
+  coord: {x: 0, y: 0, z: 0}
 --- !u!65 &1633187131
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -15492,13 +15922,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1671746807}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.001459623, y: -0.0012975666, z: -0.000024564066, w: 0.9999981}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 2}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1533091010}
-  m_LocalEulerAnglesHint: {x: 0.167, y: -0.149, z: -0.003}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1671746809
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15515,8 +15945,9 @@ MonoBehaviour:
   m_Triggers:
     serializedVersion: 2
     m_Bits: 0
-  walkable: 0
+  obstacle: 0
   height: 0
+  coord: {x: 0, y: 0, z: 0}
 --- !u!65 &1671746810
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -15619,7 +16050,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1673889901}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 1, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -15642,8 +16073,9 @@ MonoBehaviour:
   m_Triggers:
     serializedVersion: 2
     m_Bits: 0
-  walkable: 0
+  obstacle: 0
   height: 0
+  coord: {x: 0, y: 0, z: 0}
 --- !u!65 &1673889904
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -15746,7 +16178,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1683519534}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 3, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -15769,8 +16201,9 @@ MonoBehaviour:
   m_Triggers:
     serializedVersion: 2
     m_Bits: 0
-  walkable: 0
+  obstacle: 0
   height: 0
+  coord: {x: 0, y: 0, z: 0}
 --- !u!65 &1683519537
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -15873,7 +16306,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1690644688}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 2, y: 0, z: 1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -15896,8 +16329,9 @@ MonoBehaviour:
   m_Triggers:
     serializedVersion: 2
     m_Bits: 0
-  walkable: 0
+  obstacle: 0
   height: 0
+  coord: {x: 0, y: 0, z: 0}
 --- !u!65 &1690644691
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -16000,7 +16434,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1700523561}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 3, y: 0, z: 1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -16023,8 +16457,9 @@ MonoBehaviour:
   m_Triggers:
     serializedVersion: 2
     m_Bits: 0
-  walkable: 0
+  obstacle: 0
   height: 0
+  coord: {x: 0, y: 0, z: 0}
 --- !u!65 &1700523564
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -16127,7 +16562,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1709239449}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 1, y: 0, z: 1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -16150,8 +16585,9 @@ MonoBehaviour:
   m_Triggers:
     serializedVersion: 2
     m_Bits: 0
-  walkable: 0
+  obstacle: 0
   height: 0
+  coord: {x: 0, y: 0, z: 0}
 --- !u!65 &1709239452
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -16351,8 +16787,9 @@ MonoBehaviour:
   m_Triggers:
     serializedVersion: 2
     m_Bits: 0
-  walkable: 0
+  obstacle: 0
   height: 0
+  coord: {x: 0, y: 0, z: 0}
 --- !u!1 &1726142870
 GameObject:
   m_ObjectHideFlags: 0
@@ -16381,7 +16818,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1726142870}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 1, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -16404,8 +16841,9 @@ MonoBehaviour:
   m_Triggers:
     serializedVersion: 2
     m_Bits: 0
-  walkable: 0
+  obstacle: 0
   height: 0
+  coord: {x: 0, y: 0, z: 0}
 --- !u!65 &1726142873
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -16508,7 +16946,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1729518176}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 2, y: 0, z: 3}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -16531,8 +16969,9 @@ MonoBehaviour:
   m_Triggers:
     serializedVersion: 2
     m_Bits: 0
-  walkable: 0
+  obstacle: 0
   height: 0
+  coord: {x: 0, y: 0, z: 0}
 --- !u!65 &1729518179
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -16635,7 +17074,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1750298764}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 1, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -16658,8 +17097,9 @@ MonoBehaviour:
   m_Triggers:
     serializedVersion: 2
     m_Bits: 0
-  walkable: 0
+  obstacle: 0
   height: 0
+  coord: {x: 0, y: 0, z: 0}
 --- !u!65 &1750298767
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -16836,7 +17276,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1762250745}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 1, y: 0, z: 2}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -16859,8 +17299,9 @@ MonoBehaviour:
   m_Triggers:
     serializedVersion: 2
     m_Bits: 0
-  walkable: 0
+  obstacle: 0
   height: 0
+  coord: {x: 0, y: 0, z: 0}
 --- !u!1 &1791743043
 GameObject:
   m_ObjectHideFlags: 0
@@ -16889,7 +17330,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1791743043}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -16912,8 +17353,9 @@ MonoBehaviour:
   m_Triggers:
     serializedVersion: 2
     m_Bits: 0
-  walkable: 0
+  obstacle: 0
   height: 0
+  coord: {x: 0, y: 0, z: 0}
 --- !u!65 &1791743046
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -17016,7 +17458,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1797418227}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 3, y: 0, z: 3}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -17039,8 +17481,9 @@ MonoBehaviour:
   m_Triggers:
     serializedVersion: 2
     m_Bits: 0
-  walkable: 0
+  obstacle: 0
   height: 0
+  coord: {x: 0, y: 0, z: 0}
 --- !u!65 &1797418230
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -17143,7 +17586,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1810449866}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 3, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -17166,8 +17609,9 @@ MonoBehaviour:
   m_Triggers:
     serializedVersion: 2
     m_Bits: 0
-  walkable: 0
+  obstacle: 0
   height: 0
+  coord: {x: 0, y: 0, z: 0}
 --- !u!65 &1810449869
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -17270,7 +17714,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1817509568}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 3, y: 0, z: 1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -17293,8 +17737,9 @@ MonoBehaviour:
   m_Triggers:
     serializedVersion: 2
     m_Bits: 0
-  walkable: 0
+  obstacle: 0
   height: 0
+  coord: {x: 0, y: 0, z: 0}
 --- !u!65 &1817509571
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -17397,13 +17842,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1820739351}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.001459623, y: -0.0012975666, z: -0.000024564066, w: 0.9999981}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 2}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 958392763}
-  m_LocalEulerAnglesHint: {x: 0.167, y: -0.149, z: -0.003}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1820739353
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -17420,8 +17865,9 @@ MonoBehaviour:
   m_Triggers:
     serializedVersion: 2
     m_Bits: 0
-  walkable: 0
+  obstacle: 0
   height: 0
+  coord: {x: 0, y: 0, z: 0}
 --- !u!65 &1820739354
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -17524,7 +17970,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1906342661}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 3, y: 0, z: 1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -17547,8 +17993,9 @@ MonoBehaviour:
   m_Triggers:
     serializedVersion: 2
     m_Bits: 0
-  walkable: 0
+  obstacle: 0
   height: 0
+  coord: {x: 0, y: 0, z: 0}
 --- !u!65 &1906342664
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -17651,7 +18098,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1968390495}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -17674,8 +18121,9 @@ MonoBehaviour:
   m_Triggers:
     serializedVersion: 2
     m_Bits: 0
-  walkable: 0
+  obstacle: 0
   height: 0
+  coord: {x: 0, y: 0, z: 0}
 --- !u!65 &1968390498
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -17802,8 +18250,9 @@ MonoBehaviour:
   m_Triggers:
     serializedVersion: 2
     m_Bits: 0
-  walkable: 0
+  obstacle: 0
   height: 0
+  coord: {x: 0, y: 0, z: 0}
 --- !u!114 &2011764025
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -17820,8 +18269,9 @@ MonoBehaviour:
   m_Triggers:
     serializedVersion: 2
     m_Bits: 0
-  walkable: 0
+  obstacle: 0
   height: 0
+  coord: {x: 0, y: 0, z: 0}
 --- !u!65 &2011764026
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -17924,7 +18374,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2013000726}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 2, y: 0, z: 2}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -17947,8 +18397,9 @@ MonoBehaviour:
   m_Triggers:
     serializedVersion: 2
     m_Bits: 0
-  walkable: 0
+  obstacle: 0
   height: 0
+  coord: {x: 0, y: 0, z: 0}
 --- !u!65 &2013000729
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -18051,7 +18502,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2018006877}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -18074,8 +18525,9 @@ MonoBehaviour:
   m_Triggers:
     serializedVersion: 2
     m_Bits: 0
-  walkable: 0
+  obstacle: 0
   height: 0
+  coord: {x: 0, y: 0, z: 0}
 --- !u!65 &2018006880
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -18276,8 +18728,9 @@ MonoBehaviour:
   m_Triggers:
     serializedVersion: 2
     m_Bits: 0
-  walkable: 0
+  obstacle: 0
   height: 0
+  coord: {x: 0, y: 0, z: 0}
 --- !u!114 &2029519565
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -18294,8 +18747,9 @@ MonoBehaviour:
   m_Triggers:
     serializedVersion: 2
     m_Bits: 0
-  walkable: 0
+  obstacle: 0
   height: 0
+  coord: {x: 0, y: 0, z: 0}
 --- !u!1 &2052873000
 GameObject:
   m_ObjectHideFlags: 0
@@ -18324,13 +18778,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2052873000}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.001459623, y: -0.0012975666, z: -0.000024564066, w: 0.9999981}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 2}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1100749723}
-  m_LocalEulerAnglesHint: {x: 0.167, y: -0.149, z: -0.003}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &2052873002
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -18347,8 +18801,9 @@ MonoBehaviour:
   m_Triggers:
     serializedVersion: 2
     m_Bits: 0
-  walkable: 0
+  obstacle: 0
   height: 0
+  coord: {x: 0, y: 0, z: 0}
 --- !u!65 &2052873003
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -18498,7 +18953,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2075061245}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 2, y: 0, z: 3}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -18521,8 +18976,9 @@ MonoBehaviour:
   m_Triggers:
     serializedVersion: 2
     m_Bits: 0
-  walkable: 0
+  obstacle: 0
   height: 0
+  coord: {x: 0, y: 0, z: 0}
 --- !u!65 &2075061248
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -18625,7 +19081,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2090786470}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 2, y: 0, z: 3}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -18648,8 +19104,9 @@ MonoBehaviour:
   m_Triggers:
     serializedVersion: 2
     m_Bits: 0
-  walkable: 0
+  obstacle: 0
   height: 0
+  coord: {x: 0, y: 0, z: 0}
 --- !u!65 &2090786473
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -18752,7 +19209,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2096013133}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 3, y: 0, z: 2}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -18775,8 +19232,9 @@ MonoBehaviour:
   m_Triggers:
     serializedVersion: 2
     m_Bits: 0
-  walkable: 0
+  obstacle: 0
   height: 0
+  coord: {x: 0, y: 0, z: 0}
 --- !u!65 &2096013136
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -18879,7 +19337,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2119956197}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 3, y: 0, z: 3}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -18902,8 +19360,9 @@ MonoBehaviour:
   m_Triggers:
     serializedVersion: 2
     m_Bits: 0
-  walkable: 0
+  obstacle: 0
   height: 0
+  coord: {x: 0, y: 0, z: 0}
 --- !u!65 &2119956200
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -19006,7 +19465,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2142299828}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 2, y: 0, z: 3}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -19029,8 +19488,9 @@ MonoBehaviour:
   m_Triggers:
     serializedVersion: 2
     m_Bits: 0
-  walkable: 0
+  obstacle: 0
   height: 0
+  coord: {x: 0, y: 0, z: 0}
 --- !u!65 &2142299831
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -19133,7 +19593,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2146488036}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 1, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -19156,8 +19616,9 @@ MonoBehaviour:
   m_Triggers:
     serializedVersion: 2
     m_Bits: 0
-  walkable: 0
+  obstacle: 0
   height: 0
+  coord: {x: 0, y: 0, z: 0}
 --- !u!65 &2146488039
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -19248,3 +19709,6 @@ SceneRoots:
   - {fileID: 1533091010}
   - {fileID: 204048251}
   - {fileID: 32526637}
+  - {fileID: 1108849709}
+  - {fileID: 291022682}
+  - {fileID: 866210696}

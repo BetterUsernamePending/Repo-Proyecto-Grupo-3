@@ -2,10 +2,10 @@ using System.Collections.Generic;
 using System.Runtime.InteropServices;
 using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.EventSystems;
 
 public class Block : MonoBehaviour
 {
-
     [SerializeField] private List<Block> neighborBlocks = new List<Block>();
     public List<Block> Neighbors => neighborBlocks;
     public LayerMask m_Triggers;
@@ -13,14 +13,14 @@ public class Block : MonoBehaviour
     public float G { get; private set; }
     public float H { get; private set; }
     public float F => G + H;
-    public bool walkable = false;
+    [SerializeField] public bool obstacle = false;
     [SerializeField] public int height;
-    public static Vector3 coord = Vector3.zero; //modificar ese "vector 3 zero" por una funcion que asigne los valores del vector 3 como su posicion en X,Y y Z (transform.position) 
+    public Vector3 coord; //modificar ese "vector 3 zero" por una funcion que asigne los valores del vector 3 como su posicion en X,Y y Z (transform.position) 
     void Start()
     {
         coord = new Vector3(transform.position.x,transform.position.y,transform.position.z);
 
-        m_Triggers = LayerMask.GetMask("Triggers");
+        m_Triggers = LayerMask.GetMask("BottomLayer");
 
         Collider[] hitColliders = new Collider[0];
         for (int i = 0; i<4; i++)
@@ -52,7 +52,7 @@ public class Block : MonoBehaviour
     public void SetG(float g) => G = g;
     public void SetH(float h) => H = h;
     public void SetConnection(Block block) => Connection = block;
-    public bool isWalkable(int height,int jump)
+    public bool isWalkable(int height, int jump)
     {
        return jump>height; //determina si el bloque es caminable o no
     }
@@ -60,5 +60,9 @@ public class Block : MonoBehaviour
     {
         return 0; //RESOLVER. Devuelve la distancia de un bloque a otro
     }
-   
+
+    private void OnMouseDown()
+    {
+        Debug.Log("click" + " " + gameObject.name);
+    }
 }

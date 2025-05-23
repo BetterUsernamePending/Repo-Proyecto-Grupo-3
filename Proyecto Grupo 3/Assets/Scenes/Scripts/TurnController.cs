@@ -1,12 +1,24 @@
 using NUnit.Framework;
 using System.Collections;
+using System.Collections.Generic;
+using System.Linq;
 using UnityEngine;
 
 public class TurnController : MonoBehaviour
 {
     public bool currentp1 = true;
+    public static CharacterController currentCharacter; //Personaje de quien es el turno actual.
+    private List<CharacterController> playerCharacterController = new List<CharacterController>(); //Lista de personajes. Se utiliza para definir el orden
 
-   /* private void startTurn(bool currentp1)
+    private void Start()
+    {
+        playerCharacterController.AddRange(FindObjectsByType<CharacterController>(FindObjectsSortMode.None));
+        currentCharacter = playerCharacterController[0];
+    }
+}
+ 
+    /*
+    private void startTurn(bool currentp1)
     {
         //comienza el turno y carga la UI correspondiente
     }
@@ -24,4 +36,3 @@ public class TurnController : MonoBehaviour
         //timer del turno. Al terminarse el tiempo, el turno se saltea.
     }
    */
-}

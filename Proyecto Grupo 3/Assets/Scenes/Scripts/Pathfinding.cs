@@ -4,9 +4,10 @@ using System.Linq;
 using System.Collections.Generic;
 using NUnit.Framework;
 using Unity.VisualScripting;
+using static Unity.Collections.AllocatorManager;
 
 public class Pathfinding
-{
+{ 
     public static List<Block> showPossible(Block startingBlock, int dist, int jump) //crea una lista con las casillas posibles a las que se puede mover el jugador
     {
         List<Block> toSearch = new List<Block>() { startingBlock };
@@ -20,7 +21,7 @@ public class Pathfinding
                 processed.Add(current);
                 Debug.Log(current.name);
                 foreach (Block block in current.Neighbors.Where(block => block.isWalkable(Mathf.Abs(current.height - block.height), jump)
-                && !processed.Contains(block)))
+                && !processed.Contains(block) && !block.obstacle))
                 {
                     if (!nextToSearch.Contains(block))
                     {
@@ -49,7 +50,8 @@ public class Pathfinding
             processed.Add(current);
             toSearch.Remove(current);
 
-            foreach (Block block in current.Neighbors.Where(block => block.isWalkable(current.height, jump) == true && !processed.Contains(block)))
+            foreach (Block block in current.Neighbors.Where(block => block.isWalkable(Mathf.Abs(current.height - block.height), jump) == true 
+                && !processed.Contains(block) && !block.obstacle))
             {
                 var inSearch = toSearch.Contains(block);
                 var costToNeighbor = current.G + 1;
@@ -71,3 +73,4 @@ public class Pathfinding
         return null;
     }
 }
+
