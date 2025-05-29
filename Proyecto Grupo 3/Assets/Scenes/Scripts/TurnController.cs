@@ -10,11 +10,13 @@ public class TurnController : MonoBehaviour
     public static CharacterController currentCharacter; //Personaje de quien es el turno actual.
     private List<CharacterController> playerCharacterController = new List<CharacterController>(); //Lista de personajes. Se utiliza para definir el orden
 
-    private void Start()
+    private void Awake()
     {
         playerCharacterController.AddRange(FindObjectsByType<CharacterController>(FindObjectsSortMode.None));
         currentCharacter = playerCharacterController[0];
     }
+
+
 }
  
     /*

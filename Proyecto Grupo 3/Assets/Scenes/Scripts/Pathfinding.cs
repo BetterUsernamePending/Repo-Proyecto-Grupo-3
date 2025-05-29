@@ -2,9 +2,8 @@ using UnityEngine;
 using System;
 using System.Linq;
 using System.Collections.Generic;
-using NUnit.Framework;
 using Unity.VisualScripting;
-using static Unity.Collections.AllocatorManager;
+using UnityEditor.Experimental.GraphView;
 
 public class Pathfinding
 { 
@@ -17,7 +16,7 @@ public class Pathfinding
         {
             foreach (var current in toSearch)
             {
-                current.transform.position = new Vector3(current.transform.position.x, current.transform.position.y + 1, current.transform.position.z);
+                current.TextureChange();
                 processed.Add(current);
                 Debug.Log(current.name);
                 foreach (Block block in current.Neighbors.Where(block => block.isWalkable(Mathf.Abs(current.height - block.height), jump)
@@ -50,11 +49,30 @@ public class Pathfinding
             processed.Add(current);
             toSearch.Remove(current);
 
-            foreach (Block block in current.Neighbors.Where(block => block.isWalkable(Mathf.Abs(current.height - block.height), jump) == true 
+            if (current == targetBlock)
+            {
+                var currentPathTile = targetBlock;
+                var path = new List<Block>();
+                var count = 100;
+                while (currentPathTile != startingBlock)
+                {
+                    path.Add(currentPathTile);
+                    currentPathTile = currentPathTile.Connection;
+                    count--;
+                    if (count < 0) throw new Exception();
+                    Debug.Log("sdfsdf");
+                }
+
+                /*foreach (var tile in path) tile.SetColor(PathColor);
+                startNode.SetColor(PathColor);
+                Debug.Log(path.Count);*/
+                return path;
+            }
+                foreach (Block block in current.Neighbors.Where(block => block.isWalkable(Mathf.Abs(current.height - block.height), jump) == true 
                 && !processed.Contains(block) && !block.obstacle))
             {
                 var inSearch = toSearch.Contains(block);
-                var costToNeighbor = current.G + 1;
+                var costToNeighbor = current.G + current.GetDistance(current,block);
 
                 if (!inSearch || costToNeighbor < block.G)
                 {
