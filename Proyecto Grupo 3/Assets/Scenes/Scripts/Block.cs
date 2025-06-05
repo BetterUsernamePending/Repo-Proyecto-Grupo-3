@@ -84,4 +84,9 @@ public class Block : MonoBehaviour
     {
         GetComponent<Renderer>().material = newMaterial;
     }
+
+    public void TextureRevert()
+    {
+        GetComponent<Renderer>().material = baseMaterial;
+    }
 }

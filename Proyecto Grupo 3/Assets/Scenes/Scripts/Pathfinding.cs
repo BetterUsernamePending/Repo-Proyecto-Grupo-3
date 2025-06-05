@@ -39,7 +39,7 @@ public class Pathfinding
         List<Block> toSearch = new List<Block>() { startingBlock };
         List<Block> processed = new List<Block>();
 
-        while (toSearch.Any())
+        while (toSearch.Any())  
         {
             Block current = toSearch[0];
             foreach (Block i in toSearch)
@@ -66,6 +66,7 @@ public class Pathfinding
                 /*foreach (var tile in path) tile.SetColor(PathColor);
                 startNode.SetColor(PathColor);
                 Debug.Log(path.Count);*/
+                path.Reverse();
                 return path;
             }
                 foreach (Block block in current.Neighbors.Where(block => block.isWalkable(Mathf.Abs(current.height - block.height), jump) == true 
