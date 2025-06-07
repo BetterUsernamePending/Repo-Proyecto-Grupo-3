@@ -11,7 +11,7 @@ public class GameController : MonoBehaviour
     MovementState movementState;
     void Start()
     {
-        //StartCoroutine(Delay());
+       //StartCoroutine(Delay());
     }
     IEnumerator Delay()
     {
@@ -21,7 +21,8 @@ public class GameController : MonoBehaviour
     }
     private void Update()
     {
-
+        if (Input.GetKeyDown(KeyCode.Space)) //Por ahora moverse se activa tocando espacio
+            movementState.MoveToClicked();
     }
 
     public void LoadMovementState()

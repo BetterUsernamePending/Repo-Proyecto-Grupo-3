@@ -28,13 +28,7 @@ public class CharacterController : MonoBehaviour
 
     private void Start()
     {
-
-        RaycastHit hit;
-        if(Physics.Raycast(transform.position, Vector3.down, out hit, Mathf.Infinity,Triggers))
-        {
-            currentBlock = hit.collider.gameObject.GetComponent<Block>();
-            Debug.Log(name);
-        }
+        Reposition();
     }
     private void OnPointerClick(PointerEventData pointerEventData)
     {
@@ -48,8 +42,25 @@ public class CharacterController : MonoBehaviour
         Vector3[] blockPositions = new Vector3[blockPath.Count];
         for (int i = 0; i < blockPath.Count; i++) 
         {
-            blockPositions[i] = blockPath[i].transform.position;
+            float ypos = blockPath[i].transform.position.y + 1.5f;
+            blockPositions[i] = new Vector3(blockPath[i].transform.position.x,ypos, blockPath[i].transform.position.z);
         }
-        transform.DOPath(blockPositions, blockPath.Count);
+        transform.DOPath(blockPositions, blockPath.Count)
+            .OnComplete(()=>
+            { 
+                Reposition();
+                targetBlock = null;
+            });
+
+    }
+
+    public void Reposition()
+    {
+        RaycastHit hit;
+        if (Physics.Raycast(transform.position, Vector3.down, out hit, Mathf.Infinity, Triggers))
+        {
+            currentBlock = hit.collider.gameObject.GetComponent<Block>();
+            Debug.Log(name);
+        }
     }
 }
