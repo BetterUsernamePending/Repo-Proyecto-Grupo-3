@@ -38,6 +38,7 @@ public class CharacterController : MonoBehaviour
 
     public void CharacterMove(List<Block> blockPath)
     {
+        currentBlock.characterOnBlock = null;
         targetBlock = blockPath.Last();
         Vector3[] blockPositions = new Vector3[blockPath.Count];
         for (int i = 0; i < blockPath.Count; i++) 
@@ -60,6 +61,7 @@ public class CharacterController : MonoBehaviour
         if (Physics.Raycast(transform.position, Vector3.down, out hit, Mathf.Infinity, Triggers))
         {
             currentBlock = hit.collider.gameObject.GetComponent<Block>();
+            currentBlock.characterOnBlock = this;
             Debug.Log(name);
         }
     }
