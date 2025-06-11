@@ -8,25 +8,45 @@ public class TurnController : MonoBehaviour
 {
     public bool currentp1 = true;
     public static CharacterController currentCharacter; //Personaje de quien es el turno actual.
-    private List<CharacterController> playerCharacterController = new List<CharacterController>(); //Lista de personajes. Se utiliza para definir el orden
+    private CharacterController currentCharacterType; //Qué personaje es el que está seleccionado
+    private List<CharacterController> characterOrder = new List<CharacterController>(); //Lista de personajes. Se utiliza para definir el orden
 
     private void Awake()
     {
-        playerCharacterController.AddRange(FindObjectsByType<CharacterController>(FindObjectsSortMode.None));
-        currentCharacter = playerCharacterController[0];
+        characterOrder.AddRange(FindObjectsByType<CharacterController>(FindObjectsSortMode.None));
+        currentCharacter = characterOrder[0];   
+    }
+
+    private void TurnBegin()
+    {
+        ActivateBattleUI(); 
+
+    }
+    private void ActivateBattleUI()
+    {
+        //acá tiene que estar el codigo que active la UI en pantalla
+    }
+
+    private void ActivateActionUI()
+    {
+        //hacer un switch con un case para cada tipo de personaje. Cada case debe activar la actionUI del personaje correspondiente (en "currentCharacterType")
+        //acá tiene que estar el codigo que active la UI en pantalla ESPECIFICA de las acciones cada personaje
+    }
+    private void DeactivateBattleUI()
+    {
+        //acá tiene que estar el codigo que DESACTIVE la UI en pantalla
     }
 
 
-}
- 
     /*
     private void startTurn(bool currentp1)
     {
         //comienza el turno y carga la UI correspondiente
     }
+    
     private void passTurn(bool currentp1)
     {
-        //modificar el bool para cambiar de turno
+        //modificar el bool para cambiar de turno y ejecutar una animacion de cambio de turno
     }
 
     private bool turnOrder(List order)
@@ -36,5 +56,5 @@ public class TurnController : MonoBehaviour
     IEnumerator turnTimer()
     {
         //timer del turno. Al terminarse el tiempo, el turno se saltea.
-    }
-   */
+    }*/
+}

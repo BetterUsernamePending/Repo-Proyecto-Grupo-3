@@ -42,7 +42,7 @@ public class CharacterController : MonoBehaviour
         Vector3[] blockPositions = new Vector3[blockPath.Count];
         for (int i = 0; i < blockPath.Count; i++) 
         {
-            float ypos = blockPath[i].transform.position.y + 1.5f;
+            float ypos = blockPath[i].height + 1.5f;
             blockPositions[i] = new Vector3(blockPath[i].transform.position.x,ypos, blockPath[i].transform.position.z);
         }
         transform.DOPath(blockPositions, blockPath.Count)
