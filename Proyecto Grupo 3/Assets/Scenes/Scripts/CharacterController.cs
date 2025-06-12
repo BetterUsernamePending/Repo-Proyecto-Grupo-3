@@ -12,6 +12,7 @@ public class CharacterController : MonoBehaviour
     public int mp;
     public int jump;
     public int dist;
+    public int range;
     public Block currentBlock; //bloque en el que está parado el personaje
     public Block targetBlock;
     [SerializeField] private LayerMask Triggers;
@@ -28,7 +29,7 @@ public class CharacterController : MonoBehaviour
 
     private void Start()
     {
-        Reposition();
+        
     }
     private void OnPointerClick(PointerEventData pointerEventData)
     {
@@ -50,19 +51,18 @@ public class CharacterController : MonoBehaviour
             .OnComplete(()=>
             { 
                 Reposition();
-                targetBlock = null;
+               
             });
 
     }
 
     public void Reposition()
     {
-        RaycastHit hit;
-        if (Physics.Raycast(transform.position, Vector3.down, out hit, Mathf.Infinity, Triggers))
-        {
-            currentBlock = hit.collider.gameObject.GetComponent<Block>();
-            currentBlock.characterOnBlock = this;
-            Debug.Log(name);
-        }
+
+        currentBlock = targetBlock;
+        currentBlock.characterOnBlock = this;
+        targetBlock = null;
+        Debug.Log(name);
+        
     }
 }

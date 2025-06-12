@@ -21,8 +21,12 @@ public class Block : MonoBehaviour
     [SerializeField] private LayerMask Character;
     public CharacterController characterOnBlock;
     public Vector3 coord; //modificar ese "vector 3 zero" por una funcion que asigne los valores del vector 3 como su posicion en X,Y y Z (transform.position) 
+    
     void Start()
     {
+        if (characterOnBlock != null)
+        characterOnBlock.currentBlock = this;
+
         baseMaterial = GetComponent<Renderer>().materials[0];
 
         coord = new Vector3(transform.position.x,transform.position.y,transform.position.z);

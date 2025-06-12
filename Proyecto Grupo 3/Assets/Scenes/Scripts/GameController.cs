@@ -8,7 +8,7 @@ using UnityEngine.UIElements;
 public class GameController : MonoBehaviour
 {
     [SerializeField] public Block initBlock;
-    MovementState movementState;
+    State currentState;
     void Start()
     {
        //StartCoroutine(Delay());
@@ -22,13 +22,13 @@ public class GameController : MonoBehaviour
     private void Update()
     {
         if (Input.GetKeyDown(KeyCode.Space)) //Por ahora moverse se activa tocando espacio
-            movementState.MoveToClicked();
+            currentState.ExecuteAction();
     }
 
-    public void LoadMovementState()
+    public void LoadState()
     {
-        movementState = new MovementState();
-        movementState.OnStateEnter();
+        currentState = new BattleState();
+        currentState.OnStateEnter();
     }
     private void cameraReposition(bool currentp1)
     {

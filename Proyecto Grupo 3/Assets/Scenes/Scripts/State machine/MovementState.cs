@@ -3,20 +3,21 @@ using System.Collections.Generic;
 using UnityEngine;
 using System.Linq;
 
-public class MovementState 
+public class MovementState : State
 {
     private List<Block> possibleBlocks = new List<Block>();
     private List<Block> pathBlocks = new List<Block>();
     private bool alreadyMoved = false;
-    public void OnStateEnter() //Volver "OnStateEnter", placeholder.
+    public override void OnStateEnter()
     {   
+        base.OnStateEnter();
         CharacterController current = TurnController.currentCharacter;
         possibleBlocks = Pathfinding.showPossible(current.currentBlock, current.dist, current.jump);
-        Block.onBlockClicked += ShowPathFound;
+        Block.onBlockClicked += ShowPossibleTargets;
         alreadyMoved = false;
     }
 
-    public void ShowPathFound(Block clicked)
+    public override void ShowPossibleTargets(Block clicked)
     {
         if (possibleBlocks.Exists(Block => Block == clicked))
         {
@@ -34,7 +35,7 @@ public class MovementState
         }
     }
 
-    public void MoveToClicked()
+    public override void ExecuteAction()
     {
         if(pathBlocks.Count > 0) //Por ahora moverse se activa tocando espacio
             TurnController.currentCharacter.CharacterMove(pathBlocks);
@@ -42,9 +43,9 @@ public class MovementState
         StateEnd();
         //Cuando termina la animacion del player, el STATE CONTROLLER (crear) debe terminar este estado (la animación del player se ejecuta desde "CharacterController")
     }
-    public void StateEnd()
+    public override void StateEnd()
     {
-        Block.onBlockClicked -= ShowPathFound;
+        base.StateEnd();
     }
     
 }
