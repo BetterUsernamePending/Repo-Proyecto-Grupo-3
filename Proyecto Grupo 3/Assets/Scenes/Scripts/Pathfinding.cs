@@ -2,8 +2,7 @@ using UnityEngine;
 using System;
 using System.Linq;
 using System.Collections.Generic;
-using Unity.VisualScripting;
-using UnityEditor.Experimental.GraphView;
+
 
 public class Pathfinding
 { 
@@ -34,6 +33,8 @@ public class Pathfinding
         }
         return processed;
     }
+
+
     public static List<Block> findPath(Block startingBlock, Block targetBlock, int jump) //Crea una lista con los bloques en el camino mas corto hacia el targetBlock
     {
         List<Block> toSearch = new List<Block>() { startingBlock };
