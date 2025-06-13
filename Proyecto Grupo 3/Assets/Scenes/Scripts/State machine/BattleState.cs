@@ -2,6 +2,7 @@ using System;
 using System.Collections.Generic;
 using UnityEngine;
 using System.Linq;
+using UnityEngine.Rendering;
 
 public class BattleState : State
 {
@@ -25,19 +26,22 @@ public class BattleState : State
             {
                 block.TextureRevert();
             }
-
             targetBlock = clicked;
             targetBlock.TextureChange();
-           
         }
     }
     public override void ExecuteAction()
-    {     
-        foreach (var block in possibleTargets)
+    {
+        int damage;
+ 
+        //llamar animación de ataque acá
+
+        if (targetBlock.characterOnBlock != null)
         {
-            block.TextureRevert();
+            targetBlock.TextureRevert();
+            damage = TurnController.currentCharacter.atk - targetBlock.characterOnBlock.def / 2;
+            targetBlock.characterOnBlock.hp = targetBlock.characterOnBlock.hp - damage;
+            Debug.Log("se hizo" + damage + "de daño");
         }
-
     }
-
 }

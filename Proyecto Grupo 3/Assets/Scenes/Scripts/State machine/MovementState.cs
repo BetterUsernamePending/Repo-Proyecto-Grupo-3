@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using System.Linq;
 
-public class MovementState : State
+public class MovementState : State 
 {
     private List<Block> possibleBlocks = new List<Block>();
     private List<Block> pathBlocks = new List<Block>();

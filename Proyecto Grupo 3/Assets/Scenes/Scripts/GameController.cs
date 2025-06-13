@@ -25,7 +25,12 @@ public class GameController : MonoBehaviour
             currentState.ExecuteAction();
     }
 
-    public void LoadState()
+    public void LoadMovementState()
+    {
+        currentState = new MovementState();
+        currentState.OnStateEnter();
+    }
+    public void LoadBattleState()
     {
         currentState = new BattleState();
         currentState.OnStateEnter();
