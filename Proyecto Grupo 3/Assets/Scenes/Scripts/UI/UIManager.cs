@@ -1,9 +1,17 @@
 using UnityEngine;
 
+
 public class UIManager : MonoBehaviour
 {
     public GameObject MenuDePausa;
     public GameObject PausePanel;
+
+    public GameObject darkenMove;
+    public GameObject darkenAct;
+    public GameObject darkenSkip;
+
+    public GameObject cancelMove;
+    public GameObject moveButton;
     public bool isPaused = false;
 
     private void Start ()
@@ -24,7 +32,19 @@ public class UIManager : MonoBehaviour
                 OnPause();
             }
         }
+
+        if (Input.GetKeyDown(KeyCode.Space))
+        {
+            moveButton.SetActive(true);
+            cancelMove.SetActive(false);
+
+            darkenMove.SetActive(true);
+            darkenAct.SetActive(false);
+            darkenSkip.SetActive(false);
+        }
     }
+
+
 
     private void OnExitButtonPressed()
     {

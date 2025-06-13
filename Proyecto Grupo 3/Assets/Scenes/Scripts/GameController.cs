@@ -19,9 +19,10 @@ public class GameController : MonoBehaviour
         Pathfinding.showPossible(TurnController.currentCharacter.currentBlock, 5, 4);
         //Corutina en pausa
     }
+
     private void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Space)) //Por ahora moverse se activa tocando espacio
+        if (Input.GetKeyDown(KeyCode.Space) && movementState.alreadyMoved == false) //Por ahora moverse se activa tocando espacio
             movementState.MoveToClicked();
     }
 
@@ -30,6 +31,11 @@ public class GameController : MonoBehaviour
         movementState = new MovementState();
         movementState.OnStateEnter();
     }
+    public void CancelMovementState()
+    {
+        movementState.OnStateCancel();
+    }
+
     private void cameraReposition(bool currentp1)
     {
         //posiciona la camara sobre el personaje del jugador al iniciar el turno
