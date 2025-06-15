@@ -18,12 +18,17 @@ public class Block : MonoBehaviour
     public float F => G + H;
     [SerializeField] public bool obstacle = false;
     [SerializeField] public int height;
-    [SerializeField] private LayerMask Character;
+    [SerializeField] private LayerMask CharacterLayer;
     public CharacterController characterOnBlock;
     public Vector3 coord; //modificar ese "vector 3 zero" por una funcion que asigne los valores del vector 3 como su posicion en X,Y y Z (transform.position) 
-    
+    private void Awake()
+    {
+       
+    }
     void Start()
     {
+        DetectCharacter();
+        
         if (characterOnBlock != null)
         characterOnBlock.currentBlock = this;
 
@@ -95,14 +100,13 @@ public class Block : MonoBehaviour
     {
         GetComponent<Renderer>().material = baseMaterial;
     }
-
-    /*public void DetectCharacter()
+    public void DetectCharacter()
     {
         RaycastHit hit;
-        if (Physics.Raycast(transform.position, Vector3.up, out hit, Mathf.Infinity, Character))
+        if (Physics.Raycast(transform.position, Vector3.up, out hit, Mathf.Infinity, CharacterLayer))
         {
             characterOnBlock = hit.collider.gameObject.GetComponent<CharacterController>();
-            Debug.Log(name);
+            Debug.Log("SE DISPARÓ UN RAYO");
         }
-    }*/                   
+    }                 
 }

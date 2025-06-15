@@ -4,15 +4,17 @@ using UnityEngine;
 using System.Linq;
 using UnityEngine.Rendering;
 
-public class BattleState : State
+public class BattleController : State
 {
 
     private List<Block> possibleTargets = new List<Block>();
     private Block targetBlock;
-    
+    public bool alreadyAttacked = false;
+
     public override void OnStateEnter()
     {
         base.OnStateEnter();
+        alreadyAttacked = false;
         CharacterController current = TurnController.currentCharacter;
         possibleTargets = Pathfinding.showPossible(current.currentBlock, current.range, current.jump);
         
@@ -42,6 +44,14 @@ public class BattleState : State
             damage = TurnController.currentCharacter.atk - targetBlock.characterOnBlock.def / 2;
             targetBlock.characterOnBlock.hp = targetBlock.characterOnBlock.hp - damage;
             Debug.Log("se hizo" + damage + "de daño");
+        }
+        alreadyAttacked = true;
+    }
+    public void OnStateCancel()
+    {
+        foreach (var block in possibleTargets)
+        {
+            block.TextureRevert();
         }
     }
 }

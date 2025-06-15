@@ -8,7 +8,8 @@ using UnityEngine.UIElements;
 public class GameController : MonoBehaviour
 {
     [SerializeField] public Block initBlock;
-    MovementState movementState;
+    MovementController movementState;
+    BattleController battleState;
     void Start()
     {
        //StartCoroutine(Delay());
@@ -28,8 +29,17 @@ public class GameController : MonoBehaviour
 
     public void LoadMovementState()
     {
-        movementState = new MovementState();
+        movementState = new MovementController();
         movementState.OnStateEnter();
+    }
+    public void LoadBattleState()
+    {
+        battleState = new BattleController();
+        battleState.OnStateEnter();
+    }
+    public void CancelBattleState()
+    {
+        battleState.OnStateCancel();
     }
     public void CancelMovementState()
     {

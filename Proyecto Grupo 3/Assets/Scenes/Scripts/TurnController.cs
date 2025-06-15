@@ -10,6 +10,7 @@ public class TurnController : MonoBehaviour
     public static CharacterController currentCharacter; //Personaje de quien es el turno actual.
     private CharacterController currentCharacterType; //Qué personaje es el que está seleccionado
     private List<CharacterController> characterOrder = new List<CharacterController>(); //Lista de personajes. Se utiliza para definir el orden
+    private CharacterController storedCharacterController;
 
     private void Awake()
     {
@@ -36,17 +37,23 @@ public class TurnController : MonoBehaviour
     {
         //acá tiene que estar el codigo que DESACTIVE la UI en pantalla
     }
+    public void passTurn()
+    {
+        storedCharacterController = characterOrder[0];
 
+        for(int i = 0; i < characterOrder.Count - 1; i++)
+        {
+            characterOrder[i] = characterOrder[i+1];
+        }
+        characterOrder[characterOrder.Count - 1] = storedCharacterController;
+        currentCharacter = characterOrder[0];
+        Debug.Log(currentCharacter.name);
+    }
 
     /*
     private void startTurn(bool currentp1)
     {
         //comienza el turno y carga la UI correspondiente
-    }
-    
-    private void passTurn(bool currentp1)
-    {
-        //modificar el bool para cambiar de turno y ejecutar una animacion de cambio de turno
     }
 
     private bool turnOrder(List order)
