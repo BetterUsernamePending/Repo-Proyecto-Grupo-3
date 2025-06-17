@@ -8,8 +8,8 @@ using UnityEngine.UIElements;
 public class GameController : MonoBehaviour
 {
     [SerializeField] public Block initBlock;
-    MovementController movementState;
-    BattleController battleState;
+    MovementController movementController;
+    BattleController battleController;
     void Start()
     {
        //StartCoroutine(Delay());
@@ -23,27 +23,29 @@ public class GameController : MonoBehaviour
 
     private void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Space) && movementState.alreadyMoved == false) //Por ahora moverse se activa tocando espacio
-            movementState.MoveToClicked();
+        if (Input.GetKeyDown(KeyCode.Space) && movementController.alreadyMoved == false) //Por ahora moverse se activa tocando espacio
+            movementController.MoveToClicked();
+        if (Input.GetKeyDown(KeyCode.A) && battleController.alreadyAttacked == false)
+            battleController.ExecuteAttack();
     }
 
     public void LoadMovementState()
     {
-        movementState = new MovementController();
-        movementState.OnStateEnter();
+        movementController = new MovementController();
+        movementController.OnStateEnter();
     }
     public void LoadBattleState()
     {
-        battleState = new BattleController();
-        battleState.OnStateEnter();
+        battleController = new BattleController();
+        battleController.OnStateEnter();
     }
     public void CancelBattleState()
     {
-        battleState.OnStateCancel();
+        battleController.OnStateCancel();
     }
     public void CancelMovementState()
     {
-        movementState.OnStateCancel();
+        movementController.OnStateCancel();
     }
 
     private void cameraReposition(bool currentp1)

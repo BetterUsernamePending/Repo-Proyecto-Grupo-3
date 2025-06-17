@@ -20,6 +20,7 @@ public class CharacterController : MonoBehaviour
     [SerializeField] private LayerMask LayerToFind;
     [SerializeField] public UIManager uiManager;
     public bool isMoving = false;
+    public bool isAlive = true;
 
     //Pathfinding.showPossible(currentBlock,dist,jump); Funcion que usa los valores del personaje para mostrar las casillas posibles. Desactivada actualmente por testeo (los personajes no están implementados)
     /* List<Block> Pathfinding.findPath(Block currentBlock, Block targetBlock,int jump)
@@ -38,7 +39,7 @@ public class CharacterController : MonoBehaviour
         {
             currentBlock = hit.collider.gameObject.GetComponent<Block>();
             Debug.Log("character" + " " + this.name + " " + "standing in " + currentBlock.name);
-        } 
+        }
         uiManager = FindAnyObjectByType<UIManager>();
     }
     /*private void OnPointerClick(PointerEventData pointerEventData)
@@ -64,9 +65,12 @@ public class CharacterController : MonoBehaviour
                 Reposition();
                 uiManager.ActivateBattleUI();
             });
-        
     }
-
+    public void IsDead()
+    {
+        isAlive = false;
+        this.gameObject.SetActive(false);
+    }
     public void Reposition()
     {
         currentBlock.containsCharacter = false;

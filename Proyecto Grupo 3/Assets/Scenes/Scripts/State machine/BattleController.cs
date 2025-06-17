@@ -4,22 +4,22 @@ using UnityEngine;
 using System.Linq;
 using UnityEngine.Rendering;
 
-public class BattleController : State
+public class BattleController : MonoBehaviour
 {
 
     private List<Block> possibleTargets = new List<Block>();
     private Block targetBlock;
     public bool alreadyAttacked = false;
 
-    public override void OnStateEnter()
+    public void OnStateEnter()
     {
-        base.OnStateEnter();
         alreadyAttacked = false;
         CharacterController current = TurnController.currentCharacter;
         possibleTargets = Pathfinding.showPossible(current.currentBlock, current.range, current.jump);
-        
+        Block.onBlockClicked += ShowClickedTarget;
+
     }
-    public override void ShowPossibleTargets(Block clicked)
+    public void ShowClickedTarget(Block clicked)
     {
         if (possibleTargets.Exists(Block => Block == clicked))
         {
@@ -32,10 +32,9 @@ public class BattleController : State
             targetBlock.TextureChange();
         }
     }
-    public override void ExecuteAction()
+    public void ExecuteAttack()
     {
         int damage;
- 
         //llamar animación de ataque acá
 
         if (targetBlock.characterOnBlock != null)
@@ -46,6 +45,12 @@ public class BattleController : State
             Debug.Log("se hizo" + damage + "de daño");
         }
         alreadyAttacked = true;
+        if (targetBlock.characterOnBlock.hp <= 0)
+        {
+            //ejecutar acá la animación de muerte
+            targetBlock.characterOnBlock.IsDead();
+            Debug.Log ("La unidad enemiga " +  targetBlock.characterOnBlock.name + " fue eliminada");
+        }
     }
     public void OnStateCancel()
     {
@@ -53,5 +58,9 @@ public class BattleController : State
         {
             block.TextureRevert();
         }
+    }
+    public void OnTurnFinished()
+    {
+        alreadyAttacked = false;
     }
 }

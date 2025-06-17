@@ -4,7 +4,7 @@ using UnityEngine;
 using System.Linq;
 using Unity.VisualScripting;
 
-public class MovementController
+public class MovementController : MonoBehaviour
 {
     private List<Block> possibleBlocks = new List<Block>();
     private List<Block> pathBlocks = new List<Block>();

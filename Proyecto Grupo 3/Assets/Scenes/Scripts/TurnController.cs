@@ -11,17 +11,19 @@ public class TurnController : MonoBehaviour
     private CharacterController currentCharacterType; //Qué personaje es el que está seleccionado
     private List<CharacterController> characterOrder = new List<CharacterController>(); //Lista de personajes. Se utiliza para definir el orden
     private CharacterController storedCharacterController;
+    private BattleController battleController;
 
     private void Awake()
     {
+        battleController = FindAnyObjectByType<BattleController>();
         characterOrder.AddRange(FindObjectsByType<CharacterController>(FindObjectsSortMode.None));
         currentCharacter = characterOrder[0];   
     }
 
     private void TurnBegin()
     {
-        ActivateBattleUI(); 
-
+        if (!currentCharacter.isAlive)
+            PassTurn();
     }
     private void ActivateBattleUI()
     {
@@ -37,7 +39,7 @@ public class TurnController : MonoBehaviour
     {
         //acá tiene que estar el codigo que DESACTIVE la UI en pantalla
     }
-    public void passTurn()
+    public void PassTurn()
     {
         storedCharacterController = characterOrder[0];
 
@@ -51,7 +53,9 @@ public class TurnController : MonoBehaviour
         {
             controller.LockBlock();
         }
+        battleController.OnTurnFinished();
         Debug.Log(currentCharacter.name);
+        TurnBegin();
     }
 
     /*
