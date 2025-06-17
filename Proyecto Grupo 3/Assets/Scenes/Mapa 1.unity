@@ -247,6 +247,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   obstacle: 0
+  containsCharacter: 0
   height: 0
   CharacterLayer:
     serializedVersion: 2
@@ -381,6 +382,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   obstacle: 0
+  containsCharacter: 0
   height: 0
   CharacterLayer:
     serializedVersion: 2
@@ -515,6 +517,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   obstacle: 0
+  containsCharacter: 0
   height: 0
   CharacterLayer:
     serializedVersion: 2
@@ -649,6 +652,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   obstacle: 0
+  containsCharacter: 0
   height: 0
   CharacterLayer:
     serializedVersion: 2
@@ -916,6 +920,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   obstacle: 0
+  containsCharacter: 0
   height: 0
   CharacterLayer:
     serializedVersion: 2
@@ -1050,6 +1055,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   obstacle: 0
+  containsCharacter: 0
   height: 0
   CharacterLayer:
     serializedVersion: 2
@@ -1140,6 +1146,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   obstacle: 0
+  containsCharacter: 0
   height: 0
   CharacterLayer:
     serializedVersion: 2
@@ -1363,6 +1370,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   obstacle: 0
+  containsCharacter: 0
   height: 0
   CharacterLayer:
     serializedVersion: 2
@@ -1497,6 +1505,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   obstacle: 0
+  containsCharacter: 0
   height: 0
   CharacterLayer:
     serializedVersion: 2
@@ -1669,6 +1678,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   obstacle: 0
+  containsCharacter: 0
   height: 0
   CharacterLayer:
     serializedVersion: 2
@@ -1803,6 +1813,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   obstacle: 0
+  containsCharacter: 0
   height: 0
   CharacterLayer:
     serializedVersion: 2
@@ -1937,6 +1948,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   obstacle: 0
+  containsCharacter: 0
   height: 0
   CharacterLayer:
     serializedVersion: 2
@@ -2071,6 +2083,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   obstacle: 0
+  containsCharacter: 0
   height: 0
   CharacterLayer:
     serializedVersion: 2
@@ -2205,6 +2218,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   obstacle: 0
+  containsCharacter: 0
   height: 0
   CharacterLayer:
     serializedVersion: 2
@@ -2339,6 +2353,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   obstacle: 0
+  containsCharacter: 0
   height: 0
   CharacterLayer:
     serializedVersion: 2
@@ -2473,6 +2488,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   obstacle: 0
+  containsCharacter: 0
   height: 0
   CharacterLayer:
     serializedVersion: 2
@@ -2607,6 +2623,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   obstacle: 0
+  containsCharacter: 0
   height: 0
   CharacterLayer:
     serializedVersion: 2
@@ -2741,6 +2758,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   obstacle: 0
+  containsCharacter: 0
   height: 0
   CharacterLayer:
     serializedVersion: 2
@@ -2875,6 +2893,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   obstacle: 0
+  containsCharacter: 0
   height: 0
   CharacterLayer:
     serializedVersion: 2
@@ -3009,6 +3028,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   obstacle: 0
+  containsCharacter: 0
   height: 0
   CharacterLayer:
     serializedVersion: 2
@@ -3143,6 +3163,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   obstacle: 0
+  containsCharacter: 0
   height: 0
   CharacterLayer:
     serializedVersion: 2
@@ -3827,6 +3848,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   obstacle: 0
+  containsCharacter: 0
   height: 0
   CharacterLayer:
     serializedVersion: 2
@@ -3961,6 +3983,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   obstacle: 0
+  containsCharacter: 0
   height: 0
   CharacterLayer:
     serializedVersion: 2
@@ -4095,6 +4118,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   obstacle: 0
+  containsCharacter: 0
   height: 0
   CharacterLayer:
     serializedVersion: 2
@@ -4140,6 +4164,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   obstacle: 0
+  containsCharacter: 0
   height: 0
   CharacterLayer:
     serializedVersion: 2
@@ -4363,6 +4388,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   obstacle: 0
+  containsCharacter: 0
   height: 0
   CharacterLayer:
     serializedVersion: 2
@@ -4408,6 +4434,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   obstacle: 0
+  containsCharacter: 0
   height: 0
   CharacterLayer:
     serializedVersion: 2
@@ -4631,6 +4658,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   obstacle: 0
+  containsCharacter: 0
   height: 0
   CharacterLayer:
     serializedVersion: 2
@@ -4765,6 +4793,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   obstacle: 0
+  containsCharacter: 0
   height: 0
   CharacterLayer:
     serializedVersion: 2
@@ -4899,6 +4928,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   obstacle: 0
+  containsCharacter: 0
   height: 0
   CharacterLayer:
     serializedVersion: 2
@@ -5033,6 +5063,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   obstacle: 0
+  containsCharacter: 0
   height: 0
   CharacterLayer:
     serializedVersion: 2
@@ -5167,6 +5198,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   obstacle: 0
+  containsCharacter: 0
   height: 0
   CharacterLayer:
     serializedVersion: 2
@@ -5301,6 +5333,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   obstacle: 0
+  containsCharacter: 0
   height: 0
   CharacterLayer:
     serializedVersion: 2
@@ -5435,6 +5468,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   obstacle: 0
+  containsCharacter: 0
   height: 0
   CharacterLayer:
     serializedVersion: 2
@@ -5569,6 +5603,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   obstacle: 0
+  containsCharacter: 0
   height: 0
   CharacterLayer:
     serializedVersion: 2
@@ -5703,6 +5738,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   obstacle: 0
+  containsCharacter: 0
   height: 0
   CharacterLayer:
     serializedVersion: 2
@@ -6094,6 +6130,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   obstacle: 0
+  containsCharacter: 0
   height: 0
   CharacterLayer:
     serializedVersion: 2
@@ -6228,6 +6265,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   obstacle: 0
+  containsCharacter: 0
   height: 0
   CharacterLayer:
     serializedVersion: 2
@@ -6362,6 +6400,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   obstacle: 0
+  containsCharacter: 0
   height: 0
   CharacterLayer:
     serializedVersion: 2
@@ -6496,6 +6535,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   obstacle: 0
+  containsCharacter: 0
   height: 0
   CharacterLayer:
     serializedVersion: 2
@@ -6630,6 +6670,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   obstacle: 0
+  containsCharacter: 0
   height: 0
   CharacterLayer:
     serializedVersion: 2
@@ -6764,6 +6805,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   obstacle: 0
+  containsCharacter: 0
   height: 0
   CharacterLayer:
     serializedVersion: 2
@@ -6898,6 +6940,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   obstacle: 0
+  containsCharacter: 0
   height: 0
   CharacterLayer:
     serializedVersion: 2
@@ -7032,6 +7075,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   obstacle: 0
+  containsCharacter: 0
   height: 0
   CharacterLayer:
     serializedVersion: 2
@@ -7166,6 +7210,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   obstacle: 0
+  containsCharacter: 0
   height: 0
   CharacterLayer:
     serializedVersion: 2
@@ -7300,6 +7345,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   obstacle: 0
+  containsCharacter: 0
   height: 0
   CharacterLayer:
     serializedVersion: 2
@@ -7434,6 +7480,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   obstacle: 0
+  containsCharacter: 0
   height: 0
   CharacterLayer:
     serializedVersion: 2
@@ -7643,6 +7690,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   obstacle: 0
+  containsCharacter: 0
   height: 0
   CharacterLayer:
     serializedVersion: 2
@@ -7777,6 +7825,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   obstacle: 0
+  containsCharacter: 0
   height: 0
   CharacterLayer:
     serializedVersion: 2
@@ -7911,6 +7960,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   obstacle: 0
+  containsCharacter: 0
   height: 0
   CharacterLayer:
     serializedVersion: 2
@@ -8045,6 +8095,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   obstacle: 0
+  containsCharacter: 0
   height: 0
   CharacterLayer:
     serializedVersion: 2
@@ -8063,7 +8114,7 @@ GameObject:
   - component: {fileID: 291022681}
   - component: {fileID: 291022680}
   m_Layer: 3
-  m_Name: Character representation
+  m_Name: Character 1
   m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8094,6 +8145,8 @@ MonoBehaviour:
   LayerToFind:
     serializedVersion: 2
     m_Bits: 64
+  uiManager: {fileID: 0}
+  isMoving: 0
 --- !u!136 &291022681
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -8146,7 +8199,7 @@ GameObject:
   - component: {fileID: 294432802}
   - component: {fileID: 294432801}
   m_Layer: 5
-  m_Name: Canvas
+  m_Name: CanvasForBattleUI
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8366,6 +8419,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   obstacle: 0
+  containsCharacter: 0
   height: 0
   CharacterLayer:
     serializedVersion: 2
@@ -8500,6 +8554,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   obstacle: 0
+  containsCharacter: 0
   height: 0
   CharacterLayer:
     serializedVersion: 2
@@ -8634,6 +8689,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   obstacle: 0
+  containsCharacter: 0
   height: 0
   CharacterLayer:
     serializedVersion: 2
@@ -8768,6 +8824,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   obstacle: 0
+  containsCharacter: 0
   height: 0
   CharacterLayer:
     serializedVersion: 2
@@ -8902,6 +8959,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   obstacle: 0
+  containsCharacter: 0
   height: 0
   CharacterLayer:
     serializedVersion: 2
@@ -9036,6 +9094,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   obstacle: 0
+  containsCharacter: 0
   height: 0
   CharacterLayer:
     serializedVersion: 2
@@ -9215,13 +9274,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 330585543}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.39646503, y: -0, z: -0, w: 0.9180498}
-  m_LocalPosition: {x: 0, y: 7.67, z: -6.48}
+  m_LocalRotation: {x: 0.3233619, y: 0.2993164, z: -0.12444463, w: 0.8890222}
+  m_LocalPosition: {x: -3.13, y: 11.6, z: -2.31}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 46.715, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 40.5, y: 36.445, z: -2.087}
 --- !u!114 &330585547
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9410,6 +9469,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   obstacle: 0
+  containsCharacter: 0
   height: 0
   CharacterLayer:
     serializedVersion: 2
@@ -9544,6 +9604,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   obstacle: 0
+  containsCharacter: 0
   height: 0
   CharacterLayer:
     serializedVersion: 2
@@ -9586,6 +9647,8 @@ MonoBehaviour:
   darkenSkip: {fileID: 809436424}
   cancelMove: {fileID: 132339984}
   moveButton: {fileID: 1630297541}
+  battleUI: {fileID: 294432800}
+  turnController: {fileID: 866210695}
   isPaused: 0
 --- !u!4 &342495817
 Transform:
@@ -9730,6 +9793,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   obstacle: 0
+  containsCharacter: 0
   height: 0
   CharacterLayer:
     serializedVersion: 2
@@ -9864,6 +9928,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   obstacle: 0
+  containsCharacter: 0
   height: 0
   CharacterLayer:
     serializedVersion: 2
@@ -9998,6 +10063,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   obstacle: 0
+  containsCharacter: 0
   height: 0
   CharacterLayer:
     serializedVersion: 2
@@ -10132,6 +10198,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   obstacle: 0
+  containsCharacter: 0
   height: 0
   CharacterLayer:
     serializedVersion: 2
@@ -10341,6 +10408,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   obstacle: 0
+  containsCharacter: 0
   height: 0
   CharacterLayer:
     serializedVersion: 2
@@ -10475,6 +10543,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   obstacle: 0
+  containsCharacter: 0
   height: 0
   CharacterLayer:
     serializedVersion: 2
@@ -10747,6 +10816,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   obstacle: 0
+  containsCharacter: 0
   height: 0
   CharacterLayer:
     serializedVersion: 2
@@ -10881,6 +10951,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   obstacle: 0
+  containsCharacter: 0
   height: 0
   CharacterLayer:
     serializedVersion: 2
@@ -11015,6 +11086,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   obstacle: 0
+  containsCharacter: 0
   height: 0
   CharacterLayer:
     serializedVersion: 2
@@ -11060,6 +11132,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   obstacle: 0
+  containsCharacter: 0
   height: 0
   CharacterLayer:
     serializedVersion: 2
@@ -11283,6 +11356,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   obstacle: 0
+  containsCharacter: 0
   height: 0
   CharacterLayer:
     serializedVersion: 2
@@ -11417,6 +11491,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   obstacle: 0
+  containsCharacter: 0
   height: 0
   CharacterLayer:
     serializedVersion: 2
@@ -11551,6 +11626,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   obstacle: 0
+  containsCharacter: 0
   height: 0
   CharacterLayer:
     serializedVersion: 2
@@ -11685,6 +11761,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   obstacle: 0
+  containsCharacter: 0
   height: 0
   CharacterLayer:
     serializedVersion: 2
@@ -11819,6 +11896,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   obstacle: 0
+  containsCharacter: 0
   height: 0
   CharacterLayer:
     serializedVersion: 2
@@ -11953,6 +12031,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   obstacle: 0
+  containsCharacter: 0
   height: 0
   CharacterLayer:
     serializedVersion: 2
@@ -12087,6 +12166,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   obstacle: 0
+  containsCharacter: 0
   height: 0
   CharacterLayer:
     serializedVersion: 2
@@ -12354,6 +12434,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   obstacle: 0
+  containsCharacter: 0
   height: 0
   CharacterLayer:
     serializedVersion: 2
@@ -12488,6 +12569,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   obstacle: 0
+  containsCharacter: 0
   height: 0
   CharacterLayer:
     serializedVersion: 2
@@ -12622,6 +12704,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   obstacle: 0
+  containsCharacter: 0
   height: 0
   CharacterLayer:
     serializedVersion: 2
@@ -12889,6 +12972,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   obstacle: 0
+  containsCharacter: 0
   height: 0
   CharacterLayer:
     serializedVersion: 2
@@ -13156,6 +13240,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   obstacle: 0
+  containsCharacter: 0
   height: 0
   CharacterLayer:
     serializedVersion: 2
@@ -13290,6 +13375,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   obstacle: 0
+  containsCharacter: 0
   height: 0
   CharacterLayer:
     serializedVersion: 2
@@ -13424,6 +13510,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   obstacle: 0
+  containsCharacter: 0
   height: 0
   CharacterLayer:
     serializedVersion: 2
@@ -13469,6 +13556,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   obstacle: 0
+  containsCharacter: 0
   height: 0
   CharacterLayer:
     serializedVersion: 2
@@ -13692,6 +13780,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   obstacle: 0
+  containsCharacter: 0
   height: 0
   CharacterLayer:
     serializedVersion: 2
@@ -13959,6 +14048,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   obstacle: 0
+  containsCharacter: 0
   height: 0
   CharacterLayer:
     serializedVersion: 2
@@ -14093,6 +14183,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   obstacle: 0
+  containsCharacter: 0
   height: 0
   CharacterLayer:
     serializedVersion: 2
@@ -14227,6 +14318,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   obstacle: 0
+  containsCharacter: 0
   height: 0
   CharacterLayer:
     serializedVersion: 2
@@ -14398,6 +14490,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   obstacle: 0
+  containsCharacter: 0
   height: 0
   CharacterLayer:
     serializedVersion: 2
@@ -14532,6 +14625,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   obstacle: 0
+  containsCharacter: 0
   height: 0
   CharacterLayer:
     serializedVersion: 2
@@ -14666,6 +14760,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   obstacle: 0
+  containsCharacter: 0
   height: 0
   CharacterLayer:
     serializedVersion: 2
@@ -14711,6 +14806,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   obstacle: 0
+  containsCharacter: 0
   height: 0
   CharacterLayer:
     serializedVersion: 2
@@ -14934,6 +15030,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   obstacle: 0
+  containsCharacter: 0
   height: 0
   CharacterLayer:
     serializedVersion: 2
@@ -15068,6 +15165,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   obstacle: 0
+  containsCharacter: 0
   height: 0
   CharacterLayer:
     serializedVersion: 2
@@ -15202,6 +15300,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   obstacle: 0
+  containsCharacter: 0
   height: 0
   CharacterLayer:
     serializedVersion: 2
@@ -15336,6 +15435,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   obstacle: 0
+  containsCharacter: 0
   height: 0
   CharacterLayer:
     serializedVersion: 2
@@ -15608,6 +15708,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   obstacle: 0
+  containsCharacter: 0
   height: 0
   CharacterLayer:
     serializedVersion: 2
@@ -15878,6 +15979,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   obstacle: 0
+  containsCharacter: 0
   height: 0
   CharacterLayer:
     serializedVersion: 2
@@ -16148,6 +16250,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   obstacle: 0
+  containsCharacter: 0
   height: 0
   CharacterLayer:
     serializedVersion: 2
@@ -16282,6 +16385,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   obstacle: 0
+  containsCharacter: 0
   height: 0
   CharacterLayer:
     serializedVersion: 2
@@ -16327,6 +16431,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   obstacle: 0
+  containsCharacter: 0
   height: 0
   CharacterLayer:
     serializedVersion: 2
@@ -16550,6 +16655,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   obstacle: 0
+  containsCharacter: 0
   height: 0
   CharacterLayer:
     serializedVersion: 2
@@ -16684,6 +16790,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   obstacle: 0
+  containsCharacter: 0
   height: 0
   CharacterLayer:
     serializedVersion: 2
@@ -16818,6 +16925,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   obstacle: 0
+  containsCharacter: 0
   height: 0
   CharacterLayer:
     serializedVersion: 2
@@ -16952,6 +17060,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   obstacle: 0
+  containsCharacter: 0
   height: 0
   CharacterLayer:
     serializedVersion: 2
@@ -16997,6 +17106,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   obstacle: 0
+  containsCharacter: 0
   height: 0
   CharacterLayer:
     serializedVersion: 2
@@ -17301,6 +17411,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   obstacle: 0
+  containsCharacter: 0
   height: 0
   CharacterLayer:
     serializedVersion: 2
@@ -17524,6 +17635,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   obstacle: 0
+  containsCharacter: 0
   height: 0
   CharacterLayer:
     serializedVersion: 2
@@ -17658,6 +17770,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   obstacle: 0
+  containsCharacter: 0
   height: 0
   CharacterLayer:
     serializedVersion: 2
@@ -17792,6 +17905,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   obstacle: 0
+  containsCharacter: 0
   height: 0
   CharacterLayer:
     serializedVersion: 2
@@ -17926,6 +18040,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   obstacle: 0
+  containsCharacter: 0
   height: 0
   CharacterLayer:
     serializedVersion: 2
@@ -18060,6 +18175,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   obstacle: 0
+  containsCharacter: 0
   height: 0
   CharacterLayer:
     serializedVersion: 2
@@ -18194,6 +18310,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   obstacle: 0
+  containsCharacter: 0
   height: 0
   CharacterLayer:
     serializedVersion: 2
@@ -18328,6 +18445,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   obstacle: 0
+  containsCharacter: 0
   height: 0
   CharacterLayer:
     serializedVersion: 2
@@ -18462,6 +18580,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   obstacle: 0
+  containsCharacter: 0
   height: 0
   CharacterLayer:
     serializedVersion: 2
@@ -18596,6 +18715,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   obstacle: 0
+  containsCharacter: 0
   height: 0
   CharacterLayer:
     serializedVersion: 2
@@ -18730,6 +18850,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   obstacle: 0
+  containsCharacter: 0
   height: 0
   CharacterLayer:
     serializedVersion: 2
@@ -18864,6 +18985,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   obstacle: 0
+  containsCharacter: 0
   height: 0
   CharacterLayer:
     serializedVersion: 2
@@ -18998,6 +19120,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   obstacle: 0
+  containsCharacter: 0
   height: 0
   CharacterLayer:
     serializedVersion: 2
@@ -19132,6 +19255,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   obstacle: 0
+  containsCharacter: 0
   height: 0
   CharacterLayer:
     serializedVersion: 2
@@ -19177,6 +19301,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   obstacle: 0
+  containsCharacter: 0
   height: 0
   CharacterLayer:
     serializedVersion: 2
@@ -19311,6 +19436,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   obstacle: 0
+  containsCharacter: 0
   height: 0
   CharacterLayer:
     serializedVersion: 2
@@ -19534,6 +19660,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   obstacle: 0
+  containsCharacter: 0
   height: 0
   CharacterLayer:
     serializedVersion: 2
@@ -19668,6 +19795,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   obstacle: 0
+  containsCharacter: 0
   height: 0
   CharacterLayer:
     serializedVersion: 2
@@ -19802,6 +19930,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   obstacle: 0
+  containsCharacter: 0
   height: 0
   CharacterLayer:
     serializedVersion: 2
@@ -19936,6 +20065,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   obstacle: 0
+  containsCharacter: 0
   height: 0
   CharacterLayer:
     serializedVersion: 2
@@ -20070,6 +20200,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   obstacle: 0
+  containsCharacter: 0
   height: 0
   CharacterLayer:
     serializedVersion: 2
@@ -20204,6 +20335,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   obstacle: 0
+  containsCharacter: 0
   height: 0
   CharacterLayer:
     serializedVersion: 2
@@ -20222,7 +20354,7 @@ GameObject:
   - component: {fileID: 750076075}
   - component: {fileID: 750076074}
   m_Layer: 3
-  m_Name: Character representation (1)
+  m_Name: Character 2
   m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -20253,6 +20385,8 @@ MonoBehaviour:
   LayerToFind:
     serializedVersion: 2
     m_Bits: 64
+  uiManager: {fileID: 0}
+  isMoving: 0
 --- !u!136 &750076075
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -20420,6 +20554,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   obstacle: 0
+  containsCharacter: 0
   height: 0
   CharacterLayer:
     serializedVersion: 2
@@ -20554,6 +20689,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   obstacle: 0
+  containsCharacter: 0
   height: 0
   CharacterLayer:
     serializedVersion: 2
@@ -20688,6 +20824,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   obstacle: 0
+  containsCharacter: 0
   height: 0
   CharacterLayer:
     serializedVersion: 2
@@ -20822,6 +20959,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   obstacle: 0
+  containsCharacter: 0
   height: 0
   CharacterLayer:
     serializedVersion: 2
@@ -20956,6 +21094,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   obstacle: 0
+  containsCharacter: 0
   height: 0
   CharacterLayer:
     serializedVersion: 2
@@ -21090,6 +21229,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   obstacle: 0
+  containsCharacter: 0
   height: 0
   CharacterLayer:
     serializedVersion: 2
@@ -21224,6 +21364,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   obstacle: 0
+  containsCharacter: 0
   height: 0
   CharacterLayer:
     serializedVersion: 2
@@ -21358,6 +21499,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   obstacle: 0
+  containsCharacter: 0
   height: 0
   CharacterLayer:
     serializedVersion: 2
@@ -21492,6 +21634,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   obstacle: 0
+  containsCharacter: 0
   height: 0
   CharacterLayer:
     serializedVersion: 2
@@ -21626,6 +21769,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   obstacle: 0
+  containsCharacter: 0
   height: 0
   CharacterLayer:
     serializedVersion: 2
@@ -21760,6 +21904,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   obstacle: 0
+  containsCharacter: 0
   height: 0
   CharacterLayer:
     serializedVersion: 2
@@ -21894,6 +22039,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   obstacle: 0
+  containsCharacter: 0
   height: 0
   CharacterLayer:
     serializedVersion: 2
@@ -22028,6 +22174,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   obstacle: 0
+  containsCharacter: 0
   height: 0
   CharacterLayer:
     serializedVersion: 2
@@ -22162,6 +22309,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   obstacle: 0
+  containsCharacter: 0
   height: 0
   CharacterLayer:
     serializedVersion: 2
@@ -22296,6 +22444,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   obstacle: 0
+  containsCharacter: 0
   height: 0
   CharacterLayer:
     serializedVersion: 2
@@ -22430,6 +22579,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   obstacle: 0
+  containsCharacter: 0
   height: 0
   CharacterLayer:
     serializedVersion: 2
@@ -22639,6 +22789,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   obstacle: 0
+  containsCharacter: 0
   height: 0
   CharacterLayer:
     serializedVersion: 2
@@ -22773,6 +22924,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   obstacle: 0
+  containsCharacter: 0
   height: 0
   CharacterLayer:
     serializedVersion: 2
@@ -22907,6 +23059,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   obstacle: 0
+  containsCharacter: 0
   height: 0
   CharacterLayer:
     serializedVersion: 2
@@ -23041,6 +23194,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   obstacle: 0
+  containsCharacter: 0
   height: 0
   CharacterLayer:
     serializedVersion: 2
@@ -23299,6 +23453,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   obstacle: 0
+  containsCharacter: 0
   height: 0
   CharacterLayer:
     serializedVersion: 2
@@ -23433,6 +23588,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   obstacle: 0
+  containsCharacter: 0
   height: 0
   CharacterLayer:
     serializedVersion: 2
@@ -23627,7 +23783,7 @@ GameObject:
   m_Component:
   - component: {fileID: 866366986}
   m_Layer: 5
-  m_Name: GatoLocoActions
+  m_Name: SorinActions
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -23782,6 +23938,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   obstacle: 0
+  containsCharacter: 0
   height: 0
   CharacterLayer:
     serializedVersion: 2
@@ -23916,6 +24073,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   obstacle: 0
+  containsCharacter: 0
   height: 0
   CharacterLayer:
     serializedVersion: 2
@@ -23932,7 +24090,7 @@ GameObject:
   m_Component:
   - component: {fileID: 867249467}
   m_Layer: 5
-  m_Name: CarpinchoActions
+  m_Name: CimarronActions
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -24223,6 +24381,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   obstacle: 0
+  containsCharacter: 0
   height: 0
   CharacterLayer:
     serializedVersion: 2
@@ -24357,6 +24516,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   obstacle: 0
+  containsCharacter: 0
   height: 0
   CharacterLayer:
     serializedVersion: 2
@@ -24491,6 +24651,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   obstacle: 0
+  containsCharacter: 0
   height: 0
   CharacterLayer:
     serializedVersion: 2
@@ -24625,6 +24786,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   obstacle: 0
+  containsCharacter: 0
   height: 0
   CharacterLayer:
     serializedVersion: 2
@@ -24759,6 +24921,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   obstacle: 0
+  containsCharacter: 0
   height: 0
   CharacterLayer:
     serializedVersion: 2
@@ -24893,6 +25056,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   obstacle: 0
+  containsCharacter: 0
   height: 0
   CharacterLayer:
     serializedVersion: 2
@@ -25027,6 +25191,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   obstacle: 0
+  containsCharacter: 0
   height: 0
   CharacterLayer:
     serializedVersion: 2
@@ -25161,6 +25326,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   obstacle: 0
+  containsCharacter: 0
   height: 0
   CharacterLayer:
     serializedVersion: 2
@@ -25295,6 +25461,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   obstacle: 0
+  containsCharacter: 0
   height: 0
   CharacterLayer:
     serializedVersion: 2
@@ -25429,6 +25596,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   obstacle: 0
+  containsCharacter: 0
   height: 0
   CharacterLayer:
     serializedVersion: 2
@@ -25563,6 +25731,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   obstacle: 0
+  containsCharacter: 0
   height: 0
   CharacterLayer:
     serializedVersion: 2
@@ -25697,6 +25866,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   obstacle: 0
+  containsCharacter: 0
   height: 0
   CharacterLayer:
     serializedVersion: 2
@@ -25831,6 +26001,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   obstacle: 0
+  containsCharacter: 0
   height: 0
   CharacterLayer:
     serializedVersion: 2
@@ -25965,6 +26136,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   obstacle: 0
+  containsCharacter: 0
   height: 0
   CharacterLayer:
     serializedVersion: 2
@@ -26099,6 +26271,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   obstacle: 0
+  containsCharacter: 0
   height: 0
   CharacterLayer:
     serializedVersion: 2
@@ -26233,6 +26406,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   obstacle: 0
+  containsCharacter: 0
   height: 0
   CharacterLayer:
     serializedVersion: 2
@@ -26367,6 +26541,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   obstacle: 0
+  containsCharacter: 0
   height: 0
   CharacterLayer:
     serializedVersion: 2
@@ -26501,6 +26676,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   obstacle: 0
+  containsCharacter: 0
   height: 0
   CharacterLayer:
     serializedVersion: 2
@@ -26635,6 +26811,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   obstacle: 0
+  containsCharacter: 0
   height: 0
   CharacterLayer:
     serializedVersion: 2
@@ -26769,6 +26946,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   obstacle: 0
+  containsCharacter: 0
   height: 0
   CharacterLayer:
     serializedVersion: 2
@@ -26903,6 +27081,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   obstacle: 0
+  containsCharacter: 0
   height: 0
   CharacterLayer:
     serializedVersion: 2
@@ -27182,6 +27361,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   obstacle: 0
+  containsCharacter: 0
   height: 0
   CharacterLayer:
     serializedVersion: 2
@@ -27316,6 +27496,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   obstacle: 0
+  containsCharacter: 0
   height: 0
   CharacterLayer:
     serializedVersion: 2
@@ -27450,6 +27631,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   obstacle: 0
+  containsCharacter: 0
   height: 0
   CharacterLayer:
     serializedVersion: 2
@@ -27495,6 +27677,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   obstacle: 0
+  containsCharacter: 0
   height: 0
   CharacterLayer:
     serializedVersion: 2
@@ -27718,6 +27901,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   obstacle: 0
+  containsCharacter: 0
   height: 0
   CharacterLayer:
     serializedVersion: 2
@@ -27852,6 +28036,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   obstacle: 0
+  containsCharacter: 0
   height: 0
   CharacterLayer:
     serializedVersion: 2
@@ -27986,6 +28171,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   obstacle: 0
+  containsCharacter: 0
   height: 0
   CharacterLayer:
     serializedVersion: 2
@@ -28120,6 +28306,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   obstacle: 0
+  containsCharacter: 0
   height: 0
   CharacterLayer:
     serializedVersion: 2
@@ -28165,6 +28352,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   obstacle: 0
+  containsCharacter: 0
   height: 0
   CharacterLayer:
     serializedVersion: 2
@@ -28388,6 +28576,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   obstacle: 0
+  containsCharacter: 0
   height: 0
   CharacterLayer:
     serializedVersion: 2
@@ -28565,6 +28754,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   obstacle: 0
+  containsCharacter: 0
   height: 0
   CharacterLayer:
     serializedVersion: 2
@@ -28699,6 +28889,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   obstacle: 0
+  containsCharacter: 0
   height: 0
   CharacterLayer:
     serializedVersion: 2
@@ -28833,6 +29024,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   obstacle: 0
+  containsCharacter: 0
   height: 0
   CharacterLayer:
     serializedVersion: 2
@@ -28967,6 +29159,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   obstacle: 0
+  containsCharacter: 0
   height: 0
   CharacterLayer:
     serializedVersion: 2
@@ -29101,6 +29294,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   obstacle: 0
+  containsCharacter: 0
   height: 0
   CharacterLayer:
     serializedVersion: 2
@@ -29235,6 +29429,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   obstacle: 0
+  containsCharacter: 0
   height: 0
   CharacterLayer:
     serializedVersion: 2
@@ -29369,6 +29564,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   obstacle: 0
+  containsCharacter: 0
   height: 0
   CharacterLayer:
     serializedVersion: 2
@@ -29503,6 +29699,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   obstacle: 0
+  containsCharacter: 0
   height: 0
   CharacterLayer:
     serializedVersion: 2
@@ -29716,6 +29913,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   obstacle: 0
+  containsCharacter: 0
   height: 0
   CharacterLayer:
     serializedVersion: 2
@@ -29897,6 +30095,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   obstacle: 0
+  containsCharacter: 0
   height: 0
   CharacterLayer:
     serializedVersion: 2
@@ -30120,6 +30319,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   obstacle: 0
+  containsCharacter: 0
   height: 0
   CharacterLayer:
     serializedVersion: 2
@@ -30254,6 +30454,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   obstacle: 0
+  containsCharacter: 0
   height: 0
   CharacterLayer:
     serializedVersion: 2
@@ -30388,6 +30589,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   obstacle: 0
+  containsCharacter: 0
   height: 0
   CharacterLayer:
     serializedVersion: 2
@@ -30522,6 +30724,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   obstacle: 0
+  containsCharacter: 0
   height: 0
   CharacterLayer:
     serializedVersion: 2
@@ -30656,6 +30859,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   obstacle: 0
+  containsCharacter: 0
   height: 0
   CharacterLayer:
     serializedVersion: 2
@@ -30790,6 +30994,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   obstacle: 0
+  containsCharacter: 0
   height: 0
   CharacterLayer:
     serializedVersion: 2
@@ -30924,6 +31129,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   obstacle: 0
+  containsCharacter: 0
   height: 0
   CharacterLayer:
     serializedVersion: 2
@@ -31058,6 +31264,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   obstacle: 0
+  containsCharacter: 0
   height: 0
   CharacterLayer:
     serializedVersion: 2
@@ -31192,6 +31399,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   obstacle: 0
+  containsCharacter: 0
   height: 0
   CharacterLayer:
     serializedVersion: 2
@@ -31373,6 +31581,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   obstacle: 0
+  containsCharacter: 0
   height: 0
   CharacterLayer:
     serializedVersion: 2
@@ -31596,6 +31805,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   obstacle: 0
+  containsCharacter: 0
   height: 0
   CharacterLayer:
     serializedVersion: 2
@@ -31730,6 +31940,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   obstacle: 0
+  containsCharacter: 0
   height: 0
   CharacterLayer:
     serializedVersion: 2
@@ -31864,6 +32075,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   obstacle: 0
+  containsCharacter: 0
   height: 0
   CharacterLayer:
     serializedVersion: 2
@@ -31998,6 +32210,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   obstacle: 0
+  containsCharacter: 0
   height: 0
   CharacterLayer:
     serializedVersion: 2
@@ -32132,6 +32345,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   obstacle: 0
+  containsCharacter: 0
   height: 0
   CharacterLayer:
     serializedVersion: 2
@@ -32266,6 +32480,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   obstacle: 0
+  containsCharacter: 0
   height: 0
   CharacterLayer:
     serializedVersion: 2
@@ -32400,6 +32615,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   obstacle: 0
+  containsCharacter: 0
   height: 0
   CharacterLayer:
     serializedVersion: 2
@@ -32534,6 +32750,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   obstacle: 0
+  containsCharacter: 0
   height: 0
   CharacterLayer:
     serializedVersion: 2
@@ -32668,6 +32885,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   obstacle: 0
+  containsCharacter: 0
   height: 0
   CharacterLayer:
     serializedVersion: 2
@@ -32802,6 +33020,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   obstacle: 0
+  containsCharacter: 0
   height: 0
   CharacterLayer:
     serializedVersion: 2
@@ -32936,6 +33155,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   obstacle: 0
+  containsCharacter: 0
   height: 0
   CharacterLayer:
     serializedVersion: 2
@@ -33070,6 +33290,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   obstacle: 0
+  containsCharacter: 0
   height: 0
   CharacterLayer:
     serializedVersion: 2
@@ -33204,6 +33425,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   obstacle: 0
+  containsCharacter: 0
   height: 0
   CharacterLayer:
     serializedVersion: 2
@@ -33514,6 +33736,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   obstacle: 0
+  containsCharacter: 0
   height: 0
   CharacterLayer:
     serializedVersion: 2
@@ -33648,6 +33871,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   obstacle: 0
+  containsCharacter: 0
   height: 0
   CharacterLayer:
     serializedVersion: 2
@@ -33782,6 +34006,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   obstacle: 0
+  containsCharacter: 0
   height: 0
   CharacterLayer:
     serializedVersion: 2
@@ -33916,6 +34141,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   obstacle: 0
+  containsCharacter: 0
   height: 0
   CharacterLayer:
     serializedVersion: 2
@@ -34050,6 +34276,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   obstacle: 0
+  containsCharacter: 0
   height: 0
   CharacterLayer:
     serializedVersion: 2
@@ -34184,6 +34411,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   obstacle: 0
+  containsCharacter: 0
   height: 0
   CharacterLayer:
     serializedVersion: 2
@@ -34229,6 +34457,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   obstacle: 0
+  containsCharacter: 0
   height: 0
   CharacterLayer:
     serializedVersion: 2
@@ -34363,6 +34592,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   obstacle: 0
+  containsCharacter: 0
   height: 0
   CharacterLayer:
     serializedVersion: 2
@@ -34586,6 +34816,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   obstacle: 0
+  containsCharacter: 0
   height: 0
   CharacterLayer:
     serializedVersion: 2
@@ -34720,6 +34951,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   obstacle: 0
+  containsCharacter: 0
   height: 0
   CharacterLayer:
     serializedVersion: 2
@@ -34854,6 +35086,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   obstacle: 0
+  containsCharacter: 0
   height: 0
   CharacterLayer:
     serializedVersion: 2
@@ -35074,6 +35307,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   obstacle: 0
+  containsCharacter: 0
   height: 0
   CharacterLayer:
     serializedVersion: 2
@@ -35119,6 +35353,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   obstacle: 0
+  containsCharacter: 0
   height: 0
   CharacterLayer:
     serializedVersion: 2
@@ -35342,6 +35577,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   obstacle: 0
+  containsCharacter: 0
   height: 0
   CharacterLayer:
     serializedVersion: 2
@@ -35476,6 +35712,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   obstacle: 0
+  containsCharacter: 0
   height: 0
   CharacterLayer:
     serializedVersion: 2
@@ -35610,6 +35847,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   obstacle: 0
+  containsCharacter: 0
   height: 0
   CharacterLayer:
     serializedVersion: 2
@@ -35744,6 +35982,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   obstacle: 0
+  containsCharacter: 0
   height: 0
   CharacterLayer:
     serializedVersion: 2
@@ -36071,6 +36310,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   obstacle: 0
+  containsCharacter: 0
   height: 0
   CharacterLayer:
     serializedVersion: 2
@@ -36205,6 +36445,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   obstacle: 0
+  containsCharacter: 0
   height: 0
   CharacterLayer:
     serializedVersion: 2
@@ -36339,6 +36580,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   obstacle: 0
+  containsCharacter: 0
   height: 0
   CharacterLayer:
     serializedVersion: 2
@@ -36611,6 +36853,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   obstacle: 0
+  containsCharacter: 0
   height: 0
   CharacterLayer:
     serializedVersion: 2
@@ -36745,6 +36988,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   obstacle: 0
+  containsCharacter: 0
   height: 0
   CharacterLayer:
     serializedVersion: 2
@@ -36879,6 +37123,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   obstacle: 0
+  containsCharacter: 0
   height: 0
   CharacterLayer:
     serializedVersion: 2
@@ -37013,6 +37258,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   obstacle: 0
+  containsCharacter: 0
   height: 0
   CharacterLayer:
     serializedVersion: 2
@@ -37147,6 +37393,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   obstacle: 0
+  containsCharacter: 0
   height: 0
   CharacterLayer:
     serializedVersion: 2
@@ -37550,6 +37797,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   obstacle: 0
+  containsCharacter: 0
   height: 0
   CharacterLayer:
     serializedVersion: 2
@@ -37684,6 +37932,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   obstacle: 0
+  containsCharacter: 0
   height: 0
   CharacterLayer:
     serializedVersion: 2
@@ -37818,6 +38067,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   obstacle: 0
+  containsCharacter: 0
   height: 0
   CharacterLayer:
     serializedVersion: 2
@@ -37952,6 +38202,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   obstacle: 0
+  containsCharacter: 0
   height: 0
   CharacterLayer:
     serializedVersion: 2
@@ -37997,6 +38248,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   obstacle: 0
+  containsCharacter: 0
   height: 0
   CharacterLayer:
     serializedVersion: 2
@@ -38220,6 +38472,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   obstacle: 0
+  containsCharacter: 0
   height: 0
   CharacterLayer:
     serializedVersion: 2
@@ -38354,6 +38607,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   obstacle: 0
+  containsCharacter: 0
   height: 0
   CharacterLayer:
     serializedVersion: 2
@@ -38488,6 +38742,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   obstacle: 0
+  containsCharacter: 0
   height: 0
   CharacterLayer:
     serializedVersion: 2
@@ -38533,6 +38788,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   obstacle: 0
+  containsCharacter: 0
   height: 0
   CharacterLayer:
     serializedVersion: 2
@@ -38756,6 +39012,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   obstacle: 0
+  containsCharacter: 0
   height: 0
   CharacterLayer:
     serializedVersion: 2
@@ -38890,6 +39147,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   obstacle: 0
+  containsCharacter: 0
   height: 0
   CharacterLayer:
     serializedVersion: 2
@@ -39024,6 +39282,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   obstacle: 0
+  containsCharacter: 0
   height: 0
   CharacterLayer:
     serializedVersion: 2
@@ -39158,6 +39417,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   obstacle: 0
+  containsCharacter: 0
   height: 0
   CharacterLayer:
     serializedVersion: 2
@@ -39292,6 +39552,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   obstacle: 0
+  containsCharacter: 0
   height: 0
   CharacterLayer:
     serializedVersion: 2
@@ -39426,6 +39687,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   obstacle: 0
+  containsCharacter: 0
   height: 0
   CharacterLayer:
     serializedVersion: 2
@@ -39560,6 +39822,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   obstacle: 0
+  containsCharacter: 0
   height: 0
   CharacterLayer:
     serializedVersion: 2
@@ -39694,6 +39957,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   obstacle: 0
+  containsCharacter: 0
   height: 0
   CharacterLayer:
     serializedVersion: 2
@@ -39828,6 +40092,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   obstacle: 0
+  containsCharacter: 0
   height: 0
   CharacterLayer:
     serializedVersion: 2
@@ -40011,6 +40276,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   obstacle: 0
+  containsCharacter: 0
   height: 0
   CharacterLayer:
     serializedVersion: 2
@@ -40234,6 +40500,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   obstacle: 0
+  containsCharacter: 0
   height: 0
   CharacterLayer:
     serializedVersion: 2
@@ -40368,6 +40635,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   obstacle: 0
+  containsCharacter: 0
   height: 0
   CharacterLayer:
     serializedVersion: 2
@@ -40502,6 +40770,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   obstacle: 0
+  containsCharacter: 0
   height: 0
   CharacterLayer:
     serializedVersion: 2
@@ -40636,6 +40905,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   obstacle: 0
+  containsCharacter: 0
   height: 0
   CharacterLayer:
     serializedVersion: 2
@@ -40770,6 +41040,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   obstacle: 0
+  containsCharacter: 0
   height: 0
   CharacterLayer:
     serializedVersion: 2
@@ -40904,6 +41175,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   obstacle: 0
+  containsCharacter: 0
   height: 0
   CharacterLayer:
     serializedVersion: 2
@@ -41038,6 +41310,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   obstacle: 0
+  containsCharacter: 0
   height: 0
   CharacterLayer:
     serializedVersion: 2
@@ -41172,6 +41445,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   obstacle: 0
+  containsCharacter: 0
   height: 0
   CharacterLayer:
     serializedVersion: 2
@@ -41306,6 +41580,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   obstacle: 0
+  containsCharacter: 0
   height: 0
   CharacterLayer:
     serializedVersion: 2
@@ -41440,6 +41715,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   obstacle: 0
+  containsCharacter: 0
   height: 0
   CharacterLayer:
     serializedVersion: 2
@@ -41574,6 +41850,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   obstacle: 0
+  containsCharacter: 0
   height: 0
   CharacterLayer:
     serializedVersion: 2
@@ -41708,6 +41985,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   obstacle: 0
+  containsCharacter: 0
   height: 0
   CharacterLayer:
     serializedVersion: 2
@@ -41842,6 +42120,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   obstacle: 0
+  containsCharacter: 0
   height: 0
   CharacterLayer:
     serializedVersion: 2
@@ -41976,6 +42255,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   obstacle: 0
+  containsCharacter: 0
   height: 0
   CharacterLayer:
     serializedVersion: 2
@@ -42113,29 +42393,17 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
-      - m_Target: {fileID: 32526636}
-        m_TargetAssemblyTypeName: GameController, Assembly-CSharp
-        m_MethodName: CancelBattleState
-        m_Mode: 1
+      - m_Target: {fileID: 273431951}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
-          m_BoolArgument: 1
-        m_CallState: 2
-      - m_Target: {fileID: 32526636}
-        m_TargetAssemblyTypeName: GameController, Assembly-CSharp
-        m_MethodName: CancelMovementState
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 1
+          m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &1479550313
 MonoBehaviour:
@@ -42303,6 +42571,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   obstacle: 0
+  containsCharacter: 0
   height: 0
   CharacterLayer:
     serializedVersion: 2
@@ -42437,6 +42706,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   obstacle: 0
+  containsCharacter: 0
   height: 0
   CharacterLayer:
     serializedVersion: 2
@@ -42571,6 +42841,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   obstacle: 0
+  containsCharacter: 0
   height: 0
   CharacterLayer:
     serializedVersion: 2
@@ -42705,6 +42976,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   obstacle: 0
+  containsCharacter: 0
   height: 0
   CharacterLayer:
     serializedVersion: 2
@@ -42839,6 +43111,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   obstacle: 0
+  containsCharacter: 0
   height: 0
   CharacterLayer:
     serializedVersion: 2
@@ -42884,6 +43157,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   obstacle: 0
+  containsCharacter: 0
   height: 0
   CharacterLayer:
     serializedVersion: 2
@@ -43107,6 +43381,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   obstacle: 0
+  containsCharacter: 0
   height: 0
   CharacterLayer:
     serializedVersion: 2
@@ -43241,6 +43516,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   obstacle: 0
+  containsCharacter: 0
   height: 0
   CharacterLayer:
     serializedVersion: 2
@@ -43511,6 +43787,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   obstacle: 0
+  containsCharacter: 0
   height: 0
   CharacterLayer:
     serializedVersion: 2
@@ -43778,6 +44055,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   obstacle: 0
+  containsCharacter: 0
   height: 0
   CharacterLayer:
     serializedVersion: 2
@@ -43823,6 +44101,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   obstacle: 0
+  containsCharacter: 0
   height: 0
   CharacterLayer:
     serializedVersion: 2
@@ -44046,6 +44325,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   obstacle: 0
+  containsCharacter: 0
   height: 0
   CharacterLayer:
     serializedVersion: 2
@@ -44180,6 +44460,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   obstacle: 0
+  containsCharacter: 0
   height: 0
   CharacterLayer:
     serializedVersion: 2
@@ -44314,6 +44595,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   obstacle: 0
+  containsCharacter: 0
   height: 0
   CharacterLayer:
     serializedVersion: 2
@@ -44359,6 +44641,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   obstacle: 0
+  containsCharacter: 0
   height: 0
   CharacterLayer:
     serializedVersion: 2
@@ -44720,6 +45003,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   obstacle: 0
+  containsCharacter: 0
   height: 0
   CharacterLayer:
     serializedVersion: 2
@@ -44854,6 +45138,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   obstacle: 0
+  containsCharacter: 0
   height: 0
   CharacterLayer:
     serializedVersion: 2
@@ -44988,6 +45273,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   obstacle: 0
+  containsCharacter: 0
   height: 0
   CharacterLayer:
     serializedVersion: 2
@@ -45122,6 +45408,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   obstacle: 0
+  containsCharacter: 0
   height: 0
   CharacterLayer:
     serializedVersion: 2
@@ -45256,6 +45543,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   obstacle: 0
+  containsCharacter: 0
   height: 0
   CharacterLayer:
     serializedVersion: 2
@@ -45390,6 +45678,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   obstacle: 0
+  containsCharacter: 0
   height: 0
   CharacterLayer:
     serializedVersion: 2
@@ -45524,6 +45813,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   obstacle: 0
+  containsCharacter: 0
   height: 0
   CharacterLayer:
     serializedVersion: 2
@@ -45658,6 +45948,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   obstacle: 0
+  containsCharacter: 0
   height: 0
   CharacterLayer:
     serializedVersion: 2
@@ -45792,6 +46083,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   obstacle: 0
+  containsCharacter: 0
   height: 0
   CharacterLayer:
     serializedVersion: 2
@@ -45926,6 +46218,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   obstacle: 0
+  containsCharacter: 0
   height: 0
   CharacterLayer:
     serializedVersion: 2
@@ -46253,6 +46546,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   obstacle: 0
+  containsCharacter: 0
   height: 0
   CharacterLayer:
     serializedVersion: 2
@@ -46387,6 +46681,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   obstacle: 0
+  containsCharacter: 0
   height: 0
   CharacterLayer:
     serializedVersion: 2
@@ -46432,6 +46727,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   obstacle: 0
+  containsCharacter: 0
   height: 0
   CharacterLayer:
     serializedVersion: 2
@@ -46655,6 +46951,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   obstacle: 0
+  containsCharacter: 0
   height: 0
   CharacterLayer:
     serializedVersion: 2
@@ -46789,6 +47086,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   obstacle: 0
+  containsCharacter: 0
   height: 0
   CharacterLayer:
     serializedVersion: 2
@@ -46923,6 +47221,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   obstacle: 0
+  containsCharacter: 0
   height: 0
   CharacterLayer:
     serializedVersion: 2
@@ -47057,6 +47356,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   obstacle: 0
+  containsCharacter: 0
   height: 0
   CharacterLayer:
     serializedVersion: 2
@@ -47256,6 +47556,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   obstacle: 0
+  containsCharacter: 0
   height: 0
   CharacterLayer:
     serializedVersion: 2
@@ -47390,6 +47691,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   obstacle: 0
+  containsCharacter: 0
   height: 0
   CharacterLayer:
     serializedVersion: 2
@@ -47524,6 +47826,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   obstacle: 0
+  containsCharacter: 0
   height: 0
   CharacterLayer:
     serializedVersion: 2
@@ -47658,6 +47961,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   obstacle: 0
+  containsCharacter: 0
   height: 0
   CharacterLayer:
     serializedVersion: 2
@@ -47703,6 +48007,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   obstacle: 0
+  containsCharacter: 0
   height: 0
   CharacterLayer:
     serializedVersion: 2
@@ -47926,6 +48231,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   obstacle: 0
+  containsCharacter: 0
   height: 0
   CharacterLayer:
     serializedVersion: 2
@@ -47971,6 +48277,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   obstacle: 0
+  containsCharacter: 0
   height: 0
   CharacterLayer:
     serializedVersion: 2
@@ -48194,6 +48501,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   obstacle: 0
+  containsCharacter: 0
   height: 0
   CharacterLayer:
     serializedVersion: 2
@@ -48597,6 +48905,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   obstacle: 0
+  containsCharacter: 0
   height: 0
   CharacterLayer:
     serializedVersion: 2
@@ -48731,6 +49040,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   obstacle: 0
+  containsCharacter: 0
   height: 0
   CharacterLayer:
     serializedVersion: 2
@@ -48865,6 +49175,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   obstacle: 0
+  containsCharacter: 0
   height: 0
   CharacterLayer:
     serializedVersion: 2
@@ -49137,6 +49448,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   obstacle: 0
+  containsCharacter: 0
   height: 0
   CharacterLayer:
     serializedVersion: 2
@@ -49271,6 +49583,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   obstacle: 0
+  containsCharacter: 0
   height: 0
   CharacterLayer:
     serializedVersion: 2
@@ -49405,6 +49718,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   obstacle: 0
+  containsCharacter: 0
   height: 0
   CharacterLayer:
     serializedVersion: 2
@@ -49539,6 +49853,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   obstacle: 0
+  containsCharacter: 0
   height: 0
   CharacterLayer:
     serializedVersion: 2
@@ -49584,6 +49899,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   obstacle: 0
+  containsCharacter: 0
   height: 0
   CharacterLayer:
     serializedVersion: 2
@@ -49807,6 +50123,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   obstacle: 0
+  containsCharacter: 0
   height: 0
   CharacterLayer:
     serializedVersion: 2
@@ -49941,6 +50258,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   obstacle: 0
+  containsCharacter: 0
   height: 0
   CharacterLayer:
     serializedVersion: 2
@@ -50075,6 +50393,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   obstacle: 0
+  containsCharacter: 0
   height: 0
   CharacterLayer:
     serializedVersion: 2
@@ -50209,6 +50528,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   obstacle: 0
+  containsCharacter: 0
   height: 0
   CharacterLayer:
     serializedVersion: 2
@@ -50254,6 +50574,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   obstacle: 0
+  containsCharacter: 0
   height: 0
   CharacterLayer:
     serializedVersion: 2
@@ -50477,6 +50798,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   obstacle: 0
+  containsCharacter: 0
   height: 0
   CharacterLayer:
     serializedVersion: 2
@@ -50611,6 +50933,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   obstacle: 0
+  containsCharacter: 0
   height: 0
   CharacterLayer:
     serializedVersion: 2
@@ -50731,6 +51054,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   obstacle: 0
+  containsCharacter: 0
   height: 0
   CharacterLayer:
     serializedVersion: 2
@@ -50954,6 +51278,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   obstacle: 0
+  containsCharacter: 0
   height: 0
   CharacterLayer:
     serializedVersion: 2
@@ -51088,6 +51413,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   obstacle: 0
+  containsCharacter: 0
   height: 0
   CharacterLayer:
     serializedVersion: 2
@@ -51222,6 +51548,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   obstacle: 0
+  containsCharacter: 0
   height: 0
   CharacterLayer:
     serializedVersion: 2
@@ -51492,6 +51819,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   obstacle: 0
+  containsCharacter: 0
   height: 0
   CharacterLayer:
     serializedVersion: 2
@@ -51626,6 +51954,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   obstacle: 0
+  containsCharacter: 0
   height: 0
   CharacterLayer:
     serializedVersion: 2
@@ -51760,6 +52089,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   obstacle: 0
+  containsCharacter: 0
   height: 0
   CharacterLayer:
     serializedVersion: 2
@@ -51894,6 +52224,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   obstacle: 0
+  containsCharacter: 0
   height: 0
   CharacterLayer:
     serializedVersion: 2
@@ -52028,6 +52359,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   obstacle: 0
+  containsCharacter: 0
   height: 0
   CharacterLayer:
     serializedVersion: 2
@@ -52295,6 +52627,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   obstacle: 0
+  containsCharacter: 0
   height: 0
   CharacterLayer:
     serializedVersion: 2
@@ -52565,6 +52898,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   obstacle: 0
+  containsCharacter: 0
   height: 0
   CharacterLayer:
     serializedVersion: 2
@@ -52610,6 +52944,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   obstacle: 0
+  containsCharacter: 0
   height: 0
   CharacterLayer:
     serializedVersion: 2
@@ -52833,6 +53168,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   obstacle: 0
+  containsCharacter: 0
   height: 0
   CharacterLayer:
     serializedVersion: 2
@@ -52967,6 +53303,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   obstacle: 0
+  containsCharacter: 0
   height: 0
   CharacterLayer:
     serializedVersion: 2
@@ -53101,6 +53438,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   obstacle: 0
+  containsCharacter: 0
   height: 0
   CharacterLayer:
     serializedVersion: 2
@@ -53235,6 +53573,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   obstacle: 0
+  containsCharacter: 0
   height: 0
   CharacterLayer:
     serializedVersion: 2
@@ -53507,6 +53846,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   obstacle: 0
+  containsCharacter: 0
   height: 0
   CharacterLayer:
     serializedVersion: 2
@@ -53552,6 +53892,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   obstacle: 0
+  containsCharacter: 0
   height: 0
   CharacterLayer:
     serializedVersion: 2
@@ -53775,6 +54116,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   obstacle: 0
+  containsCharacter: 0
   height: 0
   CharacterLayer:
     serializedVersion: 2
@@ -53909,6 +54251,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   obstacle: 0
+  containsCharacter: 0
   height: 0
   CharacterLayer:
     serializedVersion: 2
@@ -54043,6 +54386,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   obstacle: 0
+  containsCharacter: 0
   height: 0
   CharacterLayer:
     serializedVersion: 2
@@ -54177,6 +54521,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   obstacle: 0
+  containsCharacter: 0
   height: 0
   CharacterLayer:
     serializedVersion: 2
@@ -54311,6 +54656,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   obstacle: 0
+  containsCharacter: 0
   height: 0
   CharacterLayer:
     serializedVersion: 2
@@ -54445,6 +54791,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   obstacle: 0
+  containsCharacter: 0
   height: 0
   CharacterLayer:
     serializedVersion: 2
@@ -54579,6 +54926,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   obstacle: 0
+  containsCharacter: 0
   height: 0
   CharacterLayer:
     serializedVersion: 2
@@ -54713,6 +55061,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   obstacle: 0
+  containsCharacter: 0
   height: 0
   CharacterLayer:
     serializedVersion: 2
@@ -54847,6 +55196,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   obstacle: 0
+  containsCharacter: 0
   height: 0
   CharacterLayer:
     serializedVersion: 2
@@ -54981,6 +55331,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   obstacle: 0
+  containsCharacter: 0
   height: 0
   CharacterLayer:
     serializedVersion: 2
@@ -55152,6 +55503,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   obstacle: 0
+  containsCharacter: 0
   height: 0
   CharacterLayer:
     serializedVersion: 2
@@ -55286,6 +55638,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   obstacle: 0
+  containsCharacter: 0
   height: 0
   CharacterLayer:
     serializedVersion: 2
@@ -55420,6 +55773,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   obstacle: 0
+  containsCharacter: 0
   height: 0
   CharacterLayer:
     serializedVersion: 2
@@ -55554,6 +55908,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   obstacle: 0
+  containsCharacter: 0
   height: 0
   CharacterLayer:
     serializedVersion: 2
@@ -55688,6 +56043,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   obstacle: 0
+  containsCharacter: 0
   height: 0
   CharacterLayer:
     serializedVersion: 2
@@ -55733,6 +56089,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   obstacle: 0
+  containsCharacter: 0
   height: 0
   CharacterLayer:
     serializedVersion: 2
@@ -55956,6 +56313,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   obstacle: 0
+  containsCharacter: 0
   height: 0
   CharacterLayer:
     serializedVersion: 2
@@ -56090,6 +56448,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   obstacle: 0
+  containsCharacter: 0
   height: 0
   CharacterLayer:
     serializedVersion: 2
@@ -56224,6 +56583,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   obstacle: 0
+  containsCharacter: 0
   height: 0
   CharacterLayer:
     serializedVersion: 2
@@ -56358,6 +56718,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   obstacle: 0
+  containsCharacter: 0
   height: 0
   CharacterLayer:
     serializedVersion: 2
@@ -56492,6 +56853,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   obstacle: 0
+  containsCharacter: 0
   height: 0
   CharacterLayer:
     serializedVersion: 2
@@ -56626,6 +56988,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   obstacle: 0
+  containsCharacter: 0
   height: 0
   CharacterLayer:
     serializedVersion: 2
@@ -56760,6 +57123,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   obstacle: 0
+  containsCharacter: 0
   height: 0
   CharacterLayer:
     serializedVersion: 2
@@ -56894,6 +57258,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   obstacle: 0
+  containsCharacter: 0
   height: 0
   CharacterLayer:
     serializedVersion: 2
@@ -57028,6 +57393,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   obstacle: 0
+  containsCharacter: 0
   height: 0
   CharacterLayer:
     serializedVersion: 2
@@ -57162,6 +57528,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   obstacle: 0
+  containsCharacter: 0
   height: 0
   CharacterLayer:
     serializedVersion: 2
@@ -57296,6 +57663,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   obstacle: 0
+  containsCharacter: 0
   height: 0
   CharacterLayer:
     serializedVersion: 2
@@ -57430,6 +57798,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   obstacle: 0
+  containsCharacter: 0
   height: 0
   CharacterLayer:
     serializedVersion: 2
@@ -57564,6 +57933,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   obstacle: 0
+  containsCharacter: 0
   height: 0
   CharacterLayer:
     serializedVersion: 2
@@ -57698,6 +58068,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   obstacle: 0
+  containsCharacter: 0
   height: 0
   CharacterLayer:
     serializedVersion: 2
@@ -57832,6 +58203,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   obstacle: 0
+  containsCharacter: 0
   height: 0
   CharacterLayer:
     serializedVersion: 2
@@ -57966,6 +58338,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   obstacle: 0
+  containsCharacter: 0
   height: 0
   CharacterLayer:
     serializedVersion: 2
@@ -58100,6 +58473,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   obstacle: 0
+  containsCharacter: 0
   height: 0
   CharacterLayer:
     serializedVersion: 2
@@ -58234,6 +58608,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   obstacle: 0
+  containsCharacter: 0
   height: 0
   CharacterLayer:
     serializedVersion: 2
@@ -58368,6 +58743,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   obstacle: 0
+  containsCharacter: 0
   height: 0
   CharacterLayer:
     serializedVersion: 2
@@ -58502,6 +58878,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   obstacle: 0
+  containsCharacter: 0
   height: 0
   CharacterLayer:
     serializedVersion: 2
@@ -58636,6 +59013,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   obstacle: 0
+  containsCharacter: 0
   height: 0
   CharacterLayer:
     serializedVersion: 2
@@ -58770,6 +59148,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   obstacle: 0
+  containsCharacter: 0
   height: 0
   CharacterLayer:
     serializedVersion: 2
@@ -58904,6 +59283,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   obstacle: 0
+  containsCharacter: 0
   height: 0
   CharacterLayer:
     serializedVersion: 2
@@ -59038,6 +59418,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   obstacle: 0
+  containsCharacter: 0
   height: 0
   CharacterLayer:
     serializedVersion: 2
@@ -59172,6 +59553,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   obstacle: 0
+  containsCharacter: 0
   height: 0
   CharacterLayer:
     serializedVersion: 2
@@ -59306,6 +59688,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   obstacle: 0
+  containsCharacter: 0
   height: 0
   CharacterLayer:
     serializedVersion: 2

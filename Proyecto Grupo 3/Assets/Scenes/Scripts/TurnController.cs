@@ -47,6 +47,10 @@ public class TurnController : MonoBehaviour
         }
         characterOrder[characterOrder.Count - 1] = storedCharacterController;
         currentCharacter = characterOrder[0];
+        foreach(CharacterController controller in characterOrder)
+        {
+            controller.LockBlock();
+        }
         Debug.Log(currentCharacter.name);
     }
 

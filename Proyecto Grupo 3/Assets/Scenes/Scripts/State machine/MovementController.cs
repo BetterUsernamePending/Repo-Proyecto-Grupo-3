@@ -2,12 +2,14 @@ using System;
 using System.Collections.Generic;
 using UnityEngine;
 using System.Linq;
+using Unity.VisualScripting;
 
 public class MovementController
 {
     private List<Block> possibleBlocks = new List<Block>();
     private List<Block> pathBlocks = new List<Block>();
     public bool alreadyMoved = false;
+    [SerializeField] private GameObject canvas;
     public void OnStateEnter() //Volver "OnStateEnter", placeholder.
     {
         alreadyMoved = false;
@@ -30,7 +32,8 @@ public class MovementController
 
     public void ShowPathFound(Block clicked)
     {
-        if (possibleBlocks.Exists(Block => Block == clicked))
+
+        if (possibleBlocks.Exists(Block => Block == clicked) && !clicked.containsCharacter)
         {
             CharacterController current = TurnController.currentCharacter;
             foreach (var block in possibleBlocks)

@@ -18,6 +18,8 @@ public class CharacterController : MonoBehaviour
     public Block currentBlock; //bloque en el que está parado el personaje
     public Block targetBlock;
     [SerializeField] private LayerMask LayerToFind;
+    [SerializeField] public UIManager uiManager;
+    public bool isMoving = false;
 
     //Pathfinding.showPossible(currentBlock,dist,jump); Funcion que usa los valores del personaje para mostrar las casillas posibles. Desactivada actualmente por testeo (los personajes no están implementados)
     /* List<Block> Pathfinding.findPath(Block currentBlock, Block targetBlock,int jump)
@@ -35,8 +37,9 @@ public class CharacterController : MonoBehaviour
         if (Physics.Raycast(transform.position, Vector3.down, out hit, Mathf.Infinity, LayerToFind))
         {
             currentBlock = hit.collider.gameObject.GetComponent<Block>();
-            Debug.Log(currentBlock.name);
+            Debug.Log("character" + " " + this.name + " " + "standing in " + currentBlock.name);
         } 
+        uiManager = FindAnyObjectByType<UIManager>();
     }
     /*private void OnPointerClick(PointerEventData pointerEventData)
     {
@@ -46,6 +49,7 @@ public class CharacterController : MonoBehaviour
 
     public void CharacterMove(List<Block> blockPath)
     {
+        uiManager.DeactivateBattleUI();
         currentBlock.characterOnBlock = null;
         targetBlock = blockPath.Last();
         Vector3[] blockPositions = new Vector3[blockPath.Count];
@@ -58,14 +62,22 @@ public class CharacterController : MonoBehaviour
             .OnComplete(() =>
             {
                 Reposition();
+                uiManager.ActivateBattleUI();
             });
+        
     }
 
     public void Reposition()
     {
+        currentBlock.containsCharacter = false;
         currentBlock = targetBlock;
         currentBlock.characterOnBlock = this;
         targetBlock = null;
-        Debug.Log(name);
+        Debug.Log(this.name + "new position is " + currentBlock.name);
+    }
+
+    public void LockBlock()
+    {
+        currentBlock.containsCharacter = true;
     }
 }

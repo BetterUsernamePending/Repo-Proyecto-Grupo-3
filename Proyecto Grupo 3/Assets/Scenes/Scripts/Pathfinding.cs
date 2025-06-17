@@ -5,7 +5,7 @@ using System.Collections.Generic;
 
 
 public class Pathfinding
-{ 
+{
     public static List<Block> showPossible(Block startingBlock, int dist, int jump) //crea una lista con las casillas posibles a las que se puede mover el jugador
     {
         List<Block> toSearch = new List<Block>() { startingBlock };
@@ -17,7 +17,6 @@ public class Pathfinding
             {
                 current.TextureChange();
                 processed.Add(current);
-                Debug.Log(current.name);
                 foreach (Block block in current.Neighbors.Where(block => block.isWalkable(Mathf.Abs(current.height - block.height), jump)
                 && !processed.Contains(block) && !block.obstacle))
                 {
@@ -25,7 +24,6 @@ public class Pathfinding
                     {
                         nextToSearch.Add(block);
                     }
-
                 }
             }
             toSearch = new List<Block>(nextToSearch);
@@ -39,54 +37,50 @@ public class Pathfinding
     {
         List<Block> toSearch = new List<Block>() { startingBlock };
         List<Block> processed = new List<Block>();
-
-        while (toSearch.Any())  
+        if (targetBlock.containsCharacter != true)
         {
-            Block current = toSearch[0];
-            foreach (Block i in toSearch)
-                if (i.F < current.F || i.F == current.F && i.H < current.H)
-                    current = i;
-
-            processed.Add(current);
-            toSearch.Remove(current);
-
-            if (current == targetBlock)
+            while (toSearch.Any())
             {
-                var currentPathTile = targetBlock;
-                var path = new List<Block>();
-                var count = 100;
-                while (currentPathTile != startingBlock)
+                Block current = toSearch[0];
+                foreach (Block i in toSearch)
+                    if (i.F < current.F || i.F == current.F && i.H < current.H)
+                        current = i;
+                processed.Add(current);
+                toSearch.Remove(current);
+
+                if (current == targetBlock)
                 {
-                    path.Add(currentPathTile);
-                    currentPathTile = currentPathTile.Connection;
-                    count--;
-                    if (count < 0) throw new Exception();
-                    Debug.Log("sdfsdf");
-                }
-
-                /*foreach (var tile in path) tile.SetColor(PathColor);
-                startNode.SetColor(PathColor);
-                Debug.Log(path.Count);*/
-                path.Reverse();
-                return path;
-            }
-                foreach (Block block in current.Neighbors.Where(block => block.isWalkable(Mathf.Abs(current.height - block.height), jump) == true 
-                && !processed.Contains(block) && !block.obstacle))
-            {
-                var inSearch = toSearch.Contains(block);
-                var costToNeighbor = current.G + current.GetDistance(current,block);
-
-                if (!inSearch || costToNeighbor < block.G)
-                {
-                    block.SetG(costToNeighbor);
-                    block.SetConnection(current);
-
-                    if (!inSearch)
+                    var currentPathTile = targetBlock;
+                    var path = new List<Block>();
+                    var count = 100;
+                    while (currentPathTile != startingBlock)
                     {
-                        block.SetH(block.GetDistance(startingBlock, targetBlock));
-                        toSearch.Add(block);
+                        path.Add(currentPathTile);
+                        currentPathTile = currentPathTile.Connection;
+                        count--;
+                        if (count < 0) throw new Exception();
                     }
+                    path.Reverse();
+                    return path;
+                }
+                foreach (Block block in current.Neighbors.Where(block => block.isWalkable(Mathf.Abs(current.height - block.height), jump) == true
+                && !processed.Contains(block) && !block.obstacle && !block.containsCharacter))
+                {
+                    var inSearch = toSearch.Contains(block);
+                    var costToNeighbor = current.G + current.GetDistance(current, block);
 
+                    if (!inSearch || costToNeighbor < block.G)
+                    {
+                        block.SetG(costToNeighbor);
+                        block.SetConnection(current);
+
+                        if (!inSearch)
+                        {
+                            block.SetH(block.GetDistance(startingBlock, targetBlock));
+                            toSearch.Add(block);
+                        }
+
+                    }
                 }
             }
         }

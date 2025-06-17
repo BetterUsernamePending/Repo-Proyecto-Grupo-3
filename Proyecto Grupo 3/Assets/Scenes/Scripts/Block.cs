@@ -17,6 +17,7 @@ public class Block : MonoBehaviour
     public float H { get; private set; }
     public float F => G + H;
     [SerializeField] public bool obstacle = false;
+    public bool containsCharacter = false;
     [SerializeField] public int height;
     [SerializeField] private LayerMask CharacterLayer;
     public CharacterController characterOnBlock;
@@ -106,7 +107,8 @@ public class Block : MonoBehaviour
         if (Physics.Raycast(transform.position, Vector3.up, out hit, Mathf.Infinity, CharacterLayer))
         {
             characterOnBlock = hit.collider.gameObject.GetComponent<CharacterController>();
-            Debug.Log("SE DISPARÓ UN RAYO");
+            this.containsCharacter = true;
+            Debug.Log("Raycast hit"+ " " + hit.collider.gameObject.name);
         }
     }                 
 }

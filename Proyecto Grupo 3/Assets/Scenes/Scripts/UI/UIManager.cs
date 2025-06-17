@@ -12,11 +12,15 @@ public class UIManager : MonoBehaviour
 
     public GameObject cancelMove;
     public GameObject moveButton;
+    [SerializeField] public GameObject battleUI;
+    [SerializeField] private TurnController turnController;
     public bool isPaused = false;
+    private CharacterController CurrentCharacter;
 
     private void Start ()
     {
         MenuDePausa.SetActive(false);
+        CurrentCharacter = TurnController.currentCharacter; 
     }
 
     private void Update()
@@ -44,8 +48,14 @@ public class UIManager : MonoBehaviour
         }
     }
 
-
-
+    public void DeactivateBattleUI()
+    {
+        battleUI.SetActive(false);
+    }
+    public void ActivateBattleUI()
+    {
+        battleUI.SetActive(true);
+    }
     private void OnExitButtonPressed()
     {
 
