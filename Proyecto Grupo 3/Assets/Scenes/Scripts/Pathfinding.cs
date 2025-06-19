@@ -15,7 +15,6 @@ public class Pathfinding
         {
             foreach (var current in toSearch)
             {
-                current.TextureChange();
                 processed.Add(current);
                 foreach (Block block in current.Neighbors.Where(block => block.isWalkable(Mathf.Abs(current.height - block.height), jump)
                 && !processed.Contains(block) && !block.obstacle))

@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Generic;
+using System.Linq;
 using UnityEngine;
 using UnityEngine.EventSystems;
 using static UnityEditor.PlayerSettings;
@@ -11,6 +12,7 @@ public class Block : MonoBehaviour
     [SerializeField] private Material newMaterial;
     public static Action<Block> onBlockClicked;
     public List<Block> Neighbors => neighborBlocks;
+    private List<Block> children = new List<Block>();
     public LayerMask m_Triggers;
     public Block Connection { get; private set; }
     public float G { get; private set; }
@@ -28,6 +30,8 @@ public class Block : MonoBehaviour
     }
     void Start()
     {
+        children = GetComponentsInChildren<Block>().ToList();
+        children.Remove(this);
         DetectCharacter();
         
         if (characterOnBlock != null)
@@ -86,20 +90,24 @@ public class Block : MonoBehaviour
 
     }
 
-    private void OnMouseDown()
+    /*private void OnMouseDown()
     {
-        Debug.Log("click" + " " + gameObject.name);
         onBlockClicked?.Invoke(this);
-    }
+    }*/
 
     public void TextureChange()
     {
+        
         GetComponent<Renderer>().material = newMaterial;
+        foreach (var block in children)
+            block.TextureChange();
     }
 
     public void TextureRevert()
     {
         GetComponent<Renderer>().material = baseMaterial;
+        foreach (var block in children)
+            block.TextureRevert();
     }
     public void DetectCharacter()
     {

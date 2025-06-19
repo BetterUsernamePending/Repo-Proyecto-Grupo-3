@@ -13,6 +13,7 @@ public class GameController : MonoBehaviour
     void Start()
     {
        //StartCoroutine(Delay());
+       battleController = FindAnyObjectByType<BattleController>();
     }
     IEnumerator Delay()
     {
@@ -27,8 +28,20 @@ public class GameController : MonoBehaviour
             movementController.MoveToClicked();
         if (Input.GetKeyDown(KeyCode.A) && battleController.alreadyAttacked == false)
             battleController.ExecuteAttack();
+        if(Input.GetMouseButtonDown(0))
+            GetClickedBlock();
     }
 
+    public void GetClickedBlock()
+    {
+        RaycastHit hit;
+        Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
+        if (Physics.Raycast(ray, out hit))
+        {
+            Block.onBlockClicked?.Invoke(hit.transform.GetComponent<Block>());
+            Debug.Log(hit.transform.name);
+        }
+    }
     public void LoadMovementState()
     {
         movementController = new MovementController();

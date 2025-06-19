@@ -130,7 +130,6 @@ GameObject:
   - component: {fileID: 1179928}
   - component: {fileID: 1179927}
   - component: {fileID: 1179926}
-  - component: {fileID: 1179925}
   - component: {fileID: 1179929}
   m_Layer: 0
   m_Name: Casilla (365)
@@ -139,27 +138,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!65 &1179925
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1179924}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.9, y: 0.9, z: 0.9}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &1179926
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -265,7 +243,6 @@ GameObject:
   - component: {fileID: 7835331}
   - component: {fileID: 7835330}
   - component: {fileID: 7835329}
-  - component: {fileID: 7835328}
   - component: {fileID: 7835332}
   m_Layer: 0
   m_Name: Casilla (283)
@@ -274,27 +251,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!65 &7835328
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7835327}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.9, y: 0.9, z: 0.9}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &7835329
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -518,7 +474,7 @@ MonoBehaviour:
     m_Bits: 64
   obstacle: 0
   containsCharacter: 0
-  height: 0
+  height: 2
   CharacterLayer:
     serializedVersion: 2
     m_Bits: 8
@@ -698,7 +654,7 @@ MonoBehaviour:
     m_Bits: 64
   obstacle: 0
   containsCharacter: 0
-  height: 0
+  height: 2
   CharacterLayer:
     serializedVersion: 2
     m_Bits: 8
@@ -966,7 +922,7 @@ MonoBehaviour:
     m_Bits: 64
   obstacle: 0
   containsCharacter: 0
-  height: 0
+  height: 2
   CharacterLayer:
     serializedVersion: 2
     m_Bits: 8
@@ -1433,7 +1389,6 @@ GameObject:
   - component: {fileID: 53132974}
   - component: {fileID: 53132973}
   - component: {fileID: 53132972}
-  - component: {fileID: 53132971}
   - component: {fileID: 53132975}
   m_Layer: 0
   m_Name: Casilla (272)
@@ -1442,27 +1397,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!65 &53132971
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 53132970}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.9, y: 0.9, z: 0.9}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &53132972
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -1524,12 +1458,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 53132970}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 4, y: 1, z: 13}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 1, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1756191803}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &53132975
 MonoBehaviour:
@@ -1545,7 +1479,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   neighborBlocks: []
   baseMaterial: {fileID: 0}
-  newMaterial: {fileID: 0}
+  newMaterial: {fileID: 2100000, guid: 9a5cef007fd4bce408a318edfae4cc4a, type: 2}
   m_Triggers:
     serializedVersion: 2
     m_Bits: 64
@@ -1606,7 +1540,6 @@ GameObject:
   - component: {fileID: 54438340}
   - component: {fileID: 54438339}
   - component: {fileID: 54438338}
-  - component: {fileID: 54438337}
   - component: {fileID: 54438341}
   m_Layer: 0
   m_Name: Casilla (370)
@@ -1615,27 +1548,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!65 &54438337
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 54438336}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.9, y: 0.9, z: 0.9}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &54438338
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -2146,7 +2058,6 @@ GameObject:
   - component: {fileID: 78506325}
   - component: {fileID: 78506324}
   - component: {fileID: 78506323}
-  - component: {fileID: 78506322}
   - component: {fileID: 78506326}
   m_Layer: 0
   m_Name: Casilla (340)
@@ -2155,27 +2066,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!65 &78506322
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 78506321}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.9, y: 0.9, z: 0.9}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &78506323
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -2804,7 +2694,7 @@ MonoBehaviour:
     m_Bits: 64
   obstacle: 0
   containsCharacter: 0
-  height: 0
+  height: 2
   CharacterLayer:
     serializedVersion: 2
     m_Bits: 8
@@ -3911,7 +3801,6 @@ GameObject:
   - component: {fileID: 174660467}
   - component: {fileID: 174660466}
   - component: {fileID: 174660465}
-  - component: {fileID: 174660464}
   - component: {fileID: 174660468}
   m_Layer: 0
   m_Name: Casilla (300)
@@ -3920,27 +3809,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!65 &174660464
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 174660463}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.9, y: 0.9, z: 0.9}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &174660465
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -4046,7 +3914,6 @@ GameObject:
   - component: {fileID: 175117794}
   - component: {fileID: 175117793}
   - component: {fileID: 175117792}
-  - component: {fileID: 175117791}
   - component: {fileID: 175117795}
   m_Layer: 0
   m_Name: Casilla (336)
@@ -4055,27 +3922,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!65 &175117791
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 175117790}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.9, y: 0.9, z: 0.9}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &175117792
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -4316,7 +4162,6 @@ GameObject:
   - component: {fileID: 180355752}
   - component: {fileID: 180355751}
   - component: {fileID: 180355750}
-  - component: {fileID: 180355749}
   - component: {fileID: 180355753}
   m_Layer: 0
   m_Name: Casilla (318)
@@ -4325,27 +4170,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!65 &180355749
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 180355748}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.9, y: 0.9, z: 0.9}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &180355750
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -4704,7 +4528,7 @@ MonoBehaviour:
     m_Bits: 64
   obstacle: 0
   containsCharacter: 0
-  height: 0
+  height: 2
   CharacterLayer:
     serializedVersion: 2
     m_Bits: 8
@@ -4856,7 +4680,6 @@ GameObject:
   - component: {fileID: 189770316}
   - component: {fileID: 189770315}
   - component: {fileID: 189770314}
-  - component: {fileID: 189770313}
   - component: {fileID: 189770317}
   m_Layer: 0
   m_Name: Casilla (288)
@@ -4865,27 +4688,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!65 &189770313
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 189770312}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.9, y: 0.9, z: 0.9}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &189770314
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -5109,7 +4911,7 @@ MonoBehaviour:
     m_Bits: 64
   obstacle: 0
   containsCharacter: 0
-  height: 0
+  height: 2
   CharacterLayer:
     serializedVersion: 2
     m_Bits: 8
@@ -5261,7 +5063,6 @@ GameObject:
   - component: {fileID: 208187882}
   - component: {fileID: 208187881}
   - component: {fileID: 208187880}
-  - component: {fileID: 208187879}
   - component: {fileID: 208187883}
   m_Layer: 0
   m_Name: Casilla (315)
@@ -5270,27 +5071,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!65 &208187879
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 208187878}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.9, y: 0.9, z: 0.9}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &208187880
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -5531,7 +5311,6 @@ GameObject:
   - component: {fileID: 222625451}
   - component: {fileID: 222625450}
   - component: {fileID: 222625449}
-  - component: {fileID: 222625448}
   - component: {fileID: 222625452}
   m_Layer: 0
   m_Name: Casilla (308)
@@ -5540,27 +5319,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!65 &222625448
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 222625447}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.9, y: 0.9, z: 0.9}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &222625449
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -5666,7 +5424,6 @@ GameObject:
   - component: {fileID: 222956144}
   - component: {fileID: 222956143}
   - component: {fileID: 222956142}
-  - component: {fileID: 222956141}
   - component: {fileID: 222956145}
   m_Layer: 0
   m_Name: Casilla (375)
@@ -5675,27 +5432,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!65 &222956141
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 222956140}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.9, y: 0.9, z: 0.9}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &222956142
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -5989,6 +5725,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 32526636}
+        m_TargetAssemblyTypeName: GameController, Assembly-CSharp
+        m_MethodName: CancelBattleState
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &226613469
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6193,7 +5941,6 @@ GameObject:
   - component: {fileID: 231140421}
   - component: {fileID: 231140420}
   - component: {fileID: 231140419}
-  - component: {fileID: 231140418}
   - component: {fileID: 231140422}
   m_Layer: 0
   m_Name: Casilla (305)
@@ -6202,27 +5949,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!65 &231140418
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 231140417}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.9, y: 0.9, z: 0.9}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &231140419
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -6598,7 +6324,6 @@ GameObject:
   - component: {fileID: 237425948}
   - component: {fileID: 237425947}
   - component: {fileID: 237425946}
-  - component: {fileID: 237425945}
   - component: {fileID: 237425949}
   m_Layer: 0
   m_Name: Casilla (281)
@@ -6607,27 +6332,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!65 &237425945
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 237425944}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.9, y: 0.9, z: 0.9}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &237425946
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -6868,7 +6572,6 @@ GameObject:
   - component: {fileID: 248145153}
   - component: {fileID: 248145152}
   - component: {fileID: 248145151}
-  - component: {fileID: 248145150}
   - component: {fileID: 248145154}
   m_Layer: 0
   m_Name: Casilla (277)
@@ -6877,27 +6580,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!65 &248145150
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 248145149}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.9, y: 0.9, z: 0.9}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &248145151
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -7256,7 +6938,7 @@ MonoBehaviour:
     m_Bits: 64
   obstacle: 0
   containsCharacter: 0
-  height: 0
+  height: 2
   CharacterLayer:
     serializedVersion: 2
     m_Bits: 8
@@ -7408,7 +7090,6 @@ GameObject:
   - component: {fileID: 271999368}
   - component: {fileID: 271999367}
   - component: {fileID: 271999366}
-  - component: {fileID: 271999365}
   - component: {fileID: 271999369}
   m_Layer: 0
   m_Name: Casilla (274)
@@ -7417,27 +7098,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!65 &271999365
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 271999364}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.9, y: 0.9, z: 0.9}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &271999366
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -7618,7 +7278,6 @@ GameObject:
   - component: {fileID: 279947782}
   - component: {fileID: 279947781}
   - component: {fileID: 279947780}
-  - component: {fileID: 279947779}
   - component: {fileID: 279947783}
   m_Layer: 0
   m_Name: Casilla (306)
@@ -7627,27 +7286,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!65 &279947779
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 279947778}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.9, y: 0.9, z: 0.9}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &279947780
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -7888,7 +7526,6 @@ GameObject:
   - component: {fileID: 286211760}
   - component: {fileID: 286211759}
   - component: {fileID: 286211758}
-  - component: {fileID: 286211757}
   - component: {fileID: 286211761}
   m_Layer: 0
   m_Name: Casilla (285)
@@ -7897,27 +7534,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!65 &286211757
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 286211756}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.9, y: 0.9, z: 0.9}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &286211758
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -8179,12 +7795,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   atk: 1
   def: 1
-  spd: 1
+  spd: 2
   hp: 1
   mp: 1
   jump: 4
   dist: 5
   range: 2
+  attackHeight: 1
   currentBlock: {fileID: 0}
   targetBlock: {fileID: 0}
   LayerToFind:
@@ -8466,7 +8083,7 @@ MonoBehaviour:
     m_Bits: 64
   obstacle: 0
   containsCharacter: 0
-  height: 0
+  height: 2
   CharacterLayer:
     serializedVersion: 2
     m_Bits: 8
@@ -8736,7 +8353,7 @@ MonoBehaviour:
     m_Bits: 64
   obstacle: 0
   containsCharacter: 0
-  height: 0
+  height: 2
   CharacterLayer:
     serializedVersion: 2
     m_Bits: 8
@@ -9233,160 +8850,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 325081128}
   m_Mesh: {fileID: 10206, guid: 0000000000000000e000000000000000, type: 0}
---- !u!1 &330585543
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 330585546}
-  - component: {fileID: 330585545}
-  - component: {fileID: 330585544}
-  - component: {fileID: 330585547}
-  - component: {fileID: 330585548}
-  m_Layer: 0
-  m_Name: Main Camera
-  m_TagString: MainCamera
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!81 &330585544
-AudioListener:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 330585543}
-  m_Enabled: 1
---- !u!20 &330585545
-Camera:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 330585543}
-  m_Enabled: 1
-  serializedVersion: 2
-  m_ClearFlags: 1
-  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
-  m_projectionMatrixMode: 1
-  m_GateFitMode: 2
-  m_FOVAxisMode: 0
-  m_Iso: 200
-  m_ShutterSpeed: 0.005
-  m_Aperture: 16
-  m_FocusDistance: 10
-  m_FocalLength: 50
-  m_BladeCount: 5
-  m_Curvature: {x: 2, y: 11}
-  m_BarrelClipping: 0.25
-  m_Anamorphism: 0
-  m_SensorSize: {x: 36, y: 24}
-  m_LensShift: {x: 0, y: 0}
-  m_NormalizedViewPortRect:
-    serializedVersion: 2
-    x: 0
-    y: 0
-    width: 1
-    height: 1
-  near clip plane: 0.3
-  far clip plane: 1000
-  field of view: 60
-  orthographic: 0
-  orthographic size: 5
-  m_Depth: -1
-  m_CullingMask:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_RenderingPath: -1
-  m_TargetTexture: {fileID: 0}
-  m_TargetDisplay: 0
-  m_TargetEye: 3
-  m_HDR: 1
-  m_AllowMSAA: 1
-  m_AllowDynamicResolution: 0
-  m_ForceIntoRT: 0
-  m_OcclusionCulling: 1
-  m_StereoConvergence: 10
-  m_StereoSeparation: 0.022
---- !u!4 &330585546
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 330585543}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0.3233619, y: 0.2993164, z: -0.12444463, w: 0.8890222}
-  m_LocalPosition: {x: -3.13, y: 11.6, z: -2.31}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 40.5, y: 36.445, z: -2.087}
---- !u!114 &330585547
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 330585543}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a79441f348de89743a2939f4d699eac1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_RenderShadows: 1
-  m_RequiresDepthTextureOption: 2
-  m_RequiresOpaqueTextureOption: 2
-  m_CameraType: 0
-  m_Cameras: []
-  m_RendererIndex: -1
-  m_VolumeLayerMask:
-    serializedVersion: 2
-    m_Bits: 1
-  m_VolumeTrigger: {fileID: 0}
-  m_VolumeFrameworkUpdateModeOption: 2
-  m_RenderPostProcessing: 1
-  m_Antialiasing: 0
-  m_AntialiasingQuality: 2
-  m_StopNaN: 0
-  m_Dithering: 0
-  m_ClearDepth: 1
-  m_AllowXRRendering: 1
-  m_AllowHDROutput: 1
-  m_UseScreenCoordOverride: 0
-  m_ScreenSizeOverride: {x: 0, y: 0, z: 0, w: 0}
-  m_ScreenCoordScaleBias: {x: 0, y: 0, z: 0, w: 0}
-  m_RequiresDepthTexture: 0
-  m_RequiresColorTexture: 0
-  m_Version: 2
-  m_TaaSettings:
-    m_Quality: 3
-    m_FrameInfluence: 0.1
-    m_JitterScale: 1
-    m_MipBias: 0
-    m_VarianceClampScale: 0.9
-    m_ContrastAdaptiveSharpening: 0
---- !u!114 &330585548
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 330585543}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c49b4cc203aa6414fae5c798d1d0e7d6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_EventMask:
-    serializedVersion: 2
-    m_Bits: 64
-  m_MaxRayIntersections: 0
 --- !u!1 &335963401
 GameObject:
   m_ObjectHideFlags: 0
@@ -9398,7 +8861,6 @@ GameObject:
   - component: {fileID: 335963405}
   - component: {fileID: 335963404}
   - component: {fileID: 335963403}
-  - component: {fileID: 335963402}
   - component: {fileID: 335963406}
   m_Layer: 0
   m_Name: Casilla (341)
@@ -9407,27 +8869,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!65 &335963402
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 335963401}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.9, y: 0.9, z: 0.9}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &335963403
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -9651,7 +9092,7 @@ MonoBehaviour:
     m_Bits: 64
   obstacle: 0
   containsCharacter: 0
-  height: 0
+  height: 1
   CharacterLayer:
     serializedVersion: 2
     m_Bits: 8
@@ -9722,7 +9163,6 @@ GameObject:
   - component: {fileID: 342978355}
   - component: {fileID: 342978354}
   - component: {fileID: 342978353}
-  - component: {fileID: 342978352}
   - component: {fileID: 342978356}
   m_Layer: 0
   m_Name: Casilla (388)
@@ -9731,27 +9171,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!65 &342978352
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 342978351}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.9, y: 0.9, z: 0.9}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &342978353
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -9992,7 +9411,6 @@ GameObject:
   - component: {fileID: 359924645}
   - component: {fileID: 359924644}
   - component: {fileID: 359924643}
-  - component: {fileID: 359924642}
   - component: {fileID: 359924646}
   m_Layer: 0
   m_Name: Casilla (381)
@@ -10001,27 +9419,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!65 &359924642
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 359924641}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.9, y: 0.9, z: 0.9}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &359924643
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -10472,7 +9869,6 @@ GameObject:
   - component: {fileID: 369200133}
   - component: {fileID: 369200132}
   - component: {fileID: 369200131}
-  - component: {fileID: 369200130}
   - component: {fileID: 369200134}
   m_Layer: 0
   m_Name: Casilla (295)
@@ -10481,27 +9877,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!65 &369200130
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 369200129}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.9, y: 0.9, z: 0.9}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &369200131
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -10745,7 +10120,6 @@ GameObject:
   - component: {fileID: 371677227}
   - component: {fileID: 371677226}
   - component: {fileID: 371677225}
-  - component: {fileID: 371677224}
   - component: {fileID: 371677228}
   m_Layer: 0
   m_Name: Casilla (303)
@@ -10754,27 +10128,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!65 &371677224
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 371677223}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.9, y: 0.9, z: 0.9}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &371677225
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -11285,7 +10638,6 @@ GameObject:
   - component: {fileID: 382786929}
   - component: {fileID: 382786928}
   - component: {fileID: 382786927}
-  - component: {fileID: 382786926}
   - component: {fileID: 382786930}
   m_Layer: 0
   m_Name: Casilla (344)
@@ -11294,27 +10646,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!65 &382786926
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 382786925}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.9, y: 0.9, z: 0.9}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &382786927
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -11420,7 +10751,6 @@ GameObject:
   - component: {fileID: 383661381}
   - component: {fileID: 383661380}
   - component: {fileID: 383661379}
-  - component: {fileID: 383661378}
   - component: {fileID: 383661382}
   m_Layer: 0
   m_Name: Casilla (287)
@@ -11429,27 +10759,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!65 &383661378
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 383661377}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.9, y: 0.9, z: 0.9}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &383661379
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -12078,7 +11387,7 @@ MonoBehaviour:
     m_Bits: 64
   obstacle: 0
   containsCharacter: 0
-  height: 0
+  height: 2
   CharacterLayer:
     serializedVersion: 2
     m_Bits: 8
@@ -12095,7 +11404,6 @@ GameObject:
   - component: {fileID: 400242498}
   - component: {fileID: 400242497}
   - component: {fileID: 400242496}
-  - component: {fileID: 400242495}
   - component: {fileID: 400242499}
   m_Layer: 0
   m_Name: Casilla (276)
@@ -12104,27 +11412,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!65 &400242495
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 400242494}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.9, y: 0.9, z: 0.9}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &400242496
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -12481,7 +11768,7 @@ MonoBehaviour:
     m_Bits: 64
   obstacle: 0
   containsCharacter: 0
-  height: 0
+  height: 2
   CharacterLayer:
     serializedVersion: 2
     m_Bits: 8
@@ -12751,7 +12038,7 @@ MonoBehaviour:
     m_Bits: 64
   obstacle: 0
   containsCharacter: 0
-  height: 0
+  height: 2
   CharacterLayer:
     serializedVersion: 2
     m_Bits: 8
@@ -13019,7 +12306,7 @@ MonoBehaviour:
     m_Bits: 64
   obstacle: 0
   containsCharacter: 0
-  height: 0
+  height: 2
   CharacterLayer:
     serializedVersion: 2
     m_Bits: 8
@@ -13304,7 +12591,6 @@ GameObject:
   - component: {fileID: 456317080}
   - component: {fileID: 456317079}
   - component: {fileID: 456317078}
-  - component: {fileID: 456317077}
   - component: {fileID: 456317081}
   m_Layer: 0
   m_Name: Casilla (294)
@@ -13313,27 +12599,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!65 &456317077
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 456317076}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.9, y: 0.9, z: 0.9}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &456317078
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -13439,7 +12704,6 @@ GameObject:
   - component: {fileID: 459621853}
   - component: {fileID: 459621852}
   - component: {fileID: 459621851}
-  - component: {fileID: 459621850}
   - component: {fileID: 459621854}
   m_Layer: 0
   m_Name: Casilla (307)
@@ -13448,27 +12712,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!65 &459621850
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 459621849}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.9, y: 0.9, z: 0.9}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &459621851
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -13709,7 +12952,6 @@ GameObject:
   - component: {fileID: 486726598}
   - component: {fileID: 486726597}
   - component: {fileID: 486726596}
-  - component: {fileID: 486726595}
   - component: {fileID: 486726599}
   m_Layer: 0
   m_Name: Casilla (382)
@@ -13718,27 +12960,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!65 &486726595
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 486726594}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.9, y: 0.9, z: 0.9}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &486726596
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -14095,7 +13316,7 @@ MonoBehaviour:
     m_Bits: 64
   obstacle: 0
   containsCharacter: 0
-  height: 0
+  height: 2
   CharacterLayer:
     serializedVersion: 2
     m_Bits: 8
@@ -14365,7 +13586,7 @@ MonoBehaviour:
     m_Bits: 64
   obstacle: 0
   containsCharacter: 0
-  height: 0
+  height: 2
   CharacterLayer:
     serializedVersion: 2
     m_Bits: 8
@@ -14537,7 +13758,7 @@ MonoBehaviour:
     m_Bits: 64
   obstacle: 0
   containsCharacter: 0
-  height: 0
+  height: 2
   CharacterLayer:
     serializedVersion: 2
     m_Bits: 8
@@ -14672,7 +13893,7 @@ MonoBehaviour:
     m_Bits: 64
   obstacle: 0
   containsCharacter: 0
-  height: 0
+  height: 2
   CharacterLayer:
     serializedVersion: 2
     m_Bits: 8
@@ -14959,7 +14180,6 @@ GameObject:
   - component: {fileID: 509594361}
   - component: {fileID: 509594360}
   - component: {fileID: 509594359}
-  - component: {fileID: 509594358}
   - component: {fileID: 509594362}
   m_Layer: 0
   m_Name: Casilla (359)
@@ -14968,27 +14188,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!65 &509594358
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 509594357}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.9, y: 0.9, z: 0.9}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &509594359
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -15212,7 +14411,7 @@ MonoBehaviour:
     m_Bits: 64
   obstacle: 0
   containsCharacter: 0
-  height: 0
+  height: 2
   CharacterLayer:
     serializedVersion: 2
     m_Bits: 8
@@ -15482,7 +14681,7 @@ MonoBehaviour:
     m_Bits: 64
   obstacle: 0
   containsCharacter: 0
-  height: 0
+  height: 2
   CharacterLayer:
     serializedVersion: 2
     m_Bits: 8
@@ -15637,7 +14836,6 @@ GameObject:
   - component: {fileID: 532893814}
   - component: {fileID: 532893813}
   - component: {fileID: 532893812}
-  - component: {fileID: 532893811}
   - component: {fileID: 532893815}
   m_Layer: 0
   m_Name: Casilla (376)
@@ -15646,27 +14844,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!65 &532893811
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 532893810}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.9, y: 0.9, z: 0.9}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &532893812
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -15908,7 +15085,6 @@ GameObject:
   - component: {fileID: 542442874}
   - component: {fileID: 542442873}
   - component: {fileID: 542442872}
-  - component: {fileID: 542442871}
   - component: {fileID: 542442875}
   m_Layer: 0
   m_Name: Casilla (385)
@@ -15917,27 +15093,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!65 &542442871
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 542442870}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.9, y: 0.9, z: 0.9}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &542442872
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -16314,7 +15469,6 @@ GameObject:
   - component: {fileID: 569872506}
   - component: {fileID: 569872505}
   - component: {fileID: 569872504}
-  - component: {fileID: 569872503}
   - component: {fileID: 569872507}
   m_Layer: 0
   m_Name: Casilla (309)
@@ -16323,27 +15477,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!65 &569872503
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 569872502}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.9, y: 0.9, z: 0.9}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &569872504
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -16584,7 +15717,6 @@ GameObject:
   - component: {fileID: 570813175}
   - component: {fileID: 570813174}
   - component: {fileID: 570813173}
-  - component: {fileID: 570813172}
   - component: {fileID: 570813176}
   m_Layer: 0
   m_Name: Casilla (389)
@@ -16593,27 +15725,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!65 &570813172
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 570813171}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.9, y: 0.9, z: 0.9}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &570813173
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -16972,7 +16083,7 @@ MonoBehaviour:
     m_Bits: 64
   obstacle: 0
   containsCharacter: 0
-  height: 0
+  height: 2
   CharacterLayer:
     serializedVersion: 2
     m_Bits: 8
@@ -16989,7 +16100,6 @@ GameObject:
   - component: {fileID: 584133473}
   - component: {fileID: 584133472}
   - component: {fileID: 584133471}
-  - component: {fileID: 584133470}
   - component: {fileID: 584133474}
   m_Layer: 0
   m_Name: Casilla (356)
@@ -16998,27 +16108,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!65 &584133470
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 584133469}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.9, y: 0.9, z: 0.9}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &584133471
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -17564,7 +16653,6 @@ GameObject:
   - component: {fileID: 639863913}
   - component: {fileID: 639863912}
   - component: {fileID: 639863911}
-  - component: {fileID: 639863910}
   - component: {fileID: 639863914}
   m_Layer: 0
   m_Name: Casilla (299)
@@ -17573,27 +16661,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!65 &639863910
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 639863909}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.9, y: 0.9, z: 0.9}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &639863911
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -18087,7 +17154,7 @@ MonoBehaviour:
     m_Bits: 64
   obstacle: 0
   containsCharacter: 0
-  height: 0
+  height: 2
   CharacterLayer:
     serializedVersion: 2
     m_Bits: 8
@@ -18104,7 +17171,6 @@ GameObject:
   - component: {fileID: 654501611}
   - component: {fileID: 654501610}
   - component: {fileID: 654501609}
-  - component: {fileID: 654501608}
   - component: {fileID: 654501612}
   m_Layer: 0
   m_Name: Casilla (361)
@@ -18113,27 +17179,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!65 &654501608
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 654501607}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.9, y: 0.9, z: 0.9}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &654501609
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -18239,7 +17284,6 @@ GameObject:
   - component: {fileID: 660441756}
   - component: {fileID: 660441755}
   - component: {fileID: 660441754}
-  - component: {fileID: 660441753}
   - component: {fileID: 660441757}
   m_Layer: 0
   m_Name: Casilla (304)
@@ -18248,27 +17292,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!65 &660441753
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 660441752}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.9, y: 0.9, z: 0.9}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &660441754
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -18374,7 +17397,6 @@ GameObject:
   - component: {fileID: 671514053}
   - component: {fileID: 671514052}
   - component: {fileID: 671514051}
-  - component: {fileID: 671514050}
   - component: {fileID: 671514054}
   m_Layer: 0
   m_Name: Casilla (293)
@@ -18383,27 +17405,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!65 &671514050
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 671514049}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.9, y: 0.9, z: 0.9}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &671514051
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -18604,7 +17605,9 @@ Transform:
   m_LocalPosition: {x: 7, y: 0, z: 8}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 1626650242}
+  - {fileID: 879676346}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &674963033
@@ -18627,7 +17630,7 @@ MonoBehaviour:
     m_Bits: 64
   obstacle: 0
   containsCharacter: 0
-  height: 0
+  height: 2
   CharacterLayer:
     serializedVersion: 2
     m_Bits: 8
@@ -19167,7 +18170,7 @@ MonoBehaviour:
     m_Bits: 64
   obstacle: 0
   containsCharacter: 0
-  height: 0
+  height: 1
   CharacterLayer:
     serializedVersion: 2
     m_Bits: 8
@@ -19707,7 +18710,7 @@ MonoBehaviour:
     m_Bits: 64
   obstacle: 0
   containsCharacter: 0
-  height: 0
+  height: 1
   CharacterLayer:
     serializedVersion: 2
     m_Bits: 8
@@ -19859,7 +18862,6 @@ GameObject:
   - component: {fileID: 729399781}
   - component: {fileID: 729399780}
   - component: {fileID: 729399779}
-  - component: {fileID: 729399778}
   - component: {fileID: 729399782}
   m_Layer: 0
   m_Name: Casilla (393)
@@ -19868,27 +18870,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!65 &729399778
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 729399777}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.9, y: 0.9, z: 0.9}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &729399779
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -19994,7 +18975,6 @@ GameObject:
   - component: {fileID: 740645096}
   - component: {fileID: 740645095}
   - component: {fileID: 740645094}
-  - component: {fileID: 740645093}
   - component: {fileID: 740645097}
   m_Layer: 0
   m_Name: Casilla (335)
@@ -20003,27 +18983,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!65 &740645093
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 740645092}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.9, y: 0.9, z: 0.9}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &740645094
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -20129,7 +19088,6 @@ GameObject:
   - component: {fileID: 746290515}
   - component: {fileID: 746290514}
   - component: {fileID: 746290513}
-  - component: {fileID: 746290512}
   - component: {fileID: 746290516}
   m_Layer: 0
   m_Name: Casilla (296)
@@ -20138,27 +19096,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!65 &746290512
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 746290511}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.9, y: 0.9, z: 0.9}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &746290513
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -20426,6 +19363,7 @@ MonoBehaviour:
   jump: 4
   dist: 5
   range: 2
+  attackHeight: 1
   currentBlock: {fileID: 0}
   targetBlock: {fileID: 0}
   LayerToFind:
@@ -20619,7 +19557,6 @@ GameObject:
   - component: {fileID: 752619500}
   - component: {fileID: 752619499}
   - component: {fileID: 752619498}
-  - component: {fileID: 752619497}
   - component: {fileID: 752619501}
   m_Layer: 0
   m_Name: Casilla (320)
@@ -20628,27 +19565,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!65 &752619497
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 752619496}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.9, y: 0.9, z: 0.9}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &752619498
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -20754,7 +19670,6 @@ GameObject:
   - component: {fileID: 754845508}
   - component: {fileID: 754845507}
   - component: {fileID: 754845506}
-  - component: {fileID: 754845505}
   - component: {fileID: 754845509}
   m_Layer: 0
   m_Name: Casilla (373)
@@ -20763,27 +19678,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!65 &754845505
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 754845504}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.9, y: 0.9, z: 0.9}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &754845506
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -21952,7 +20846,7 @@ MonoBehaviour:
     m_Bits: 64
   obstacle: 0
   containsCharacter: 0
-  height: 0
+  height: 2
   CharacterLayer:
     serializedVersion: 2
     m_Bits: 8
@@ -23868,7 +22762,6 @@ GameObject:
   - component: {fileID: 866800311}
   - component: {fileID: 866800310}
   - component: {fileID: 866800309}
-  - component: {fileID: 866800308}
   - component: {fileID: 866800312}
   m_Layer: 0
   m_Name: Casilla (313)
@@ -23877,27 +22770,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!65 &866800308
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 866800307}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.9, y: 0.9, z: 0.9}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &866800309
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -24098,7 +22970,9 @@ Transform:
   m_LocalPosition: {x: 7, y: 0, z: 10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 1608580239}
+  - {fileID: 2125245329}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &866933090
@@ -24121,7 +22995,7 @@ MonoBehaviour:
     m_Bits: 64
   obstacle: 0
   containsCharacter: 0
-  height: 0
+  height: 2
   CharacterLayer:
     serializedVersion: 2
     m_Bits: 8
@@ -24581,7 +23455,6 @@ GameObject:
   - component: {fileID: 879676346}
   - component: {fileID: 879676345}
   - component: {fileID: 879676344}
-  - component: {fileID: 879676343}
   - component: {fileID: 879676347}
   m_Layer: 0
   m_Name: Casilla (392)
@@ -24590,27 +23463,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!65 &879676343
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 879676342}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.9, y: 0.9, z: 0.9}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &879676344
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -24672,12 +23524,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 879676342}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 7, y: 2, z: 8}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 2, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 674963032}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &879676347
 MonoBehaviour:
@@ -24834,7 +23686,7 @@ MonoBehaviour:
     m_Bits: 64
   obstacle: 0
   containsCharacter: 0
-  height: 0
+  height: 2
   CharacterLayer:
     serializedVersion: 2
     m_Bits: 8
@@ -24986,7 +23838,6 @@ GameObject:
   - component: {fileID: 900937102}
   - component: {fileID: 900937101}
   - component: {fileID: 900937100}
-  - component: {fileID: 900937099}
   - component: {fileID: 900937103}
   m_Layer: 0
   m_Name: Casilla (312)
@@ -24995,27 +23846,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!65 &900937099
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 900937098}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.9, y: 0.9, z: 0.9}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &900937100
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -25245,6 +24075,176 @@ MonoBehaviour:
     m_Bits: 8
   characterOnBlock: {fileID: 0}
   coord: {x: 0, y: 0, z: 0}
+--- !u!1 &906454543
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 906454547}
+  - component: {fileID: 906454546}
+  - component: {fileID: 906454545}
+  - component: {fileID: 906454544}
+  - component: {fileID: 906454548}
+  m_Layer: 0
+  m_Name: Camera
+  m_TagString: MainCamera
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &906454544
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 906454543}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a79441f348de89743a2939f4d699eac1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_RenderShadows: 1
+  m_RequiresDepthTextureOption: 2
+  m_RequiresOpaqueTextureOption: 2
+  m_CameraType: 0
+  m_Cameras: []
+  m_RendererIndex: -1
+  m_VolumeLayerMask:
+    serializedVersion: 2
+    m_Bits: 1
+  m_VolumeTrigger: {fileID: 0}
+  m_VolumeFrameworkUpdateModeOption: 2
+  m_RenderPostProcessing: 0
+  m_Antialiasing: 0
+  m_AntialiasingQuality: 2
+  m_StopNaN: 0
+  m_Dithering: 0
+  m_ClearDepth: 1
+  m_AllowXRRendering: 1
+  m_AllowHDROutput: 1
+  m_UseScreenCoordOverride: 0
+  m_ScreenSizeOverride: {x: 0, y: 0, z: 0, w: 0}
+  m_ScreenCoordScaleBias: {x: 0, y: 0, z: 0, w: 0}
+  m_RequiresDepthTexture: 0
+  m_RequiresColorTexture: 0
+  m_Version: 2
+  m_TaaSettings:
+    m_Quality: 3
+    m_FrameInfluence: 0.1
+    m_JitterScale: 1
+    m_MipBias: 0
+    m_VarianceClampScale: 0.9
+    m_ContrastAdaptiveSharpening: 0
+--- !u!81 &906454545
+AudioListener:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 906454543}
+  m_Enabled: 1
+--- !u!20 &906454546
+Camera:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 906454543}
+  m_Enabled: 1
+  serializedVersion: 2
+  m_ClearFlags: 1
+  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_projectionMatrixMode: 1
+  m_GateFitMode: 2
+  m_FOVAxisMode: 0
+  m_Iso: 200
+  m_ShutterSpeed: 0.005
+  m_Aperture: 16
+  m_FocusDistance: 10
+  m_FocalLength: 50
+  m_BladeCount: 5
+  m_Curvature: {x: 2, y: 11}
+  m_BarrelClipping: 0.25
+  m_Anamorphism: 0
+  m_SensorSize: {x: 36, y: 24}
+  m_LensShift: {x: 0, y: 0}
+  m_NormalizedViewPortRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1
+    height: 1
+  near clip plane: 0.1
+  far clip plane: 5000
+  field of view: 60.000004
+  orthographic: 0
+  orthographic size: 10
+  m_Depth: 0
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RenderingPath: -1
+  m_TargetTexture: {fileID: 0}
+  m_TargetDisplay: 0
+  m_TargetEye: 3
+  m_HDR: 1
+  m_AllowMSAA: 1
+  m_AllowDynamicResolution: 0
+  m_ForceIntoRT: 0
+  m_OcclusionCulling: 1
+  m_StereoConvergence: 10
+  m_StereoSeparation: 0.022
+--- !u!4 &906454547
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 906454543}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.23911765, y: 0.3696438, z: -0.09904577, w: 0.89239913}
+  m_LocalPosition: {x: -2.53, y: 5.36, z: 4.89}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &906454548
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 906454543}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 72ece51f2901e7445ab60da3685d6b5f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ShowDebugText: 0
+  ShowCameraFrustum: 1
+  IgnoreTimeScale: 0
+  WorldUpOverride: {fileID: 0}
+  ChannelMask: -1
+  UpdateMethod: 2
+  BlendUpdateMethod: 1
+  LensModeOverride:
+    Enabled: 0
+    DefaultMode: 2
+  DefaultBlend:
+    Style: 1
+    Time: 2
+    CustomCurve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+  CustomBlends: {fileID: 0}
 --- !u!1 &908399015
 GameObject:
   m_ObjectHideFlags: 0
@@ -25661,7 +24661,6 @@ GameObject:
   - component: {fileID: 914155843}
   - component: {fileID: 914155842}
   - component: {fileID: 914155841}
-  - component: {fileID: 914155840}
   - component: {fileID: 914155844}
   m_Layer: 0
   m_Name: Casilla (278)
@@ -25670,27 +24669,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!65 &914155840
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 914155839}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.9, y: 0.9, z: 0.9}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &914155841
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -25931,7 +24909,6 @@ GameObject:
   - component: {fileID: 931683239}
   - component: {fileID: 931683238}
   - component: {fileID: 931683237}
-  - component: {fileID: 931683236}
   - component: {fileID: 931683240}
   m_Layer: 0
   m_Name: Casilla (362)
@@ -25940,27 +24917,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!65 &931683236
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 931683235}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.9, y: 0.9, z: 0.9}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &931683237
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -26066,7 +25022,6 @@ GameObject:
   - component: {fileID: 935969637}
   - component: {fileID: 935969636}
   - component: {fileID: 935969635}
-  - component: {fileID: 935969634}
   - component: {fileID: 935969638}
   m_Layer: 0
   m_Name: Casilla (360)
@@ -26075,27 +25030,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!65 &935969634
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 935969633}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.9, y: 0.9, z: 0.9}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &935969635
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -27291,7 +26225,6 @@ GameObject:
   - component: {fileID: 1023481145}
   - component: {fileID: 1023481144}
   - component: {fileID: 1023481143}
-  - component: {fileID: 1023481142}
   - component: {fileID: 1023481146}
   m_Layer: 0
   m_Name: Casilla (317)
@@ -27300,27 +26233,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!65 &1023481142
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1023481141}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.9, y: 0.9, z: 0.9}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &1023481143
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -27426,7 +26338,6 @@ GameObject:
   - component: {fileID: 1036303673}
   - component: {fileID: 1036303672}
   - component: {fileID: 1036303671}
-  - component: {fileID: 1036303670}
   - component: {fileID: 1036303674}
   m_Layer: 0
   m_Name: Casilla (323)
@@ -27435,27 +26346,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!65 &1036303670
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1036303669}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.9, y: 0.9, z: 0.9}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &1036303671
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -28236,7 +27126,6 @@ GameObject:
   - component: {fileID: 1050120012}
   - component: {fileID: 1050120011}
   - component: {fileID: 1050120010}
-  - component: {fileID: 1050120009}
   - component: {fileID: 1050120013}
   m_Layer: 0
   m_Name: Casilla (324)
@@ -28245,27 +27134,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!65 &1050120009
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1050120008}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.9, y: 0.9, z: 0.9}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &1050120010
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -28684,7 +27552,6 @@ GameObject:
   - component: {fileID: 1063254824}
   - component: {fileID: 1063254823}
   - component: {fileID: 1063254822}
-  - component: {fileID: 1063254821}
   - component: {fileID: 1063254825}
   m_Layer: 0
   m_Name: Casilla (380)
@@ -28693,27 +27560,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!65 &1063254821
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1063254820}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.9, y: 0.9, z: 0.9}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &1063254822
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -28954,7 +27800,6 @@ GameObject:
   - component: {fileID: 1084849438}
   - component: {fileID: 1084849437}
   - component: {fileID: 1084849436}
-  - component: {fileID: 1084849435}
   - component: {fileID: 1084849439}
   m_Layer: 0
   m_Name: Casilla (310)
@@ -28963,27 +27808,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!65 &1084849435
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1084849434}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.9, y: 0.9, z: 0.9}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &1084849436
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -29224,7 +28048,6 @@ GameObject:
   - component: {fileID: 1093353628}
   - component: {fileID: 1093353627}
   - component: {fileID: 1093353626}
-  - component: {fileID: 1093353625}
   - component: {fileID: 1093353629}
   m_Layer: 0
   m_Name: Casilla (301)
@@ -29233,27 +28056,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!65 &1093353625
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1093353624}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.9, y: 0.9, z: 0.9}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &1093353626
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -29359,7 +28161,6 @@ GameObject:
   - component: {fileID: 1095912836}
   - component: {fileID: 1095912835}
   - component: {fileID: 1095912834}
-  - component: {fileID: 1095912833}
   - component: {fileID: 1095912837}
   m_Layer: 0
   m_Name: Casilla (275)
@@ -29368,27 +28169,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!65 &1095912833
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1095912832}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.9, y: 0.9, z: 0.9}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &1095912834
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -29612,7 +28392,7 @@ MonoBehaviour:
     m_Bits: 64
   obstacle: 0
   containsCharacter: 0
-  height: 0
+  height: 2
   CharacterLayer:
     serializedVersion: 2
     m_Bits: 8
@@ -29843,7 +28623,6 @@ GameObject:
   - component: {fileID: 1109709633}
   - component: {fileID: 1109709632}
   - component: {fileID: 1109709631}
-  - component: {fileID: 1109709630}
   - component: {fileID: 1109709634}
   m_Layer: 0
   m_Name: Casilla (347)
@@ -29852,27 +28631,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!65 &1109709630
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1109709629}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.9, y: 0.9, z: 0.9}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &1109709631
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -30249,7 +29007,6 @@ GameObject:
   - component: {fileID: 1119442324}
   - component: {fileID: 1119442323}
   - component: {fileID: 1119442322}
-  - component: {fileID: 1119442321}
   - component: {fileID: 1119442325}
   m_Layer: 0
   m_Name: Casilla (355)
@@ -30258,27 +29015,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!65 &1119442321
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1119442320}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.9, y: 0.9, z: 0.9}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &1119442322
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -31042,7 +29778,7 @@ MonoBehaviour:
     m_Bits: 64
   obstacle: 0
   containsCharacter: 0
-  height: 0
+  height: 2
   CharacterLayer:
     serializedVersion: 2
     m_Bits: 8
@@ -31177,7 +29913,7 @@ MonoBehaviour:
     m_Bits: 64
   obstacle: 0
   containsCharacter: 0
-  height: 0
+  height: 2
   CharacterLayer:
     serializedVersion: 2
     m_Bits: 8
@@ -31312,7 +30048,7 @@ MonoBehaviour:
     m_Bits: 64
   obstacle: 0
   containsCharacter: 0
-  height: 0
+  height: 2
   CharacterLayer:
     serializedVersion: 2
     m_Bits: 8
@@ -31329,7 +30065,6 @@ GameObject:
   - component: {fileID: 1134348310}
   - component: {fileID: 1134348309}
   - component: {fileID: 1134348308}
-  - component: {fileID: 1134348307}
   - component: {fileID: 1134348311}
   m_Layer: 0
   m_Name: Casilla (333)
@@ -31338,27 +30073,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!65 &1134348307
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1134348306}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.9, y: 0.9, z: 0.9}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &1134348308
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -31735,7 +30449,6 @@ GameObject:
   - component: {fileID: 1159398134}
   - component: {fileID: 1159398133}
   - component: {fileID: 1159398132}
-  - component: {fileID: 1159398131}
   - component: {fileID: 1159398135}
   m_Layer: 0
   m_Name: Casilla (291)
@@ -31744,27 +30457,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!65 &1159398131
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1159398130}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.9, y: 0.9, z: 0.9}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &1159398132
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -32123,7 +30815,7 @@ MonoBehaviour:
     m_Bits: 64
   obstacle: 0
   containsCharacter: 0
-  height: 0
+  height: 2
   CharacterLayer:
     serializedVersion: 2
     m_Bits: 8
@@ -32545,7 +31237,6 @@ GameObject:
   - component: {fileID: 1182110767}
   - component: {fileID: 1182110766}
   - component: {fileID: 1182110765}
-  - component: {fileID: 1182110764}
   - component: {fileID: 1182110768}
   m_Layer: 0
   m_Name: Casilla (338)
@@ -32554,27 +31245,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!65 &1182110764
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1182110763}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.9, y: 0.9, z: 0.9}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &1182110765
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -32680,7 +31350,6 @@ GameObject:
   - component: {fileID: 1184585099}
   - component: {fileID: 1184585098}
   - component: {fileID: 1184585097}
-  - component: {fileID: 1184585096}
   - component: {fileID: 1184585100}
   m_Layer: 0
   m_Name: Casilla (334)
@@ -32689,27 +31358,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!65 &1184585096
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1184585095}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.9, y: 0.9, z: 0.9}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &1184585097
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -32933,7 +31581,7 @@ MonoBehaviour:
     m_Bits: 64
   obstacle: 0
   containsCharacter: 0
-  height: 0
+  height: 2
   CharacterLayer:
     serializedVersion: 2
     m_Bits: 8
@@ -32950,7 +31598,6 @@ GameObject:
   - component: {fileID: 1192643901}
   - component: {fileID: 1192643900}
   - component: {fileID: 1192643899}
-  - component: {fileID: 1192643898}
   - component: {fileID: 1192643902}
   m_Layer: 0
   m_Name: Casilla (390)
@@ -32959,27 +31606,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!65 &1192643898
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1192643897}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.9, y: 0.9, z: 0.9}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &1192643899
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -33473,7 +32099,7 @@ MonoBehaviour:
     m_Bits: 64
   obstacle: 0
   containsCharacter: 0
-  height: 0
+  height: 1
   CharacterLayer:
     serializedVersion: 2
     m_Bits: 8
@@ -33666,7 +32292,6 @@ GameObject:
   - component: {fileID: 1222673601}
   - component: {fileID: 1222673600}
   - component: {fileID: 1222673599}
-  - component: {fileID: 1222673598}
   - component: {fileID: 1222673602}
   m_Layer: 0
   m_Name: Casilla (290)
@@ -33675,27 +32300,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!65 &1222673598
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1222673597}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.9, y: 0.9, z: 0.9}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &1222673599
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -34071,7 +32675,6 @@ GameObject:
   - component: {fileID: 1237904222}
   - component: {fileID: 1237904221}
   - component: {fileID: 1237904220}
-  - component: {fileID: 1237904219}
   - component: {fileID: 1237904223}
   m_Layer: 0
   m_Name: Casilla (332)
@@ -34080,27 +32683,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!65 &1237904219
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1237904218}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.9, y: 0.9, z: 0.9}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &1237904220
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -34206,7 +32788,6 @@ GameObject:
   - component: {fileID: 1238230991}
   - component: {fileID: 1238230990}
   - component: {fileID: 1238230989}
-  - component: {fileID: 1238230988}
   - component: {fileID: 1238230992}
   m_Layer: 0
   m_Name: Casilla (339)
@@ -34215,27 +32796,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!65 &1238230988
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1238230987}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.9, y: 0.9, z: 0.9}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &1238230989
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -34459,7 +33019,7 @@ MonoBehaviour:
     m_Bits: 64
   obstacle: 0
   containsCharacter: 0
-  height: 0
+  height: 1
   CharacterLayer:
     serializedVersion: 2
     m_Bits: 8
@@ -35507,7 +34067,6 @@ GameObject:
   - component: {fileID: 1292239607}
   - component: {fileID: 1292239606}
   - component: {fileID: 1292239605}
-  - component: {fileID: 1292239604}
   - component: {fileID: 1292239608}
   m_Layer: 0
   m_Name: Casilla (273)
@@ -35516,27 +34075,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!65 &1292239604
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1292239603}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.9, y: 0.9, z: 0.9}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &1292239605
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -35760,7 +34298,7 @@ MonoBehaviour:
     m_Bits: 64
   obstacle: 0
   containsCharacter: 0
-  height: 0
+  height: 2
   CharacterLayer:
     serializedVersion: 2
     m_Bits: 8
@@ -35777,7 +34315,6 @@ GameObject:
   - component: {fileID: 1297010313}
   - component: {fileID: 1297010312}
   - component: {fileID: 1297010311}
-  - component: {fileID: 1297010310}
   - component: {fileID: 1297010314}
   m_Layer: 0
   m_Name: Casilla (394)
@@ -35786,27 +34323,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!65 &1297010310
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1297010309}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.9, y: 0.9, z: 0.9}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &1297010311
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -36493,7 +35009,7 @@ MonoBehaviour:
     m_Bits: 64
   obstacle: 0
   containsCharacter: 0
-  height: 0
+  height: 2
   CharacterLayer:
     serializedVersion: 2
     m_Bits: 8
@@ -36783,7 +35299,6 @@ GameObject:
   - component: {fileID: 1331350100}
   - component: {fileID: 1331350099}
   - component: {fileID: 1331350098}
-  - component: {fileID: 1331350097}
   - component: {fileID: 1331350101}
   m_Layer: 0
   m_Name: Casilla (280)
@@ -36792,27 +35307,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!65 &1331350097
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1331350096}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.9, y: 0.9, z: 0.9}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &1331350098
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -37053,7 +35547,6 @@ GameObject:
   - component: {fileID: 1336703235}
   - component: {fileID: 1336703234}
   - component: {fileID: 1336703233}
-  - component: {fileID: 1336703232}
   - component: {fileID: 1336703236}
   m_Layer: 0
   m_Name: Casilla (331)
@@ -37062,27 +35555,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!65 &1336703232
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1336703231}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.9, y: 0.9, z: 0.9}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &1336703233
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -37845,7 +36317,7 @@ MonoBehaviour:
     m_Bits: 64
   obstacle: 0
   containsCharacter: 0
-  height: 0
+  height: 2
   CharacterLayer:
     serializedVersion: 2
     m_Bits: 8
@@ -37997,7 +36469,6 @@ GameObject:
   - component: {fileID: 1355275526}
   - component: {fileID: 1355275525}
   - component: {fileID: 1355275524}
-  - component: {fileID: 1355275523}
   - component: {fileID: 1355275527}
   m_Layer: 0
   m_Name: Casilla (271)
@@ -38006,27 +36477,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!65 &1355275523
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1355275522}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.9, y: 0.9, z: 0.9}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &1355275524
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -39347,7 +37797,6 @@ GameObject:
   - component: {fileID: 1401371620}
   - component: {fileID: 1401371619}
   - component: {fileID: 1401371618}
-  - component: {fileID: 1401371617}
   - component: {fileID: 1401371621}
   m_Layer: 0
   m_Name: Casilla (330)
@@ -39356,27 +37805,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!65 &1401371617
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1401371616}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.9, y: 0.9, z: 0.9}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &1401371618
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -39482,7 +37910,6 @@ GameObject:
   - component: {fileID: 1402146841}
   - component: {fileID: 1402146840}
   - component: {fileID: 1402146839}
-  - component: {fileID: 1402146838}
   - component: {fileID: 1402146842}
   m_Layer: 0
   m_Name: Casilla (289)
@@ -39491,27 +37918,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!65 &1402146838
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1402146837}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.9, y: 0.9, z: 0.9}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &1402146839
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -39752,7 +38158,6 @@ GameObject:
   - component: {fileID: 1411769883}
   - component: {fileID: 1411769882}
   - component: {fileID: 1411769881}
-  - component: {fileID: 1411769880}
   - component: {fileID: 1411769884}
   m_Layer: 0
   m_Name: Casilla (325)
@@ -39761,27 +38166,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!65 &1411769880
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1411769879}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.9, y: 0.9, z: 0.9}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &1411769881
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -40565,7 +38949,6 @@ GameObject:
   - component: {fileID: 1432349636}
   - component: {fileID: 1432349635}
   - component: {fileID: 1432349634}
-  - component: {fileID: 1432349633}
   - component: {fileID: 1432349637}
   m_Layer: 0
   m_Name: Casilla (384)
@@ -40574,27 +38957,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!65 &1432349633
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1432349632}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.9, y: 0.9, z: 0.9}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &1432349634
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -41223,7 +39585,7 @@ MonoBehaviour:
     m_Bits: 64
   obstacle: 0
   containsCharacter: 0
-  height: 0
+  height: 2
   CharacterLayer:
     serializedVersion: 2
     m_Bits: 8
@@ -41915,7 +40277,6 @@ GameObject:
   - component: {fileID: 1470985002}
   - component: {fileID: 1470985001}
   - component: {fileID: 1470985000}
-  - component: {fileID: 1470984999}
   - component: {fileID: 1470985003}
   m_Layer: 0
   m_Name: Casilla (351)
@@ -41924,27 +40285,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!65 &1470984999
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1470984998}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.9, y: 0.9, z: 0.9}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &1470985000
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -42168,7 +40508,7 @@ MonoBehaviour:
     m_Bits: 64
   obstacle: 0
   containsCharacter: 0
-  height: 0
+  height: 2
   CharacterLayer:
     serializedVersion: 2
     m_Bits: 8
@@ -42406,7 +40746,7 @@ MonoBehaviour:
         m_CallState: 2
       - m_Target: {fileID: 866210695}
         m_TargetAssemblyTypeName: TurnController, Assembly-CSharp
-        m_MethodName: passTurn
+        m_MethodName: PassTurn
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -42619,7 +40959,7 @@ MonoBehaviour:
     m_Bits: 64
   obstacle: 0
   containsCharacter: 0
-  height: 0
+  height: 2
   CharacterLayer:
     serializedVersion: 2
     m_Bits: 8
@@ -42754,7 +41094,7 @@ MonoBehaviour:
     m_Bits: 64
   obstacle: 0
   containsCharacter: 0
-  height: 0
+  height: 2
   CharacterLayer:
     serializedVersion: 2
     m_Bits: 8
@@ -42906,7 +41246,6 @@ GameObject:
   - component: {fileID: 1484837358}
   - component: {fileID: 1484837357}
   - component: {fileID: 1484837356}
-  - component: {fileID: 1484837355}
   - component: {fileID: 1484837359}
   m_Layer: 0
   m_Name: Casilla (383)
@@ -42915,27 +41254,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!65 &1484837355
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1484837354}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.9, y: 0.9, z: 0.9}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &1484837356
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -43429,7 +41747,7 @@ MonoBehaviour:
     m_Bits: 64
   obstacle: 0
   containsCharacter: 0
-  height: 0
+  height: 2
   CharacterLayer:
     serializedVersion: 2
     m_Bits: 8
@@ -43446,7 +41764,6 @@ GameObject:
   - component: {fileID: 1515687503}
   - component: {fileID: 1515687502}
   - component: {fileID: 1515687501}
-  - component: {fileID: 1515687500}
   - component: {fileID: 1515687504}
   m_Layer: 0
   m_Name: Casilla (286)
@@ -43455,27 +41772,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!65 &1515687500
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1515687499}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.9, y: 0.9, z: 0.9}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &1515687501
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -44267,7 +42563,6 @@ GameObject:
   - component: {fileID: 1539267296}
   - component: {fileID: 1539267295}
   - component: {fileID: 1539267294}
-  - component: {fileID: 1539267293}
   - component: {fileID: 1539267297}
   m_Layer: 0
   m_Name: Casilla (372)
@@ -44276,27 +42571,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!65 &1539267293
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1539267292}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.9, y: 0.9, z: 0.9}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &1539267294
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -44402,7 +42676,6 @@ GameObject:
   - component: {fileID: 1543125388}
   - component: {fileID: 1543125387}
   - component: {fileID: 1543125386}
-  - component: {fileID: 1543125385}
   - component: {fileID: 1543125389}
   m_Layer: 0
   m_Name: Casilla (357)
@@ -44411,27 +42684,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!65 &1543125385
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1543125384}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.9, y: 0.9, z: 0.9}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &1543125386
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -44537,7 +42789,6 @@ GameObject:
   - component: {fileID: 1561404966}
   - component: {fileID: 1561404965}
   - component: {fileID: 1561404964}
-  - component: {fileID: 1561404963}
   - component: {fileID: 1561404967}
   m_Layer: 0
   m_Name: Casilla (350)
@@ -44546,27 +42797,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!65 &1561404963
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1561404962}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.9, y: 0.9, z: 0.9}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &1561404964
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -45063,7 +43293,7 @@ MonoBehaviour:
     m_Bits: 64
   obstacle: 0
   containsCharacter: 0
-  height: 0
+  height: 2
   CharacterLayer:
     serializedVersion: 2
     m_Bits: 8
@@ -45198,7 +43428,7 @@ MonoBehaviour:
     m_Bits: 64
   obstacle: 0
   containsCharacter: 0
-  height: 0
+  height: 2
   CharacterLayer:
     serializedVersion: 2
     m_Bits: 8
@@ -45350,7 +43580,6 @@ GameObject:
   - component: {fileID: 1593495837}
   - component: {fileID: 1593495836}
   - component: {fileID: 1593495835}
-  - component: {fileID: 1593495834}
   - component: {fileID: 1593495838}
   m_Layer: 0
   m_Name: Casilla (371)
@@ -45359,27 +43588,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!65 &1593495834
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1593495833}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.9, y: 0.9, z: 0.9}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &1593495835
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -45485,7 +43693,6 @@ GameObject:
   - component: {fileID: 1594164849}
   - component: {fileID: 1594164848}
   - component: {fileID: 1594164847}
-  - component: {fileID: 1594164846}
   - component: {fileID: 1594164850}
   m_Layer: 0
   m_Name: Casilla (377)
@@ -45494,27 +43701,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!65 &1594164846
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1594164845}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.9, y: 0.9, z: 0.9}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &1594164847
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -45620,7 +43806,6 @@ GameObject:
   - component: {fileID: 1596357348}
   - component: {fileID: 1596357347}
   - component: {fileID: 1596357346}
-  - component: {fileID: 1596357345}
   - component: {fileID: 1596357349}
   m_Layer: 0
   m_Name: Casilla (368)
@@ -45629,27 +43814,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!65 &1596357345
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1596357344}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.9, y: 0.9, z: 0.9}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &1596357346
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -45890,7 +44054,6 @@ GameObject:
   - component: {fileID: 1608580239}
   - component: {fileID: 1608580238}
   - component: {fileID: 1608580237}
-  - component: {fileID: 1608580236}
   - component: {fileID: 1608580240}
   m_Layer: 0
   m_Name: Casilla (292)
@@ -45899,27 +44062,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!65 &1608580236
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1608580235}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.9, y: 0.9, z: 0.9}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &1608580237
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -45981,12 +44123,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1608580235}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 7, y: 1, z: 10}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 1, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 866933089}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1608580240
 MonoBehaviour:
@@ -46025,7 +44167,6 @@ GameObject:
   - component: {fileID: 1626650242}
   - component: {fileID: 1626650241}
   - component: {fileID: 1626650240}
-  - component: {fileID: 1626650239}
   - component: {fileID: 1626650243}
   m_Layer: 0
   m_Name: Casilla (386)
@@ -46034,27 +44175,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!65 &1626650239
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1626650238}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.9, y: 0.9, z: 0.9}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &1626650240
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -46116,12 +44236,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1626650238}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 7, y: 1, z: 8}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 1, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 674963032}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1626650243
 MonoBehaviour:
@@ -46160,7 +44280,6 @@ GameObject:
   - component: {fileID: 1628332712}
   - component: {fileID: 1628332711}
   - component: {fileID: 1628332710}
-  - component: {fileID: 1628332709}
   - component: {fileID: 1628332713}
   m_Layer: 0
   m_Name: Casilla (379)
@@ -46169,27 +44288,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!65 &1628332709
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1628332708}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.9, y: 0.9, z: 0.9}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &1628332710
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -46606,7 +44704,7 @@ MonoBehaviour:
     m_Bits: 64
   obstacle: 0
   containsCharacter: 0
-  height: 0
+  height: 1
   CharacterLayer:
     serializedVersion: 2
     m_Bits: 8
@@ -46893,7 +44991,6 @@ GameObject:
   - component: {fileID: 1635553221}
   - component: {fileID: 1635553220}
   - component: {fileID: 1635553219}
-  - component: {fileID: 1635553218}
   - component: {fileID: 1635553222}
   m_Layer: 0
   m_Name: Casilla (337)
@@ -46902,27 +44999,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!65 &1635553218
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1635553217}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.9, y: 0.9, z: 0.9}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &1635553219
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -47163,7 +45239,6 @@ GameObject:
   - component: {fileID: 1675983493}
   - component: {fileID: 1675983492}
   - component: {fileID: 1675983491}
-  - component: {fileID: 1675983490}
   - component: {fileID: 1675983494}
   m_Layer: 0
   m_Name: Casilla (387)
@@ -47172,27 +45247,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!65 &1675983490
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1675983489}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.9, y: 0.9, z: 0.9}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &1675983491
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -47768,7 +45822,6 @@ GameObject:
   - component: {fileID: 1714711856}
   - component: {fileID: 1714711855}
   - component: {fileID: 1714711854}
-  - component: {fileID: 1714711853}
   - component: {fileID: 1714711857}
   m_Layer: 0
   m_Name: Casilla (282)
@@ -47777,27 +45830,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!65 &1714711853
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1714711852}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.9, y: 0.9, z: 0.9}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &1714711854
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -48173,7 +46205,6 @@ GameObject:
   - component: {fileID: 1734662963}
   - component: {fileID: 1734662962}
   - component: {fileID: 1734662961}
-  - component: {fileID: 1734662960}
   - component: {fileID: 1734662964}
   m_Layer: 0
   m_Name: Casilla (284)
@@ -48182,27 +46213,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!65 &1734662960
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1734662959}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.9, y: 0.9, z: 0.9}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &1734662961
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -48443,7 +46453,6 @@ GameObject:
   - component: {fileID: 1744423121}
   - component: {fileID: 1744423120}
   - component: {fileID: 1744423119}
-  - component: {fileID: 1744423118}
   - component: {fileID: 1744423122}
   m_Layer: 0
   m_Name: Casilla (363)
@@ -48452,27 +46461,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!65 &1744423118
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1744423117}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.9, y: 0.9, z: 0.9}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &1744423119
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -49077,7 +47065,8 @@ Transform:
   m_LocalPosition: {x: 4, y: 0, z: 13}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 53132974}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1756191804
@@ -49100,7 +47089,7 @@ MonoBehaviour:
     m_Bits: 64
   obstacle: 0
   containsCharacter: 0
-  height: 0
+  height: 1
   CharacterLayer:
     serializedVersion: 2
     m_Bits: 8
@@ -49660,7 +47649,6 @@ GameObject:
   - component: {fileID: 1784244624}
   - component: {fileID: 1784244623}
   - component: {fileID: 1784244622}
-  - component: {fileID: 1784244621}
   - component: {fileID: 1784244625}
   m_Layer: 0
   m_Name: Casilla (378)
@@ -49669,27 +47657,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!65 &1784244621
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1784244620}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.9, y: 0.9, z: 0.9}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &1784244622
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -50065,7 +48032,6 @@ GameObject:
   - component: {fileID: 1803538402}
   - component: {fileID: 1803538401}
   - component: {fileID: 1803538400}
-  - component: {fileID: 1803538399}
   - component: {fileID: 1803538403}
   m_Layer: 0
   m_Name: Casilla (358)
@@ -50074,27 +48040,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!65 &1803538399
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1803538398}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.9, y: 0.9, z: 0.9}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &1803538400
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -50200,7 +48145,6 @@ GameObject:
   - component: {fileID: 1807012672}
   - component: {fileID: 1807012671}
   - component: {fileID: 1807012670}
-  - component: {fileID: 1807012669}
   - component: {fileID: 1807012673}
   m_Layer: 0
   m_Name: Casilla (343)
@@ -50209,27 +48153,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!65 &1807012669
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1807012668}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.9, y: 0.9, z: 0.9}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &1807012670
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -50453,7 +48376,7 @@ MonoBehaviour:
     m_Bits: 64
   obstacle: 0
   containsCharacter: 0
-  height: 0
+  height: 2
   CharacterLayer:
     serializedVersion: 2
     m_Bits: 8
@@ -50470,7 +48393,6 @@ GameObject:
   - component: {fileID: 1821346448}
   - component: {fileID: 1821346447}
   - component: {fileID: 1821346446}
-  - component: {fileID: 1821346445}
   - component: {fileID: 1821346449}
   m_Layer: 0
   m_Name: Casilla (364)
@@ -50479,27 +48401,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!65 &1821346445
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1821346444}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.9, y: 0.9, z: 0.9}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &1821346446
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -50993,7 +48894,7 @@ MonoBehaviour:
     m_Bits: 64
   obstacle: 0
   containsCharacter: 0
-  height: 0
+  height: 2
   CharacterLayer:
     serializedVersion: 2
     m_Bits: 8
@@ -51220,7 +49121,6 @@ GameObject:
   - component: {fileID: 1846256006}
   - component: {fileID: 1846256005}
   - component: {fileID: 1846256004}
-  - component: {fileID: 1846256003}
   - component: {fileID: 1846256007}
   m_Layer: 0
   m_Name: Casilla (297)
@@ -51229,27 +49129,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!65 &1846256003
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1846256002}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.9, y: 0.9, z: 0.9}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &1846256004
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -51608,7 +49487,7 @@ MonoBehaviour:
     m_Bits: 64
   obstacle: 0
   containsCharacter: 0
-  height: 0
+  height: 2
   CharacterLayer:
     serializedVersion: 2
     m_Bits: 8
@@ -51761,7 +49640,6 @@ GameObject:
   - component: {fileID: 1885338888}
   - component: {fileID: 1885338887}
   - component: {fileID: 1885338886}
-  - component: {fileID: 1885338885}
   - component: {fileID: 1885338889}
   m_Layer: 0
   m_Name: Casilla (342)
@@ -51770,27 +49648,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!65 &1885338885
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1885338884}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.9, y: 0.9, z: 0.9}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &1885338886
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -52149,7 +50006,7 @@ MonoBehaviour:
     m_Bits: 64
   obstacle: 0
   containsCharacter: 0
-  height: 0
+  height: 2
   CharacterLayer:
     serializedVersion: 2
     m_Bits: 8
@@ -52284,7 +50141,7 @@ MonoBehaviour:
     m_Bits: 64
   obstacle: 0
   containsCharacter: 0
-  height: 0
+  height: 1
   CharacterLayer:
     serializedVersion: 2
     m_Bits: 8
@@ -52419,7 +50276,7 @@ MonoBehaviour:
     m_Bits: 64
   obstacle: 0
   containsCharacter: 0
-  height: 0
+  height: 2
   CharacterLayer:
     serializedVersion: 2
     m_Bits: 8
@@ -52569,7 +50426,6 @@ GameObject:
   - component: {fileID: 1903095350}
   - component: {fileID: 1903095349}
   - component: {fileID: 1903095348}
-  - component: {fileID: 1903095347}
   - component: {fileID: 1903095351}
   m_Layer: 0
   m_Name: Casilla (316)
@@ -52578,27 +50434,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!65 &1903095347
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1903095346}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.9, y: 0.9, z: 0.9}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &1903095348
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -53380,7 +51215,6 @@ GameObject:
   - component: {fileID: 1935584483}
   - component: {fileID: 1935584482}
   - component: {fileID: 1935584481}
-  - component: {fileID: 1935584480}
   - component: {fileID: 1935584484}
   m_Layer: 0
   m_Name: Casilla (270)
@@ -53389,27 +51223,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!65 &1935584480
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1935584479}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.9, y: 0.9, z: 0.9}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &1935584481
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -53515,7 +51328,6 @@ GameObject:
   - component: {fileID: 1935976310}
   - component: {fileID: 1935976309}
   - component: {fileID: 1935976308}
-  - component: {fileID: 1935976307}
   - component: {fileID: 1935976311}
   m_Layer: 0
   m_Name: Casilla (279)
@@ -53524,27 +51336,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!65 &1935976307
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1935976306}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.9, y: 0.9, z: 0.9}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &1935976308
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -53906,7 +51697,7 @@ MonoBehaviour:
     m_Bits: 64
   obstacle: 0
   containsCharacter: 0
-  height: 0
+  height: 2
   CharacterLayer:
     serializedVersion: 2
     m_Bits: 8
@@ -54328,7 +52119,6 @@ GameObject:
   - component: {fileID: 1975455793}
   - component: {fileID: 1975455792}
   - component: {fileID: 1975455791}
-  - component: {fileID: 1975455790}
   - component: {fileID: 1975455794}
   m_Layer: 0
   m_Name: Casilla (298)
@@ -54337,27 +52127,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!65 &1975455790
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1975455789}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.9, y: 0.9, z: 0.9}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &1975455791
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -54598,7 +52367,6 @@ GameObject:
   - component: {fileID: 1981077187}
   - component: {fileID: 1981077186}
   - component: {fileID: 1981077185}
-  - component: {fileID: 1981077184}
   - component: {fileID: 1981077188}
   m_Layer: 0
   m_Name: Casilla (366)
@@ -54607,27 +52375,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!65 &1981077184
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1981077183}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.9, y: 0.9, z: 0.9}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &1981077185
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -54851,7 +52598,7 @@ MonoBehaviour:
     m_Bits: 64
   obstacle: 0
   containsCharacter: 0
-  height: 0
+  height: 2
   CharacterLayer:
     serializedVersion: 2
     m_Bits: 8
@@ -55003,7 +52750,6 @@ GameObject:
   - component: {fileID: 1988011486}
   - component: {fileID: 1988011485}
   - component: {fileID: 1988011484}
-  - component: {fileID: 1988011483}
   - component: {fileID: 1988011487}
   m_Layer: 0
   m_Name: Casilla (329)
@@ -55012,27 +52758,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!65 &1988011483
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1988011482}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.9, y: 0.9, z: 0.9}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &1988011484
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -55138,7 +52863,6 @@ GameObject:
   - component: {fileID: 1991337250}
   - component: {fileID: 1991337249}
   - component: {fileID: 1991337248}
-  - component: {fileID: 1991337247}
   - component: {fileID: 1991337251}
   m_Layer: 0
   m_Name: Casilla (349)
@@ -55147,27 +52871,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!65 &1991337247
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1991337246}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.9, y: 0.9, z: 0.9}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &1991337248
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -55833,7 +53536,7 @@ MonoBehaviour:
     m_Bits: 64
   obstacle: 0
   containsCharacter: 0
-  height: 0
+  height: 2
   CharacterLayer:
     serializedVersion: 2
     m_Bits: 8
@@ -55968,7 +53671,7 @@ MonoBehaviour:
     m_Bits: 64
   obstacle: 0
   containsCharacter: 0
-  height: 0
+  height: 2
   CharacterLayer:
     serializedVersion: 2
     m_Bits: 8
@@ -55985,7 +53688,6 @@ GameObject:
   - component: {fileID: 2028081784}
   - component: {fileID: 2028081783}
   - component: {fileID: 2028081782}
-  - component: {fileID: 2028081781}
   - component: {fileID: 2028081785}
   m_Layer: 0
   m_Name: Casilla (327)
@@ -55994,27 +53696,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!65 &2028081781
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2028081780}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.9, y: 0.9, z: 0.9}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &2028081782
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -57048,7 +54729,7 @@ MonoBehaviour:
     m_Bits: 64
   obstacle: 0
   containsCharacter: 0
-  height: 0
+  height: 2
   CharacterLayer:
     serializedVersion: 2
     m_Bits: 8
@@ -57065,7 +54746,6 @@ GameObject:
   - component: {fileID: 2067074911}
   - component: {fileID: 2067074910}
   - component: {fileID: 2067074909}
-  - component: {fileID: 2067074908}
   - component: {fileID: 2067074912}
   m_Layer: 0
   m_Name: Casilla (302)
@@ -57074,27 +54754,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!65 &2067074908
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2067074907}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.9, y: 0.9, z: 0.9}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &2067074909
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -57740,7 +55399,6 @@ GameObject:
   - component: {fileID: 2090311372}
   - component: {fileID: 2090311371}
   - component: {fileID: 2090311370}
-  - component: {fileID: 2090311369}
   - component: {fileID: 2090311373}
   m_Layer: 0
   m_Name: Casilla (391)
@@ -57749,27 +55407,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!65 &2090311369
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2090311368}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.9, y: 0.9, z: 0.9}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &2090311370
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -58398,7 +56035,7 @@ MonoBehaviour:
     m_Bits: 64
   obstacle: 0
   containsCharacter: 0
-  height: 0
+  height: 2
   CharacterLayer:
     serializedVersion: 2
     m_Bits: 8
@@ -58955,7 +56592,6 @@ GameObject:
   - component: {fileID: 2125245329}
   - component: {fileID: 2125245328}
   - component: {fileID: 2125245327}
-  - component: {fileID: 2125245326}
   - component: {fileID: 2125245330}
   m_Layer: 0
   m_Name: Casilla (348)
@@ -58964,27 +56600,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!65 &2125245326
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2125245325}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.9, y: 0.9, z: 0.9}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &2125245327
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -59046,12 +56661,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2125245325}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 7, y: 2, z: 10}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 2, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 866933089}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &2125245330
 MonoBehaviour:
@@ -59208,7 +56823,7 @@ MonoBehaviour:
     m_Bits: 64
   obstacle: 0
   containsCharacter: 0
-  height: 0
+  height: 1
   CharacterLayer:
     serializedVersion: 2
     m_Bits: 8
@@ -59225,7 +56840,6 @@ GameObject:
   - component: {fileID: 2129568358}
   - component: {fileID: 2129568357}
   - component: {fileID: 2129568356}
-  - component: {fileID: 2129568355}
   - component: {fileID: 2129568359}
   m_Layer: 0
   m_Name: Casilla (367)
@@ -59234,27 +56848,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!65 &2129568355
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2129568354}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.9, y: 0.9, z: 0.9}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &2129568356
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -59613,7 +57206,7 @@ MonoBehaviour:
     m_Bits: 64
   obstacle: 0
   containsCharacter: 0
-  height: 0
+  height: 2
   CharacterLayer:
     serializedVersion: 2
     m_Bits: 8
@@ -59748,7 +57341,7 @@ MonoBehaviour:
     m_Bits: 64
   obstacle: 0
   containsCharacter: 0
-  height: 0
+  height: 2
   CharacterLayer:
     serializedVersion: 2
     m_Bits: 8
@@ -59758,7 +57351,6 @@ MonoBehaviour:
 SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
-  - {fileID: 330585546}
   - {fileID: 832575519}
   - {fileID: 32526637}
   - {fileID: 1108849709}
@@ -60007,7 +57599,6 @@ SceneRoots:
   - {fileID: 246561249}
   - {fileID: 1935584483}
   - {fileID: 1355275526}
-  - {fileID: 53132974}
   - {fileID: 1292239607}
   - {fileID: 271999368}
   - {fileID: 1095912836}
@@ -60027,7 +57618,6 @@ SceneRoots:
   - {fileID: 1402146841}
   - {fileID: 1222673601}
   - {fileID: 1159398134}
-  - {fileID: 1608580239}
   - {fileID: 671514053}
   - {fileID: 456317080}
   - {fileID: 369200133}
@@ -60079,7 +57669,6 @@ SceneRoots:
   - {fileID: 1807012672}
   - {fileID: 382786929}
   - {fileID: 1109709633}
-  - {fileID: 2125245329}
   - {fileID: 1991337250}
   - {fileID: 1561404966}
   - {fileID: 1470985002}
@@ -60112,11 +57701,9 @@ SceneRoots:
   - {fileID: 1484837358}
   - {fileID: 1432349636}
   - {fileID: 542442874}
-  - {fileID: 1626650242}
   - {fileID: 570813175}
   - {fileID: 1192643901}
   - {fileID: 2090311372}
-  - {fileID: 879676346}
   - {fileID: 729399781}
   - {fileID: 1297010313}
   - {fileID: 1675983493}
@@ -60157,3 +57744,4 @@ SceneRoots:
   - {fileID: 294432804}
   - {fileID: 342495817}
   - {fileID: 13036699}
+  - {fileID: 906454547}

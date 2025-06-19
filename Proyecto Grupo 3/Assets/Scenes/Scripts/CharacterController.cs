@@ -15,6 +15,7 @@ public class CharacterController : MonoBehaviour
     public int jump;
     public int dist;
     public int range;
+    public int attackHeight;
     public Block currentBlock; //bloque en el que está parado el personaje
     public Block targetBlock;
     [SerializeField] private LayerMask LayerToFind;

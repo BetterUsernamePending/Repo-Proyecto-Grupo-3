@@ -16,6 +16,8 @@ public class MovementController : MonoBehaviour
         CharacterController current = TurnController.currentCharacter;
         possibleBlocks = Pathfinding.showPossible(current.currentBlock, current.dist, current.jump);
         Block.onBlockClicked += ShowPathFound;
+        foreach (var block in possibleBlocks)
+            block.TextureChange();
     }
     public void OnStateCancel()
     {
