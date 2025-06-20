@@ -6,12 +6,6 @@ public class UIManager : MonoBehaviour
     public GameObject MenuDePausa;
     public GameObject PausePanel;
 
-    public GameObject darkenMove;
-    public GameObject darkenAct;
-    public GameObject darkenSkip;
-
-    public GameObject cancelMove;
-    public GameObject moveButton;
     [SerializeField] public GameObject battleUI;
     [SerializeField] private TurnController turnController;
     public bool isPaused = false;
@@ -37,15 +31,6 @@ public class UIManager : MonoBehaviour
             }
         }
 
-        if (Input.GetKeyDown(KeyCode.Space))
-        {
-            moveButton.SetActive(true);
-            cancelMove.SetActive(false);
-
-            darkenMove.SetActive(true);
-            darkenAct.SetActive(false);
-            darkenSkip.SetActive(false);
-        }
     }
 
     public void DeactivateBattleUI()

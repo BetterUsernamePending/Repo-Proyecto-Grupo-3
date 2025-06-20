@@ -8,7 +8,8 @@ public class MovementController : MonoBehaviour
 {
     private List<Block> possibleBlocks = new List<Block>();
     private List<Block> pathBlocks = new List<Block>();
-    public bool alreadyMoved = false;
+    private bool alreadyMoved = false;
+
     [SerializeField] private GameObject canvas;
     public void OnStateEnter() //Volver "OnStateEnter", placeholder.
     {
@@ -47,20 +48,23 @@ public class MovementController : MonoBehaviour
             foreach (var block in pathBlocks)
             {
                 block.TextureChange();
-            }
+            };
         }
     }
 
     public void MoveToClicked()
     {
-        if (pathBlocks.Count > 0) //Por ahora moverse se activa tocando espacio
-            TurnController.currentCharacter.CharacterMove(pathBlocks);
-        foreach (var block in pathBlocks)
+        if (alreadyMoved == false)
         {
-            block.TextureRevert();
+            if (pathBlocks.Count > 0) //Por ahora moverse se activa tocando espacio
+                TurnController.currentCharacter.CharacterMove(pathBlocks);
+            foreach (var block in pathBlocks)
+            {
+                block.TextureRevert();
+            }
+            alreadyMoved = true;
+            StateEnd();
         }
-        alreadyMoved = true;
-        StateEnd();
         //Cuando termina la animacion del player, el STATE CONTROLLER (crear) debe terminar este estado (la animación del player se ejecuta desde "CharacterController")
     }
     public void StateEnd()

@@ -57,6 +57,7 @@ public class BattleController : MonoBehaviour
     }
     public void OnStateCancel()
     {
+        Block.onBlockClicked -= ShowClickedTarget;
         foreach (var block in possibleTargets)
         {
             block.TextureRevert();

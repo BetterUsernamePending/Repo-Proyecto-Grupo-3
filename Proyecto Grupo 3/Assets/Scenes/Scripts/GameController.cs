@@ -8,6 +8,8 @@ using UnityEngine.UIElements;
 public class GameController : MonoBehaviour
 {
     [SerializeField] public Block initBlock;
+    public GameObject OngoingMovement;
+
     MovementController movementController;
     BattleController battleController;
     void Start()
@@ -24,10 +26,6 @@ public class GameController : MonoBehaviour
 
     private void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Space) && movementController.alreadyMoved == false) //Por ahora moverse se activa tocando espacio
-            movementController.MoveToClicked();
-        if (Input.GetKeyDown(KeyCode.A) && battleController.alreadyAttacked == false)
-            battleController.ExecuteAttack();
         if(Input.GetMouseButtonDown(0))
             GetClickedBlock();
     }
@@ -42,11 +40,24 @@ public class GameController : MonoBehaviour
             Debug.Log(hit.transform.name);
         }
     }
+
+    //Movement Section
     public void LoadMovementState()
     {
         movementController = new MovementController();
         movementController.OnStateEnter();
     }
+    public void ActivateMovement()
+    {
+        movementController.MoveToClicked();
+    }
+    public void CancelMovementState()
+    {
+        movementController.OnStateCancel();
+    }
+    //End of Movement Section
+
+    //Battle Section
     public void LoadBattleState()
     {
         battleController = new BattleController();
@@ -56,10 +67,11 @@ public class GameController : MonoBehaviour
     {
         battleController.OnStateCancel();
     }
-    public void CancelMovementState()
+    public void ExecuteAttack()
     {
-        movementController.OnStateCancel();
+        battleController.ExecuteAttack();
     }
+    //End of Battle Section
 
     private void cameraReposition(bool currentp1)
     {
