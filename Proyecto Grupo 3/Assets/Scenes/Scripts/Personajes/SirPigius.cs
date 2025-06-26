@@ -1,21 +1,20 @@
 using NUnit.Framework;
+using System.Collections.Generic;
 using UnityEngine;
 
 public class SirPigius : CharacterController
 {
-     
-    private void Attack()
+    private void Awake()
     {
-
-    }
-
-    private void Block()
-    {
-
-    }
-
-    private void Stomp()
-    {
-
+        origStats.Add("atk", 5);
+        origStats.Add("def", 7);
+        origStats.Add("spd", 2);
+        origStats.Add("hp", 50);
+        origStats.Add("mp", 15);
+        origStats.Add("jump", 1);
+        origStats.Add("dist", 3);
+        origStats.Add("range", 1);
+        origStats.Add("attackHeight", 1);
+        currentStats = origStats;
     }
 }

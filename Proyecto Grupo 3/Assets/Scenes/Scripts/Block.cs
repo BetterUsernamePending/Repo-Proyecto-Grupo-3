@@ -75,7 +75,7 @@ public class Block : MonoBehaviour
     public void SetConnection(Block block) => Connection = block;
     public bool isWalkable(int height, int jump)
     {
-       return jump>height; //determina si el bloque es caminable o no
+       return jump>=height; //determina si el bloque es caminable o no
     }
     public float GetDistance(Block currentBlock, Block targetBlock)
     {

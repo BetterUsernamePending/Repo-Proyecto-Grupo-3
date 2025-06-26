@@ -7,6 +7,8 @@ public class UIManager : MonoBehaviour
     public GameObject PausePanel;
 
     [SerializeField] public GameObject battleUI;
+    [SerializeField] public GameObject p1WinUI;
+    [SerializeField] public GameObject p2WinUI;
     [SerializeField] private TurnController turnController;
     public bool isPaused = false;
     private CharacterController CurrentCharacter;
@@ -49,7 +51,14 @@ public class UIManager : MonoBehaviour
     {
 
     }
-
+    public void GameOverP1Win()
+    {
+        p1WinUI.SetActive(true);
+    }
+    public void GameOverP2Win()
+    {
+        p2WinUI.SetActive(true);
+    }
     public void OnPause()
     {
         MenuDePausa.SetActive(true);

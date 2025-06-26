@@ -10,12 +10,14 @@ public class BattleController : MonoBehaviour
     private List<Block> possibleTargets = new List<Block>();
     private Block targetBlock;
     public bool alreadyAttacked = false;
+    private GameController gameController;
 
     public void OnStateEnter()
     {
+        gameController = FindAnyObjectByType<GameController>();
         alreadyAttacked = false;
         CharacterController current = TurnController.currentCharacter;
-        possibleTargets = Pathfinding.showPossible(current.currentBlock, current.range, current.attackHeight);
+        possibleTargets = Pathfinding.showPossible(current.currentBlock, current.currentStats["range"], current.currentStats["attackHeight"]);
         Block.onBlockClicked += ShowClickedTarget;
         foreach (var block in possibleTargets)
         {
@@ -43,15 +45,16 @@ public class BattleController : MonoBehaviour
         if (targetBlock.characterOnBlock != null)
         {
             targetBlock.TextureRevert();
-            int damage = TurnController.currentCharacter.atk - targetBlock.characterOnBlock.def / 2;
-            targetBlock.characterOnBlock.hp = targetBlock.characterOnBlock.hp - damage;
+            int damage = TurnController.currentCharacter.currentStats["atk"] - targetBlock.characterOnBlock.currentStats["def"] / 2;
+            targetBlock.characterOnBlock.currentStats["hp"] = targetBlock.characterOnBlock.currentStats["hp"] - damage;
             Debug.Log("se hizo" + damage + "de daño");
             alreadyAttacked = true;
-            if (targetBlock.characterOnBlock.hp <= 0)
+            if (targetBlock.characterOnBlock.currentStats["hp"] <= 0)
             {   
                 //ejecutar acá la animación de muerte
                 targetBlock.characterOnBlock.IsDead();
                 Debug.Log("La unidad enemiga " + targetBlock.characterOnBlock.name + " fue eliminada");
+                gameController.CheckIfGameOver();
             }
         }
     }

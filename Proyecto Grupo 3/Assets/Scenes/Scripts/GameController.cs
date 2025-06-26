@@ -3,7 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
-using UnityEngine.UIElements;
+using UnityEngine.EventSystems;
 
 public class GameController : MonoBehaviour
 {
@@ -12,10 +12,14 @@ public class GameController : MonoBehaviour
 
     MovementController movementController;
     BattleController battleController;
+    TurnController turnController;
+    UIManager uiManager;
     void Start()
     {
        //StartCoroutine(Delay());
        battleController = FindAnyObjectByType<BattleController>();
+       turnController = FindAnyObjectByType<TurnController>();
+       uiManager = FindAnyObjectByType<UIManager>();
     }
     IEnumerator Delay()
     {
@@ -30,11 +34,14 @@ public class GameController : MonoBehaviour
             GetClickedBlock();
     }
 
+    
     public void GetClickedBlock()
     {
+        LayerMask blockLayer = LayerMask.GetMask("BottomLayer");
+        bool overUI = EventSystem.current.IsPointerOverGameObject();
         RaycastHit hit;
         Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
-        if (Physics.Raycast(ray, out hit))
+        if (Physics.Raycast(ray, out hit,blockLayer) && !overUI)
         {
             Block.onBlockClicked?.Invoke(hit.transform.GetComponent<Block>());
             Debug.Log(hit.transform.name);
@@ -73,6 +80,39 @@ public class GameController : MonoBehaviour
     }
     //End of Battle Section
 
+    public void CheckIfGameOver()
+    {
+        int checkerp1 = 0;
+        int checkerp2 = 0;
+        foreach (CharacterController character in turnController.characterOrder)
+        {
+            if (character.isAlive)
+            {
+                switch (character.belongsToPlayer)
+                {
+                    case 1:
+                        checkerp1++;
+                        break;
+                    case 2:
+                        checkerp2++;
+                        break;
+                }
+            }
+        }
+        if (checkerp1 == 0 || checkerp2 == 0)
+        {
+            if (checkerp1 > 0)
+            {
+                uiManager.GameOverP1Win();
+                Debug.Log("Ganó el jugador 1");
+            }
+            else
+            {
+                uiManager.GameOverP2Win();
+                Debug.Log("Ganó el jugador 2");
+            }
+        }
+    }
     private void cameraReposition(bool currentp1)
     {
         //posiciona la camara sobre el personaje del jugador al iniciar el turno

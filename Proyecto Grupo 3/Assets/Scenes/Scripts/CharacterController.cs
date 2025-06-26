@@ -7,48 +7,28 @@ using System.Collections;
 
 public class CharacterController : MonoBehaviour
 {
-    public int atk;
-    public int def;
-    public int spd;
-    public int hp;
-    public int mp;
-    public int jump;
-    public int dist;
-    public int range;
-    public int attackHeight;
+    public int belongsToPlayer;
     public Block currentBlock; //bloque en el que está parado el personaje
     public Block targetBlock;
-    [SerializeField] private LayerMask LayerToFind;
-    [SerializeField] public UIManager uiManager;
+    private LayerMask layerToFind;
+    private UIManager uiManager;
     public bool isMoving = false;
     public bool isAlive = true;
 
-    //Pathfinding.showPossible(currentBlock,dist,jump); Funcion que usa los valores del personaje para mostrar las casillas posibles. Desactivada actualmente por testeo (los personajes no están implementados)
-    /* List<Block> Pathfinding.findPath(Block currentBlock, Block targetBlock,int jump)
-     {
-         //ignorar esto
-     }
-     private void moveCharacter(Block targetBlock)
-     {
-         return null; //placeholder. Mueve fisicamente la posición del personaje
-     }*/
-
+    public Dictionary<string,int> origStats = new Dictionary<string,int>();
+    public Dictionary<string,int> currentStats = new Dictionary<string,int>();
     private void Start()
     {
+
+        layerToFind= LayerMask.GetMask("BottomLayer");
         RaycastHit hit;
-        if (Physics.Raycast(transform.position, Vector3.down, out hit, Mathf.Infinity, LayerToFind))
+        if (Physics.Raycast(transform.position, Vector3.down, out hit, Mathf.Infinity, layerToFind))
         {
             currentBlock = hit.collider.gameObject.GetComponent<Block>();
             Debug.Log("character" + " " + this.name + " " + "standing in " + currentBlock.name);
         }
         uiManager = FindAnyObjectByType<UIManager>();
     }
-    /*private void OnPointerClick(PointerEventData pointerEventData)
-    {
-        Debug.Log(name);
-        currentBlock = GetComponent<Block>();
-    }*/
-
     public void CharacterMove(List<Block> blockPath)
     {
         uiManager.DeactivateBattleUI();
@@ -60,7 +40,7 @@ public class CharacterController : MonoBehaviour
             float ypos = blockPath[i].height + 1.5f;
             blockPositions[i] = new Vector3(blockPath[i].transform.position.x, ypos, blockPath[i].transform.position.z);
         }
-        transform.DOPath(blockPositions, blockPath.Count)
+        transform.DOPath(blockPositions, blockPath.Count/2)
             .OnComplete(() =>
             {
                 Reposition();
@@ -69,7 +49,7 @@ public class CharacterController : MonoBehaviour
     }
     public void IsDead()
     {
-        isAlive = false;
+        this.isAlive = false;
         this.gameObject.SetActive(false);
     }
     public void Reposition()

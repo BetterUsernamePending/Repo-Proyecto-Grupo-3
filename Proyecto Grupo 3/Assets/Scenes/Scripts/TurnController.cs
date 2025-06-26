@@ -9,7 +9,7 @@ public class TurnController : MonoBehaviour
     public bool currentp1 = true;
     public static CharacterController currentCharacter; //Personaje de quien es el turno actual.
     private CharacterController currentCharacterType; //Qué personaje es el que está seleccionado
-    private List<CharacterController> characterOrder = new List<CharacterController>(); //Lista de personajes. Se utiliza para definir el orden
+    public List<CharacterController> characterOrder = new List<CharacterController>(); //Lista de personajes. Se utiliza para definir el orden
     private BattleController battleController;
 
     private void Awake()

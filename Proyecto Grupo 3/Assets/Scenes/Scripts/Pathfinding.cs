@@ -8,6 +8,7 @@ public class Pathfinding
 {
     public static List<Block> showPossible(Block startingBlock, int dist, int jump) //crea una lista con las casillas posibles a las que se puede mover el jugador
     {
+        dist ++;
         List<Block> toSearch = new List<Block>() { startingBlock };
         List<Block> processed = new List<Block>();
         List<Block> nextToSearch = new List<Block>();
