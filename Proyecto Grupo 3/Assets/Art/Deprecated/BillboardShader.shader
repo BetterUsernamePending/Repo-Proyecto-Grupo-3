@@ -3,6 +3,10 @@ Shader "Custom/Billboard"
     Properties
     {
         _MainTex("Texture", 2D) = "white" {}
+//
+        _OriginalColor("Original Color", Color) = (1,0,1,1)
+        _TargetColor("Target Color", Color) = (0,0,1,1)
+        _Tolerance("Tolerance", Range(0,0.01)) = 0.001
     }
    
     SubShader
@@ -35,6 +39,11 @@ Shader "Custom/Billboard"
             const float3 vect3Zero = float3(0.0, 0.0, 0.0);
 
             sampler2D _MainTex;
+            //
+            float4 _MainTex_ST;
+            float4 _OriginalColor;
+            float4 _TargetColor;
+            float _Tolerance;
 
             v2f vert(appdata v)
             {
@@ -51,11 +60,29 @@ Shader "Custom/Billboard"
 
                 return o;
             }
-
+/*
             fixed4 frag(v2f i) : SV_Target
             {
                 // Don't need to do anything special, just render the texture
                 return tex2D(_MainTex, i.uv);
+            }*/
+            //
+            half4 frag (v2f i) : SV_Target
+            {
+                // sample the texture
+                half4 col = tex2D(_MainTex, i.uv);
+                
+                if (col.a == 0)
+                {
+                    return half4(0,0,0,0);
+                }
+
+                if (length(col - _OriginalColor) < _Tolerance)
+                {
+                    return half4(_TargetColor.rgb, col.a);
+                }
+
+                return col;
             }
             ENDCG
         }
