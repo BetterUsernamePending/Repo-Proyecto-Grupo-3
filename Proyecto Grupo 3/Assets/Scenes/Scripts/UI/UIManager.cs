@@ -1,4 +1,8 @@
 using UnityEngine;
+using System.Collections;
+using System.Collections.Generic;
+using TMPro;
+using UnityEngine.UI;
 
 
 public class UIManager : MonoBehaviour
@@ -10,13 +14,21 @@ public class UIManager : MonoBehaviour
     [SerializeField] public GameObject p1WinUI;
     [SerializeField] public GameObject p2WinUI;
     [SerializeField] private TurnController turnController;
+
     public bool isPaused = false;
     private CharacterController CurrentCharacter;
+    [Header("Bio")]
+    [SerializeField] private Slider HealthBar;
+    [SerializeField] private Slider MPBar;
+    [SerializeField] private TextMeshProUGUI CharacterName;
+    [SerializeField] private Image CharacterPortrait;
 
-    private void Start ()
+    private void Start()
     {
         MenuDePausa.SetActive(false);
-        CurrentCharacter = TurnController.currentCharacter; 
+        CurrentCharacter = TurnController.currentCharacter;
+        turnController.OnTurnFinished += SetValues;
+        SetValues();
     }
 
     private void Update()
@@ -71,4 +83,32 @@ public class UIManager : MonoBehaviour
         PausePanel.SetActive(false);
         isPaused = false;
     }
+    /*HP*/
+    public void SetValues()
+    {
+        CurrentCharacter = TurnController.currentCharacter;
+
+        HealthBar.maxValue = CurrentCharacter.origStats["hp"];
+        MPBar.maxValue = CurrentCharacter.origStats["mp"];
+
+        HealthBar.value = CurrentCharacter.currentStats["hp"];
+        MPBar.value = CurrentCharacter.currentStats["mp"];
+
+        CharacterPortrait.sprite = CurrentCharacter.Portrait;
+        CharacterName.text = CurrentCharacter.PortraitName;
+    }
+
+    /* UI DINAMICA */
+    [SerializeField] GameObject BotonDeAccionPrefab;
+    private int TestingValue = 3;
+
+    public void OnButtonPressed()
+    {
+
+    }
+    public void HealthBarManagement()
+    {
+
+    }
+    /* UI DINAMICA */
 }

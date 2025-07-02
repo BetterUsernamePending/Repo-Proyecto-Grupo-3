@@ -1,4 +1,4 @@
-using NUnit.Framework;
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
@@ -11,6 +11,7 @@ public class TurnController : MonoBehaviour
     private CharacterController currentCharacterType; //Qué personaje es el que está seleccionado
     public List<CharacterController> characterOrder = new List<CharacterController>(); //Lista de personajes. Se utiliza para definir el orden
     private BattleController battleController;
+    public Action OnTurnFinished;
 
     private void Awake()
     {
@@ -55,6 +56,7 @@ public class TurnController : MonoBehaviour
         battleController.OnTurnFinished();
         Debug.Log(currentCharacter.name);
         TurnBegin();
+        OnTurnFinished?.Invoke();
     }
 
     /*

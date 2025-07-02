@@ -74,6 +74,8 @@ MonoBehaviour:
   targetBlock: {fileID: 0}
   isMoving: 0
   isAlive: 1
+  Portrait: {fileID: 21300000, guid: 7f2c91e0a435f394ba54beacd4cce674, type: 3}
+  PortraitName: Pigius
 --- !u!1 &7540060724662798163
 GameObject:
   m_ObjectHideFlags: 0

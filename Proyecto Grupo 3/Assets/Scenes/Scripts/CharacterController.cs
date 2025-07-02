@@ -16,7 +16,10 @@ public class CharacterController : MonoBehaviour
     public bool isAlive = true;
 
     public Dictionary<string,int> origStats = new Dictionary<string,int>();
-    public Dictionary<string,int> currentStats = new Dictionary<string,int>();
+    public Dictionary<string, int> currentStats = new Dictionary<string, int>();
+    public Sprite Portrait;
+    public string PortraitName;
+
     private void Start()
     {
 
