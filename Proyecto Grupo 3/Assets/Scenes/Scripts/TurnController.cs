@@ -11,9 +11,11 @@ public class TurnController : MonoBehaviour
     private CharacterController currentCharacterType; //Qué personaje es el que está seleccionado
     public List<CharacterController> characterOrder = new List<CharacterController>(); //Lista de personajes. Se utiliza para definir el orden
     private BattleController battleController;
+    private CameraController cameraController;
 
     private void Awake()
     {
+        cameraController = FindAnyObjectByType<CameraController>();
         battleController = FindAnyObjectByType<BattleController>();
         characterOrder.AddRange(FindObjectsByType<CharacterController>(FindObjectsSortMode.None));
         currentCharacter = characterOrder[0];   
@@ -24,6 +26,7 @@ public class TurnController : MonoBehaviour
         Debug.Log("current character is " + currentCharacter.name);
         if (!currentCharacter.isAlive)
             PassTurn();
+        else cameraController.LookAtCurrent();
     }
     private void ActivateBattleUI()
     {
