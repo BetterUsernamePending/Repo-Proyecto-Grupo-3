@@ -14,5 +14,7 @@ public class Sorin : CharacterController
         origStats.Add("range",4);
         origStats.Add("attackHeight", 3);
         currentStats = origStats;
+
+        origStats.Add("totalAbilities", 3);
     }
 }

@@ -15,8 +15,13 @@ public class UIManager : MonoBehaviour
     [SerializeField] public GameObject p2WinUI;
     [SerializeField] private TurnController turnController;
 
+
     public bool isPaused = false;
     private CharacterController CurrentCharacter;
+
+    [Header("TurnAnnouncer")]
+    [SerializeField] private TextMeshProUGUI AnnounceCurrentPlayer;
+
     [Header("Bio")]
     [SerializeField] private Slider HealthBar;
     [SerializeField] private Slider MPBar;
@@ -83,7 +88,8 @@ public class UIManager : MonoBehaviour
         PausePanel.SetActive(false);
         isPaused = false;
     }
-    /*HP*/
+
+    /* UI DINAMICA */
     public void SetValues()
     {
         CurrentCharacter = TurnController.currentCharacter;
@@ -98,9 +104,6 @@ public class UIManager : MonoBehaviour
         CharacterName.text = CurrentCharacter.PortraitName;
     }
 
-    /* UI DINAMICA */
-    [SerializeField] GameObject BotonDeAccionPrefab;
-    private int TestingValue = 3;
 
     public void OnButtonPressed()
     {

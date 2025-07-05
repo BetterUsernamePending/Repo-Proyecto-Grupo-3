@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class SirPigius : CharacterController
 {
+    
+
     private void Awake()
     {
         origStats.Add("atk", 5);
@@ -16,5 +18,8 @@ public class SirPigius : CharacterController
         origStats.Add("range", 1);
         origStats.Add("attackHeight", 1);
         currentStats = origStats;
+
+        origStats.Add("totalAbilities", 2);
     }
+
 }
