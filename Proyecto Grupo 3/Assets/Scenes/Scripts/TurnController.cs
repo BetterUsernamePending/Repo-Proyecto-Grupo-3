@@ -8,13 +8,15 @@ public class TurnController : MonoBehaviour
 {
     public bool currentp1 = true;
     public static CharacterController currentCharacter; //Personaje de quien es el turno actual.
-    private CharacterController currentCharacterType; //Qué personaje es el que está seleccionado
+    private CharacterController currentCharacterType; //Quï¿½ personaje es el que estï¿½ seleccionado
     public List<CharacterController> characterOrder = new List<CharacterController>(); //Lista de personajes. Se utiliza para definir el orden
     private BattleController battleController;
     public Action OnTurnFinished;
+    private CameraController cameraController;
 
     private void Awake()
     {
+        cameraController = FindAnyObjectByType<CameraController>();
         battleController = FindAnyObjectByType<BattleController>();
         characterOrder.AddRange(FindObjectsByType<CharacterController>(FindObjectsSortMode.None));
         currentCharacter = characterOrder[0];   
@@ -25,20 +27,21 @@ public class TurnController : MonoBehaviour
         Debug.Log("current character is " + currentCharacter.name);
         if (!currentCharacter.isAlive)
             PassTurn();
+        else cameraController.LookAtCurrent();
     }
     private void ActivateBattleUI()
     {
-        //acá tiene que estar el codigo que active la UI en pantalla
+        //acï¿½ tiene que estar el codigo que active la UI en pantalla
     }
 
     private void ActivateActionUI()
     {
         //hacer un switch con un case para cada tipo de personaje. Cada case debe activar la actionUI del personaje correspondiente (en "currentCharacterType")
-        //acá tiene que estar el codigo que active la UI en pantalla ESPECIFICA de las acciones cada personaje
+        //acï¿½ tiene que estar el codigo que active la UI en pantalla ESPECIFICA de las acciones cada personaje
     }
     private void DeactivateBattleUI()
     {
-        //acá tiene que estar el codigo que DESACTIVE la UI en pantalla
+        //acï¿½ tiene que estar el codigo que DESACTIVE la UI en pantalla
     }
     public void PassTurn()
     {
