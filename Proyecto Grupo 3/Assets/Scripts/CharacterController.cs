@@ -31,6 +31,21 @@ public class CharacterController : MonoBehaviour
             Debug.Log("character" + " " + this.name + " " + "standing in " + currentBlock.name);
         }
         uiManager = FindAnyObjectByType<UIManager>();
+        switch (belongsToPlayer)
+        {
+            case 1:
+                transform.GetChild(0).GetComponent<Renderer>().materials[0].SetColor("_OutlineColor", Color.blue);
+                break;
+            case 2:
+                transform.GetChild(0).GetComponent<Renderer>().materials[0].SetColor("_OutlineColor", Color.red);
+                break;
+            case 3:
+                transform.GetChild(0).GetComponent<Renderer>().materials[0].SetColor("_OutlineColor", Color.green);
+                break;
+            case 4:
+                transform.GetChild(0).GetComponent<Renderer>().materials[0].SetColor("_OutlineColor", Color.yellow);
+                break;
+        }
     }
     public void CharacterMove(List<Block> blockPath)
     {
