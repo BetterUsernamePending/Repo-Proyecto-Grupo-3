@@ -11,6 +11,7 @@ public class BattleController : MonoBehaviour
     private Block targetBlock;
     public bool alreadyAttacked = false;
     private GameController gameController;
+    private Animator currentAnimator; // animaciones
 
     public void OnStateEnter()
     {
@@ -29,6 +30,7 @@ public class BattleController : MonoBehaviour
         if (possibleTargets.Exists(Block => Block == clicked))
         {
             CharacterController current = TurnController.currentCharacter;
+            currentAnimator = current.animator; // animaciones
             foreach (var block in possibleTargets)
             {
                 block.TextureRevert();
@@ -39,19 +41,20 @@ public class BattleController : MonoBehaviour
     }
     public void ExecuteAttack()
     {
-        //llamar animación de ataque acá
+        //llamar animaciï¿½n de ataque acï¿½
         if (targetBlock == null)
             return;
         if (targetBlock.characterOnBlock != null)
         {
+            currentAnimator.SetTrigger("Attack"); // animaciones
             targetBlock.TextureRevert();
             int damage = TurnController.currentCharacter.currentStats["atk"] - targetBlock.characterOnBlock.currentStats["def"] / 2;
             targetBlock.characterOnBlock.currentStats["hp"] = targetBlock.characterOnBlock.currentStats["hp"] - damage;
-            Debug.Log("se hizo" + damage + "de daño");
+            Debug.Log("se hizo" + damage + "de daï¿½o");
             alreadyAttacked = true;
             if (targetBlock.characterOnBlock.currentStats["hp"] <= 0)
             {   
-                //ejecutar acá la animación de muerte
+                //ejecutar acï¿½ la animaciï¿½n de muerte
                 targetBlock.characterOnBlock.IsDead();
                 Debug.Log("La unidad enemiga " + targetBlock.characterOnBlock.name + " fue eliminada");
                 gameController.CheckIfGameOver();

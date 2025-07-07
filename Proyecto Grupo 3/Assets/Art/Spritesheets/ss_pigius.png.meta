@@ -48,7 +48,7 @@ TextureImporter:
   spriteMeshType: 0
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 127
+  spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -97,15 +97,15 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: pigius_walk_front_0
+      name: pigius_idle_f
       rect:
         serializedVersion: 2
         x: 0
-        y: 167
-        width: 127
-        height: 167
+        y: 219
+        width: 236
+        height: 219
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -119,15 +119,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pigius_walk_front_1
+      name: pigius_walk_f_1
       rect:
         serializedVersion: 2
-        x: 127
-        y: 167
-        width: 127
-        height: 167
+        x: 236
+        y: 219
+        width: 236
+        height: 219
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -141,15 +141,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pigius_walk_front_2
+      name: pigius_walk_f_2
       rect:
         serializedVersion: 2
-        x: 254
-        y: 167
-        width: 127
-        height: 167
+        x: 472
+        y: 219
+        width: 236
+        height: 219
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -163,15 +163,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pigius_walk_back_0
+      name: pigius_idle_b
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 127
-        height: 167
+        x: 708
+        y: 219
+        width: 236
+        height: 219
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -185,15 +185,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pigius_walk_back_1
+      name: pigius_walk_b_1
       rect:
         serializedVersion: 2
-        x: 127
-        y: 0
-        width: 127
-        height: 167
+        x: 944
+        y: 219
+        width: 236
+        height: 219
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -207,15 +207,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pigius_walk_back_2
+      name: pigius_walk_b_2
       rect:
         serializedVersion: 2
-        x: 254
-        y: 0
-        width: 127
-        height: 167
+        x: 1187
+        y: 219
+        width: 236
+        height: 219
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -224,6 +224,182 @@ TextureImporter:
       bones: []
       spriteID: f61cbbf077adde34eb957d9f9ea4e600
       internalID: -2042586789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pigius_attack_f_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 236
+        height: 219
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d70e088f16f70a440a2e40ed3e3127a8
+      internalID: -1788404101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pigius_attack_f_1
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 0
+        width: 236
+        height: 219
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1beb67d4eb4cd8f498f86bfdb87e20b3
+      internalID: 1005749661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pigius_attack_f_2
+      rect:
+        serializedVersion: 2
+        x: 472
+        y: 0
+        width: 236
+        height: 219
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d86332a08d6d5574a9ce5f2189c8fee7
+      internalID: 908835683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pigius_attack_f_3
+      rect:
+        serializedVersion: 2
+        x: 708
+        y: 0
+        width: 236
+        height: 219
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0fe41f53c6e1324aa53c743da839517
+      internalID: -962412283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pigius_attack_b_0
+      rect:
+        serializedVersion: 2
+        x: 944
+        y: 0
+        width: 236
+        height: 219
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bd3195ad027c7446831d226ce02825a
+      internalID: -764447634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pigius_attack_b_1
+      rect:
+        serializedVersion: 2
+        x: 1180
+        y: 0
+        width: 236
+        height: 219
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e544bb5bd362c04996a9235aa902b89
+      internalID: -972497672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pigius_attack_b_2
+      rect:
+        serializedVersion: 2
+        x: 1416
+        y: 0
+        width: 236
+        height: 219
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 769ef5fd89aee7c47bb4ceb1b93fc3d5
+      internalID: -1557623637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pigius_attack_b_3
+      rect:
+        serializedVersion: 2
+        x: 1652
+        y: 0
+        width: 236
+        height: 219
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15a242d5e5bfd40419a133fd21d562df
+      internalID: -1088247700
       vertices: []
       indices: 
       edges: []
@@ -242,12 +418,20 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      pigius_walk_back_0: 302012805
-      pigius_walk_back_1: -533632129
-      pigius_walk_back_2: -2042586789
-      pigius_walk_front_0: 1095195310
-      pigius_walk_front_1: -451624485
-      pigius_walk_front_2: 835773422
+      pigius_attack_b_0: -764447634
+      pigius_attack_b_1: -972497672
+      pigius_attack_b_2: -1557623637
+      pigius_attack_b_3: -1088247700
+      pigius_attack_f_0: -1788404101
+      pigius_attack_f_1: 1005749661
+      pigius_attack_f_2: 908835683
+      pigius_attack_f_3: -962412283
+      pigius_idle_b: 302012805
+      pigius_idle_f: 1095195310
+      pigius_walk_b_1: -533632129
+      pigius_walk_b_2: -2042586789
+      pigius_walk_f_1: -451624485
+      pigius_walk_f_2: 835773422
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

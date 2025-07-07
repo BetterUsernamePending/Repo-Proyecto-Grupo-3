@@ -48,7 +48,7 @@ TextureImporter:
   spriteMeshType: 0
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 127
+  spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -97,133 +97,309 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: solin_walk_front_0
+      name: solin_idle_f
       rect:
         serializedVersion: 2
         x: 0
-        y: 167
-        width: 127
-        height: 167
+        y: 219
+        width: 236
+        height: 219
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 50b5de06605542f4482463cd88c5730d
-      internalID: -76432997
+      spriteID: a8d93b04e803ecc49a92b998f136ad47
+      internalID: 1095195310
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: solin_walk_front_1
+      name: solin_walk_f_1
       rect:
         serializedVersion: 2
-        x: 127
-        y: 167
-        width: 127
-        height: 167
+        x: 236
+        y: 219
+        width: 236
+        height: 219
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ef41799abec335946ab2a49eff8ae877
-      internalID: -575674564
+      spriteID: e788ffaa2b5f56c4fade147f43d6ba96
+      internalID: -451624485
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: solin_walk_front_2
+      name: solin_walk_f_2
       rect:
         serializedVersion: 2
-        x: 254
-        y: 167
-        width: 127
-        height: 167
+        x: 472
+        y: 219
+        width: 236
+        height: 219
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c00f2041f8b82df4db14462da619ba48
-      internalID: 1860935976
+      spriteID: 753cafa9a45df6f42a58d184da8bd8b4
+      internalID: 835773422
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: solin_walk_back_0
+      name: solin_idle_b
+      rect:
+        serializedVersion: 2
+        x: 708
+        y: 219
+        width: 236
+        height: 219
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73944cb91c2175e48a7f387e725fdaad
+      internalID: 302012805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: solin_walk_b_1
+      rect:
+        serializedVersion: 2
+        x: 944
+        y: 219
+        width: 236
+        height: 219
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4f79156950675d40b784cea9a458a09
+      internalID: -533632129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: solin_walk_b_2
+      rect:
+        serializedVersion: 2
+        x: 1180
+        y: 219
+        width: 236
+        height: 219
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f61cbbf077adde34eb957d9f9ea4e600
+      internalID: -2042586789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: solin_attack_f_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 127
-        height: 167
+        width: 236
+        height: 219
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cead14376f6800142b01341756936e1e
-      internalID: 759375637
+      spriteID: d70e088f16f70a440a2e40ed3e3127a8
+      internalID: -1788404101
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: solin_walk_back_1
+      name: solin_attack_f_1
       rect:
         serializedVersion: 2
-        x: 127
+        x: 236
         y: 0
-        width: 127
-        height: 167
+        width: 236
+        height: 219
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 74de1480ca422e64fb3bab58bb074880
-      internalID: 1317392479
+      spriteID: 1beb67d4eb4cd8f498f86bfdb87e20b3
+      internalID: 1005749661
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: solin_walk_back_2
+      name: solin_attack_f_2
       rect:
         serializedVersion: 2
-        x: 254
+        x: 472
         y: 0
-        width: 127
-        height: 167
+        width: 236
+        height: 219
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 74de8b3e388b5304e96cd1fb9118cf80
-      internalID: 1107313655
+      spriteID: d86332a08d6d5574a9ce5f2189c8fee7
+      internalID: 908835683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: solin_attack_f_3
+      rect:
+        serializedVersion: 2
+        x: 708
+        y: 0
+        width: 236
+        height: 219
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0fe41f53c6e1324aa53c743da839517
+      internalID: -962412283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: solin_attack_b_0
+      rect:
+        serializedVersion: 2
+        x: 944
+        y: 0
+        width: 236
+        height: 219
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bd3195ad027c7446831d226ce02825a
+      internalID: -764447634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: solin_attack_b_1
+      rect:
+        serializedVersion: 2
+        x: 1180
+        y: 0
+        width: 236
+        height: 219
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e544bb5bd362c04996a9235aa902b89
+      internalID: -972497672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: solin_attack_b_2
+      rect:
+        serializedVersion: 2
+        x: 1416
+        y: 0
+        width: 236
+        height: 219
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 769ef5fd89aee7c47bb4ceb1b93fc3d5
+      internalID: -1557623637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: solin_attack_b_3
+      rect:
+        serializedVersion: 2
+        x: 1652
+        y: 0
+        width: 236
+        height: 219
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15a242d5e5bfd40419a133fd21d562df
+      internalID: -1088247700
       vertices: []
       indices: 
       edges: []
@@ -232,7 +408,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: d07ef13265d735045abe206b33f277e8
+    spriteID: 099a07fdf8a56024cb1324dfbb1567fa
     internalID: 0
     vertices: []
     indices: 
@@ -242,12 +418,21 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      solin_walk_back_0: 759375637
-      solin_walk_back_1: 1317392479
-      solin_walk_back_2: 1107313655
-      solin_walk_front_0: -76432997
-      solin_walk_front_1: -575674564
-      solin_walk_front_2: 1860935976
+      s_walk_f_0: 1095195310
+      solin_attack_b_0: -764447634
+      solin_attack_b_1: -972497672
+      solin_attack_b_2: -1557623637
+      solin_attack_b_3: -1088247700
+      solin_attack_f_0: -1788404101
+      solin_attack_f_1: 1005749661
+      solin_attack_f_2: 908835683
+      solin_attack_f_3: -962412283
+      solin_idle_b: 302012805
+      solin_idle_f: 1095195310
+      solin_walk_b_1: -533632129
+      solin_walk_b_2: -2042586789
+      solin_walk_f_1: -451624485
+      solin_walk_f_2: 835773422
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

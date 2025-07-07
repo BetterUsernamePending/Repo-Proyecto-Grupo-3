@@ -8,7 +8,7 @@ using System.Collections;
 public class CharacterController : MonoBehaviour
 {
     public int belongsToPlayer;
-    public Block currentBlock; //bloque en el que está parado el personaje
+    public Block currentBlock; //bloque en el que estï¿½ parado el personaje
     public Block targetBlock;
     private LayerMask layerToFind;
     private UIManager uiManager;
@@ -19,6 +19,8 @@ public class CharacterController : MonoBehaviour
     public Dictionary<string, int> currentStats = new Dictionary<string, int>();
     public Sprite Portrait;
     public string PortraitName;
+
+    public Animator animator; // animaciones
 
     private void Start()
     {
@@ -46,6 +48,7 @@ public class CharacterController : MonoBehaviour
                 transform.GetChild(0).GetComponent<Renderer>().materials[0].SetColor("_OutlineColor", Color.yellow);
                 break;
         }
+        animator = GetComponentInChildren<Animator>(); // animaciones
     }
     public void CharacterMove(List<Block> blockPath)
     {
@@ -58,10 +61,12 @@ public class CharacterController : MonoBehaviour
             float ypos = blockPath[i].height + 1.5f;
             blockPositions[i] = new Vector3(blockPath[i].transform.position.x, ypos, blockPath[i].transform.position.z);
         }
+        animator.SetBool("isMoving", true);
         transform.DOPath(blockPositions, blockPath.Count/2)
             .OnComplete(() =>
             {
                 Reposition();
+                animator.SetBool("isMoving", false); // animaciones
                 uiManager.ActivateBattleUI();
             });
     }
