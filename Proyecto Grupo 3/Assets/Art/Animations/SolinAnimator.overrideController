@@ -7,5 +7,11 @@ AnimatorOverrideController:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: SolinAnimator
-  m_Controller: {fileID: 0}
-  m_Clips: []
+  m_Controller: {fileID: 9100000, guid: facf712a538d27a42b9c91fb249f94ea, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: 7400000, guid: cb468ab99068e4445829c5467eabdc94, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: e16dabd1ee18a804889f1b8c435cf413, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 81df45817661a614aadb1e90da4c0bb2, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: d7396d74c0eaf1a409d7d3445bba3802, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 7d18b80c07b9ede4b8822acdab133214, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 15e6c40c144b09c40a981c70372287c7, type: 2}
