@@ -18,6 +18,12 @@ public class UIManager : MonoBehaviour
 
     public bool isPaused = false;
     private CharacterController CurrentCharacter;
+    public List<CharacterController> orderlyCharactersList = new List<CharacterController>();
+
+    [Header("ActionUI")]
+    [SerializeField] public GameObject FirstButton;
+    [SerializeField] public GameObject SecondButton;
+    [SerializeField] public GameObject ThirdButton;
 
     [Header("TurnAnnouncer")]
     [SerializeField] private TextMeshProUGUI AnnounceCurrentPlayer;
@@ -30,6 +36,9 @@ public class UIManager : MonoBehaviour
 
     private void Start()
     {
+        orderlyCharactersList.AddRange(FindObjectsByType<CharacterController>(FindObjectsSortMode.None));
+        CurrentCharacter = orderlyCharactersList[0];
+
         MenuDePausa.SetActive(false);
         CurrentCharacter = TurnController.currentCharacter;
         turnController.OnTurnFinished += SetValues;
@@ -50,6 +59,42 @@ public class UIManager : MonoBehaviour
             }
         }
 
+    }
+
+    public void SkipButtonPressed()
+    {
+        int i = 0;
+        CharacterController storedCharacterController = orderlyCharactersList[0];
+        for (i = 0; i < orderlyCharactersList.Count - 1; i++)
+        {
+            orderlyCharactersList[i] = orderlyCharactersList[i + 1];
+        }
+        orderlyCharactersList[orderlyCharactersList.Count - 1] = storedCharacterController;
+        CurrentCharacter = orderlyCharactersList[0];
+    }
+
+    public void RevealButtons()
+    {
+        var testingValue = CurrentCharacter.origStats["totalAbilities"];
+
+        switch (testingValue)
+        {
+            case 1:
+                FirstButton.SetActive(true);
+                SecondButton.SetActive(false);
+                ThirdButton.SetActive(false);
+                break;
+            case 2:
+                FirstButton.SetActive(true);
+                SecondButton.SetActive(true);
+                ThirdButton.SetActive(false);
+                break;
+            case 3:
+                FirstButton.SetActive(true);
+                SecondButton.SetActive(true);
+                ThirdButton.SetActive(true);
+                break;
+        }
     }
 
     public void DeactivateBattleUI()
@@ -102,6 +147,10 @@ public class UIManager : MonoBehaviour
 
         CharacterPortrait.sprite = CurrentCharacter.Portrait;
         CharacterName.text = CurrentCharacter.PortraitName;
+    }
+    public void refreshValues()
+    {
+
     }
 
 
