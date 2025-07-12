@@ -48,7 +48,7 @@ TextureImporter:
   spriteMeshType: 0
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 127
+  spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -97,13 +97,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: rob_walk_front_0
+      name: rob_idle_f
       rect:
         serializedVersion: 2
         x: 0
-        y: 167
-        width: 127
-        height: 167
+        y: 219
+        width: 236
+        height: 219
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -112,20 +112,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: db4a2594b3d166d42b9c9ab39485577b
-      internalID: -1813626591
+      spriteID: a8d93b04e803ecc49a92b998f136ad47
+      internalID: 1095195310
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rob_walk_front_1
+      name: rob_walk_f_1
       rect:
         serializedVersion: 2
-        x: 127
-        y: 167
-        width: 127
-        height: 167
+        x: 236
+        y: 219
+        width: 236
+        height: 219
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -134,20 +134,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 784bc40926bbcdd4d889fe09951a027c
-      internalID: 2042946705
+      spriteID: e788ffaa2b5f56c4fade147f43d6ba96
+      internalID: -451624485
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rob_walk_front_2
+      name: rob_walk_f_2
       rect:
         serializedVersion: 2
-        x: 254
-        y: 167
-        width: 127
-        height: 167
+        x: 472
+        y: 219
+        width: 236
+        height: 219
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -156,20 +156,86 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e8bcd286ece38eb44a383c15c83a7c7d
-      internalID: -2075073408
+      spriteID: 753cafa9a45df6f42a58d184da8bd8b4
+      internalID: 835773422
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rob_walk_back_0
+      name: rob_idle_b
+      rect:
+        serializedVersion: 2
+        x: 708
+        y: 219
+        width: 236
+        height: 219
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73944cb91c2175e48a7f387e725fdaad
+      internalID: 302012805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rob_walk_b_1
+      rect:
+        serializedVersion: 2
+        x: 944
+        y: 219
+        width: 236
+        height: 219
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4f79156950675d40b784cea9a458a09
+      internalID: -533632129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rob_walk_b_2
+      rect:
+        serializedVersion: 2
+        x: 1180
+        y: 219
+        width: 236
+        height: 219
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f61cbbf077adde34eb957d9f9ea4e600
+      internalID: -2042586789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rob_attack_f_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 127
-        height: 167
+        width: 236
+        height: 219
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -178,20 +244,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ab1c46764487e3f4d80709fc83de5a34
-      internalID: -2069479889
+      spriteID: d70e088f16f70a440a2e40ed3e3127a8
+      internalID: -1788404101
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rob_walk_back_1
+      name: rob_attack_f_1
       rect:
         serializedVersion: 2
-        x: 127
+        x: 236
         y: 0
-        width: 127
-        height: 167
+        width: 236
+        height: 219
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -200,20 +266,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4fbff757abfcaf14d8be5a8d11b45cc7
-      internalID: 1738348766
+      spriteID: 1beb67d4eb4cd8f498f86bfdb87e20b3
+      internalID: 1005749661
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rob_walk_back_2
+      name: rob_attack_f_2
       rect:
         serializedVersion: 2
-        x: 254
+        x: 472
         y: 0
-        width: 127
-        height: 167
+        width: 236
+        height: 219
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -222,8 +288,118 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b56b17762255e124280a97e805814a8b
-      internalID: 1313015183
+      spriteID: d86332a08d6d5574a9ce5f2189c8fee7
+      internalID: 908835683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rob_attack_f_3
+      rect:
+        serializedVersion: 2
+        x: 708
+        y: 0
+        width: 236
+        height: 219
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0fe41f53c6e1324aa53c743da839517
+      internalID: -962412283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rob_attack_b_0
+      rect:
+        serializedVersion: 2
+        x: 944
+        y: 0
+        width: 236
+        height: 219
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bd3195ad027c7446831d226ce02825a
+      internalID: -764447634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rob_attack_b_1
+      rect:
+        serializedVersion: 2
+        x: 1180
+        y: 0
+        width: 236
+        height: 219
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e544bb5bd362c04996a9235aa902b89
+      internalID: -972497672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rob_attack_b_2
+      rect:
+        serializedVersion: 2
+        x: 1416
+        y: 0
+        width: 236
+        height: 219
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 769ef5fd89aee7c47bb4ceb1b93fc3d5
+      internalID: -1557623637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rob_attack_b_3
+      rect:
+        serializedVersion: 2
+        x: 1652
+        y: 0
+        width: 236
+        height: 219
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15a242d5e5bfd40419a133fd21d562df
+      internalID: -1088247700
       vertices: []
       indices: 
       edges: []
@@ -232,7 +408,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 5c4d631abb43eb6468ed3bdc6d548af4
+    spriteID: 099a07fdf8a56024cb1324dfbb1567fa
     internalID: 0
     vertices: []
     indices: 
@@ -242,12 +418,20 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      rob_walk_back_0: -2069479889
-      rob_walk_back_1: 1738348766
-      rob_walk_back_2: 1313015183
-      rob_walk_front_0: -1813626591
-      rob_walk_front_1: 2042946705
-      rob_walk_front_2: -2075073408
+      rob_attack_b_0: -764447634
+      rob_attack_b_1: -972497672
+      rob_attack_b_2: -1557623637
+      rob_attack_b_3: -1088247700
+      rob_attack_f_0: -1788404101
+      rob_attack_f_1: 1005749661
+      rob_attack_f_2: 908835683
+      rob_attack_f_3: -962412283
+      rob_idle_b: 302012805
+      rob_idle_f: 1095195310
+      rob_walk_b_1: -533632129
+      rob_walk_b_2: -2042586789
+      rob_walk_f_1: -451624485
+      rob_walk_f_2: 835773422
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
