@@ -14,27 +14,24 @@ public class GameController : MonoBehaviour
     BattleController battleController;
     TurnController turnController;
     UIManager uiManager;
+    CameraBrainController cameraBrainController;
     void Start()
     {
-       //StartCoroutine(Delay());
        battleController = FindAnyObjectByType<BattleController>();
        turnController = FindAnyObjectByType<TurnController>();
        uiManager = FindAnyObjectByType<UIManager>();
+       cameraBrainController = FindAnyObjectByType<CameraBrainController>();
     }
-    IEnumerator Delay()
-    {
-        yield return new WaitForSeconds(1);
-        Pathfinding.showPossible(TurnController.currentCharacter.currentBlock, 5, 4);
-        //Corutina en pausa
-    }
-
     private void Update()
     {
         if(Input.GetMouseButtonDown(0))
             GetClickedBlock();
+        if(Input.GetKeyDown(KeyCode.Tab))
+            {
+            CameraBrainController.cameraAngle++;
+            cameraBrainController.LookAtCurrent();
+            }
     }
-
-    
     public void GetClickedBlock()
     {
         LayerMask blockLayer = LayerMask.GetMask("BottomLayer");
