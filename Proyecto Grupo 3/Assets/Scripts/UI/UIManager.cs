@@ -17,8 +17,6 @@ public class UIManager : MonoBehaviour
 
 
     public bool isPaused = false;
-    private CharacterController CurrentCharacter;
-    public List<CharacterController> orderlyCharactersList = new List<CharacterController>();
 
     [Header("ActionUI")]
     [SerializeField] public GameObject FirstButton;
@@ -36,11 +34,8 @@ public class UIManager : MonoBehaviour
 
     private void Start()
     {
-        orderlyCharactersList.AddRange(FindObjectsByType<CharacterController>(FindObjectsSortMode.None));
-        CurrentCharacter = orderlyCharactersList[0];
-
         MenuDePausa.SetActive(false);
-        CurrentCharacter = TurnController.currentCharacter;
+
         turnController.OnTurnFinished += SetValues;
         SetValues();
     }
@@ -61,21 +56,10 @@ public class UIManager : MonoBehaviour
 
     }
 
-    public void SkipButtonPressed()
-    {
-        int i = 0;
-        CharacterController storedCharacterController = orderlyCharactersList[0];
-        for (i = 0; i < orderlyCharactersList.Count - 1; i++)
-        {
-            orderlyCharactersList[i] = orderlyCharactersList[i + 1];
-        }
-        orderlyCharactersList[orderlyCharactersList.Count - 1] = storedCharacterController;
-        CurrentCharacter = orderlyCharactersList[0];
-    }
 
     public void RevealButtons()
     {
-        var testingValue = CurrentCharacter.origStats["totalAbilities"];
+        var testingValue = TurnController.currentCharacter.origStats["totalAbilities"];
 
         switch (testingValue)
         {
@@ -137,7 +121,7 @@ public class UIManager : MonoBehaviour
     /* UI DINAMICA */
     public void SetValues()
     {
-        CurrentCharacter = TurnController.currentCharacter;
+        var CurrentCharacter = TurnController.currentCharacter;
 
         HealthBar.maxValue = CurrentCharacter.origStats["hp"];
         MPBar.maxValue = CurrentCharacter.origStats["mp"];
