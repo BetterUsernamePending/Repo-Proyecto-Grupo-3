@@ -62,18 +62,22 @@ public class GameController : MonoBehaviour
     //End of Movement Section
 
     //Battle Section
-    public void LoadBattleState()
+    public void LoadBattleState() //ACT button pressed
     {
         battleController = new BattleController();
         battleController.OnStateEnter();
     }
-    public void CancelBattleState()
+    public void CancelBattleState() //ACT cancelled
     {
         battleController.OnStateCancel();
     }
-    public void ExecuteAttack()
+    public void ExecuteAttack() //ACT confirmed
     {
         battleController.ExecuteAttack();
+    }
+    public void ExecuteAbility(int i)
+    {
+
     }
     //End of Battle Section
 

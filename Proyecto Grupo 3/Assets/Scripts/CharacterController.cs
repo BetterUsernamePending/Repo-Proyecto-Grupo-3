@@ -14,7 +14,7 @@ public class CharacterController : MonoBehaviour
     private UIManager uiManager;
     public bool isMoving = false;
     public bool isAlive = true;
-
+    public List<AbilityClass> abilityList = new List<AbilityClass>();
     public Dictionary<string,int> origStats = new Dictionary<string,int>();
     public Dictionary<string, int> currentStats = new Dictionary<string, int>();
     public Sprite Portrait;

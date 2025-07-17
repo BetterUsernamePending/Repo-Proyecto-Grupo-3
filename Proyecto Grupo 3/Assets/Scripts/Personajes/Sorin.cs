@@ -1,7 +1,7 @@
 using UnityEngine;
-
 public class Sorin : CharacterController
 {
+    
     private void Awake()
     {
         origStats.Add("atk",3);
@@ -15,6 +15,7 @@ public class Sorin : CharacterController
         origStats.Add("attackHeight", 3);
         currentStats = origStats;
 
-        origStats.Add("totalAbilities", 3);
+        gameObject.AddComponent(typeof (Heal));
+        abilityList.Add(GetComponent<Heal>());
     }
 }

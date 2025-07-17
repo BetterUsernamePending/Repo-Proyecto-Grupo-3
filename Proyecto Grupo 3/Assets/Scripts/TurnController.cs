@@ -28,6 +28,7 @@ public class TurnController : MonoBehaviour
         if (!currentCharacter.isAlive)
             PassTurn();
         else cameraController.LookAtCurrent(); 
+
     }
     private void ActivateBattleUI()
     {

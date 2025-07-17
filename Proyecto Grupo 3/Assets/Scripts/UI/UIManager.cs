@@ -3,7 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine.UI;
-
+using System;
 
 public class UIManager : MonoBehaviour
 {
@@ -22,6 +22,7 @@ public class UIManager : MonoBehaviour
     [SerializeField] public GameObject FirstButton;
     [SerializeField] public GameObject SecondButton;
     [SerializeField] public GameObject ThirdButton;
+    public static Action<int> abilityIndexPressed;
 
     [Header("TurnAnnouncer")]
     [SerializeField] private TextMeshProUGUI AnnounceCurrentPlayer;
@@ -55,11 +56,9 @@ public class UIManager : MonoBehaviour
         }
 
     }
-
-
     public void RevealButtons()
     {
-        var testingValue = TurnController.currentCharacter.origStats["totalAbilities"];
+        var testingValue = TurnController.currentCharacter.abilityList.Count;
 
         switch (testingValue)
         {
@@ -138,9 +137,9 @@ public class UIManager : MonoBehaviour
     }
 
 
-    public void OnButtonPressed()
+    public void OnAbilityPressed(int i)
     {
-
+        abilityIndexPressed?.Invoke(i);
     }
     public void HealthBarManagement()
     {

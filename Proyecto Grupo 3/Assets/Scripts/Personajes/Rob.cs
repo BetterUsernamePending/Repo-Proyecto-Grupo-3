@@ -1,10 +1,7 @@
-using NUnit.Framework;
-using System.Collections.Generic;
 using UnityEngine;
 
-public class SirPigius : CharacterController
-{ 
-
+public class Rob : CharacterController
+{
     private void Awake()
     {
         origStats.Add("atk", 5);
@@ -18,5 +15,4 @@ public class SirPigius : CharacterController
         origStats.Add("attackHeight", 1);
         currentStats = origStats;
     }
-
 }
