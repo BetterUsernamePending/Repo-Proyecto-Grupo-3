@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!221 &22100000
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: CimarronAnimator
+  m_Controller: {fileID: 9100000, guid: facf712a538d27a42b9c91fb249f94ea, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: 7400000, guid: 7d18b80c07b9ede4b8822acdab133214, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: b127340fb23812347b8f32b068974442, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: cb468ab99068e4445829c5467eabdc94, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 7e852d94312e20844bdd18b451ad8388, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 81df45817661a614aadb1e90da4c0bb2, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 54757e1b1591cee419062f084d6cbe1f, type: 2}
