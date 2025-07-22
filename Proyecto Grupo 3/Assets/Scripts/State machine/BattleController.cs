@@ -39,6 +39,15 @@ public class BattleController : MonoBehaviour
             targetBlock.TextureChange();
         }
     }
+    private float Exponential(float basenumb,int exp)
+    {
+        float result = 1;
+        for(int i=0; i<exp; i++)
+        {
+            result = result*basenumb;
+        }
+        return result;
+    }
     public void ExecuteAttack()
     {
         //llamar animaci�n de ataque ac�
@@ -48,7 +57,7 @@ public class BattleController : MonoBehaviour
         {
             currentAnimator.SetTrigger("Attack"); // animaciones
             targetBlock.TextureRevert();
-            int damage = TurnController.currentCharacter.currentStats["atk"] - targetBlock.characterOnBlock.currentStats["def"] / 2;
+            int damage = (int)Math.Round(TurnController.currentCharacter.currentStats["atk"] * Exponential(.5f, targetBlock.characterOnBlock.currentStats["def"]));
             targetBlock.characterOnBlock.currentStats["hp"] = targetBlock.characterOnBlock.currentStats["hp"] - damage;
             Debug.Log("se hizo" + damage + "de daño");
             alreadyAttacked = true;

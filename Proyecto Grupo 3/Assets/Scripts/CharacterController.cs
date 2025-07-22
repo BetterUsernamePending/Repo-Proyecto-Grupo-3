@@ -19,6 +19,16 @@ public class CharacterController : MonoBehaviour
     public Dictionary<string, int> currentStats = new Dictionary<string, int>();
     public Sprite Portrait;
     public string PortraitName;
+    public int atk=1;
+    public int def = 1;
+    public int hp = 1;
+    public int mp = 1;
+    public int movedist = 1;
+    public int atkrange = 1;
+    public int jump = 1;
+    public int spd = 1;
+    public int atkheight = 1;
+
 
     public Animator animator; // animaciones
 

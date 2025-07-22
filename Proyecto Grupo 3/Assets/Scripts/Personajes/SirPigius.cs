@@ -7,15 +7,15 @@ public class SirPigius : CharacterController
 
     private void Awake()
     {
-        origStats.Add("atk", 5);
-        origStats.Add("def", 7);
-        origStats.Add("spd", 2);
-        origStats.Add("hp", 50);
-        origStats.Add("mp", 15);
-        origStats.Add("jump", 1);
-        origStats.Add("dist", 3);
-        origStats.Add("range", 1);
-        origStats.Add("attackHeight", 1);
+        origStats.Add("atk", atk);
+        origStats.Add("def", def);
+        origStats.Add("spd", spd);
+        origStats.Add("hp", hp);
+        origStats.Add("mp", mp);
+        origStats.Add("jump", jump);
+        origStats.Add("dist", movedist);
+        origStats.Add("range", atkrange);
+        origStats.Add("attackHeight", atkheight);
         currentStats = origStats;
     }
 
