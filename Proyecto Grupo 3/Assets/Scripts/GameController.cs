@@ -17,20 +17,20 @@ public class GameController : MonoBehaviour
     CameraBrainController cameraBrainController;
     void Start()
     {
-       battleController = FindAnyObjectByType<BattleController>();
-       turnController = FindAnyObjectByType<TurnController>();
-       uiManager = FindAnyObjectByType<UIManager>();
-       cameraBrainController = FindAnyObjectByType<CameraBrainController>();
+        battleController = FindAnyObjectByType<BattleController>();
+        turnController = FindAnyObjectByType<TurnController>();
+        uiManager = FindAnyObjectByType<UIManager>();
+        cameraBrainController = FindAnyObjectByType<CameraBrainController>();
     }
     private void Update()
     {
-        if(Input.GetMouseButtonDown(0))
+        if (Input.GetMouseButtonDown(0))
             GetClickedBlock();
-        if(Input.GetKeyDown(KeyCode.Tab))
-            {
+        if (Input.GetKeyDown(KeyCode.Tab))
+        {
             CameraBrainController.cameraAngle++;
             cameraBrainController.LookAtCurrent();
-            }
+        }
     }
     public void GetClickedBlock()
     {
@@ -38,7 +38,7 @@ public class GameController : MonoBehaviour
         bool overUI = EventSystem.current.IsPointerOverGameObject();
         RaycastHit hit;
         Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
-        if (Physics.Raycast(ray, out hit,blockLayer) && !overUI)
+        if (Physics.Raycast(ray, out hit, blockLayer) && !overUI)
         {
             Block.onBlockClicked?.Invoke(hit.transform.GetComponent<Block>());
             Debug.Log(hit.transform.name);

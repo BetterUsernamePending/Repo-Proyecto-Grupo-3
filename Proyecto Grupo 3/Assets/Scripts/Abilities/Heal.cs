@@ -6,7 +6,7 @@ public class Heal : AbilityClass
     private void Start ()
     {
         _name = "Heal";
-        _description = "Heal character for " + TurnController.currentCharacter.currentStats["atk"] / 2 + " HP";
+        _description = "Heal character for " + GetComponent<CharacterController>().currentStats["atk"] / 2 + " HP";
         _cost = TurnController.currentCharacter.origStats["mp"]/4;
     }
 

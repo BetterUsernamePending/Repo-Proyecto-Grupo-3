@@ -23,6 +23,7 @@ public class UIManager : MonoBehaviour
     [SerializeField] public GameObject SecondButton;
     [SerializeField] public GameObject ThirdButton;
     public static Action<int> abilityIndexPressed;
+    private List<GameObject> buttonList;
 
     [Header("TurnAnnouncer")]
     [SerializeField] private TextMeshProUGUI AnnounceCurrentPlayer;
@@ -39,6 +40,7 @@ public class UIManager : MonoBehaviour
 
         turnController.OnTurnFinished += SetValues;
         SetValues();
+        buttonList = new List<GameObject>() { FirstButton, SecondButton, ThirdButton };
     }
 
     private void Update()
@@ -54,32 +56,20 @@ public class UIManager : MonoBehaviour
                 OnPause();
             }
         }
-
     }
     public void RevealButtons()
     {
-        var testingValue = TurnController.currentCharacter.abilityList.Count;
-
-        switch (testingValue)
+        foreach (GameObject button in buttonList)
         {
-            case 1:
-                FirstButton.SetActive(true);
-                SecondButton.SetActive(false);
-                ThirdButton.SetActive(false);
-                break;
-            case 2:
-                FirstButton.SetActive(true);
-                SecondButton.SetActive(true);
-                ThirdButton.SetActive(false);
-                break;
-            case 3:
-                FirstButton.SetActive(true);
-                SecondButton.SetActive(true);
-                ThirdButton.SetActive(true);
-                break;
+            button.SetActive(false);
+        }
+        var abilityCount = TurnController.currentCharacter.abilityList.Count;
+        for (int i = 0; i < abilityCount; i++)
+        {
+            buttonList[i].GetComponentInChildren<TextMeshProUGUI>().text = TurnController.currentCharacter.abilityList[i]._name;
+            buttonList[i].SetActive(true);
         }
     }
-
     public void DeactivateBattleUI()
     {
         battleUI.SetActive(false);
@@ -87,14 +77,6 @@ public class UIManager : MonoBehaviour
     public void ActivateBattleUI()
     {
         battleUI.SetActive(true);
-    }
-    private void OnExitButtonPressed()
-    {
-
-    }
-    private void OnResumeButtonPressed()
-    {
-
     }
     public void GameOverP1Win()
     {
