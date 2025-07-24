@@ -165,6 +165,15 @@ MonoBehaviour:
   abilityList: []
   Portrait: {fileID: 21300000, guid: 7f2c91e0a435f394ba54beacd4cce674, type: 3}
   PortraitName: Pigius
+  atk: 1
+  def: 1
+  hp: 1
+  mp: 1
+  movedist: 4
+  atkrange: 1
+  jump: 1
+  spd: 1
+  atkheight: 1
   animator: {fileID: 2194524055773374533}
 --- !u!1 &7540060724662798163
 GameObject:
@@ -222,7 +231,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 1b07319234a860c4eb8f03b3d42c52b1, type: 2}
+  - {fileID: 2100000, guid: c0ca3a08cd200704ba607fee7b2e4286, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0

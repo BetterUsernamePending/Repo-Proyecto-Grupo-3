@@ -15,12 +15,14 @@ public class GameController : MonoBehaviour
     TurnController turnController;
     UIManager uiManager;
     CameraBrainController cameraBrainController;
+    Characterselection characterSelection;
     void Start()
     {
         battleController = FindAnyObjectByType<BattleController>();
         turnController = FindAnyObjectByType<TurnController>();
         uiManager = FindAnyObjectByType<UIManager>();
         cameraBrainController = FindAnyObjectByType<CameraBrainController>();
+        characterSelection = FindAnyObjectByType<Characterselection>();
     }
     private void Update()
     {
@@ -30,6 +32,10 @@ public class GameController : MonoBehaviour
         {
             CameraBrainController.cameraAngle++;
             cameraBrainController.LookAtCurrent();
+        }
+        if (Input.GetKeyDown(KeyCode.KeypadPlus))
+        {
+            characterSelection.CreateCimarron(Vector3.zero);
         }
     }
     public void GetClickedBlock()

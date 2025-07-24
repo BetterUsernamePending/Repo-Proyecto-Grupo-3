@@ -1,3 +1,4 @@
+using NUnit.Framework;
 using System;
 using System.Collections;
 using System.Collections.Generic;
@@ -61,18 +62,20 @@ public class TurnController : MonoBehaviour
         Debug.Log(currentCharacter.name);
         TurnBegin();
         OnTurnFinished?.Invoke();
-    }
 
+    }
+    private void  TurnOrder() //Llamar al final de cada ronda
+    {
+        characterOrder.OrderBy(x => x.spd);
+        //ordena en una lista a los personajes segun su velocidad, para determinar el orden de turnos
+    }
     /*
     private void startTurn(bool currentp1)
     {
         //comienza el turno y carga la UI correspondiente
     }
 
-    private bool turnOrder(List order)
-    {
-        //ordena en una lista a los personajes segun su velocidad, para determinar el orden de turnos
-    }
+
     IEnumerator turnTimer()
     {
         //timer del turno. Al terminarse el tiempo, el turno se saltea.
