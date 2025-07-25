@@ -165,6 +165,15 @@ MonoBehaviour:
   abilityList: []
   Portrait: {fileID: 21300000, guid: f6ecf15ee5a081e4c8dfee322405383f, type: 3}
   PortraitName: Sorin
+  atk: 1
+  def: 1
+  hp: 1
+  mp: 1
+  movedist: 1
+  atkrange: 1
+  jump: 1
+  spd: 1
+  atkheight: 1
   animator: {fileID: 3220845745545511824}
 --- !u!1 &7874817155738632717
 GameObject:
@@ -222,7 +231,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 1b07319234a860c4eb8f03b3d42c52b1, type: 2}
+  - {fileID: 2100000, guid: 545d8379c15b15a44a90eaa53a1690a1, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
