@@ -100,10 +100,10 @@ TextureImporter:
       name: ui_currplayer_bg
       rect:
         serializedVersion: 2
-        x: 117
-        y: 661
-        width: 252
-        height: 182
+        x: 118
+        y: 662
+        width: 250
+        height: 188
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -122,10 +122,10 @@ TextureImporter:
       name: ui_yn_bg
       rect:
         serializedVersion: 2
-        x: 395
-        y: 661
-        width: 276
-        height: 120
+        x: 396
+        y: 662
+        width: 274
+        height: 118
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -145,9 +145,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 706
-        y: 663
-        width: 123
-        height: 123
+        y: 662
+        width: 124
+        height: 124
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -166,10 +166,10 @@ TextureImporter:
       name: ui_btn_pressed
       rect:
         serializedVersion: 2
-        x: 845
+        x: 844
         y: 662
-        width: 123
-        height: 123
+        width: 124
+        height: 124
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -190,7 +190,7 @@ TextureImporter:
         serializedVersion: 2
         x: 1262
         y: 662
-        width: 123
+        width: 124
         height: 82
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -210,9 +210,9 @@ TextureImporter:
       name: ui_btnS_pressed
       rect:
         serializedVersion: 2
-        x: 1401
-        y: 661
-        width: 123
+        x: 1400
+        y: 662
+        width: 124
         height: 82
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -232,10 +232,10 @@ TextureImporter:
       name: ui_btnS2
       rect:
         serializedVersion: 2
-        x: 1544
+        x: 1548
         y: 666
-        width: 114
-        height: 73
+        width: 118
+        height: 76
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -254,10 +254,10 @@ TextureImporter:
       name: ui_btnS2_pressed
       rect:
         serializedVersion: 2
-        x: 1683
+        x: 1684
         y: 666
-        width: 114
-        height: 73
+        width: 118
+        height: 76
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -277,7 +277,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 357
+        y: 356
         width: 1920
         height: 290
       alignment: 0
@@ -298,10 +298,10 @@ TextureImporter:
       name: ui_right_bg
       rect:
         serializedVersion: 2
-        x: 20
-        y: 95
-        width: 883
-        height: 210
+        x: 920
+        y: 382
+        width: 882
+        height: 208
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -312,6 +312,28 @@ TextureImporter:
       bones: []
       spriteID: 7d277cbd99b6de84e9c7d6f50ae584bf
       internalID: 571286884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_left_bg
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 382
+        width: 774
+        height: 264
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6cd2f8f7b2ac2f4dad3d040f8a4f88d
+      internalID: -1531309195
       vertices: []
       indices: 
       edges: []
@@ -337,6 +359,7 @@ TextureImporter:
       ui_btnS_pressed: 1879762350
       ui_btn_pressed: 2045151879
       ui_currplayer_bg: -1869900046
+      ui_left_bg: -1531309195
       ui_main_bg: -368597695
       ui_right_bg: 571286884
       ui_sprites_11: 1166824689
