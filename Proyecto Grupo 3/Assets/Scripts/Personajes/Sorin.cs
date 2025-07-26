@@ -16,6 +16,9 @@ public class Sorin : CharacterController
         currentStats = origStats;
 
         gameObject.AddComponent(typeof (Heal));
+        abilityList.Add(GetComponent<Heal>());  
+        gameObject.AddComponent(typeof(Heal));
         abilityList.Add(GetComponent<Heal>());
     }
+
 }

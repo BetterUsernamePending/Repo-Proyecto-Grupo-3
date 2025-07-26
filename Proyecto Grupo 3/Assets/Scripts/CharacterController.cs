@@ -34,7 +34,6 @@ public class CharacterController : MonoBehaviour
 
     private void Start()
     {
-
         layerToFind= LayerMask.GetMask("BottomLayer");
         RaycastHit hit;
         if (Physics.Raycast(transform.position, Vector3.down, out hit, Mathf.Infinity, layerToFind))
