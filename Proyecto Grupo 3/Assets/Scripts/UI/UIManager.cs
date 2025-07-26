@@ -15,6 +15,10 @@ public class UIManager : MonoBehaviour
     [SerializeField] public GameObject p2WinUI;
     [SerializeField] private TurnController turnController;
 
+    [SerializeField] public Button SkipButton;
+    [SerializeField] public Button ActButton;
+    [SerializeField] public Button MoveButton;
+
 
     public bool isPaused = false;
 
@@ -55,6 +59,10 @@ public class UIManager : MonoBehaviour
             }
         }
 
+    }
+    public void DarkenButtons()
+    {
+        SkipButton.interactable = false;
     }
     public void RevealButtons()
     {
