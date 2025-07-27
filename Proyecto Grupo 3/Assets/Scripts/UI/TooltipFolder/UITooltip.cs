@@ -24,12 +24,12 @@ public class UITooltip : MonoBehaviour
 
     private void Update()
     {
-        int tamañoDelTitulo = titulo.text.Length;
-        int tamañoDelContenido = contenido.text.Length;
+        int tamanoDelTitulo = titulo.text.Length;
+        int tamanoDelContenido = contenido.text.Length;
 
         // Aqui se define si el layout se activa, dependiendo si el numero de caracteres es mayor al limiteReactivo o no
         // El limite reactivo NO esta definido en codigo, esta definido en el GameObject CajaTooltip, bien al fondo en la propiedad "UI Tooltip (script)"
-        layout.enabled = (tamañoDelTitulo > limiteReactivo || tamañoDelContenido > limiteReactivo) ? true : false;
+        layout.enabled = (tamanoDelTitulo > limiteReactivo || tamanoDelContenido > limiteReactivo) ? true : false;
 
         Vector2 position = Input.mousePosition;
 

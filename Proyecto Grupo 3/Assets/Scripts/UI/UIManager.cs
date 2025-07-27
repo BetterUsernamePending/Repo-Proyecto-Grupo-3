@@ -13,12 +13,14 @@ public class UIManager : MonoBehaviour
     [SerializeField] public GameObject battleUI;
     [SerializeField] public GameObject p1WinUI;
     [SerializeField] public GameObject p2WinUI;
+
     [SerializeField] private TurnController turnController;
 
-    [SerializeField] public Button SkipButton;
-    [SerializeField] public Button ActButton;
-    [SerializeField] public Button MoveButton;
-
+    [Header("Basic Actions")]
+    [SerializeField] public Button Move;
+    [SerializeField] public Button Act;
+    [SerializeField] public Button Skip;
+    public List<Button> MoveActSkip;
 
     public bool isPaused = false;
 
@@ -42,6 +44,10 @@ public class UIManager : MonoBehaviour
     {
         MenuDePausa.SetActive(false);
 
+        AnnouncePlayerTurn();
+
+        MoveActSkip = new List<Button>() { Move, Act, Skip };
+
         turnController.OnTurnFinished += SetValues;
         SetValues();
         buttonList = new List<GameObject>() { FirstButton, SecondButton, ThirdButton };
@@ -61,10 +67,28 @@ public class UIManager : MonoBehaviour
             }
         }
     }
-    public void DarkenButtons()
+
+    // Cuando se apreta Move, se bloquean todos los botones basicos, y viceversa cuando se cancela o se confirma un movimiento
+    public void DeactivateButtons()
     {
-        SkipButton.interactable = false;
+        foreach (Button buttons in MoveActSkip)
+        {
+            buttons.interactable = false;
+        }
     }
+    public void ReactivateButtons()
+    {
+        foreach (Button buttons in MoveActSkip)
+        {
+            buttons.interactable = true;
+        }
+    }
+
+    public void AnnouncePlayerTurn()
+    {
+    }
+
+    // Botones de accion. Adicionalmente, se define sus titulos aqui, basandose en el nombre de las habilidades dentro de sus scripts respectivos.
     public void RevealButtons()
     {
         foreach (GameObject button in buttonList)
@@ -78,6 +102,12 @@ public class UIManager : MonoBehaviour
             buttonList[i].SetActive(true);
         }
     }
+
+    public void SkipButtonPressed()
+    {
+    }
+
+    // Utilizado en funcion "CharacterMove(List<Block> blockPath)" de CharacterController
     public void DeactivateBattleUI()
     {
         battleUI.SetActive(false);
@@ -86,6 +116,8 @@ public class UIManager : MonoBehaviour
     {
         battleUI.SetActive(true);
     }
+
+
     public void GameOverP1Win()
     {
         p1WinUI.SetActive(true);
@@ -107,7 +139,7 @@ public class UIManager : MonoBehaviour
         isPaused = false;
     }
 
-    /* UI DINAMICA */
+    // Barras de vida y de mana
     public void SetValues()
     {
         var CurrentCharacter = TurnController.currentCharacter;
@@ -121,9 +153,8 @@ public class UIManager : MonoBehaviour
         CharacterPortrait.sprite = CurrentCharacter.Portrait;
         CharacterName.text = CurrentCharacter.PortraitName;
     }
-    public void refreshValues()
+    public void RefreshStats()
     {
-
     }
 
 
@@ -135,5 +166,4 @@ public class UIManager : MonoBehaviour
     {
 
     }
-    /* UI DINAMICA */
 }
