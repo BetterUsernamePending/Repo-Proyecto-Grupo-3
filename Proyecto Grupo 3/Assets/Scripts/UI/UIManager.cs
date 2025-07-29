@@ -3,12 +3,12 @@ using System.Collections;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 using System;
 
 public class UIManager : MonoBehaviour
 {
     public GameObject MenuDePausa;
-    public GameObject PausePanel;
 
     [SerializeField] public GameObject battleUI;
     [SerializeField] public GameObject p1WinUI;
@@ -53,22 +53,21 @@ public class UIManager : MonoBehaviour
         buttonList = new List<GameObject>() { FirstButton, SecondButton, ThirdButton };
     }
 
+    // Funcion para el menu de pausa, devuelve al menu principal al jugador.
+    public void MainMenuLoad()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 1);
+    }
+
     private void Update()
     {
         if (Input.GetKeyDown(KeyCode.Escape))
         {
-            if (isPaused)
-            {
-                OnResume();
-            }
-            else
-            {
-                OnPause();
-            }
+            OnPause();
         }
     }
 
-    // Cuando se apreta Move, se bloquean todos los botones basicos, y viceversa cuando se cancela o se confirma un movimiento
+    // Cuando se apreta Move, se bloquean todos los botones basicos, y viceversa cuando se cancela o se confirma un movimiento.
     public void DeactivateButtons()
     {
         foreach (Button buttons in MoveActSkip)
@@ -129,14 +128,7 @@ public class UIManager : MonoBehaviour
     public void OnPause()
     {
         MenuDePausa.SetActive(true);
-        PausePanel.SetActive(true);
         isPaused = true;
-    }
-    public void OnResume()
-    {
-        MenuDePausa.SetActive(false);
-        PausePanel.SetActive(false);
-        isPaused = false;
     }
 
     // Barras de vida y de mana
