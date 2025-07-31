@@ -16,6 +16,7 @@ public class GameController : MonoBehaviour
     UIManager uiManager;
     CameraBrainController cameraBrainController;
     Characterselection characterSelection;
+    AbilityController abilityController;
     void Start()
     {
         battleController = FindAnyObjectByType<BattleController>();
@@ -68,7 +69,7 @@ public class GameController : MonoBehaviour
     //End of Movement Section
 
     //Battle Section
-    public void LoadBattleState() //ACT button pressed
+    public void LoadBattleState() //Attack button pressed
     {
         battleController = new BattleController();
         battleController.OnStateEnter();
@@ -81,9 +82,10 @@ public class GameController : MonoBehaviour
     {
         battleController.ExecuteAttack();
     }
-    public void ExecuteAbility(int i)
+    public void ExecuteAbility(int i) //ACT button pressed
     {
-
+        abilityController = new AbilityController();
+        abilityController.OnStateEnter(i);
     }
     //End of Battle Section
 

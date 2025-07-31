@@ -100,7 +100,7 @@ public class Block : MonoBehaviour
         
         GetComponent<Renderer>().material = newMaterial;
         foreach (var block in children)
-            block.TextureChange();
+            block.TextureChange();    
     }
 
     public void TextureRevert()

@@ -9,7 +9,7 @@ public class BattleController : MonoBehaviour
 
     private List<Block> possibleTargets = new List<Block>();
     private Block targetBlock;
-    public bool alreadyAttacked = false;
+    public bool alreadyAttacked;
     private GameController gameController;
     private Animator currentAnimator; // animaciones
 
@@ -57,7 +57,7 @@ public class BattleController : MonoBehaviour
         {
             currentAnimator.SetTrigger("Attack"); // animaciones
             targetBlock.TextureRevert();
-            int damage = (int)Math.Round(TurnController.currentCharacter.currentStats["atk"] * Exponential(.5f, targetBlock.characterOnBlock.currentStats["def"]));
+            int damage = (int)Math.Round(TurnController.currentCharacter.currentStats["atk"] * Exponential(.5f, (targetBlock.characterOnBlock.currentStats["def"] / 100)));
             targetBlock.characterOnBlock.currentStats["hp"] = targetBlock.characterOnBlock.currentStats["hp"] - damage;
             Debug.Log("se hizo" + damage + "de daño");
             alreadyAttacked = true;
