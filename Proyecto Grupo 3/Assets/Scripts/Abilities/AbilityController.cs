@@ -27,6 +27,15 @@ public class AbilityController : MonoBehaviour
         {
             return;
         }
+        if (clicked != null)
+        {
+            // rotacion para orientar el sprite del personaje
+            Vector3 newForward = clicked.transform.position - TurnController.currentCharacter.transform.position;
+            newForward.y = 0;
+            Transform lookingAt = TurnController.currentCharacter.lookingAt; // transform de objeto LookingAt
+            lookingAt.rotation = Quaternion.LookRotation(newForward, lookingAt.up);
+            // -
+        }
         TurnController.currentCharacter.abilityList[currentAbilityIndex].ExecuteAbility(clicked);
     }
     public void ShowClicked(Block clicked)

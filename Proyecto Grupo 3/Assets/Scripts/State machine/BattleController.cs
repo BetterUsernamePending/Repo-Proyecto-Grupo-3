@@ -55,7 +55,14 @@ public class BattleController : MonoBehaviour
             return;
         if (targetBlock.characterOnBlock != null)
         {
-            currentAnimator.SetTrigger("Attack"); // animaciones
+            // animacion + rotacion para orientar el sprite del personaje
+            currentAnimator.SetTrigger("Attack");
+            Vector3 newForward = targetBlock.coord - TurnController.currentCharacter.currentBlock.coord;
+            newForward.y = 0;
+            Transform lookingAt = TurnController.currentCharacter.lookingAt; // transform de objeto LookingAt
+            lookingAt.rotation = Quaternion.LookRotation(newForward, lookingAt.up);
+            // -
+
             targetBlock.TextureRevert();
             int damage = (int)Math.Round(TurnController.currentCharacter.currentStats["atk"] * Exponential(.5f, (targetBlock.characterOnBlock.currentStats["def"] / 100)));
             targetBlock.characterOnBlock.currentStats["hp"] = targetBlock.characterOnBlock.currentStats["hp"] - damage;
