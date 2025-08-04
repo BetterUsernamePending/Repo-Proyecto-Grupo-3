@@ -24,9 +24,12 @@ public class Block : MonoBehaviour
     [SerializeField] private LayerMask CharacterLayer;
     public CharacterController characterOnBlock;
     public Vector3 coord; //modificar ese "vector 3 zero" por una funcion que asigne los valores del vector 3 como su posicion en X,Y y Z (transform.position) 
+    [SerializeField] private Shader baseShader;
+    [SerializeField] private Shader selectableShader;
+    
     private void Awake()
     {
-       
+
     }
     void Start()
     {
@@ -68,6 +71,7 @@ public class Block : MonoBehaviour
                 //Debug.Log(hitColliders[0].gameObject.name);
             }
         }
+
     }
 
     public void SetG(float g) => G = g;
@@ -97,15 +101,17 @@ public class Block : MonoBehaviour
 
     public void TextureChange()
     {
-        
-        GetComponent<Renderer>().material = newMaterial;
+
+        //GetComponent<Renderer>().material = newMaterial;
+        GetComponent<Renderer>().material.shader = selectableShader;
         foreach (var block in children)
             block.TextureChange();    
     }
 
     public void TextureRevert()
     {
-        GetComponent<Renderer>().material = baseMaterial;
+        //GetComponent<Renderer>().material = baseMaterial;
+        GetComponent<Renderer>().material.shader = baseShader;
         foreach (var block in children)
             block.TextureRevert();
     }
