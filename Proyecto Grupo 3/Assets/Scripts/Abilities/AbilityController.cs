@@ -14,12 +14,13 @@ public class AbilityController : MonoBehaviour
         currentAbilityIndex = i;
         TurnController.currentCharacter.abilityList[i].ShowRange();
         Block.onBlockClicked += ShowClicked;
-        Block.onBlockClicked += ExecuteAction;
     }
     public void OnStateCancel()
     {
         TurnController.currentCharacter.abilityList[currentAbilityIndex].Cancel();
         currentAbilityIndex = -1;
+
+        Block.onBlockClicked -= ShowClicked;
     }
     public void ExecuteAction(Block clicked)
     {

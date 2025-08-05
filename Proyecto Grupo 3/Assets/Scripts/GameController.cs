@@ -82,10 +82,18 @@ public class GameController : MonoBehaviour
     {
         battleController.ExecuteAttack();
     }
+    public void CancelAbility()
+    {
+        abilityController.OnStateCancel();
+    }
     public void ExecuteAbility(int i) //ACT button pressed
     {
         abilityController = new AbilityController();
         abilityController.OnStateEnter(i);
+    }
+    public void LaunchAbility()
+    {
+
     }
     //End of Battle Section
 

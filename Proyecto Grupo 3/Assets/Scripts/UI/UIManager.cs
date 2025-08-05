@@ -53,18 +53,26 @@ public class UIManager : MonoBehaviour
         buttonList = new List<GameObject>() { FirstButton, SecondButton, ThirdButton };
     }
 
-    // Funcion para el menu de pausa, devuelve al menu principal al jugador.
-    public void MainMenuLoad()
-    {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 1);
-    }
-
     private void Update()
     {
+#if PLATFORM_WEBGL
+        if (Input.GetKeyDown(KeyCode.P))
+        {
+            OnPause();
+        }
+#else
         if (Input.GetKeyDown(KeyCode.Escape))
         {
             OnPause();
         }
+#endif
+    }
+
+
+    // Funcion para el menu de pausa, devuelve al menu principal al jugador.
+    public void MainMenuLoad()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 1);
     }
 
     // Cuando se apreta Move, se bloquean todos los botones basicos, y viceversa cuando se cancela o se confirma un movimiento.
@@ -145,17 +153,16 @@ public class UIManager : MonoBehaviour
         CharacterPortrait.sprite = CurrentCharacter.Portrait;
         CharacterName.text = CurrentCharacter.PortraitName;
     }
-    public void RefreshStats()
-    {
-    }
+
 
 
     public void OnAbilityPressed(int i)
     {
         abilityIndexPressed?.Invoke(i);
     }
-    public void HealthBarManagement()
+    public void OnAbilityCanceled()
     {
-
+        CancelInvoke();
     }
+
 }
