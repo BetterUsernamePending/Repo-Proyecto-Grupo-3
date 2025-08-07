@@ -12,7 +12,7 @@ public class Heal : AbilityClass
     {
         _name = "Heal";
         _description = "Heal character for a third of their HP";
-        _cost = TurnController.currentCharacter.origStats["mp"]/4;
+        _cost = 50;
         _range = 3;
     }
     public override void ExecuteAbility(Block clicked)

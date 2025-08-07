@@ -29,14 +29,10 @@ public class GameController : MonoBehaviour
     {
         if (Input.GetMouseButtonDown(0))
             GetClickedBlock();
-        if (Input.GetKeyDown(KeyCode.Tab))
+        if (turnController.matchStarted && Input.GetKeyDown(KeyCode.Tab))
         {
             CameraBrainController.cameraAngle++;
             cameraBrainController.LookAtCurrent();
-        }
-        if (Input.GetKeyDown(KeyCode.KeypadPlus))
-        {
-            characterSelection.CreateCimarron(Vector3.zero);
         }
     }
     public void GetClickedBlock()

@@ -40,6 +40,10 @@ public class UIManager : MonoBehaviour
     [SerializeField] private TextMeshProUGUI CharacterName;
     [SerializeField] private Image CharacterPortrait;
 
+    [SerializeField] private GameObject selectorPanel;
+    [SerializeField] private TextMeshProUGUI playerSelectorPanel;
+    [SerializeField] private GameObject selectorPanelDoneButton;
+
     private void Start()
     {
         MenuDePausa.SetActive(false);
@@ -49,7 +53,6 @@ public class UIManager : MonoBehaviour
         MoveActSkip = new List<Button>() { Move, Act, Skip };
 
         turnController.OnTurnFinished += SetValues;
-        SetValues();
         buttonList = new List<GameObject>() { FirstButton, SecondButton, ThirdButton };
     }
 
@@ -154,8 +157,6 @@ public class UIManager : MonoBehaviour
         CharacterName.text = CurrentCharacter.PortraitName;
     }
 
-
-
     public void OnAbilityPressed(int i)
     {
         abilityIndexPressed?.Invoke(i);
@@ -163,6 +164,16 @@ public class UIManager : MonoBehaviour
     public void OnAbilityCanceled()
     {
         CancelInvoke();
+    }
+    public void DeactivateSelectorPanel()
+    {
+        selectorPanel.SetActive(false);
+        selectorPanelDoneButton.SetActive(true);
+        turnController.FirstTurnSetup();
+    }
+    public void ChangeSelectingPlayer()
+    {
+        playerSelectorPanel.text = "Jugador 2";
     }
 
 }

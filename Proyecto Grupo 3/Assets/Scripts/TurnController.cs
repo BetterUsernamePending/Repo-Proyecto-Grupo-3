@@ -14,15 +14,19 @@ public class TurnController : MonoBehaviour
     private BattleController battleController;
     public Action OnTurnFinished;
     private CameraBrainController cameraController;
+    public bool matchStarted = false;
 
     private void Awake()
     {
         cameraController = FindAnyObjectByType<CameraBrainController>();
         battleController = FindAnyObjectByType<BattleController>();
-        characterOrder.AddRange(FindObjectsByType<CharacterController>(FindObjectsSortMode.None));
-        currentCharacter = characterOrder[0];   
     }
-
+    public void FirstTurnSetup()
+    {
+        characterOrder.AddRange(FindObjectsByType<CharacterController>(FindObjectsSortMode.None));
+        currentCharacter = characterOrder[0];
+        matchStarted = true;
+    }
     private void TurnBegin()
     {
         Debug.Log("current character is " + currentCharacter.name);
