@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: bae81fb3ac8e0dc4fa9d197f5da66d8a
+guid: 4deeb42e1c6a8154d8ff09809277b905
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -43,9 +43,9 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 2
+  spriteMode: 1
   spriteExtrude: 1
-  spriteMeshType: 1
+  spriteMeshType: 0
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
   spritePixelsToUnits: 100
@@ -97,13 +97,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: ui_currplayer_bg
+      name: pigius_idle_f
       rect:
         serializedVersion: 2
-        x: 118
-        y: 662
-        width: 250
-        height: 188
+        x: 0
+        y: 219
+        width: 236
+        height: 219
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -112,20 +112,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: be2d72ba90457f84db46014c50956ccd
-      internalID: -1869900046
+      spriteID: a8d93b04e803ecc49a92b998f136ad47
+      internalID: 1095195310
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ui_yn_bg
+      name: pigius_walk_f_1
       rect:
         serializedVersion: 2
-        x: 396
-        y: 662
-        width: 274
-        height: 118
+        x: 236
+        y: 219
+        width: 236
+        height: 219
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -134,20 +134,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 52a55ffa7c0abc24a9f30335ec9a8429
-      internalID: -431500118
+      spriteID: e788ffaa2b5f56c4fade147f43d6ba96
+      internalID: -451624485
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ui_btn
+      name: pigius_walk_f_2
       rect:
         serializedVersion: 2
-        x: 706
-        y: 662
-        width: 124
-        height: 124
+        x: 472
+        y: 219
+        width: 236
+        height: 219
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -156,20 +156,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 326233b514ad4f849ab8551d0f264d4b
-      internalID: -1677584181
+      spriteID: 753cafa9a45df6f42a58d184da8bd8b4
+      internalID: 835773422
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ui_btn_pressed
+      name: pigius_idle_b
       rect:
         serializedVersion: 2
-        x: 844
-        y: 662
-        width: 124
-        height: 124
+        x: 708
+        y: 219
+        width: 236
+        height: 219
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -178,20 +178,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 42ac4c22db63957468e674400354a407
-      internalID: 2045151879
+      spriteID: 73944cb91c2175e48a7f387e725fdaad
+      internalID: 302012805
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ui_btnS
+      name: pigius_walk_b_1
       rect:
         serializedVersion: 2
-        x: 1262
-        y: 662
-        width: 124
-        height: 82
+        x: 944
+        y: 219
+        width: 236
+        height: 219
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -200,20 +200,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f4bedb2deb7d1d146a4a0df4540b8423
-      internalID: -1235308042
+      spriteID: b4f79156950675d40b784cea9a458a09
+      internalID: -533632129
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ui_btnS_pressed
+      name: pigius_walk_b_2
       rect:
         serializedVersion: 2
-        x: 1400
-        y: 662
-        width: 124
-        height: 82
+        x: 1180
+        y: 219
+        width: 236
+        height: 219
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -222,20 +222,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a651405c648437448b6ad31a2d009c2f
-      internalID: 1879762350
+      spriteID: f61cbbf077adde34eb957d9f9ea4e600
+      internalID: -2042586789
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ui_btnS2
+      name: pigius_attack_f_0
       rect:
         serializedVersion: 2
-        x: 1548
-        y: 666
-        width: 118
-        height: 76
+        x: 0
+        y: 0
+        width: 236
+        height: 219
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -244,20 +244,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 32ec8f213fb7706438f5fa5a855c251b
-      internalID: 1959165603
+      spriteID: d70e088f16f70a440a2e40ed3e3127a8
+      internalID: -1788404101
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ui_btnS2_pressed
+      name: pigius_attack_f_1
       rect:
         serializedVersion: 2
-        x: 1684
-        y: 666
-        width: 118
-        height: 76
+        x: 236
+        y: 0
+        width: 236
+        height: 219
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -266,20 +266,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d5c720fb20c85dc4e9a8a10884626263
-      internalID: -2145816667
+      spriteID: 1beb67d4eb4cd8f498f86bfdb87e20b3
+      internalID: 1005749661
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ui_right_bg
+      name: pigius_attack_f_2
       rect:
         serializedVersion: 2
-        x: 920
-        y: 382
-        width: 882
-        height: 208
+        x: 472
+        y: 0
+        width: 236
+        height: 219
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -288,20 +288,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7d277cbd99b6de84e9c7d6f50ae584bf
-      internalID: 571286884
+      spriteID: d86332a08d6d5574a9ce5f2189c8fee7
+      internalID: 908835683
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ui_left_bg
+      name: pigius_attack_f_3
       rect:
         serializedVersion: 2
-        x: 118
-        y: 382
-        width: 774
-        height: 264
+        x: 708
+        y: 0
+        width: 236
+        height: 219
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -310,20 +310,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c6cd2f8f7b2ac2f4dad3d040f8a4f88d
-      internalID: -1531309195
+      spriteID: d0fe41f53c6e1324aa53c743da839517
+      internalID: -962412283
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ui_btnMainMenu
+      name: pigius_attack_b_0
       rect:
         serializedVersion: 2
-        x: 982
-        y: 740
-        width: 267
-        height: 76
+        x: 944
+        y: 0
+        width: 236
+        height: 219
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -332,20 +332,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: aa814981faedaf7488b7a2ad0495bf13
-      internalID: -1910344979
+      spriteID: 5bd3195ad027c7446831d226ce02825a
+      internalID: -764447634
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ui_btnMainMenu_pressed
+      name: pigius_attack_b_1
       rect:
         serializedVersion: 2
-        x: 982
-        y: 647
-        width: 267
-        height: 76
+        x: 1180
+        y: 0
+        width: 236
+        height: 219
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -354,20 +354,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: dd32c358175af7048afd3edcfd5a8184
-      internalID: 545736287
+      spriteID: 4e544bb5bd362c04996a9235aa902b89
+      internalID: -972497672
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ui_mapselectframe
+      name: pigius_attack_b_2
       rect:
         serializedVersion: 2
-        x: 1265
-        y: 66
-        width: 346
-        height: 296
+        x: 1416
+        y: 0
+        width: 236
+        height: 219
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -376,20 +376,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a278ca105ac1d1f4aabf7de3ed66ec74
-      internalID: -603491997
+      spriteID: 769ef5fd89aee7c47bb4ceb1b93fc3d5
+      internalID: -1557623637
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ui_mapselectpanel
+      name: pigius_attack_b_3
       rect:
         serializedVersion: 2
-        x: 902
-        y: 67
-        width: 346
-        height: 296
+        x: 1652
+        y: 0
+        width: 236
+        height: 219
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -398,52 +398,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 653677e8c963fec4b8b734330cb4a0fd
-      internalID: -1326885539
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ui_genericpanel
-      rect:
-        serializedVersion: 2
-        x: 109
-        y: 67
-        width: 774
-        height: 297
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f9a54378c9931414a8e7787df33df3ce
-      internalID: -1582577014
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ui_yn_long
-      rect:
-        serializedVersion: 2
-        x: 396
-        y: 807
-        width: 396
-        height: 118
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a918712be2d13454e9fd87a506516201
-      internalID: -10159286
+      spriteID: 15a242d5e5bfd40419a133fd21d562df
+      internalID: -1088247700
       vertices: []
       indices: 
       edges: []
@@ -452,7 +408,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: ad2b3ffa7acbc444ea21a1cc56dc0c23
+    spriteID: 099a07fdf8a56024cb1324dfbb1567fa
     internalID: 0
     vertices: []
     indices: 
@@ -462,25 +418,20 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      ui_btn: -1677584181
-      ui_btnMainMenu: -1910344979
-      ui_btnMainMenu_pressed: 545736287
-      ui_btnS: -1235308042
-      ui_btnS2: 1959165603
-      ui_btnS2_pressed: -2145816667
-      ui_btnS_pressed: 1879762350
-      ui_btn_pressed: 2045151879
-      ui_currplayer_bg: -1869900046
-      ui_genericpanel: -1582577014
-      ui_left_bg: -1531309195
-      ui_main_bg: -368597695
-      ui_mapselectframe: -603491997
-      ui_mapselectpanel: -1326885539
-      ui_right_bg: 571286884
-      ui_sprites_11: 1166824689
-      ui_sprites_5: 149769773
-      ui_yn_bg: -431500118
-      ui_yn_long: -10159286
+      pigius_attack_b_0: -764447634
+      pigius_attack_b_1: -972497672
+      pigius_attack_b_2: -1557623637
+      pigius_attack_b_3: -1088247700
+      pigius_attack_f_0: -1788404101
+      pigius_attack_f_1: 1005749661
+      pigius_attack_f_2: 908835683
+      pigius_attack_f_3: -962412283
+      pigius_idle_b: 302012805
+      pigius_idle_f: 1095195310
+      pigius_walk_b_1: -533632129
+      pigius_walk_b_2: -2042586789
+      pigius_walk_f_1: -451624485
+      pigius_walk_f_2: 835773422
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
