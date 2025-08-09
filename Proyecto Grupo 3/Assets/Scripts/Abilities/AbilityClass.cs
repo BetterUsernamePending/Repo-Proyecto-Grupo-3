@@ -12,8 +12,9 @@ public class  AbilityClass : MonoBehaviour
     {
         currentAnimator = TurnController.currentCharacter.animator;
     }
-    public virtual void ShowRange(){}
-    public virtual void ExecuteAbility(Block clicked){}
+    public virtual void ShowRange() { }
+
+    public virtual void ShowClickedTarget(Block clicked) { }
+    public virtual void ExecuteAbility(){}
     public virtual void Cancel() { }
-    public virtual void ShowClicked(Block clicked) { }
 }

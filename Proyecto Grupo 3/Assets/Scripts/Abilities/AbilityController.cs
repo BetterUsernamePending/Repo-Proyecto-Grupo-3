@@ -22,26 +22,18 @@ public class AbilityController : MonoBehaviour
 
         Block.onBlockClicked -= ShowClicked;
     }
-    public void ExecuteAction(Block clicked)
+    public void ExecuteAction()
     {
-        if (currentAbilityIndex < 0) 
+        if (currentAbilityIndex < 0)
         {
             return;
         }
-        if (clicked != null)
-        {
-            // rotacion para orientar el sprite del personaje
-            Vector3 newForward = clicked.transform.position - TurnController.currentCharacter.transform.position;
-            newForward.y = 0;
-            Transform lookingAt = TurnController.currentCharacter.lookingAt; // transform de objeto LookingAt
-            lookingAt.rotation = Quaternion.LookRotation(newForward, lookingAt.up);
-            // -
-        }
-        TurnController.currentCharacter.abilityList[currentAbilityIndex].ExecuteAbility(clicked);
+        TurnController.currentCharacter.abilityList[currentAbilityIndex].ExecuteAbility();
+        Block.onBlockClicked -= ShowClicked;
     }
     public void ShowClicked(Block clicked)
     {
-        TurnController.currentCharacter.abilityList[currentAbilityIndex].ShowClicked(clicked);
+        TurnController.currentCharacter.abilityList[currentAbilityIndex].ShowClickedTarget(clicked);
     }
     public void OnStateExit()
     {

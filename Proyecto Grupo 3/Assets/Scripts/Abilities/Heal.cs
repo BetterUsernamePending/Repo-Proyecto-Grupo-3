@@ -8,22 +8,54 @@ public class Heal : AbilityClass
     public bool alreadyAttacked = false;
     private GameController gameController;
 
-    private void Start ()
+    private void Start()
     {
         _name = "Heal";
         _description = "Heal character for a third of their HP";
         _cost = 50;
         _range = 3;
     }
-    public override void ExecuteAbility(Block clicked)
+
+    public override void ShowClickedTarget(Block clicked)
+    {
+        if (possibleTargets.Exists(Block => Block == clicked))
+        {
+            CharacterController current = TurnController.currentCharacter;
+            currentAnimator = current.animator; // animaciones
+            foreach (var block in possibleTargets)
+            {
+                block.TextureRevert();
+            }
+            targetBlock = clicked;
+            targetBlock.TextureChange();
+        }
+    }
+
+    public override void ExecuteAbility()
     {
         SetAnimator();
-        if (clicked != null && clicked.characterOnBlock != null && possibleTargets.Exists(x=> x == clicked) && TurnController.currentCharacter.currentStats["mp"] > TurnController.currentCharacter.origStats["mp"]/4)
+        if (targetBlock != null && targetBlock.characterOnBlock != null && possibleTargets.Exists(x => x == targetBlock) && TurnController.currentCharacter.currentStats["mp"] > TurnController.currentCharacter.origStats["mp"] / 4)
         {
-            int healing = (clicked.characterOnBlock.currentStats["hp"] / 3);
-            clicked.characterOnBlock.currentStats["hp"] += (clicked.characterOnBlock.currentStats["hp"] / 3);
+            // Cambiar la dirección hacia la que mira el personaje
+            Vector3 newForward = targetBlock.coord - TurnController.currentCharacter.currentBlock.coord;
+            newForward.y = 0;
+            Transform lookingAt = TurnController.currentCharacter.lookingAt;
+            lookingAt.rotation = Quaternion.LookRotation(newForward, lookingAt.up);
+            // -
+
+            // Curar
+            int healing = (targetBlock.characterOnBlock.currentStats["hp"] / 3);
+            targetBlock.characterOnBlock.currentStats["hp"] += (targetBlock.characterOnBlock.currentStats["hp"] / 3);
             Debug.Log("se curaron" + healing + "de hp");
             currentAnimator.SetTrigger("Attack");
+            targetBlock.TextureRevert();
+            // -
+        }
+        if (targetBlock.characterOnBlock = null)
+        {
+            Debug.Log("Requirements not met");
+            targetBlock.TextureRevert();
+            return;
         }
     }
     public override void ShowRange()

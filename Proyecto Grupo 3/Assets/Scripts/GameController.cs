@@ -9,8 +9,9 @@ public class GameController : MonoBehaviour
 {
     [SerializeField] public Block initBlock;
     public GameObject OngoingMovement;
-
-    MovementController movementController;
+    Block block;
+    List<Block> blocksInScene;
+ MovementController movementController;
     BattleController battleController;
     TurnController turnController;
     UIManager uiManager;
@@ -24,6 +25,7 @@ public class GameController : MonoBehaviour
         uiManager = FindAnyObjectByType<UIManager>();
         cameraBrainController = FindAnyObjectByType<CameraBrainController>();
         characterSelection = FindAnyObjectByType<Characterselection>();
+        blocksInScene = FindObjectsByType<Block>(FindObjectsSortMode.InstanceID).ToList();
     }
     private void Update()
     {
@@ -45,6 +47,13 @@ public class GameController : MonoBehaviour
         {
             Block.onBlockClicked?.Invoke(hit.transform.GetComponent<Block>());
             Debug.Log(hit.transform.name);
+        }
+    }
+    public void RefreshBlockInfo()
+    {
+        foreach(Block block in blocksInScene)
+        {
+            block.DetectCharacter();
         }
     }
 
@@ -89,7 +98,7 @@ public class GameController : MonoBehaviour
     }
     public void LaunchAbility()
     {
-
+        abilityController.ExecuteAction();
     }
     //End of Battle Section
 
