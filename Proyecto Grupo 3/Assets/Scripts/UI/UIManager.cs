@@ -39,6 +39,7 @@ public class UIManager : MonoBehaviour
     [SerializeField] private Slider MPBar;
     [SerializeField] private TextMeshProUGUI CharacterName;
     [SerializeField] private Image CharacterPortrait;
+    [SerializeField] private Image CharacterPortraitBorder;
 
     [SerializeField] private GameObject selectorPanel;
     [SerializeField] private TextMeshProUGUI playerSelectorPanel;
@@ -154,6 +155,7 @@ public class UIManager : MonoBehaviour
         MPBar.value = CurrentCharacter.currentStats["mp"];
 
         CharacterPortrait.sprite = CurrentCharacter.Portrait;
+        CharacterPortraitBorder.sprite = CurrentCharacter.PortraitBorder;
         CharacterName.text = CurrentCharacter.PortraitName;
     }
 

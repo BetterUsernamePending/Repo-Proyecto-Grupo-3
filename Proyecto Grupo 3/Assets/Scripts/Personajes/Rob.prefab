@@ -305,7 +305,8 @@ MonoBehaviour:
   isMoving: 0
   isAlive: 1
   abilityList: []
-  Portrait: {fileID: 21300000, guid: de1707c780512184296ad87c5e6fa412, type: 3}
+  Portrait: {fileID: 21300000, guid: 6d785743d0968ba45bdcd1d57e29eb9b, type: 3}
+  PortraitBorder: {fileID: 21300000, guid: da0c8d7c20090194c9ae43fa18787368, type: 3}
   PortraitName: Rob
   atk: 1
   def: 1
