@@ -128,7 +128,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7347021205429168620}
   - component: {fileID: 538739667990662316}
-  - component: {fileID: 7144668697904554642}
+  - component: {fileID: 4285697050088005037}
   m_Layer: 3
   m_Name: Pigius
   m_TagString: Player
@@ -177,7 +177,7 @@ CapsuleCollider:
   m_Height: 2
   m_Direction: 1
   m_Center: {x: 0.000000059604645, y: 0, z: -0.00000008940697}
---- !u!114 &7144668697904554642
+--- !u!114 &4285697050088005037
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -186,10 +186,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 5287095848359438356}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 69f427e84b8668f408c3d1f7316fe0e7, type: 3}
+  m_Script: {fileID: 11500000, guid: 64aae9b0642f6194db1418a68e3c9918, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  belongsToPlayer: 1
+  belongsToPlayer: 0
   currentBlock: {fileID: 0}
   targetBlock: {fileID: 0}
   isMoving: 0
@@ -197,18 +197,18 @@ MonoBehaviour:
   abilityList: []
   Portrait: {fileID: 21300000, guid: 4deeb42e1c6a8154d8ff09809277b905, type: 3}
   PortraitBorder: {fileID: 21300000, guid: d4b18af93e0c6b94b9e31e198ab5542b, type: 3}
-  PortraitName: Pigius
-  atk: 1
-  def: 1
-  hp: 1
-  mp: 1
-  movedist: 4
+  PortraitName: Sr. Pigius Maximus
+  atk: 350
+  def: 1000
+  hp: 1000
+  mp: 30
+  movedist: 2
   atkrange: 1
-  jump: 1
-  spd: 1
+  jump: 2
+  spd: 2
   atkheight: 1
   lookingAt: {fileID: 0}
-  animator: {fileID: 2194524055773374533}
+  animator: {fileID: 0}
 --- !u!1 &7540060724662798163
 GameObject:
   m_ObjectHideFlags: 0

@@ -227,9 +227,9 @@ MonoBehaviour:
   obstacle: 0
   containsCharacter: 0
   height: 0
-  CharacterLayer:
+  SearchForLayer:
     serializedVersion: 2
-    m_Bits: 8
+    m_Bits: 0
   characterOnBlock: {fileID: 0}
   coord: {x: 0, y: 0, z: 0}
   baseShader: {fileID: 4800000, guid: 933532a4fcc9baf4fa0491de14d08ed7, type: 3}
@@ -366,7 +366,7 @@ MonoBehaviour:
   obstacle: 0
   containsCharacter: 0
   height: 2
-  CharacterLayer:
+  SearchForLayer:
     serializedVersion: 2
     m_Bits: 8
   characterOnBlock: {fileID: 0}
@@ -488,7 +488,7 @@ GameObject:
   - component: {fileID: 18749991}
   - component: {fileID: 18749990}
   m_Layer: 5
-  m_Name: CancelAct
+  m_Name: CancelAtk
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -751,7 +751,7 @@ MonoBehaviour:
   obstacle: 0
   containsCharacter: 0
   height: 2
-  CharacterLayer:
+  SearchForLayer:
     serializedVersion: 2
     m_Bits: 8
   characterOnBlock: {fileID: 0}
@@ -890,7 +890,7 @@ MonoBehaviour:
   obstacle: 0
   containsCharacter: 0
   height: 2
-  CharacterLayer:
+  SearchForLayer:
     serializedVersion: 2
     m_Bits: 8
   characterOnBlock: {fileID: 0}
@@ -1027,7 +1027,7 @@ MonoBehaviour:
   obstacle: 0
   containsCharacter: 0
   height: 0
-  CharacterLayer:
+  SearchForLayer:
     serializedVersion: 2
     m_Bits: 8
   characterOnBlock: {fileID: 0}
@@ -1286,7 +1286,7 @@ MonoBehaviour:
   obstacle: 0
   containsCharacter: 0
   height: 0
-  CharacterLayer:
+  SearchForLayer:
     serializedVersion: 2
     m_Bits: 8
   characterOnBlock: {fileID: 0}
@@ -1481,9 +1481,9 @@ MonoBehaviour:
   obstacle: 0
   containsCharacter: 0
   height: 0
-  CharacterLayer:
+  SearchForLayer:
     serializedVersion: 2
-    m_Bits: 8
+    m_Bits: 0
   characterOnBlock: {fileID: 0}
   coord: {x: 0, y: 0, z: 0}
   baseShader: {fileID: 4800000, guid: 933532a4fcc9baf4fa0491de14d08ed7, type: 3}
@@ -1633,9 +1633,9 @@ MonoBehaviour:
   obstacle: 0
   containsCharacter: 0
   height: 0
-  CharacterLayer:
+  SearchForLayer:
     serializedVersion: 2
-    m_Bits: 8
+    m_Bits: 0
   characterOnBlock: {fileID: 0}
   coord: {x: 0, y: 0, z: 0}
   baseShader: {fileID: 4800000, guid: 933532a4fcc9baf4fa0491de14d08ed7, type: 3}
@@ -1903,7 +1903,7 @@ MonoBehaviour:
   obstacle: 0
   containsCharacter: 0
   height: 0
-  CharacterLayer:
+  SearchForLayer:
     serializedVersion: 2
     m_Bits: 8
   characterOnBlock: {fileID: 0}
@@ -2318,7 +2318,7 @@ MonoBehaviour:
   obstacle: 0
   containsCharacter: 0
   height: 0
-  CharacterLayer:
+  SearchForLayer:
     serializedVersion: 2
     m_Bits: 8
   characterOnBlock: {fileID: 0}
@@ -2433,9 +2433,9 @@ MonoBehaviour:
   obstacle: 0
   containsCharacter: 0
   height: 0
-  CharacterLayer:
+  SearchForLayer:
     serializedVersion: 2
-    m_Bits: 8
+    m_Bits: 0
   characterOnBlock: {fileID: 0}
   coord: {x: 0, y: 0, z: 0}
   baseShader: {fileID: 4800000, guid: 933532a4fcc9baf4fa0491de14d08ed7, type: 3}
@@ -2570,7 +2570,7 @@ MonoBehaviour:
   obstacle: 0
   containsCharacter: 0
   height: 0
-  CharacterLayer:
+  SearchForLayer:
     serializedVersion: 2
     m_Bits: 8
   characterOnBlock: {fileID: 0}
@@ -2707,7 +2707,7 @@ MonoBehaviour:
   obstacle: 0
   containsCharacter: 0
   height: 0
-  CharacterLayer:
+  SearchForLayer:
     serializedVersion: 2
     m_Bits: 8
   characterOnBlock: {fileID: 0}
@@ -2844,7 +2844,7 @@ MonoBehaviour:
   obstacle: 0
   containsCharacter: 0
   height: 0
-  CharacterLayer:
+  SearchForLayer:
     serializedVersion: 2
     m_Bits: 8
   characterOnBlock: {fileID: 0}
@@ -2988,7 +2988,7 @@ MonoBehaviour:
   obstacle: 0
   containsCharacter: 0
   height: 2
-  CharacterLayer:
+  SearchForLayer:
     serializedVersion: 2
     m_Bits: 8
   characterOnBlock: {fileID: 0}
@@ -3125,7 +3125,7 @@ MonoBehaviour:
   obstacle: 0
   containsCharacter: 0
   height: 0
-  CharacterLayer:
+  SearchForLayer:
     serializedVersion: 2
     m_Bits: 8
   characterOnBlock: {fileID: 0}
@@ -3262,7 +3262,7 @@ MonoBehaviour:
   obstacle: 0
   containsCharacter: 0
   height: 0
-  CharacterLayer:
+  SearchForLayer:
     serializedVersion: 2
     m_Bits: 8
   characterOnBlock: {fileID: 0}
@@ -3610,7 +3610,7 @@ MonoBehaviour:
   obstacle: 0
   containsCharacter: 0
   height: 0
-  CharacterLayer:
+  SearchForLayer:
     serializedVersion: 2
     m_Bits: 8
   characterOnBlock: {fileID: 0}
@@ -3725,9 +3725,9 @@ MonoBehaviour:
   obstacle: 0
   containsCharacter: 0
   height: 0
-  CharacterLayer:
+  SearchForLayer:
     serializedVersion: 2
-    m_Bits: 8
+    m_Bits: 0
   characterOnBlock: {fileID: 0}
   coord: {x: 0, y: 0, z: 0}
   baseShader: {fileID: 4800000, guid: 933532a4fcc9baf4fa0491de14d08ed7, type: 3}
@@ -3840,9 +3840,9 @@ MonoBehaviour:
   obstacle: 0
   containsCharacter: 0
   height: 0
-  CharacterLayer:
+  SearchForLayer:
     serializedVersion: 2
-    m_Bits: 8
+    m_Bits: 0
   characterOnBlock: {fileID: 0}
   coord: {x: 0, y: 0, z: 0}
   baseShader: {fileID: 4800000, guid: 933532a4fcc9baf4fa0491de14d08ed7, type: 3}
@@ -3978,7 +3978,7 @@ MonoBehaviour:
   obstacle: 0
   containsCharacter: 0
   height: 2
-  CharacterLayer:
+  SearchForLayer:
     serializedVersion: 2
     m_Bits: 8
   characterOnBlock: {fileID: 0}
@@ -4093,9 +4093,9 @@ MonoBehaviour:
   obstacle: 0
   containsCharacter: 0
   height: 0
-  CharacterLayer:
+  SearchForLayer:
     serializedVersion: 2
-    m_Bits: 8
+    m_Bits: 0
   characterOnBlock: {fileID: 0}
   coord: {x: 0, y: 0, z: 0}
   baseShader: {fileID: 4800000, guid: 933532a4fcc9baf4fa0491de14d08ed7, type: 3}
@@ -4231,7 +4231,7 @@ MonoBehaviour:
   obstacle: 0
   containsCharacter: 0
   height: 2
-  CharacterLayer:
+  SearchForLayer:
     serializedVersion: 2
     m_Bits: 8
   characterOnBlock: {fileID: 0}
@@ -4346,9 +4346,9 @@ MonoBehaviour:
   obstacle: 0
   containsCharacter: 0
   height: 0
-  CharacterLayer:
+  SearchForLayer:
     serializedVersion: 2
-    m_Bits: 8
+    m_Bits: 0
   characterOnBlock: {fileID: 0}
   coord: {x: 0, y: 0, z: 0}
   baseShader: {fileID: 4800000, guid: 933532a4fcc9baf4fa0491de14d08ed7, type: 3}
@@ -4483,7 +4483,7 @@ MonoBehaviour:
   obstacle: 0
   containsCharacter: 0
   height: 0
-  CharacterLayer:
+  SearchForLayer:
     serializedVersion: 2
     m_Bits: 8
   characterOnBlock: {fileID: 0}
@@ -4598,9 +4598,9 @@ MonoBehaviour:
   obstacle: 0
   containsCharacter: 0
   height: 0
-  CharacterLayer:
+  SearchForLayer:
     serializedVersion: 2
-    m_Bits: 8
+    m_Bits: 0
   characterOnBlock: {fileID: 0}
   coord: {x: 0, y: 0, z: 0}
   baseShader: {fileID: 4800000, guid: 933532a4fcc9baf4fa0491de14d08ed7, type: 3}
@@ -4949,7 +4949,7 @@ MonoBehaviour:
   obstacle: 0
   containsCharacter: 0
   height: 0
-  CharacterLayer:
+  SearchForLayer:
     serializedVersion: 2
     m_Bits: 8
   characterOnBlock: {fileID: 0}
@@ -5086,7 +5086,7 @@ MonoBehaviour:
   obstacle: 0
   containsCharacter: 0
   height: 0
-  CharacterLayer:
+  SearchForLayer:
     serializedVersion: 2
     m_Bits: 8
   characterOnBlock: {fileID: 0}
@@ -5201,9 +5201,9 @@ MonoBehaviour:
   obstacle: 0
   containsCharacter: 0
   height: 0
-  CharacterLayer:
+  SearchForLayer:
     serializedVersion: 2
-    m_Bits: 8
+    m_Bits: 0
   characterOnBlock: {fileID: 0}
   coord: {x: 0, y: 0, z: 0}
   baseShader: {fileID: 4800000, guid: 933532a4fcc9baf4fa0491de14d08ed7, type: 3}
@@ -5391,9 +5391,9 @@ MonoBehaviour:
   obstacle: 0
   containsCharacter: 0
   height: 0
-  CharacterLayer:
+  SearchForLayer:
     serializedVersion: 2
-    m_Bits: 8
+    m_Bits: 0
   characterOnBlock: {fileID: 0}
   coord: {x: 0, y: 0, z: 0}
   baseShader: {fileID: 4800000, guid: 933532a4fcc9baf4fa0491de14d08ed7, type: 3}
@@ -5528,7 +5528,7 @@ MonoBehaviour:
   obstacle: 0
   containsCharacter: 0
   height: 0
-  CharacterLayer:
+  SearchForLayer:
     serializedVersion: 2
     m_Bits: 8
   characterOnBlock: {fileID: 0}
@@ -5666,7 +5666,7 @@ MonoBehaviour:
   obstacle: 0
   containsCharacter: 0
   height: 2
-  CharacterLayer:
+  SearchForLayer:
     serializedVersion: 2
     m_Bits: 8
   characterOnBlock: {fileID: 0}
@@ -5803,7 +5803,7 @@ MonoBehaviour:
   obstacle: 0
   containsCharacter: 0
   height: 0
-  CharacterLayer:
+  SearchForLayer:
     serializedVersion: 2
     m_Bits: 8
   characterOnBlock: {fileID: 0}
@@ -6235,9 +6235,9 @@ MonoBehaviour:
   obstacle: 0
   containsCharacter: 0
   height: 0
-  CharacterLayer:
+  SearchForLayer:
     serializedVersion: 2
-    m_Bits: 8
+    m_Bits: 0
   characterOnBlock: {fileID: 0}
   coord: {x: 0, y: 0, z: 0}
   baseShader: {fileID: 4800000, guid: 933532a4fcc9baf4fa0491de14d08ed7, type: 3}
@@ -6350,9 +6350,9 @@ MonoBehaviour:
   obstacle: 0
   containsCharacter: 0
   height: 0
-  CharacterLayer:
+  SearchForLayer:
     serializedVersion: 2
-    m_Bits: 8
+    m_Bits: 0
   characterOnBlock: {fileID: 0}
   coord: {x: 0, y: 0, z: 0}
   baseShader: {fileID: 4800000, guid: 933532a4fcc9baf4fa0491de14d08ed7, type: 3}
@@ -6465,9 +6465,9 @@ MonoBehaviour:
   obstacle: 0
   containsCharacter: 0
   height: 0
-  CharacterLayer:
+  SearchForLayer:
     serializedVersion: 2
-    m_Bits: 8
+    m_Bits: 0
   characterOnBlock: {fileID: 0}
   coord: {x: 0, y: 0, z: 0}
   baseShader: {fileID: 4800000, guid: 933532a4fcc9baf4fa0491de14d08ed7, type: 3}
@@ -6586,7 +6586,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &294432801
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6805,7 +6805,7 @@ MonoBehaviour:
   obstacle: 0
   containsCharacter: 0
   height: 2
-  CharacterLayer:
+  SearchForLayer:
     serializedVersion: 2
     m_Bits: 8
   characterOnBlock: {fileID: 0}
@@ -7000,7 +7000,7 @@ MonoBehaviour:
   obstacle: 0
   containsCharacter: 0
   height: 2
-  CharacterLayer:
+  SearchForLayer:
     serializedVersion: 2
     m_Bits: 8
   characterOnBlock: {fileID: 0}
@@ -7137,7 +7137,7 @@ MonoBehaviour:
   obstacle: 0
   containsCharacter: 0
   height: 0
-  CharacterLayer:
+  SearchForLayer:
     serializedVersion: 2
     m_Bits: 8
   characterOnBlock: {fileID: 0}
@@ -7274,7 +7274,7 @@ MonoBehaviour:
   obstacle: 0
   containsCharacter: 0
   height: 0
-  CharacterLayer:
+  SearchForLayer:
     serializedVersion: 2
     m_Bits: 8
   characterOnBlock: {fileID: 0}
@@ -7411,7 +7411,7 @@ MonoBehaviour:
   obstacle: 0
   containsCharacter: 0
   height: 0
-  CharacterLayer:
+  SearchForLayer:
     serializedVersion: 2
     m_Bits: 8
   characterOnBlock: {fileID: 0}
@@ -7526,9 +7526,9 @@ MonoBehaviour:
   obstacle: 0
   containsCharacter: 0
   height: 0
-  CharacterLayer:
+  SearchForLayer:
     serializedVersion: 2
-    m_Bits: 8
+    m_Bits: 0
   characterOnBlock: {fileID: 0}
   coord: {x: 0, y: 0, z: 0}
   baseShader: {fileID: 4800000, guid: 933532a4fcc9baf4fa0491de14d08ed7, type: 3}
@@ -7664,7 +7664,7 @@ MonoBehaviour:
   obstacle: 0
   containsCharacter: 0
   height: 1
-  CharacterLayer:
+  SearchForLayer:
     serializedVersion: 2
     m_Bits: 8
   characterOnBlock: {fileID: 0}
@@ -7713,6 +7713,7 @@ MonoBehaviour:
   FirstButton: {fileID: 1668635260}
   SecondButton: {fileID: 1902415167}
   ThirdButton: {fileID: 1219043685}
+  actionPanel: {fileID: 0}
   AnnounceCurrentPlayer: {fileID: 1320769339}
   HealthBar: {fileID: 1413125443}
   MPBar: {fileID: 71453124}
@@ -7845,9 +7846,9 @@ MonoBehaviour:
   obstacle: 0
   containsCharacter: 0
   height: 0
-  CharacterLayer:
+  SearchForLayer:
     serializedVersion: 2
-    m_Bits: 8
+    m_Bits: 0
   characterOnBlock: {fileID: 0}
   coord: {x: 0, y: 0, z: 0}
   baseShader: {fileID: 4800000, guid: 933532a4fcc9baf4fa0491de14d08ed7, type: 3}
@@ -7982,7 +7983,7 @@ MonoBehaviour:
   obstacle: 0
   containsCharacter: 0
   height: 0
-  CharacterLayer:
+  SearchForLayer:
     serializedVersion: 2
     m_Bits: 8
   characterOnBlock: {fileID: 0}
@@ -8119,7 +8120,7 @@ MonoBehaviour:
   obstacle: 0
   containsCharacter: 0
   height: 0
-  CharacterLayer:
+  SearchForLayer:
     serializedVersion: 2
     m_Bits: 8
   characterOnBlock: {fileID: 0}
@@ -8309,9 +8310,9 @@ MonoBehaviour:
   obstacle: 0
   containsCharacter: 0
   height: 0
-  CharacterLayer:
+  SearchForLayer:
     serializedVersion: 2
-    m_Bits: 8
+    m_Bits: 0
   characterOnBlock: {fileID: 0}
   coord: {x: 0, y: 0, z: 0}
   baseShader: {fileID: 4800000, guid: 933532a4fcc9baf4fa0491de14d08ed7, type: 3}
@@ -8446,7 +8447,7 @@ MonoBehaviour:
   obstacle: 0
   containsCharacter: 0
   height: 0
-  CharacterLayer:
+  SearchForLayer:
     serializedVersion: 2
     m_Bits: 8
   characterOnBlock: {fileID: 0}
@@ -8583,7 +8584,7 @@ MonoBehaviour:
   obstacle: 0
   containsCharacter: 0
   height: 0
-  CharacterLayer:
+  SearchForLayer:
     serializedVersion: 2
     m_Bits: 8
   characterOnBlock: {fileID: 0}
@@ -8698,9 +8699,9 @@ MonoBehaviour:
   obstacle: 0
   containsCharacter: 0
   height: 0
-  CharacterLayer:
+  SearchForLayer:
     serializedVersion: 2
-    m_Bits: 8
+    m_Bits: 0
   characterOnBlock: {fileID: 0}
   coord: {x: 0, y: 0, z: 0}
   baseShader: {fileID: 4800000, guid: 933532a4fcc9baf4fa0491de14d08ed7, type: 3}
@@ -8835,7 +8836,7 @@ MonoBehaviour:
   obstacle: 0
   containsCharacter: 0
   height: 0
-  CharacterLayer:
+  SearchForLayer:
     serializedVersion: 2
     m_Bits: 8
   characterOnBlock: {fileID: 0}
@@ -8972,7 +8973,7 @@ MonoBehaviour:
   obstacle: 0
   containsCharacter: 0
   height: 0
-  CharacterLayer:
+  SearchForLayer:
     serializedVersion: 2
     m_Bits: 8
   characterOnBlock: {fileID: 0}
@@ -9111,7 +9112,7 @@ MonoBehaviour:
   obstacle: 0
   containsCharacter: 0
   height: 2
-  CharacterLayer:
+  SearchForLayer:
     serializedVersion: 2
     m_Bits: 8
   characterOnBlock: {fileID: 0}
@@ -9249,7 +9250,7 @@ MonoBehaviour:
   obstacle: 0
   containsCharacter: 0
   height: 2
-  CharacterLayer:
+  SearchForLayer:
     serializedVersion: 2
     m_Bits: 8
   characterOnBlock: {fileID: 0}
@@ -9388,7 +9389,7 @@ MonoBehaviour:
   obstacle: 0
   containsCharacter: 0
   height: 2
-  CharacterLayer:
+  SearchForLayer:
     serializedVersion: 2
     m_Bits: 8
   characterOnBlock: {fileID: 0}
@@ -9526,7 +9527,7 @@ MonoBehaviour:
   obstacle: 0
   containsCharacter: 0
   height: 2
-  CharacterLayer:
+  SearchForLayer:
     serializedVersion: 2
     m_Bits: 8
   characterOnBlock: {fileID: 0}
@@ -9641,9 +9642,9 @@ MonoBehaviour:
   obstacle: 0
   containsCharacter: 0
   height: 0
-  CharacterLayer:
+  SearchForLayer:
     serializedVersion: 2
-    m_Bits: 8
+    m_Bits: 0
   characterOnBlock: {fileID: 0}
   coord: {x: 0, y: 0, z: 0}
   baseShader: {fileID: 4800000, guid: 933532a4fcc9baf4fa0491de14d08ed7, type: 3}
@@ -9756,9 +9757,9 @@ MonoBehaviour:
   obstacle: 0
   containsCharacter: 0
   height: 0
-  CharacterLayer:
+  SearchForLayer:
     serializedVersion: 2
-    m_Bits: 8
+    m_Bits: 0
   characterOnBlock: {fileID: 0}
   coord: {x: 0, y: 0, z: 0}
   baseShader: {fileID: 4800000, guid: 933532a4fcc9baf4fa0491de14d08ed7, type: 3}
@@ -10148,7 +10149,7 @@ MonoBehaviour:
   obstacle: 0
   containsCharacter: 0
   height: 2
-  CharacterLayer:
+  SearchForLayer:
     serializedVersion: 2
     m_Bits: 8
   characterOnBlock: {fileID: 0}
@@ -10285,7 +10286,7 @@ MonoBehaviour:
   obstacle: 0
   containsCharacter: 0
   height: 0
-  CharacterLayer:
+  SearchForLayer:
     serializedVersion: 2
     m_Bits: 8
   characterOnBlock: {fileID: 0}
@@ -10423,7 +10424,7 @@ MonoBehaviour:
   obstacle: 0
   containsCharacter: 0
   height: 2
-  CharacterLayer:
+  SearchForLayer:
     serializedVersion: 2
     m_Bits: 8
   characterOnBlock: {fileID: 0}
@@ -10562,7 +10563,7 @@ MonoBehaviour:
   obstacle: 0
   containsCharacter: 0
   height: 2
-  CharacterLayer:
+  SearchForLayer:
     serializedVersion: 2
     m_Bits: 8
   characterOnBlock: {fileID: 0}
@@ -10701,7 +10702,7 @@ MonoBehaviour:
   obstacle: 0
   containsCharacter: 0
   height: 2
-  CharacterLayer:
+  SearchForLayer:
     serializedVersion: 2
     m_Bits: 8
   characterOnBlock: {fileID: 0}
@@ -10816,9 +10817,9 @@ MonoBehaviour:
   obstacle: 0
   containsCharacter: 0
   height: 0
-  CharacterLayer:
+  SearchForLayer:
     serializedVersion: 2
-    m_Bits: 8
+    m_Bits: 0
   characterOnBlock: {fileID: 0}
   coord: {x: 0, y: 0, z: 0}
   baseShader: {fileID: 4800000, guid: 933532a4fcc9baf4fa0491de14d08ed7, type: 3}
@@ -10955,7 +10956,7 @@ MonoBehaviour:
   obstacle: 0
   containsCharacter: 0
   height: 2
-  CharacterLayer:
+  SearchForLayer:
     serializedVersion: 2
     m_Bits: 8
   characterOnBlock: {fileID: 0}
@@ -11230,7 +11231,7 @@ MonoBehaviour:
   obstacle: 0
   containsCharacter: 0
   height: 2
-  CharacterLayer:
+  SearchForLayer:
     serializedVersion: 2
     m_Bits: 8
   characterOnBlock: {fileID: 0}
@@ -11619,9 +11620,9 @@ MonoBehaviour:
   obstacle: 0
   containsCharacter: 0
   height: 0
-  CharacterLayer:
+  SearchForLayer:
     serializedVersion: 2
-    m_Bits: 8
+    m_Bits: 0
   characterOnBlock: {fileID: 0}
   coord: {x: 0, y: 0, z: 0}
   baseShader: {fileID: 4800000, guid: 933532a4fcc9baf4fa0491de14d08ed7, type: 3}
@@ -11876,9 +11877,9 @@ MonoBehaviour:
   obstacle: 0
   containsCharacter: 0
   height: 0
-  CharacterLayer:
+  SearchForLayer:
     serializedVersion: 2
-    m_Bits: 8
+    m_Bits: 0
   characterOnBlock: {fileID: 0}
   coord: {x: 0, y: 0, z: 0}
   baseShader: {fileID: 4800000, guid: 933532a4fcc9baf4fa0491de14d08ed7, type: 3}
@@ -12013,7 +12014,7 @@ MonoBehaviour:
   obstacle: 0
   containsCharacter: 0
   height: 0
-  CharacterLayer:
+  SearchForLayer:
     serializedVersion: 2
     m_Bits: 8
   characterOnBlock: {fileID: 0}
@@ -12128,9 +12129,9 @@ MonoBehaviour:
   obstacle: 0
   containsCharacter: 0
   height: 0
-  CharacterLayer:
+  SearchForLayer:
     serializedVersion: 2
-    m_Bits: 8
+    m_Bits: 0
   characterOnBlock: {fileID: 0}
   coord: {x: 0, y: 0, z: 0}
   baseShader: {fileID: 4800000, guid: 933532a4fcc9baf4fa0491de14d08ed7, type: 3}
@@ -12265,7 +12266,7 @@ MonoBehaviour:
   obstacle: 0
   containsCharacter: 0
   height: 0
-  CharacterLayer:
+  SearchForLayer:
     serializedVersion: 2
     m_Bits: 8
   characterOnBlock: {fileID: 0}
@@ -12404,7 +12405,7 @@ MonoBehaviour:
   obstacle: 0
   containsCharacter: 0
   height: 2
-  CharacterLayer:
+  SearchForLayer:
     serializedVersion: 2
     m_Bits: 8
   characterOnBlock: {fileID: 0}
@@ -12594,9 +12595,9 @@ MonoBehaviour:
   obstacle: 0
   containsCharacter: 0
   height: 0
-  CharacterLayer:
+  SearchForLayer:
     serializedVersion: 2
-    m_Bits: 8
+    m_Bits: 0
   characterOnBlock: {fileID: 0}
   coord: {x: 0, y: 0, z: 0}
   baseShader: {fileID: 4800000, guid: 933532a4fcc9baf4fa0491de14d08ed7, type: 3}
@@ -13131,9 +13132,9 @@ MonoBehaviour:
   obstacle: 0
   containsCharacter: 0
   height: 0
-  CharacterLayer:
+  SearchForLayer:
     serializedVersion: 2
-    m_Bits: 8
+    m_Bits: 0
   characterOnBlock: {fileID: 0}
   coord: {x: 0, y: 0, z: 0}
   baseShader: {fileID: 4800000, guid: 933532a4fcc9baf4fa0491de14d08ed7, type: 3}
@@ -13304,7 +13305,7 @@ MonoBehaviour:
   obstacle: 0
   containsCharacter: 0
   height: 0
-  CharacterLayer:
+  SearchForLayer:
     serializedVersion: 2
     m_Bits: 8
   characterOnBlock: {fileID: 0}
@@ -13442,7 +13443,7 @@ MonoBehaviour:
   obstacle: 0
   containsCharacter: 0
   height: 2
-  CharacterLayer:
+  SearchForLayer:
     serializedVersion: 2
     m_Bits: 8
   characterOnBlock: {fileID: 0}
@@ -13557,9 +13558,9 @@ MonoBehaviour:
   obstacle: 0
   containsCharacter: 0
   height: 0
-  CharacterLayer:
+  SearchForLayer:
     serializedVersion: 2
-    m_Bits: 8
+    m_Bits: 0
   characterOnBlock: {fileID: 0}
   coord: {x: 0, y: 0, z: 0}
   baseShader: {fileID: 4800000, guid: 933532a4fcc9baf4fa0491de14d08ed7, type: 3}
@@ -13672,9 +13673,9 @@ MonoBehaviour:
   obstacle: 0
   containsCharacter: 0
   height: 0
-  CharacterLayer:
+  SearchForLayer:
     serializedVersion: 2
-    m_Bits: 8
+    m_Bits: 0
   characterOnBlock: {fileID: 0}
   coord: {x: 0, y: 0, z: 0}
   baseShader: {fileID: 4800000, guid: 933532a4fcc9baf4fa0491de14d08ed7, type: 3}
@@ -13787,9 +13788,9 @@ MonoBehaviour:
   obstacle: 0
   containsCharacter: 0
   height: 0
-  CharacterLayer:
+  SearchForLayer:
     serializedVersion: 2
-    m_Bits: 8
+    m_Bits: 0
   characterOnBlock: {fileID: 0}
   coord: {x: 0, y: 0, z: 0}
   baseShader: {fileID: 4800000, guid: 933532a4fcc9baf4fa0491de14d08ed7, type: 3}
@@ -14062,7 +14063,7 @@ MonoBehaviour:
   obstacle: 0
   containsCharacter: 0
   height: 2
-  CharacterLayer:
+  SearchForLayer:
     serializedVersion: 2
     m_Bits: 8
   characterOnBlock: {fileID: 0}
@@ -14199,7 +14200,7 @@ MonoBehaviour:
   obstacle: 0
   containsCharacter: 0
   height: 0
-  CharacterLayer:
+  SearchForLayer:
     serializedVersion: 2
     m_Bits: 8
   characterOnBlock: {fileID: 0}
@@ -14336,7 +14337,7 @@ MonoBehaviour:
   obstacle: 0
   containsCharacter: 0
   height: 0
-  CharacterLayer:
+  SearchForLayer:
     serializedVersion: 2
     m_Bits: 8
   characterOnBlock: {fileID: 0}
@@ -14551,7 +14552,7 @@ MonoBehaviour:
   obstacle: 0
   containsCharacter: 0
   height: 1
-  CharacterLayer:
+  SearchForLayer:
     serializedVersion: 2
     m_Bits: 8
   characterOnBlock: {fileID: 0}
@@ -14688,7 +14689,7 @@ MonoBehaviour:
   obstacle: 0
   containsCharacter: 0
   height: 0
-  CharacterLayer:
+  SearchForLayer:
     serializedVersion: 2
     m_Bits: 8
   characterOnBlock: {fileID: 0}
@@ -14826,7 +14827,7 @@ MonoBehaviour:
   obstacle: 0
   containsCharacter: 0
   height: 1
-  CharacterLayer:
+  SearchForLayer:
     serializedVersion: 2
     m_Bits: 8
   characterOnBlock: {fileID: 0}
@@ -14963,7 +14964,7 @@ MonoBehaviour:
   obstacle: 0
   containsCharacter: 0
   height: 0
-  CharacterLayer:
+  SearchForLayer:
     serializedVersion: 2
     m_Bits: 8
   characterOnBlock: {fileID: 0}
@@ -15078,9 +15079,9 @@ MonoBehaviour:
   obstacle: 0
   containsCharacter: 0
   height: 0
-  CharacterLayer:
+  SearchForLayer:
     serializedVersion: 2
-    m_Bits: 8
+    m_Bits: 0
   characterOnBlock: {fileID: 0}
   coord: {x: 0, y: 0, z: 0}
   baseShader: {fileID: 4800000, guid: 933532a4fcc9baf4fa0491de14d08ed7, type: 3}
@@ -15193,9 +15194,9 @@ MonoBehaviour:
   obstacle: 0
   containsCharacter: 0
   height: 0
-  CharacterLayer:
+  SearchForLayer:
     serializedVersion: 2
-    m_Bits: 8
+    m_Bits: 0
   characterOnBlock: {fileID: 0}
   coord: {x: 0, y: 0, z: 0}
   baseShader: {fileID: 4800000, guid: 933532a4fcc9baf4fa0491de14d08ed7, type: 3}
@@ -15308,9 +15309,9 @@ MonoBehaviour:
   obstacle: 0
   containsCharacter: 0
   height: 0
-  CharacterLayer:
+  SearchForLayer:
     serializedVersion: 2
-    m_Bits: 8
+    m_Bits: 0
   characterOnBlock: {fileID: 0}
   coord: {x: 0, y: 0, z: 0}
   baseShader: {fileID: 4800000, guid: 933532a4fcc9baf4fa0491de14d08ed7, type: 3}
@@ -15445,7 +15446,7 @@ MonoBehaviour:
   obstacle: 1
   containsCharacter: 0
   height: 0
-  CharacterLayer:
+  SearchForLayer:
     serializedVersion: 2
     m_Bits: 8
   characterOnBlock: {fileID: 0}
@@ -15783,7 +15784,7 @@ MonoBehaviour:
   obstacle: 0
   containsCharacter: 0
   height: 0
-  CharacterLayer:
+  SearchForLayer:
     serializedVersion: 2
     m_Bits: 8
   characterOnBlock: {fileID: 0}
@@ -15898,9 +15899,9 @@ MonoBehaviour:
   obstacle: 0
   containsCharacter: 0
   height: 0
-  CharacterLayer:
+  SearchForLayer:
     serializedVersion: 2
-    m_Bits: 8
+    m_Bits: 0
   characterOnBlock: {fileID: 0}
   coord: {x: 0, y: 0, z: 0}
   baseShader: {fileID: 4800000, guid: 933532a4fcc9baf4fa0491de14d08ed7, type: 3}
@@ -16110,7 +16111,7 @@ MonoBehaviour:
   obstacle: 0
   containsCharacter: 0
   height: 0
-  CharacterLayer:
+  SearchForLayer:
     serializedVersion: 2
     m_Bits: 8
   characterOnBlock: {fileID: 0}
@@ -16323,7 +16324,7 @@ MonoBehaviour:
   obstacle: 1
   containsCharacter: 0
   height: 0
-  CharacterLayer:
+  SearchForLayer:
     serializedVersion: 2
     m_Bits: 8
   characterOnBlock: {fileID: 0}
@@ -16460,7 +16461,7 @@ MonoBehaviour:
   obstacle: 0
   containsCharacter: 0
   height: 0
-  CharacterLayer:
+  SearchForLayer:
     serializedVersion: 2
     m_Bits: 8
   characterOnBlock: {fileID: 0}
@@ -16599,7 +16600,7 @@ MonoBehaviour:
   obstacle: 0
   containsCharacter: 0
   height: 2
-  CharacterLayer:
+  SearchForLayer:
     serializedVersion: 2
     m_Bits: 8
   characterOnBlock: {fileID: 0}
@@ -16869,7 +16870,7 @@ MonoBehaviour:
   obstacle: 0
   containsCharacter: 0
   height: 0
-  CharacterLayer:
+  SearchForLayer:
     serializedVersion: 2
     m_Bits: 8
   characterOnBlock: {fileID: 0}
@@ -17142,7 +17143,7 @@ MonoBehaviour:
   obstacle: 0
   containsCharacter: 0
   height: 0
-  CharacterLayer:
+  SearchForLayer:
     serializedVersion: 2
     m_Bits: 8
   characterOnBlock: {fileID: 0}
@@ -17279,7 +17280,7 @@ MonoBehaviour:
   obstacle: 0
   containsCharacter: 0
   height: 0
-  CharacterLayer:
+  SearchForLayer:
     serializedVersion: 2
     m_Bits: 8
   characterOnBlock: {fileID: 0}
@@ -17465,7 +17466,7 @@ MonoBehaviour:
   obstacle: 0
   containsCharacter: 0
   height: 0
-  CharacterLayer:
+  SearchForLayer:
     serializedVersion: 2
     m_Bits: 8
   characterOnBlock: {fileID: 0}
@@ -17602,7 +17603,7 @@ MonoBehaviour:
   obstacle: 0
   containsCharacter: 0
   height: 0
-  CharacterLayer:
+  SearchForLayer:
     serializedVersion: 2
     m_Bits: 8
   characterOnBlock: {fileID: 0}
@@ -17909,9 +17910,9 @@ MonoBehaviour:
   obstacle: 0
   containsCharacter: 0
   height: 0
-  CharacterLayer:
+  SearchForLayer:
     serializedVersion: 2
-    m_Bits: 8
+    m_Bits: 0
   characterOnBlock: {fileID: 0}
   coord: {x: 0, y: 0, z: 0}
   baseShader: {fileID: 4800000, guid: 933532a4fcc9baf4fa0491de14d08ed7, type: 3}
@@ -18048,7 +18049,7 @@ MonoBehaviour:
   obstacle: 0
   containsCharacter: 0
   height: 2
-  CharacterLayer:
+  SearchForLayer:
     serializedVersion: 2
     m_Bits: 8
   characterOnBlock: {fileID: 0}
@@ -18185,7 +18186,7 @@ MonoBehaviour:
   obstacle: 0
   containsCharacter: 0
   height: 0
-  CharacterLayer:
+  SearchForLayer:
     serializedVersion: 2
     m_Bits: 8
   characterOnBlock: {fileID: 0}
@@ -18300,9 +18301,9 @@ MonoBehaviour:
   obstacle: 0
   containsCharacter: 0
   height: 0
-  CharacterLayer:
+  SearchForLayer:
     serializedVersion: 2
-    m_Bits: 8
+    m_Bits: 0
   characterOnBlock: {fileID: 0}
   coord: {x: 0, y: 0, z: 0}
   baseShader: {fileID: 4800000, guid: 933532a4fcc9baf4fa0491de14d08ed7, type: 3}
@@ -18438,7 +18439,7 @@ MonoBehaviour:
   obstacle: 0
   containsCharacter: 0
   height: 2
-  CharacterLayer:
+  SearchForLayer:
     serializedVersion: 2
     m_Bits: 8
   characterOnBlock: {fileID: 0}
@@ -18553,9 +18554,9 @@ MonoBehaviour:
   obstacle: 0
   containsCharacter: 0
   height: 0
-  CharacterLayer:
+  SearchForLayer:
     serializedVersion: 2
-    m_Bits: 8
+    m_Bits: 0
   characterOnBlock: {fileID: 0}
   coord: {x: 0, y: 0, z: 0}
   baseShader: {fileID: 4800000, guid: 933532a4fcc9baf4fa0491de14d08ed7, type: 3}
@@ -18860,7 +18861,7 @@ MonoBehaviour:
   obstacle: 0
   containsCharacter: 0
   height: 0
-  CharacterLayer:
+  SearchForLayer:
     serializedVersion: 2
     m_Bits: 8
   characterOnBlock: {fileID: 0}
@@ -18997,7 +18998,7 @@ MonoBehaviour:
   obstacle: 0
   containsCharacter: 0
   height: 0
-  CharacterLayer:
+  SearchForLayer:
     serializedVersion: 2
     m_Bits: 8
   characterOnBlock: {fileID: 0}
@@ -19189,9 +19190,9 @@ MonoBehaviour:
   obstacle: 0
   containsCharacter: 0
   height: 0
-  CharacterLayer:
+  SearchForLayer:
     serializedVersion: 2
-    m_Bits: 8
+    m_Bits: 0
   characterOnBlock: {fileID: 0}
   coord: {x: 0, y: 0, z: 0}
   baseShader: {fileID: 4800000, guid: 933532a4fcc9baf4fa0491de14d08ed7, type: 3}
@@ -19440,9 +19441,9 @@ MonoBehaviour:
   obstacle: 0
   containsCharacter: 0
   height: 0
-  CharacterLayer:
+  SearchForLayer:
     serializedVersion: 2
-    m_Bits: 8
+    m_Bits: 0
   characterOnBlock: {fileID: 0}
   coord: {x: 0, y: 0, z: 0}
   baseShader: {fileID: 4800000, guid: 933532a4fcc9baf4fa0491de14d08ed7, type: 3}
@@ -19582,7 +19583,7 @@ MonoBehaviour:
   obstacle: 0
   containsCharacter: 0
   height: 0
-  CharacterLayer:
+  SearchForLayer:
     serializedVersion: 2
     m_Bits: 8
   characterOnBlock: {fileID: 0}
@@ -19855,7 +19856,7 @@ MonoBehaviour:
   obstacle: 0
   containsCharacter: 0
   height: 0
-  CharacterLayer:
+  SearchForLayer:
     serializedVersion: 2
     m_Bits: 8
   characterOnBlock: {fileID: 0}
@@ -19992,7 +19993,7 @@ MonoBehaviour:
   obstacle: 0
   containsCharacter: 0
   height: 0
-  CharacterLayer:
+  SearchForLayer:
     serializedVersion: 2
     m_Bits: 8
   characterOnBlock: {fileID: 0}
@@ -20401,7 +20402,7 @@ MonoBehaviour:
   obstacle: 0
   containsCharacter: 0
   height: 0
-  CharacterLayer:
+  SearchForLayer:
     serializedVersion: 2
     m_Bits: 8
   characterOnBlock: {fileID: 0}
@@ -20538,7 +20539,7 @@ MonoBehaviour:
   obstacle: 0
   containsCharacter: 0
   height: 0
-  CharacterLayer:
+  SearchForLayer:
     serializedVersion: 2
     m_Bits: 8
   characterOnBlock: {fileID: 0}
@@ -20653,9 +20654,9 @@ MonoBehaviour:
   obstacle: 0
   containsCharacter: 0
   height: 0
-  CharacterLayer:
+  SearchForLayer:
     serializedVersion: 2
-    m_Bits: 8
+    m_Bits: 0
   characterOnBlock: {fileID: 0}
   coord: {x: 0, y: 0, z: 0}
   baseShader: {fileID: 4800000, guid: 933532a4fcc9baf4fa0491de14d08ed7, type: 3}
@@ -20768,9 +20769,9 @@ MonoBehaviour:
   obstacle: 0
   containsCharacter: 0
   height: 0
-  CharacterLayer:
+  SearchForLayer:
     serializedVersion: 2
-    m_Bits: 8
+    m_Bits: 0
   characterOnBlock: {fileID: 0}
   coord: {x: 0, y: 0, z: 0}
   baseShader: {fileID: 4800000, guid: 933532a4fcc9baf4fa0491de14d08ed7, type: 3}
@@ -20905,7 +20906,7 @@ MonoBehaviour:
   obstacle: 0
   containsCharacter: 0
   height: 0
-  CharacterLayer:
+  SearchForLayer:
     serializedVersion: 2
     m_Bits: 8
   characterOnBlock: {fileID: 0}
@@ -21099,7 +21100,7 @@ MonoBehaviour:
   obstacle: 0
   containsCharacter: 0
   height: 0
-  CharacterLayer:
+  SearchForLayer:
     serializedVersion: 2
     m_Bits: 8
   characterOnBlock: {fileID: 0}
@@ -21236,7 +21237,7 @@ MonoBehaviour:
   obstacle: 1
   containsCharacter: 0
   height: 0
-  CharacterLayer:
+  SearchForLayer:
     serializedVersion: 2
     m_Bits: 8
   characterOnBlock: {fileID: 0}
@@ -21351,9 +21352,9 @@ MonoBehaviour:
   obstacle: 0
   containsCharacter: 0
   height: 0
-  CharacterLayer:
+  SearchForLayer:
     serializedVersion: 2
-    m_Bits: 8
+    m_Bits: 0
   characterOnBlock: {fileID: 0}
   coord: {x: 0, y: 0, z: 0}
   baseShader: {fileID: 4800000, guid: 933532a4fcc9baf4fa0491de14d08ed7, type: 3}
@@ -21504,9 +21505,9 @@ MonoBehaviour:
   obstacle: 0
   containsCharacter: 0
   height: 0
-  CharacterLayer:
+  SearchForLayer:
     serializedVersion: 2
-    m_Bits: 8
+    m_Bits: 0
   characterOnBlock: {fileID: 0}
   coord: {x: 0, y: 0, z: 0}
   baseShader: {fileID: 4800000, guid: 933532a4fcc9baf4fa0491de14d08ed7, type: 3}
@@ -21641,7 +21642,7 @@ MonoBehaviour:
   obstacle: 0
   containsCharacter: 0
   height: 0
-  CharacterLayer:
+  SearchForLayer:
     serializedVersion: 2
     m_Bits: 8
   characterOnBlock: {fileID: 0}
@@ -21877,9 +21878,9 @@ MonoBehaviour:
   obstacle: 0
   containsCharacter: 0
   height: 0
-  CharacterLayer:
+  SearchForLayer:
     serializedVersion: 2
-    m_Bits: 8
+    m_Bits: 0
   characterOnBlock: {fileID: 0}
   coord: {x: 0, y: 0, z: 0}
   baseShader: {fileID: 4800000, guid: 933532a4fcc9baf4fa0491de14d08ed7, type: 3}
@@ -22020,7 +22021,7 @@ MonoBehaviour:
   obstacle: 0
   containsCharacter: 0
   height: 2
-  CharacterLayer:
+  SearchForLayer:
     serializedVersion: 2
     m_Bits: 8
   characterOnBlock: {fileID: 0}
@@ -22157,7 +22158,7 @@ MonoBehaviour:
   obstacle: 0
   containsCharacter: 0
   height: 0
-  CharacterLayer:
+  SearchForLayer:
     serializedVersion: 2
     m_Bits: 8
   characterOnBlock: {fileID: 0}
@@ -22351,9 +22352,9 @@ MonoBehaviour:
   obstacle: 0
   containsCharacter: 0
   height: 0
-  CharacterLayer:
+  SearchForLayer:
     serializedVersion: 2
-    m_Bits: 8
+    m_Bits: 0
   characterOnBlock: {fileID: 0}
   coord: {x: 0, y: 0, z: 0}
   baseShader: {fileID: 4800000, guid: 933532a4fcc9baf4fa0491de14d08ed7, type: 3}
@@ -22466,9 +22467,9 @@ MonoBehaviour:
   obstacle: 0
   containsCharacter: 0
   height: 0
-  CharacterLayer:
+  SearchForLayer:
     serializedVersion: 2
-    m_Bits: 8
+    m_Bits: 0
   characterOnBlock: {fileID: 0}
   coord: {x: 0, y: 0, z: 0}
   baseShader: {fileID: 4800000, guid: 933532a4fcc9baf4fa0491de14d08ed7, type: 3}
@@ -22608,7 +22609,7 @@ MonoBehaviour:
   obstacle: 1
   containsCharacter: 0
   height: 0
-  CharacterLayer:
+  SearchForLayer:
     serializedVersion: 2
     m_Bits: 8
   characterOnBlock: {fileID: 0}
@@ -22745,7 +22746,7 @@ MonoBehaviour:
   obstacle: 0
   containsCharacter: 0
   height: 0
-  CharacterLayer:
+  SearchForLayer:
     serializedVersion: 2
     m_Bits: 8
   characterOnBlock: {fileID: 0}
@@ -22884,7 +22885,7 @@ MonoBehaviour:
   obstacle: 0
   containsCharacter: 0
   height: 2
-  CharacterLayer:
+  SearchForLayer:
     serializedVersion: 2
     m_Bits: 8
   characterOnBlock: {fileID: 0}
@@ -23023,7 +23024,7 @@ MonoBehaviour:
   obstacle: 0
   containsCharacter: 0
   height: 2
-  CharacterLayer:
+  SearchForLayer:
     serializedVersion: 2
     m_Bits: 8
   characterOnBlock: {fileID: 0}
@@ -23161,7 +23162,7 @@ MonoBehaviour:
   obstacle: 0
   containsCharacter: 0
   height: 2
-  CharacterLayer:
+  SearchForLayer:
     serializedVersion: 2
     m_Bits: 8
   characterOnBlock: {fileID: 0}
@@ -23276,9 +23277,9 @@ MonoBehaviour:
   obstacle: 0
   containsCharacter: 0
   height: 0
-  CharacterLayer:
+  SearchForLayer:
     serializedVersion: 2
-    m_Bits: 8
+    m_Bits: 0
   characterOnBlock: {fileID: 0}
   coord: {x: 0, y: 0, z: 0}
   baseShader: {fileID: 4800000, guid: 933532a4fcc9baf4fa0491de14d08ed7, type: 3}
@@ -23316,7 +23317,7 @@ RectTransform:
   m_Father: {fileID: 640276550}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
+  m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 10, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -23466,9 +23467,9 @@ MonoBehaviour:
   obstacle: 0
   containsCharacter: 0
   height: 0
-  CharacterLayer:
+  SearchForLayer:
     serializedVersion: 2
-    m_Bits: 8
+    m_Bits: 0
   characterOnBlock: {fileID: 0}
   coord: {x: 0, y: 0, z: 0}
   baseShader: {fileID: 4800000, guid: 933532a4fcc9baf4fa0491de14d08ed7, type: 3}
@@ -23604,7 +23605,7 @@ MonoBehaviour:
   obstacle: 0
   containsCharacter: 0
   height: 2
-  CharacterLayer:
+  SearchForLayer:
     serializedVersion: 2
     m_Bits: 8
   characterOnBlock: {fileID: 0}
@@ -23777,7 +23778,7 @@ MonoBehaviour:
   obstacle: 0
   containsCharacter: 0
   height: 0
-  CharacterLayer:
+  SearchForLayer:
     serializedVersion: 2
     m_Bits: 8
   characterOnBlock: {fileID: 0}
@@ -23914,7 +23915,7 @@ MonoBehaviour:
   obstacle: 0
   containsCharacter: 0
   height: 0
-  CharacterLayer:
+  SearchForLayer:
     serializedVersion: 2
     m_Bits: 8
   characterOnBlock: {fileID: 0}
@@ -24051,7 +24052,7 @@ MonoBehaviour:
   obstacle: 0
   containsCharacter: 0
   height: 0
-  CharacterLayer:
+  SearchForLayer:
     serializedVersion: 2
     m_Bits: 8
   characterOnBlock: {fileID: 0}
@@ -24166,9 +24167,9 @@ MonoBehaviour:
   obstacle: 0
   containsCharacter: 0
   height: 0
-  CharacterLayer:
+  SearchForLayer:
     serializedVersion: 2
-    m_Bits: 8
+    m_Bits: 0
   characterOnBlock: {fileID: 0}
   coord: {x: 0, y: 0, z: 0}
   baseShader: {fileID: 4800000, guid: 933532a4fcc9baf4fa0491de14d08ed7, type: 3}
@@ -24281,9 +24282,9 @@ MonoBehaviour:
   obstacle: 0
   containsCharacter: 0
   height: 0
-  CharacterLayer:
+  SearchForLayer:
     serializedVersion: 2
-    m_Bits: 8
+    m_Bits: 0
   characterOnBlock: {fileID: 0}
   coord: {x: 0, y: 0, z: 0}
   baseShader: {fileID: 4800000, guid: 933532a4fcc9baf4fa0491de14d08ed7, type: 3}
@@ -24419,7 +24420,7 @@ MonoBehaviour:
   obstacle: 0
   containsCharacter: 0
   height: 2
-  CharacterLayer:
+  SearchForLayer:
     serializedVersion: 2
     m_Bits: 8
   characterOnBlock: {fileID: 0}
@@ -24667,9 +24668,9 @@ MonoBehaviour:
   obstacle: 0
   containsCharacter: 0
   height: 0
-  CharacterLayer:
+  SearchForLayer:
     serializedVersion: 2
-    m_Bits: 8
+    m_Bits: 0
   characterOnBlock: {fileID: 0}
   coord: {x: 0, y: 0, z: 0}
   baseShader: {fileID: 4800000, guid: 933532a4fcc9baf4fa0491de14d08ed7, type: 3}
@@ -24863,8 +24864,8 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 63914306}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 1, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 20, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -25037,7 +25038,7 @@ MonoBehaviour:
   obstacle: 0
   containsCharacter: 0
   height: 1
-  CharacterLayer:
+  SearchForLayer:
     serializedVersion: 2
     m_Bits: 8
   characterOnBlock: {fileID: 0}
@@ -25533,9 +25534,9 @@ MonoBehaviour:
   obstacle: 0
   containsCharacter: 0
   height: 0
-  CharacterLayer:
+  SearchForLayer:
     serializedVersion: 2
-    m_Bits: 8
+    m_Bits: 0
   characterOnBlock: {fileID: 0}
   coord: {x: 0, y: 0, z: 0}
   baseShader: {fileID: 4800000, guid: 933532a4fcc9baf4fa0491de14d08ed7, type: 3}
@@ -25648,9 +25649,9 @@ MonoBehaviour:
   obstacle: 0
   containsCharacter: 0
   height: 0
-  CharacterLayer:
+  SearchForLayer:
     serializedVersion: 2
-    m_Bits: 8
+    m_Bits: 0
   characterOnBlock: {fileID: 0}
   coord: {x: 0, y: 0, z: 0}
   baseShader: {fileID: 4800000, guid: 933532a4fcc9baf4fa0491de14d08ed7, type: 3}
@@ -25763,9 +25764,9 @@ MonoBehaviour:
   obstacle: 0
   containsCharacter: 0
   height: 0
-  CharacterLayer:
+  SearchForLayer:
     serializedVersion: 2
-    m_Bits: 8
+    m_Bits: 0
   characterOnBlock: {fileID: 0}
   coord: {x: 0, y: 0, z: 0}
   baseShader: {fileID: 4800000, guid: 933532a4fcc9baf4fa0491de14d08ed7, type: 3}
@@ -25901,7 +25902,7 @@ MonoBehaviour:
   obstacle: 0
   containsCharacter: 0
   height: 1
-  CharacterLayer:
+  SearchForLayer:
     serializedVersion: 2
     m_Bits: 8
   characterOnBlock: {fileID: 0}
@@ -26038,7 +26039,7 @@ MonoBehaviour:
   obstacle: 0
   containsCharacter: 0
   height: 0
-  CharacterLayer:
+  SearchForLayer:
     serializedVersion: 2
     m_Bits: 8
   characterOnBlock: {fileID: 0}
@@ -26175,7 +26176,7 @@ MonoBehaviour:
   obstacle: 0
   containsCharacter: 0
   height: 0
-  CharacterLayer:
+  SearchForLayer:
     serializedVersion: 2
     m_Bits: 8
   characterOnBlock: {fileID: 0}
@@ -26469,7 +26470,7 @@ MonoBehaviour:
   obstacle: 0
   containsCharacter: 0
   height: 2
-  CharacterLayer:
+  SearchForLayer:
     serializedVersion: 2
     m_Bits: 8
   characterOnBlock: {fileID: 0}
@@ -26584,9 +26585,9 @@ MonoBehaviour:
   obstacle: 0
   containsCharacter: 0
   height: 0
-  CharacterLayer:
+  SearchForLayer:
     serializedVersion: 2
-    m_Bits: 8
+    m_Bits: 0
   characterOnBlock: {fileID: 0}
   coord: {x: 0, y: 0, z: 0}
   baseShader: {fileID: 4800000, guid: 933532a4fcc9baf4fa0491de14d08ed7, type: 3}
@@ -26876,7 +26877,7 @@ MonoBehaviour:
   obstacle: 0
   containsCharacter: 0
   height: 0
-  CharacterLayer:
+  SearchForLayer:
     serializedVersion: 2
     m_Bits: 8
   characterOnBlock: {fileID: 0}
@@ -27072,8 +27073,8 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 1214820906}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 1, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 20, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -27383,7 +27384,7 @@ MonoBehaviour:
   obstacle: 0
   containsCharacter: 0
   height: 2
-  CharacterLayer:
+  SearchForLayer:
     serializedVersion: 2
     m_Bits: 8
   characterOnBlock: {fileID: 0}
@@ -27520,7 +27521,7 @@ MonoBehaviour:
   obstacle: 0
   containsCharacter: 0
   height: 0
-  CharacterLayer:
+  SearchForLayer:
     serializedVersion: 2
     m_Bits: 8
   characterOnBlock: {fileID: 0}
@@ -27635,9 +27636,9 @@ MonoBehaviour:
   obstacle: 0
   containsCharacter: 0
   height: 0
-  CharacterLayer:
+  SearchForLayer:
     serializedVersion: 2
-    m_Bits: 8
+    m_Bits: 0
   characterOnBlock: {fileID: 0}
   coord: {x: 0, y: 0, z: 0}
   baseShader: {fileID: 4800000, guid: 933532a4fcc9baf4fa0491de14d08ed7, type: 3}
@@ -27772,7 +27773,7 @@ MonoBehaviour:
   obstacle: 0
   containsCharacter: 0
   height: 0
-  CharacterLayer:
+  SearchForLayer:
     serializedVersion: 2
     m_Bits: 8
   characterOnBlock: {fileID: 0}
@@ -27887,9 +27888,9 @@ MonoBehaviour:
   obstacle: 0
   containsCharacter: 0
   height: 0
-  CharacterLayer:
+  SearchForLayer:
     serializedVersion: 2
-    m_Bits: 8
+    m_Bits: 0
   characterOnBlock: {fileID: 0}
   coord: {x: 0, y: 0, z: 0}
   baseShader: {fileID: 4800000, guid: 933532a4fcc9baf4fa0491de14d08ed7, type: 3}
@@ -28088,7 +28089,7 @@ MonoBehaviour:
   obstacle: 0
   containsCharacter: 0
   height: 0
-  CharacterLayer:
+  SearchForLayer:
     serializedVersion: 2
     m_Bits: 8
   characterOnBlock: {fileID: 0}
@@ -28227,7 +28228,7 @@ MonoBehaviour:
   obstacle: 0
   containsCharacter: 0
   height: 2
-  CharacterLayer:
+  SearchForLayer:
     serializedVersion: 2
     m_Bits: 8
   characterOnBlock: {fileID: 0}
@@ -28364,7 +28365,7 @@ MonoBehaviour:
   obstacle: 0
   containsCharacter: 0
   height: 0
-  CharacterLayer:
+  SearchForLayer:
     serializedVersion: 2
     m_Bits: 8
   characterOnBlock: {fileID: 0}
@@ -28479,9 +28480,9 @@ MonoBehaviour:
   obstacle: 0
   containsCharacter: 0
   height: 0
-  CharacterLayer:
+  SearchForLayer:
     serializedVersion: 2
-    m_Bits: 8
+    m_Bits: 0
   characterOnBlock: {fileID: 0}
   coord: {x: 0, y: 0, z: 0}
   baseShader: {fileID: 4800000, guid: 933532a4fcc9baf4fa0491de14d08ed7, type: 3}
@@ -28616,7 +28617,7 @@ MonoBehaviour:
   obstacle: 0
   containsCharacter: 0
   height: 0
-  CharacterLayer:
+  SearchForLayer:
     serializedVersion: 2
     m_Bits: 8
   characterOnBlock: {fileID: 0}
@@ -28753,7 +28754,7 @@ MonoBehaviour:
   obstacle: 0
   containsCharacter: 0
   height: 0
-  CharacterLayer:
+  SearchForLayer:
     serializedVersion: 2
     m_Bits: 8
   characterOnBlock: {fileID: 0}
@@ -28890,7 +28891,7 @@ MonoBehaviour:
   obstacle: 0
   containsCharacter: 0
   height: 0
-  CharacterLayer:
+  SearchForLayer:
     serializedVersion: 2
     m_Bits: 8
   characterOnBlock: {fileID: 0}
@@ -29027,7 +29028,7 @@ MonoBehaviour:
   obstacle: 0
   containsCharacter: 0
   height: 0
-  CharacterLayer:
+  SearchForLayer:
     serializedVersion: 2
     m_Bits: 8
   characterOnBlock: {fileID: 0}
@@ -29221,7 +29222,7 @@ MonoBehaviour:
   obstacle: 0
   containsCharacter: 0
   height: 0
-  CharacterLayer:
+  SearchForLayer:
     serializedVersion: 2
     m_Bits: 8
   characterOnBlock: {fileID: 0}
@@ -29472,9 +29473,9 @@ MonoBehaviour:
   obstacle: 0
   containsCharacter: 0
   height: 0
-  CharacterLayer:
+  SearchForLayer:
     serializedVersion: 2
-    m_Bits: 8
+    m_Bits: 0
   characterOnBlock: {fileID: 0}
   coord: {x: 0, y: 0, z: 0}
   baseShader: {fileID: 4800000, guid: 933532a4fcc9baf4fa0491de14d08ed7, type: 3}
@@ -29587,9 +29588,9 @@ MonoBehaviour:
   obstacle: 0
   containsCharacter: 0
   height: 0
-  CharacterLayer:
+  SearchForLayer:
     serializedVersion: 2
-    m_Bits: 8
+    m_Bits: 0
   characterOnBlock: {fileID: 0}
   coord: {x: 0, y: 0, z: 0}
   baseShader: {fileID: 4800000, guid: 933532a4fcc9baf4fa0491de14d08ed7, type: 3}
@@ -29724,7 +29725,7 @@ MonoBehaviour:
   obstacle: 0
   containsCharacter: 0
   height: 0
-  CharacterLayer:
+  SearchForLayer:
     serializedVersion: 2
     m_Bits: 8
   characterOnBlock: {fileID: 0}
@@ -29839,9 +29840,9 @@ MonoBehaviour:
   obstacle: 0
   containsCharacter: 0
   height: 0
-  CharacterLayer:
+  SearchForLayer:
     serializedVersion: 2
-    m_Bits: 8
+    m_Bits: 0
   characterOnBlock: {fileID: 0}
   coord: {x: 0, y: 0, z: 0}
   baseShader: {fileID: 4800000, guid: 933532a4fcc9baf4fa0491de14d08ed7, type: 3}
@@ -30202,7 +30203,7 @@ MonoBehaviour:
   obstacle: 0
   containsCharacter: 0
   height: 0
-  CharacterLayer:
+  SearchForLayer:
     serializedVersion: 2
     m_Bits: 8
   characterOnBlock: {fileID: 0}
@@ -30600,9 +30601,9 @@ MonoBehaviour:
   obstacle: 0
   containsCharacter: 0
   height: 0
-  CharacterLayer:
+  SearchForLayer:
     serializedVersion: 2
-    m_Bits: 8
+    m_Bits: 0
   characterOnBlock: {fileID: 0}
   coord: {x: 0, y: 0, z: 0}
   baseShader: {fileID: 4800000, guid: 933532a4fcc9baf4fa0491de14d08ed7, type: 3}
@@ -30777,7 +30778,7 @@ MonoBehaviour:
   obstacle: 1
   containsCharacter: 0
   height: 0
-  CharacterLayer:
+  SearchForLayer:
     serializedVersion: 2
     m_Bits: 8
   characterOnBlock: {fileID: 0}
@@ -30914,7 +30915,7 @@ MonoBehaviour:
   obstacle: 0
   containsCharacter: 0
   height: 0
-  CharacterLayer:
+  SearchForLayer:
     serializedVersion: 2
     m_Bits: 8
   characterOnBlock: {fileID: 0}
@@ -31053,7 +31054,7 @@ MonoBehaviour:
   obstacle: 0
   containsCharacter: 0
   height: 2
-  CharacterLayer:
+  SearchForLayer:
     serializedVersion: 2
     m_Bits: 8
   characterOnBlock: {fileID: 0}
@@ -31495,7 +31496,7 @@ MonoBehaviour:
   obstacle: 0
   containsCharacter: 0
   height: 0
-  CharacterLayer:
+  SearchForLayer:
     serializedVersion: 2
     m_Bits: 8
   characterOnBlock: {fileID: 0}
@@ -31657,9 +31658,9 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
-      - m_Target: {fileID: 32526636}
-        m_TargetAssemblyTypeName: GameController, Assembly-CSharp
-        m_MethodName: RefreshBlockInfo
+      - m_Target: {fileID: 866210695}
+        m_TargetAssemblyTypeName: TurnController, Assembly-CSharp
+        m_MethodName: PassTurn
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -31669,9 +31670,9 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
-      - m_Target: {fileID: 866210695}
-        m_TargetAssemblyTypeName: TurnController, Assembly-CSharp
-        m_MethodName: PassTurn
+      - m_Target: {fileID: 32526636}
+        m_TargetAssemblyTypeName: GameController, Assembly-CSharp
+        m_MethodName: RefreshBlockInfo
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -31849,7 +31850,7 @@ MonoBehaviour:
   obstacle: 0
   containsCharacter: 0
   height: 0
-  CharacterLayer:
+  SearchForLayer:
     serializedVersion: 2
     m_Bits: 8
   characterOnBlock: {fileID: 0}
@@ -31964,9 +31965,9 @@ MonoBehaviour:
   obstacle: 0
   containsCharacter: 0
   height: 0
-  CharacterLayer:
+  SearchForLayer:
     serializedVersion: 2
-    m_Bits: 8
+    m_Bits: 0
   characterOnBlock: {fileID: 0}
   coord: {x: 0, y: 0, z: 0}
   baseShader: {fileID: 4800000, guid: 933532a4fcc9baf4fa0491de14d08ed7, type: 3}
@@ -32238,7 +32239,7 @@ MonoBehaviour:
   obstacle: 0
   containsCharacter: 0
   height: 2
-  CharacterLayer:
+  SearchForLayer:
     serializedVersion: 2
     m_Bits: 8
   characterOnBlock: {fileID: 0}
@@ -32375,7 +32376,7 @@ MonoBehaviour:
   obstacle: 0
   containsCharacter: 0
   height: 0
-  CharacterLayer:
+  SearchForLayer:
     serializedVersion: 2
     m_Bits: 8
   characterOnBlock: {fileID: 0}
@@ -32505,6 +32506,18 @@ MonoBehaviour:
         m_TargetAssemblyTypeName: UnityEngine.UI.Selectable, UnityEngine.UI
         m_MethodName: set_interactable
         m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 342495816}
+        m_TargetAssemblyTypeName: UIManager, Assembly-CSharp
+        m_MethodName: ReactivateButtons
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -32682,7 +32695,7 @@ MonoBehaviour:
   obstacle: 0
   containsCharacter: 0
   height: 2
-  CharacterLayer:
+  SearchForLayer:
     serializedVersion: 2
     m_Bits: 8
   characterOnBlock: {fileID: 0}
@@ -32821,7 +32834,7 @@ MonoBehaviour:
   obstacle: 0
   containsCharacter: 0
   height: 2
-  CharacterLayer:
+  SearchForLayer:
     serializedVersion: 2
     m_Bits: 8
   characterOnBlock: {fileID: 0}
@@ -32958,7 +32971,7 @@ MonoBehaviour:
   obstacle: 0
   containsCharacter: 0
   height: 0
-  CharacterLayer:
+  SearchForLayer:
     serializedVersion: 2
     m_Bits: 8
   characterOnBlock: {fileID: 0}
@@ -33073,9 +33086,9 @@ MonoBehaviour:
   obstacle: 0
   containsCharacter: 0
   height: 0
-  CharacterLayer:
+  SearchForLayer:
     serializedVersion: 2
-    m_Bits: 8
+    m_Bits: 0
   characterOnBlock: {fileID: 0}
   coord: {x: 0, y: 0, z: 0}
   baseShader: {fileID: 4800000, guid: 933532a4fcc9baf4fa0491de14d08ed7, type: 3}
@@ -33212,7 +33225,7 @@ MonoBehaviour:
   obstacle: 0
   containsCharacter: 0
   height: 2
-  CharacterLayer:
+  SearchForLayer:
     serializedVersion: 2
     m_Bits: 8
   characterOnBlock: {fileID: 0}
@@ -33460,9 +33473,9 @@ MonoBehaviour:
   obstacle: 0
   containsCharacter: 0
   height: 0
-  CharacterLayer:
+  SearchForLayer:
     serializedVersion: 2
-    m_Bits: 8
+    m_Bits: 0
   characterOnBlock: {fileID: 0}
   coord: {x: 0, y: 0, z: 0}
   baseShader: {fileID: 4800000, guid: 933532a4fcc9baf4fa0491de14d08ed7, type: 3}
@@ -33856,9 +33869,9 @@ MonoBehaviour:
   obstacle: 0
   containsCharacter: 0
   height: 0
-  CharacterLayer:
+  SearchForLayer:
     serializedVersion: 2
-    m_Bits: 8
+    m_Bits: 0
   characterOnBlock: {fileID: 0}
   coord: {x: 0, y: 0, z: 0}
   baseShader: {fileID: 4800000, guid: 933532a4fcc9baf4fa0491de14d08ed7, type: 3}
@@ -33971,9 +33984,9 @@ MonoBehaviour:
   obstacle: 0
   containsCharacter: 0
   height: 0
-  CharacterLayer:
+  SearchForLayer:
     serializedVersion: 2
-    m_Bits: 8
+    m_Bits: 0
   characterOnBlock: {fileID: 0}
   coord: {x: 0, y: 0, z: 0}
   baseShader: {fileID: 4800000, guid: 933532a4fcc9baf4fa0491de14d08ed7, type: 3}
@@ -34086,9 +34099,9 @@ MonoBehaviour:
   obstacle: 0
   containsCharacter: 0
   height: 0
-  CharacterLayer:
+  SearchForLayer:
     serializedVersion: 2
-    m_Bits: 8
+    m_Bits: 0
   characterOnBlock: {fileID: 0}
   coord: {x: 0, y: 0, z: 0}
   baseShader: {fileID: 4800000, guid: 933532a4fcc9baf4fa0491de14d08ed7, type: 3}
@@ -34225,7 +34238,7 @@ MonoBehaviour:
   obstacle: 0
   containsCharacter: 0
   height: 2
-  CharacterLayer:
+  SearchForLayer:
     serializedVersion: 2
     m_Bits: 8
   characterOnBlock: {fileID: 0}
@@ -34364,7 +34377,7 @@ MonoBehaviour:
   obstacle: 0
   containsCharacter: 0
   height: 2
-  CharacterLayer:
+  SearchForLayer:
     serializedVersion: 2
     m_Bits: 8
   characterOnBlock: {fileID: 0}
@@ -34479,9 +34492,9 @@ MonoBehaviour:
   obstacle: 0
   containsCharacter: 0
   height: 0
-  CharacterLayer:
+  SearchForLayer:
     serializedVersion: 2
-    m_Bits: 8
+    m_Bits: 0
   characterOnBlock: {fileID: 0}
   coord: {x: 0, y: 0, z: 0}
   baseShader: {fileID: 4800000, guid: 933532a4fcc9baf4fa0491de14d08ed7, type: 3}
@@ -34594,9 +34607,9 @@ MonoBehaviour:
   obstacle: 0
   containsCharacter: 0
   height: 0
-  CharacterLayer:
+  SearchForLayer:
     serializedVersion: 2
-    m_Bits: 8
+    m_Bits: 0
   characterOnBlock: {fileID: 0}
   coord: {x: 0, y: 0, z: 0}
   baseShader: {fileID: 4800000, guid: 933532a4fcc9baf4fa0491de14d08ed7, type: 3}
@@ -34709,9 +34722,9 @@ MonoBehaviour:
   obstacle: 0
   containsCharacter: 0
   height: 0
-  CharacterLayer:
+  SearchForLayer:
     serializedVersion: 2
-    m_Bits: 8
+    m_Bits: 0
   characterOnBlock: {fileID: 0}
   coord: {x: 0, y: 0, z: 0}
   baseShader: {fileID: 4800000, guid: 933532a4fcc9baf4fa0491de14d08ed7, type: 3}
@@ -34824,9 +34837,9 @@ MonoBehaviour:
   obstacle: 0
   containsCharacter: 0
   height: 0
-  CharacterLayer:
+  SearchForLayer:
     serializedVersion: 2
-    m_Bits: 8
+    m_Bits: 0
   characterOnBlock: {fileID: 0}
   coord: {x: 0, y: 0, z: 0}
   baseShader: {fileID: 4800000, guid: 933532a4fcc9baf4fa0491de14d08ed7, type: 3}
@@ -34996,9 +35009,9 @@ MonoBehaviour:
   obstacle: 0
   containsCharacter: 0
   height: 0
-  CharacterLayer:
+  SearchForLayer:
     serializedVersion: 2
-    m_Bits: 8
+    m_Bits: 0
   characterOnBlock: {fileID: 0}
   coord: {x: 0, y: 0, z: 0}
   baseShader: {fileID: 4800000, guid: 933532a4fcc9baf4fa0491de14d08ed7, type: 3}
@@ -35111,9 +35124,9 @@ MonoBehaviour:
   obstacle: 0
   containsCharacter: 0
   height: 0
-  CharacterLayer:
+  SearchForLayer:
     serializedVersion: 2
-    m_Bits: 8
+    m_Bits: 0
   characterOnBlock: {fileID: 0}
   coord: {x: 0, y: 0, z: 0}
   baseShader: {fileID: 4800000, guid: 933532a4fcc9baf4fa0491de14d08ed7, type: 3}
@@ -35648,7 +35661,7 @@ MonoBehaviour:
   obstacle: 0
   containsCharacter: 0
   height: 1
-  CharacterLayer:
+  SearchForLayer:
     serializedVersion: 2
     m_Bits: 8
   characterOnBlock: {fileID: 0}
@@ -35785,7 +35798,7 @@ MonoBehaviour:
   obstacle: 0
   containsCharacter: 0
   height: 0
-  CharacterLayer:
+  SearchForLayer:
     serializedVersion: 2
     m_Bits: 8
   characterOnBlock: {fileID: 0}
@@ -35900,9 +35913,9 @@ MonoBehaviour:
   obstacle: 0
   containsCharacter: 0
   height: 0
-  CharacterLayer:
+  SearchForLayer:
     serializedVersion: 2
-    m_Bits: 8
+    m_Bits: 0
   characterOnBlock: {fileID: 0}
   coord: {x: 0, y: 0, z: 0}
   baseShader: {fileID: 4800000, guid: 933532a4fcc9baf4fa0491de14d08ed7, type: 3}
@@ -36340,7 +36353,7 @@ MonoBehaviour:
   obstacle: 0
   containsCharacter: 0
   height: 0
-  CharacterLayer:
+  SearchForLayer:
     serializedVersion: 2
     m_Bits: 8
   characterOnBlock: {fileID: 0}
@@ -36455,9 +36468,9 @@ MonoBehaviour:
   obstacle: 0
   containsCharacter: 0
   height: 0
-  CharacterLayer:
+  SearchForLayer:
     serializedVersion: 2
-    m_Bits: 8
+    m_Bits: 0
   characterOnBlock: {fileID: 0}
   coord: {x: 0, y: 0, z: 0}
   baseShader: {fileID: 4800000, guid: 933532a4fcc9baf4fa0491de14d08ed7, type: 3}
@@ -36592,7 +36605,7 @@ MonoBehaviour:
   obstacle: 0
   containsCharacter: 0
   height: 0
-  CharacterLayer:
+  SearchForLayer:
     serializedVersion: 2
     m_Bits: 8
   characterOnBlock: {fileID: 0}
@@ -36729,7 +36742,7 @@ MonoBehaviour:
   obstacle: 0
   containsCharacter: 0
   height: 0
-  CharacterLayer:
+  SearchForLayer:
     serializedVersion: 2
     m_Bits: 8
   characterOnBlock: {fileID: 0}
@@ -36969,7 +36982,7 @@ MonoBehaviour:
   obstacle: 0
   containsCharacter: 0
   height: 0
-  CharacterLayer:
+  SearchForLayer:
     serializedVersion: 2
     m_Bits: 8
   characterOnBlock: {fileID: 0}
@@ -37084,9 +37097,9 @@ MonoBehaviour:
   obstacle: 0
   containsCharacter: 0
   height: 0
-  CharacterLayer:
+  SearchForLayer:
     serializedVersion: 2
-    m_Bits: 8
+    m_Bits: 0
   characterOnBlock: {fileID: 0}
   coord: {x: 0, y: 0, z: 0}
   baseShader: {fileID: 4800000, guid: 933532a4fcc9baf4fa0491de14d08ed7, type: 3}
@@ -37357,7 +37370,7 @@ MonoBehaviour:
   obstacle: 0
   containsCharacter: 0
   height: 0
-  CharacterLayer:
+  SearchForLayer:
     serializedVersion: 2
     m_Bits: 8
   characterOnBlock: {fileID: 0}
@@ -37472,9 +37485,9 @@ MonoBehaviour:
   obstacle: 0
   containsCharacter: 0
   height: 0
-  CharacterLayer:
+  SearchForLayer:
     serializedVersion: 2
-    m_Bits: 8
+    m_Bits: 0
   characterOnBlock: {fileID: 0}
   coord: {x: 0, y: 0, z: 0}
   baseShader: {fileID: 4800000, guid: 933532a4fcc9baf4fa0491de14d08ed7, type: 3}
@@ -37610,7 +37623,7 @@ MonoBehaviour:
   obstacle: 0
   containsCharacter: 0
   height: 1
-  CharacterLayer:
+  SearchForLayer:
     serializedVersion: 2
     m_Bits: 8
   characterOnBlock: {fileID: 0}
@@ -37747,7 +37760,7 @@ MonoBehaviour:
   obstacle: 0
   containsCharacter: 0
   height: 0
-  CharacterLayer:
+  SearchForLayer:
     serializedVersion: 2
     m_Bits: 8
   characterOnBlock: {fileID: 0}
@@ -38156,7 +38169,7 @@ MonoBehaviour:
   obstacle: 0
   containsCharacter: 0
   height: 0
-  CharacterLayer:
+  SearchForLayer:
     serializedVersion: 2
     m_Bits: 8
   characterOnBlock: {fileID: 0}
@@ -38293,7 +38306,7 @@ MonoBehaviour:
   obstacle: 0
   containsCharacter: 0
   height: 0
-  CharacterLayer:
+  SearchForLayer:
     serializedVersion: 2
     m_Bits: 8
   characterOnBlock: {fileID: 0}
@@ -38399,6 +38412,42 @@ MonoBehaviour:
         m_TargetAssemblyTypeName: GameController, Assembly-CSharp
         m_MethodName: LaunchAbility
         m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1628470479}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 226613467}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1310804196}
+        m_TargetAssemblyTypeName: UnityEngine.UI.Selectable, UnityEngine.UI
+        m_MethodName: set_interactable
+        m_Mode: 6
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -38553,9 +38602,9 @@ MonoBehaviour:
   obstacle: 0
   containsCharacter: 0
   height: 0
-  CharacterLayer:
+  SearchForLayer:
     serializedVersion: 2
-    m_Bits: 8
+    m_Bits: 0
   characterOnBlock: {fileID: 0}
   coord: {x: 0, y: 0, z: 0}
   baseShader: {fileID: 4800000, guid: 933532a4fcc9baf4fa0491de14d08ed7, type: 3}
@@ -38690,7 +38739,7 @@ MonoBehaviour:
   obstacle: 0
   containsCharacter: 0
   height: 0
-  CharacterLayer:
+  SearchForLayer:
     serializedVersion: 2
     m_Bits: 8
   characterOnBlock: {fileID: 0}
@@ -39077,9 +39126,9 @@ MonoBehaviour:
   obstacle: 0
   containsCharacter: 0
   height: 0
-  CharacterLayer:
+  SearchForLayer:
     serializedVersion: 2
-    m_Bits: 8
+    m_Bits: 0
   characterOnBlock: {fileID: 0}
   coord: {x: 0, y: 0, z: 0}
   baseShader: {fileID: 4800000, guid: 933532a4fcc9baf4fa0491de14d08ed7, type: 3}
@@ -39192,9 +39241,9 @@ MonoBehaviour:
   obstacle: 0
   containsCharacter: 0
   height: 0
-  CharacterLayer:
+  SearchForLayer:
     serializedVersion: 2
-    m_Bits: 8
+    m_Bits: 0
   characterOnBlock: {fileID: 0}
   coord: {x: 0, y: 0, z: 0}
   baseShader: {fileID: 4800000, guid: 933532a4fcc9baf4fa0491de14d08ed7, type: 3}
@@ -39331,7 +39380,7 @@ MonoBehaviour:
   obstacle: 0
   containsCharacter: 0
   height: 2
-  CharacterLayer:
+  SearchForLayer:
     serializedVersion: 2
     m_Bits: 8
   characterOnBlock: {fileID: 0}
@@ -39795,9 +39844,9 @@ MonoBehaviour:
   obstacle: 0
   containsCharacter: 0
   height: 0
-  CharacterLayer:
+  SearchForLayer:
     serializedVersion: 2
-    m_Bits: 8
+    m_Bits: 0
   characterOnBlock: {fileID: 0}
   coord: {x: 0, y: 0, z: 0}
   baseShader: {fileID: 4800000, guid: 933532a4fcc9baf4fa0491de14d08ed7, type: 3}
@@ -39910,9 +39959,9 @@ MonoBehaviour:
   obstacle: 0
   containsCharacter: 0
   height: 0
-  CharacterLayer:
+  SearchForLayer:
     serializedVersion: 2
-    m_Bits: 8
+    m_Bits: 0
   characterOnBlock: {fileID: 0}
   coord: {x: 0, y: 0, z: 0}
   baseShader: {fileID: 4800000, guid: 933532a4fcc9baf4fa0491de14d08ed7, type: 3}
@@ -40180,7 +40229,7 @@ MonoBehaviour:
   obstacle: 0
   containsCharacter: 0
   height: 0
-  CharacterLayer:
+  SearchForLayer:
     serializedVersion: 2
     m_Bits: 8
   characterOnBlock: {fileID: 0}
@@ -40358,7 +40407,7 @@ MonoBehaviour:
   obstacle: 0
   containsCharacter: 0
   height: 2
-  CharacterLayer:
+  SearchForLayer:
     serializedVersion: 2
     m_Bits: 8
   characterOnBlock: {fileID: 0}
@@ -40722,9 +40771,9 @@ MonoBehaviour:
   obstacle: 0
   containsCharacter: 0
   height: 0
-  CharacterLayer:
+  SearchForLayer:
     serializedVersion: 2
-    m_Bits: 8
+    m_Bits: 0
   characterOnBlock: {fileID: 0}
   coord: {x: 0, y: 0, z: 0}
   baseShader: {fileID: 4800000, guid: 933532a4fcc9baf4fa0491de14d08ed7, type: 3}
@@ -40861,7 +40910,7 @@ MonoBehaviour:
   obstacle: 0
   containsCharacter: 0
   height: 2
-  CharacterLayer:
+  SearchForLayer:
     serializedVersion: 2
     m_Bits: 8
   characterOnBlock: {fileID: 0}
@@ -40999,7 +41048,7 @@ MonoBehaviour:
   obstacle: 0
   containsCharacter: 0
   height: 1
-  CharacterLayer:
+  SearchForLayer:
     serializedVersion: 2
     m_Bits: 8
   characterOnBlock: {fileID: 0}
@@ -41138,7 +41187,7 @@ MonoBehaviour:
   obstacle: 0
   containsCharacter: 0
   height: 2
-  CharacterLayer:
+  SearchForLayer:
     serializedVersion: 2
     m_Bits: 8
   characterOnBlock: {fileID: 0}
@@ -41423,9 +41472,9 @@ MonoBehaviour:
   obstacle: 0
   containsCharacter: 0
   height: 0
-  CharacterLayer:
+  SearchForLayer:
     serializedVersion: 2
-    m_Bits: 8
+    m_Bits: 0
   characterOnBlock: {fileID: 0}
   coord: {x: 0, y: 0, z: 0}
   baseShader: {fileID: 4800000, guid: 933532a4fcc9baf4fa0491de14d08ed7, type: 3}
@@ -41560,7 +41609,7 @@ MonoBehaviour:
   obstacle: 0
   containsCharacter: 0
   height: 0
-  CharacterLayer:
+  SearchForLayer:
     serializedVersion: 2
     m_Bits: 8
   characterOnBlock: {fileID: 0}
@@ -41811,9 +41860,9 @@ MonoBehaviour:
   obstacle: 0
   containsCharacter: 0
   height: 0
-  CharacterLayer:
+  SearchForLayer:
     serializedVersion: 2
-    m_Bits: 8
+    m_Bits: 0
   characterOnBlock: {fileID: 0}
   coord: {x: 0, y: 0, z: 0}
   baseShader: {fileID: 4800000, guid: 933532a4fcc9baf4fa0491de14d08ed7, type: 3}
@@ -42164,7 +42213,7 @@ MonoBehaviour:
   obstacle: 0
   containsCharacter: 0
   height: 2
-  CharacterLayer:
+  SearchForLayer:
     serializedVersion: 2
     m_Bits: 8
   characterOnBlock: {fileID: 0}
@@ -42437,7 +42486,7 @@ MonoBehaviour:
   obstacle: 0
   containsCharacter: 0
   height: 0
-  CharacterLayer:
+  SearchForLayer:
     serializedVersion: 2
     m_Bits: 8
   characterOnBlock: {fileID: 0}
@@ -42806,7 +42855,7 @@ MonoBehaviour:
   obstacle: 0
   containsCharacter: 0
   height: 0
-  CharacterLayer:
+  SearchForLayer:
     serializedVersion: 2
     m_Bits: 8
   characterOnBlock: {fileID: 0}
@@ -42921,9 +42970,9 @@ MonoBehaviour:
   obstacle: 0
   containsCharacter: 0
   height: 0
-  CharacterLayer:
+  SearchForLayer:
     serializedVersion: 2
-    m_Bits: 8
+    m_Bits: 0
   characterOnBlock: {fileID: 0}
   coord: {x: 0, y: 0, z: 0}
   baseShader: {fileID: 4800000, guid: 933532a4fcc9baf4fa0491de14d08ed7, type: 3}
@@ -43036,9 +43085,9 @@ MonoBehaviour:
   obstacle: 0
   containsCharacter: 0
   height: 0
-  CharacterLayer:
+  SearchForLayer:
     serializedVersion: 2
-    m_Bits: 8
+    m_Bits: 0
   characterOnBlock: {fileID: 0}
   coord: {x: 0, y: 0, z: 0}
   baseShader: {fileID: 4800000, guid: 933532a4fcc9baf4fa0491de14d08ed7, type: 3}
@@ -43175,7 +43224,7 @@ MonoBehaviour:
   obstacle: 0
   containsCharacter: 0
   height: 2
-  CharacterLayer:
+  SearchForLayer:
     serializedVersion: 2
     m_Bits: 8
   characterOnBlock: {fileID: 0}
@@ -43312,7 +43361,7 @@ MonoBehaviour:
   obstacle: 0
   containsCharacter: 0
   height: 0
-  CharacterLayer:
+  SearchForLayer:
     serializedVersion: 2
     m_Bits: 8
   characterOnBlock: {fileID: 0}
@@ -43427,9 +43476,9 @@ MonoBehaviour:
   obstacle: 0
   containsCharacter: 0
   height: 0
-  CharacterLayer:
+  SearchForLayer:
     serializedVersion: 2
-    m_Bits: 8
+    m_Bits: 0
   characterOnBlock: {fileID: 0}
   coord: {x: 0, y: 0, z: 0}
   baseShader: {fileID: 4800000, guid: 933532a4fcc9baf4fa0491de14d08ed7, type: 3}
@@ -43542,9 +43591,9 @@ MonoBehaviour:
   obstacle: 0
   containsCharacter: 0
   height: 0
-  CharacterLayer:
+  SearchForLayer:
     serializedVersion: 2
-    m_Bits: 8
+    m_Bits: 0
   characterOnBlock: {fileID: 0}
   coord: {x: 0, y: 0, z: 0}
   baseShader: {fileID: 4800000, guid: 933532a4fcc9baf4fa0491de14d08ed7, type: 3}
@@ -43679,7 +43728,7 @@ MonoBehaviour:
   obstacle: 0
   containsCharacter: 0
   height: 0
-  CharacterLayer:
+  SearchForLayer:
     serializedVersion: 2
     m_Bits: 8
   characterOnBlock: {fileID: 0}
@@ -43816,7 +43865,7 @@ MonoBehaviour:
   obstacle: 0
   containsCharacter: 0
   height: 0
-  CharacterLayer:
+  SearchForLayer:
     serializedVersion: 2
     m_Bits: 8
   characterOnBlock: {fileID: 0}
@@ -43933,7 +43982,7 @@ RectTransform:
   m_Father: {fileID: 1171578324}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
+  m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 10, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -44110,7 +44159,7 @@ MonoBehaviour:
   obstacle: 0
   containsCharacter: 0
   height: 0
-  CharacterLayer:
+  SearchForLayer:
     serializedVersion: 2
     m_Bits: 8
   characterOnBlock: {fileID: 0}
@@ -44249,7 +44298,7 @@ MonoBehaviour:
   obstacle: 0
   containsCharacter: 0
   height: 2
-  CharacterLayer:
+  SearchForLayer:
     serializedVersion: 2
     m_Bits: 8
   characterOnBlock: {fileID: 0}
@@ -44364,9 +44413,9 @@ MonoBehaviour:
   obstacle: 0
   containsCharacter: 0
   height: 0
-  CharacterLayer:
+  SearchForLayer:
     serializedVersion: 2
-    m_Bits: 8
+    m_Bits: 0
   characterOnBlock: {fileID: 0}
   coord: {x: 0, y: 0, z: 0}
   baseShader: {fileID: 4800000, guid: 933532a4fcc9baf4fa0491de14d08ed7, type: 3}
@@ -44565,7 +44614,7 @@ MonoBehaviour:
   obstacle: 0
   containsCharacter: 0
   height: 0
-  CharacterLayer:
+  SearchForLayer:
     serializedVersion: 2
     m_Bits: 8
   characterOnBlock: {fileID: 0}
@@ -44702,7 +44751,7 @@ MonoBehaviour:
   obstacle: 0
   containsCharacter: 0
   height: 0
-  CharacterLayer:
+  SearchForLayer:
     serializedVersion: 2
     m_Bits: 8
   characterOnBlock: {fileID: 0}
@@ -44839,7 +44888,7 @@ MonoBehaviour:
   obstacle: 0
   containsCharacter: 0
   height: 0
-  CharacterLayer:
+  SearchForLayer:
     serializedVersion: 2
     m_Bits: 8
   characterOnBlock: {fileID: 0}
@@ -44976,7 +45025,7 @@ MonoBehaviour:
   obstacle: 0
   containsCharacter: 0
   height: 0
-  CharacterLayer:
+  SearchForLayer:
     serializedVersion: 2
     m_Bits: 8
   characterOnBlock: {fileID: 0}
@@ -45113,7 +45162,7 @@ MonoBehaviour:
   obstacle: 0
   containsCharacter: 0
   height: 0
-  CharacterLayer:
+  SearchForLayer:
     serializedVersion: 2
     m_Bits: 8
   characterOnBlock: {fileID: 0}
@@ -45251,7 +45300,7 @@ MonoBehaviour:
   obstacle: 0
   containsCharacter: 0
   height: 2
-  CharacterLayer:
+  SearchForLayer:
     serializedVersion: 2
     m_Bits: 8
   characterOnBlock: {fileID: 0}
@@ -45366,9 +45415,9 @@ MonoBehaviour:
   obstacle: 0
   containsCharacter: 0
   height: 0
-  CharacterLayer:
+  SearchForLayer:
     serializedVersion: 2
-    m_Bits: 8
+    m_Bits: 0
   characterOnBlock: {fileID: 0}
   coord: {x: 0, y: 0, z: 0}
   baseShader: {fileID: 4800000, guid: 933532a4fcc9baf4fa0491de14d08ed7, type: 3}
@@ -45504,7 +45553,7 @@ MonoBehaviour:
   obstacle: 0
   containsCharacter: 0
   height: 1
-  CharacterLayer:
+  SearchForLayer:
     serializedVersion: 2
     m_Bits: 8
   characterOnBlock: {fileID: 0}
@@ -45990,7 +46039,7 @@ MonoBehaviour:
   obstacle: 0
   containsCharacter: 0
   height: 0
-  CharacterLayer:
+  SearchForLayer:
     serializedVersion: 2
     m_Bits: 8
   characterOnBlock: {fileID: 0}
@@ -46127,7 +46176,7 @@ MonoBehaviour:
   obstacle: 0
   containsCharacter: 0
   height: 0
-  CharacterLayer:
+  SearchForLayer:
     serializedVersion: 2
     m_Bits: 8
   characterOnBlock: {fileID: 0}
@@ -46242,9 +46291,9 @@ MonoBehaviour:
   obstacle: 0
   containsCharacter: 0
   height: 0
-  CharacterLayer:
+  SearchForLayer:
     serializedVersion: 2
-    m_Bits: 8
+    m_Bits: 0
   characterOnBlock: {fileID: 0}
   coord: {x: 0, y: 0, z: 0}
   baseShader: {fileID: 4800000, guid: 933532a4fcc9baf4fa0491de14d08ed7, type: 3}
@@ -46381,7 +46430,7 @@ MonoBehaviour:
   obstacle: 0
   containsCharacter: 0
   height: 2
-  CharacterLayer:
+  SearchForLayer:
     serializedVersion: 2
     m_Bits: 8
   characterOnBlock: {fileID: 0}
@@ -46458,7 +46507,7 @@ GameObject:
   - component: {fileID: 2108802445}
   - component: {fileID: 2108802444}
   m_Layer: 5
-  m_Name: ConfirmAct
+  m_Name: ConfirmAtk
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -46544,6 +46593,42 @@ MonoBehaviour:
         m_TargetAssemblyTypeName: GameController, Assembly-CSharp
         m_MethodName: ExecuteAttack
         m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1628470479}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 226613467}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1310804196}
+        m_TargetAssemblyTypeName: UnityEngine.UI.Selectable, UnityEngine.UI
+        m_MethodName: set_interactable
+        m_Mode: 6
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -46720,7 +46805,7 @@ MonoBehaviour:
   obstacle: 0
   containsCharacter: 0
   height: 0
-  CharacterLayer:
+  SearchForLayer:
     serializedVersion: 2
     m_Bits: 8
   characterOnBlock: {fileID: 0}
@@ -46857,7 +46942,7 @@ MonoBehaviour:
   obstacle: 0
   containsCharacter: 0
   height: 0
-  CharacterLayer:
+  SearchForLayer:
     serializedVersion: 2
     m_Bits: 8
   characterOnBlock: {fileID: 0}
@@ -46972,9 +47057,9 @@ MonoBehaviour:
   obstacle: 0
   containsCharacter: 0
   height: 0
-  CharacterLayer:
+  SearchForLayer:
     serializedVersion: 2
-    m_Bits: 8
+    m_Bits: 0
   characterOnBlock: {fileID: 0}
   coord: {x: 0, y: 0, z: 0}
   baseShader: {fileID: 4800000, guid: 933532a4fcc9baf4fa0491de14d08ed7, type: 3}
@@ -47110,7 +47195,7 @@ MonoBehaviour:
   obstacle: 0
   containsCharacter: 0
   height: 1
-  CharacterLayer:
+  SearchForLayer:
     serializedVersion: 2
     m_Bits: 8
   characterOnBlock: {fileID: 0}
@@ -47225,9 +47310,9 @@ MonoBehaviour:
   obstacle: 0
   containsCharacter: 0
   height: 0
-  CharacterLayer:
+  SearchForLayer:
     serializedVersion: 2
-    m_Bits: 8
+    m_Bits: 0
   characterOnBlock: {fileID: 0}
   coord: {x: 0, y: 0, z: 0}
   baseShader: {fileID: 4800000, guid: 933532a4fcc9baf4fa0491de14d08ed7, type: 3}
@@ -47519,7 +47604,7 @@ MonoBehaviour:
   obstacle: 0
   containsCharacter: 0
   height: 0
-  CharacterLayer:
+  SearchForLayer:
     serializedVersion: 2
     m_Bits: 8
   characterOnBlock: {fileID: 0}
@@ -47657,7 +47742,7 @@ MonoBehaviour:
   obstacle: 0
   containsCharacter: 0
   height: 2
-  CharacterLayer:
+  SearchForLayer:
     serializedVersion: 2
     m_Bits: 8
   characterOnBlock: {fileID: 0}
@@ -47796,7 +47881,7 @@ MonoBehaviour:
   obstacle: 0
   containsCharacter: 0
   height: 2
-  CharacterLayer:
+  SearchForLayer:
     serializedVersion: 2
     m_Bits: 8
   characterOnBlock: {fileID: 0}

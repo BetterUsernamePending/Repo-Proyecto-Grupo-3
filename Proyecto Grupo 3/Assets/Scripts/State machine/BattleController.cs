@@ -18,7 +18,7 @@ public class BattleController : MonoBehaviour
         gameController = FindAnyObjectByType<GameController>();
         alreadyAttacked = false;
         CharacterController current = TurnController.currentCharacter;
-        possibleTargets = Pathfinding.showPossible(current.currentBlock, current.currentStats["range"], current.currentStats["attackHeight"]);
+        possibleTargets = Pathfinding.showPossible(current.currentBlock, current.currentStats["range"], current.currentStats["attackHeight"],current.belongsToPlayer,false);
         Block.onBlockClicked += ShowClickedTarget;
         foreach (var block in possibleTargets)
         {

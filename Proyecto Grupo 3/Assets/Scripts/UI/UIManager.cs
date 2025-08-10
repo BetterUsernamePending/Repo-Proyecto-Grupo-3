@@ -10,26 +10,27 @@ public class UIManager : MonoBehaviour
 {
     public GameObject MenuDePausa;
 
-    [SerializeField] public GameObject battleUI;
-    [SerializeField] public GameObject p1WinUI;
-    [SerializeField] public GameObject p2WinUI;
+    public GameObject battleUI;
+    public GameObject p1WinUI;
+    public GameObject p2WinUI;
 
     [SerializeField] private TurnController turnController;
 
     [Header("Basic Actions")]
-    [SerializeField] public Button Move;
-    [SerializeField] public Button Act;
-    [SerializeField] public Button Skip;
+    public Button Move;
+    public Button Act;
+    public Button Skip;
     public List<Button> MoveActSkip;
 
     public bool isPaused = false;
 
     [Header("ActionUI")]
-    [SerializeField] public GameObject FirstButton;
-    [SerializeField] public GameObject SecondButton;
-    [SerializeField] public GameObject ThirdButton;
+    public GameObject FirstButton;
+    public GameObject SecondButton;
+    public GameObject ThirdButton;
     public static Action<int> abilityIndexPressed;
     private List<GameObject> buttonList;
+    public GameObject actionPanel;
 
     [Header("TurnAnnouncer")]
     [SerializeField] private TextMeshProUGUI AnnounceCurrentPlayer;
@@ -94,9 +95,13 @@ public class UIManager : MonoBehaviour
             buttons.interactable = true;
         }
     }
-
     public void AnnouncePlayerTurn()
     {
+
+    }
+    public void HideActionUI()
+    {
+        actionPanel.SetActive(false);
     }
 
     // Botones de accion. Adicionalmente, se define sus titulos aqui, basandose en el nombre de las habilidades dentro de sus scripts respectivos.
@@ -116,6 +121,7 @@ public class UIManager : MonoBehaviour
 
     public void SkipButtonPressed()
     {
+
     }
 
     // Utilizado en funcion "CharacterMove(List<Block> blockPath)" de CharacterController
@@ -127,8 +133,6 @@ public class UIManager : MonoBehaviour
     {
         battleUI.SetActive(true);
     }
-
-
     public void GameOverP1Win()
     {
         p1WinUI.SetActive(true);

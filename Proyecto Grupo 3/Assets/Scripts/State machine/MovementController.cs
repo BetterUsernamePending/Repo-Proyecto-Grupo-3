@@ -15,7 +15,7 @@ public class MovementController : MonoBehaviour
     {
         alreadyMoved = false;
         CharacterController current = TurnController.currentCharacter;
-        possibleBlocks = Pathfinding.showPossible(current.currentBlock, current.currentStats["dist"], current.currentStats["jump"]);
+        possibleBlocks = Pathfinding.showPossible(current.currentBlock, current.currentStats["dist"], current.currentStats["jump"], current.belongsToPlayer,true);
         Block.onBlockClicked += ShowPathFound;
         foreach (var block in possibleBlocks)
             block.TextureChange();
@@ -43,7 +43,7 @@ public class MovementController : MonoBehaviour
             {
                 block.TextureRevert();
             }
-            pathBlocks = Pathfinding.findPath(current.currentBlock, clicked, current.currentStats["jump"]);
+            pathBlocks = Pathfinding.findPath(current.currentBlock, clicked, current.currentStats["jump"],current.belongsToPlayer,true);
 
             foreach (var block in pathBlocks)
             {

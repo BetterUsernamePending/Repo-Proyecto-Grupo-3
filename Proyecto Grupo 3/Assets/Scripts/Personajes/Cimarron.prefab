@@ -238,7 +238,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4600294259611500374}
   - component: {fileID: 5773500733461423393}
-  - component: {fileID: 7710895808919161627}
+  - component: {fileID: 8581875358835477263}
   m_Layer: 3
   m_Name: Cimarron
   m_TagString: Player
@@ -287,7 +287,7 @@ CapsuleCollider:
   m_Height: 2
   m_Direction: 1
   m_Center: {x: 0.000000059604645, y: 0, z: -0.00000008940697}
---- !u!114 &7710895808919161627
+--- !u!114 &8581875358835477263
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -296,10 +296,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 9213011827715069133}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 03250fdeaaedc06438a6faf9baa6060b, type: 3}
+  m_Script: {fileID: 11500000, guid: e8b924088fa89644eb334e4309fc6239, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  belongsToPlayer: 2
+  belongsToPlayer: 0
   currentBlock: {fileID: 0}
   targetBlock: {fileID: 0}
   isMoving: 0
@@ -310,12 +310,12 @@ MonoBehaviour:
   PortraitName: "Cimarr\xF3n"
   atk: 250
   def: 500
-  hp: 1000
-  mp: 1
+  hp: 500
+  mp: 50
   movedist: 3
   atkrange: 3
   jump: 2
   spd: 3
   atkheight: 3
   lookingAt: {fileID: 0}
-  animator: {fileID: 386159903845422002}
+  animator: {fileID: 0}

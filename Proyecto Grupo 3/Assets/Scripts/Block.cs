@@ -21,7 +21,7 @@ public class Block : MonoBehaviour
     [SerializeField] public bool obstacle = false;
     public bool containsCharacter = false;
     [SerializeField] public int height;
-    [SerializeField] private LayerMask CharacterLayer;
+    [SerializeField] private LayerMask SearchForLayer;
     public CharacterController characterOnBlock;
     public Vector3 coord; //modificar ese "vector 3 zero" por una funcion que asigne los valores del vector 3 como su posicion en X,Y y Z (transform.position) 
     [SerializeField] private Shader baseShader;
@@ -115,10 +115,16 @@ public class Block : MonoBehaviour
         foreach (var block in children)
             block.TextureRevert();
     }
+    public int ReturnCharacterPlayerNumber()
+    {
+        if (characterOnBlock != null)
+            return characterOnBlock.belongsToPlayer;
+        else return 0;
+    }
     public void DetectCharacter()
     {
         RaycastHit hit;
-        if (Physics.Raycast(transform.position, Vector3.up, out hit, Mathf.Infinity, CharacterLayer))
+        if (Physics.Raycast(transform.position, Vector3.up, out hit, Mathf.Infinity, SearchForLayer))
         {
             characterOnBlock = hit.collider.gameObject.GetComponent<CharacterController>();
             this.containsCharacter = true;

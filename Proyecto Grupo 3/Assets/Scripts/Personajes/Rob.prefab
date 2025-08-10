@@ -238,7 +238,7 @@ GameObject:
   m_Component:
   - component: {fileID: 9024053335663307618}
   - component: {fileID: 7717793433147761802}
-  - component: {fileID: 180494021156990354}
+  - component: {fileID: 6125820053037735769}
   m_Layer: 3
   m_Name: Rob
   m_TagString: Player
@@ -287,7 +287,7 @@ CapsuleCollider:
   m_Height: 2
   m_Direction: 1
   m_Center: {x: 0.000000059604645, y: 0, z: -0.00000008940697}
---- !u!114 &180494021156990354
+--- !u!114 &6125820053037735769
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -296,10 +296,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 6892432555447828605}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 03250fdeaaedc06438a6faf9baa6060b, type: 3}
+  m_Script: {fileID: 11500000, guid: fe0c79566e33ff04198096da4af3f72c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  belongsToPlayer: 2
+  belongsToPlayer: 0
   currentBlock: {fileID: 0}
   targetBlock: {fileID: 0}
   isMoving: 0
@@ -309,13 +309,13 @@ MonoBehaviour:
   PortraitBorder: {fileID: 21300000, guid: da0c8d7c20090194c9ae43fa18787368, type: 3}
   PortraitName: Rob
   atk: 1000
-  def: 500
-  hp: 750
-  mp: 1
+  def: 250
+  hp: 70
+  mp: 0
   movedist: 5
   atkrange: 1
   jump: 3
-  spd: 5
+  spd: 7
   atkheight: 1
   lookingAt: {fileID: 0}
-  animator: {fileID: 6341476622347101130}
+  animator: {fileID: 0}

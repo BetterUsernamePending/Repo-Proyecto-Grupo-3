@@ -15,11 +15,13 @@ public class TurnController : MonoBehaviour
     public Action OnTurnFinished;
     private CameraBrainController cameraController;
     public bool matchStarted = false;
+    private UIManager uiManager;
 
     private void Awake()
     {
         cameraController = FindAnyObjectByType<CameraBrainController>();
         battleController = FindAnyObjectByType<BattleController>();
+        uiManager = FindAnyObjectByType<UIManager>();
     }
     public void FirstTurnSetup()
     {
@@ -29,10 +31,11 @@ public class TurnController : MonoBehaviour
     }
     private void TurnBegin()
     {
+        
         Debug.Log("current character is " + currentCharacter.name);
         if (!currentCharacter.isAlive)
             PassTurn();
-        else cameraController.LookAtCurrent(); 
+        else cameraController.LookAtCurrent();
 
     }
     private void ActivateBattleUI()

@@ -53,6 +53,7 @@ public class GameController : MonoBehaviour
     {
         foreach(Block block in blocksInScene)
         {
+            blocksInScene = FindObjectsByType<Block>(FindObjectsSortMode.InstanceID).ToList();
             block.DetectCharacter();
         }
     }
@@ -99,6 +100,8 @@ public class GameController : MonoBehaviour
     public void LaunchAbility()
     {
         abilityController.ExecuteAction();
+        uiManager.HideActionUI();
+
     }
     //End of Battle Section
 

@@ -1,7 +1,7 @@
 using UnityEngine;
-
 public class Rob : CharacterController
 {
+    
     private void Awake()
     {
         origStats.Add("atk", atk);
@@ -15,4 +15,5 @@ public class Rob : CharacterController
         origStats.Add("attackHeight", atkheight);
         currentStats = origStats;
     }
+
 }

@@ -62,7 +62,7 @@ public class Heal : AbilityClass
     {
         gameController = FindAnyObjectByType<GameController>();
         CharacterController current = TurnController.currentCharacter;
-        possibleTargets = Pathfinding.showPossible(current.currentBlock,_range, current.currentStats["attackHeight"]);
+        possibleTargets = Pathfinding.showPossible(current.currentBlock,_range, current.currentStats["attackHeight"],current.belongsToPlayer,false);
         foreach (var block in possibleTargets)
         {
             block.TextureChange();

@@ -74,7 +74,7 @@ public class CharacterController : MonoBehaviour
             blockPositions[i] = new Vector3(blockPath[i].transform.position.x, ypos, blockPath[i].transform.position.z);
         }
         animator.SetBool("isMoving", true);
-        transform.DOPath(blockPositions, blockPath.Count / 2).OnWaypointChange(OnWaypointChanged)
+        transform.DOPath(blockPositions,1.5f).OnWaypointChange(OnWaypointChanged)
             .OnComplete(() =>
             {
                 Reposition();
