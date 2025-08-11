@@ -64,7 +64,7 @@ public class BattleController : MonoBehaviour
             // -
 
             targetBlock.TextureRevert();
-            int damage = (int)Math.Round(TurnController.currentCharacter.currentStats["atk"] * Exponential(.5f, (targetBlock.characterOnBlock.currentStats["def"] / 100)));
+            int damage = (int)Math.Round(TurnController.currentCharacter.currentStats["atk"] / Exponential(1.00069338746258f, (targetBlock.characterOnBlock.currentStats["def"])));
             targetBlock.characterOnBlock.currentStats["hp"] = targetBlock.characterOnBlock.currentStats["hp"] - damage;
             Debug.Log("se hizo" + damage + "de daño");
             alreadyAttacked = true;
