@@ -309,13 +309,13 @@ MonoBehaviour:
   PortraitBorder: {fileID: 21300000, guid: 62a2072aa9cac974fbdcd081f0fcccd2, type: 3}
   PortraitName: "Cimarr\xF3n"
   atk: 250
-  def: 500
+  def: 250
   hp: 500
   mp: 50
   movedist: 3
   atkrange: 3
   jump: 2
-  spd: 3
+  spd: 50
   atkheight: 3
   lookingAt: {fileID: 0}
   animator: {fileID: 0}
