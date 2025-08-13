@@ -180,6 +180,7 @@ public class UIManager : MonoBehaviour
     public void ChangeSelectingPlayer()
     {
         playerSelectorPanel.text = "Jugador 2";
+        playerSelectorPanel.color = Color.red;
     }
 
 }

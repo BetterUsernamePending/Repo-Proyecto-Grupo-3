@@ -1,3 +1,4 @@
+using Unity.Cinemachine;
 using UnityEngine;
 using UnityEngine.UIElements;
 
@@ -7,6 +8,8 @@ public class Characterselection : MonoBehaviour
     [SerializeField] private GameObject CimarronPref;
     [SerializeField] private GameObject RobPref;
     [SerializeField] private GameObject PigiusPref;
+    [SerializeField] private CinemachineCamera vcam;
+    [SerializeField] private GameObject midMapTarget;
     //player elige sus unidades, se agregan a una lista de CharacterController(s) correspondientes a ese jugador
     private int charactersLeft = 4;
     private int currentPlayer = 1;
@@ -42,6 +45,8 @@ public class Characterselection : MonoBehaviour
         if(charactersLeft == 0)
         {
             currentPlayer++;
+            vcam.transform.position = new Vector3(26, 6, 13);
+            vcam.transform.LookAt(midMapTarget.transform);
             if (currentPlayer == 3)
             {
                 manager.DeactivateSelectorPanel();
