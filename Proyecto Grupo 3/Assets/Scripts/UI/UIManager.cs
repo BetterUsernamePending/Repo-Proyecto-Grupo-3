@@ -5,6 +5,7 @@ using TMPro;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 using System;
+using DG.Tweening;
 
 public class UIManager : MonoBehaviour
 {
@@ -45,6 +46,7 @@ public class UIManager : MonoBehaviour
     [SerializeField] private GameObject selectorPanel;
     [SerializeField] private TextMeshProUGUI playerSelectorPanel;
     [SerializeField] private GameObject selectorPanelDoneButton;
+    [SerializeField] public GameObject blackScreen;
 
     private void Start()
     {
@@ -56,6 +58,10 @@ public class UIManager : MonoBehaviour
 
         turnController.OnTurnFinished += SetValues;
         buttonList = new List<GameObject>() { FirstButton, SecondButton, ThirdButton };
+        blackScreen.GetComponent<Image>().DOFade(1,0.5f).OnComplete(() =>
+                {
+                    blackScreen.GetComponent<Image>().DOFade(0,0.75f);
+                });
     }
 
     private void Update()
@@ -181,6 +187,30 @@ public class UIManager : MonoBehaviour
     {
         playerSelectorPanel.text = "Jugador 2";
         playerSelectorPanel.color = Color.red;
+    }
+
+    public void crossfadeTransition()
+    {
+        blackScreen.GetComponent<Image>().DOFade(1,0.75f).OnComplete(() =>
+            {
+                blackScreen.GetComponent<Image>().DOFade(1,0.1f).OnComplete(() =>
+                {
+                blackScreen.GetComponent<Image>().DOFade(0,0.75f);
+                });
+            });
+         
+    }
+
+    public void transitionToFirstTurn() {
+        blackScreen.GetComponent<Image>().DOFade(1,0.75f).OnComplete(() =>
+        {
+            blackScreen.GetComponent<Image>().DOFade(1,0.75f).OnComplete(() =>
+            {
+            turnController.PassTurn();
+            blackScreen.GetComponent<Image>().DOFade(0,1f);
+            });
+        });
+        
     }
 
 }

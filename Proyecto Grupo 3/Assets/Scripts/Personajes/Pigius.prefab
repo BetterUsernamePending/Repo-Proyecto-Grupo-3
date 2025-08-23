@@ -197,7 +197,7 @@ MonoBehaviour:
   abilityList: []
   Portrait: {fileID: 21300000, guid: 4deeb42e1c6a8154d8ff09809277b905, type: 3}
   PortraitBorder: {fileID: 21300000, guid: d4b18af93e0c6b94b9e31e198ab5542b, type: 3}
-  PortraitName: Sr. Pigius Maximus
+  PortraitName: Sir Pigius Maximus
   atk: 250
   def: 1000
   hp: 1000
