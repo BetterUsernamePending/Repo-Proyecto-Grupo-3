@@ -1,0 +1,53 @@
+using Unity.Cinemachine;
+using UnityEngine;
+
+public class CharacterSelector : MonoBehaviour
+{
+  private int selectedCharacterID = -1;
+  private CharacterCreator charCreator;
+
+  [SerializeField] private CinemachineCamera vcam;
+  [SerializeField] private GameObject midMapTarget;
+
+  //player elige sus unidades, se agregan a una lista de CharacterController(s) correspondientes a ese jugador
+  private int charactersLeft = 4;
+  private int currentPlayer = 1;
+  private int maxPlayers = 2;
+  private UIManager manager;
+
+  public void Start()
+  {
+    manager = FindFirstObjectByType<UIManager>();
+    charCreator = FindFirstObjectByType<CharacterCreator>();
+  }
+  
+  public void OnCharacterSelected(int characterID)
+  {
+    if (selectedCharacterID == -1)
+    {
+      selectedCharacterID = characterID;
+      Block.onBlockClicked += OnCharacterPlaced;
+    }
+    else selectedCharacterID = characterID;
+    //Debug.Log("seleccionaste " + characterID);
+  }
+
+  public void OnCharacterPlaced(Block clicked)
+  {
+      Block.onBlockClicked -= OnCharacterPlaced;
+      charCreator.CreateCharacter(clicked,selectedCharacterID,currentPlayer);
+      selectedCharacterID = -1;
+      charactersLeft--;
+      if(charactersLeft == 0)
+          {
+              currentPlayer++;
+              vcam.transform.position = new Vector3(26, 6, 13);
+              vcam.transform.LookAt(midMapTarget.transform);
+              if (currentPlayer > maxPlayers)
+              {
+                  manager.DeactivateSelectorPanel();
+              }
+              else { manager.ChangeSelectingPlayer(); charactersLeft = 4; }
+          }
+  }
+}

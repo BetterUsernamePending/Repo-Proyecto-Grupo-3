@@ -130,7 +130,7 @@ GameObject:
   - component: {fileID: 5778898257594865919}
   - component: {fileID: 6679813111200276548}
   m_Layer: 3
-  m_Name: Sorin
+  m_Name: Solin
   m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

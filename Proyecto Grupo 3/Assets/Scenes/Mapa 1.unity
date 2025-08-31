@@ -1724,16 +1724,16 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1465032340}
-        m_TargetAssemblyTypeName: Characterselection, Assembly-CSharp
-        m_MethodName: SelectedCharacter
+      - m_Target: {fileID: 1465032342}
+        m_TargetAssemblyTypeName: CharacterSelector, Assembly-CSharp
+        m_MethodName: OnCharacterSelected
         m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 3
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: 3
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &59057502
@@ -10020,6 +10020,55 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 482535768}
   m_CullTransparentMesh: 1
+--- !u!1 &486657626
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 486657628}
+  - component: {fileID: 486657627}
+  m_Layer: 0
+  m_Name: Character Creator
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &486657627
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 486657626}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6c76450741cf6b3469a20a497f637df2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  characters:
+  - {fileID: 5287095848359438356, guid: 9fac18c24fbc9fa4f8ef085fad286c46, type: 3}
+  - {fileID: 6892432555447828605, guid: b2e8f8c33d3aa1046a9d3a80e121132d, type: 3}
+  - {fileID: 5918016672104108217, guid: bd6489eff4286494cb7115044a653b70, type: 3}
+  - {fileID: 9213011827715069133, guid: a2699270294422f47a2c1e724b776afe, type: 3}
+--- !u!4 &486657628
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 486657626}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 921.3167, y: 777.1021, z: -76.64942}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &487361408
 GameObject:
   m_ObjectHideFlags: 0
@@ -16692,16 +16741,16 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1465032340}
-        m_TargetAssemblyTypeName: Characterselection, Assembly-CSharp
-        m_MethodName: SelectedCharacter
+      - m_Target: {fileID: 1465032342}
+        m_TargetAssemblyTypeName: CharacterSelector, Assembly-CSharp
+        m_MethodName: OnCharacterSelected
         m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: 0
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &787986212
@@ -31673,7 +31722,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1465032341}
-  - component: {fileID: 1465032340}
+  - component: {fileID: 1465032342}
   m_Layer: 0
   m_Name: Character Selector
   m_TagString: Untagged
@@ -31681,24 +31730,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1465032340
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1465032339}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 992f28194e5c212428bdf23f1bf029f0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  SorinPref: {fileID: 5918016672104108217, guid: bd6489eff4286494cb7115044a653b70, type: 3}
-  CimarronPref: {fileID: 9213011827715069133, guid: a2699270294422f47a2c1e724b776afe, type: 3}
-  RobPref: {fileID: 6892432555447828605, guid: b2e8f8c33d3aa1046a9d3a80e121132d, type: 3}
-  PigiusPref: {fileID: 5287095848359438356, guid: 9fac18c24fbc9fa4f8ef085fad286c46, type: 3}
-  vcam: {fileID: 1817011318}
-  midMapTarget: {fileID: 1128430317}
 --- !u!4 &1465032341
 Transform:
   m_ObjectHideFlags: 0
@@ -31714,6 +31745,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1465032342
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1465032339}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 028e0b908fe293c40922677e2f755ba9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  vcam: {fileID: 1817011318}
+  midMapTarget: {fileID: 1128430317}
 --- !u!1 &1470661991
 GameObject:
   m_ObjectHideFlags: 0
@@ -33478,16 +33523,16 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1465032340}
-        m_TargetAssemblyTypeName: Characterselection, Assembly-CSharp
-        m_MethodName: SelectedCharacter
+      - m_Target: {fileID: 1465032342}
+        m_TargetAssemblyTypeName: CharacterSelector, Assembly-CSharp
+        m_MethodName: OnCharacterSelected
         m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 1
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: 1
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &1509955532
@@ -36166,16 +36211,16 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1465032340}
-        m_TargetAssemblyTypeName: Characterselection, Assembly-CSharp
-        m_MethodName: SelectedCharacter
+      - m_Target: {fileID: 1465032342}
+        m_TargetAssemblyTypeName: CharacterSelector, Assembly-CSharp
+        m_MethodName: OnCharacterSelected
         m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 2
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: 2
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &1647506322
@@ -48345,3 +48390,4 @@ SceneRoots:
   - {fileID: 263403312}
   - {fileID: 1465032341}
   - {fileID: 883504323}
+  - {fileID: 486657628}
