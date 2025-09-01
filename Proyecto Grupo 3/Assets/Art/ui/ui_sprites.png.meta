@@ -435,7 +435,7 @@ TextureImporter:
         width: 396
         height: 118
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -444,6 +444,28 @@ TextureImporter:
       bones: []
       spriteID: a918712be2d13454e9fd87a506516201
       internalID: -10159286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_select_portraitframe
+      rect:
+        serializedVersion: 2
+        x: 839
+        y: 800
+        width: 124
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb920904f92d47b41877b4c4951164ee
+      internalID: 2049111079
       vertices: []
       indices: 
       edges: []
@@ -477,6 +499,7 @@ TextureImporter:
       ui_mapselectframe: -603491997
       ui_mapselectpanel: -1326885539
       ui_right_bg: 571286884
+      ui_select_portraitframe: 2049111079
       ui_sprites_11: 1166824689
       ui_sprites_5: 149769773
       ui_yn_bg: -431500118
