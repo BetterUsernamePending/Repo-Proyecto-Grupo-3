@@ -100,12 +100,12 @@ TextureImporter:
       name: ui_currplayer_bg
       rect:
         serializedVersion: 2
-        x: 118
-        y: 662
-        width: 250
-        height: 188
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 4
+        y: 408
+        width: 125
+        height: 94
+      alignment: 9
+      pivot: {x: 0.5025323, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -122,10 +122,10 @@ TextureImporter:
       name: ui_yn_bg
       rect:
         serializedVersion: 2
-        x: 396
-        y: 662
-        width: 274
-        height: 118
+        x: 143
+        y: 408
+        width: 137
+        height: 59
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -144,10 +144,10 @@ TextureImporter:
       name: ui_btn
       rect:
         serializedVersion: 2
-        x: 706
-        y: 662
-        width: 124
-        height: 124
+        x: 298
+        y: 408
+        width: 62
+        height: 62
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -166,10 +166,10 @@ TextureImporter:
       name: ui_btn_pressed
       rect:
         serializedVersion: 2
-        x: 844
-        y: 662
-        width: 124
-        height: 124
+        x: 367
+        y: 408
+        width: 62
+        height: 62
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -188,10 +188,10 @@ TextureImporter:
       name: ui_btnS
       rect:
         serializedVersion: 2
-        x: 1262
-        y: 662
-        width: 124
-        height: 82
+        x: 576
+        y: 408
+        width: 62
+        height: 41
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -210,10 +210,10 @@ TextureImporter:
       name: ui_btnS_pressed
       rect:
         serializedVersion: 2
-        x: 1400
-        y: 662
-        width: 124
-        height: 82
+        x: 645
+        y: 408
+        width: 62
+        height: 41
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -232,10 +232,10 @@ TextureImporter:
       name: ui_btnS2
       rect:
         serializedVersion: 2
-        x: 1548
-        y: 666
-        width: 118
-        height: 76
+        x: 719
+        y: 410
+        width: 59
+        height: 38
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -254,10 +254,10 @@ TextureImporter:
       name: ui_btnS2_pressed
       rect:
         serializedVersion: 2
-        x: 1684
-        y: 666
-        width: 118
-        height: 76
+        x: 787
+        y: 410
+        width: 59
+        height: 38
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -276,10 +276,10 @@ TextureImporter:
       name: ui_right_bg
       rect:
         serializedVersion: 2
-        x: 920
-        y: 382
-        width: 882
-        height: 208
+        x: 405
+        y: 268
+        width: 441
+        height: 104
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -298,10 +298,10 @@ TextureImporter:
       name: ui_left_bg
       rect:
         serializedVersion: 2
-        x: 118
-        y: 382
-        width: 774
-        height: 264
+        x: 4
+        y: 268
+        width: 387
+        height: 132
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -320,10 +320,10 @@ TextureImporter:
       name: ui_btnMainMenu
       rect:
         serializedVersion: 2
-        x: 982
-        y: 740
-        width: 267
-        height: 76
+        x: 436
+        y: 447
+        width: 134
+        height: 38
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -342,10 +342,10 @@ TextureImporter:
       name: ui_btnMainMenu_pressed
       rect:
         serializedVersion: 2
-        x: 982
-        y: 647
-        width: 267
-        height: 76
+        x: 436
+        y: 400
+        width: 134
+        height: 38
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -364,10 +364,10 @@ TextureImporter:
       name: ui_mapselectframe
       rect:
         serializedVersion: 2
-        x: 1265
-        y: 66
-        width: 346
-        height: 296
+        x: 575
+        y: 111
+        width: 179
+        height: 147
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -386,10 +386,10 @@ TextureImporter:
       name: ui_mapselectpanel
       rect:
         serializedVersion: 2
-        x: 902
-        y: 67
-        width: 346
-        height: 296
+        x: 396
+        y: 110
+        width: 173
+        height: 148
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -408,10 +408,10 @@ TextureImporter:
       name: ui_genericpanel
       rect:
         serializedVersion: 2
-        x: 109
-        y: 67
-        width: 774
-        height: 297
+        x: 0
+        y: 110
+        width: 387
+        height: 149
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -430,10 +430,10 @@ TextureImporter:
       name: ui_yn_long
       rect:
         serializedVersion: 2
-        x: 396
-        y: 807
-        width: 396
-        height: 118
+        x: 143
+        y: 480
+        width: 198
+        height: 59
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -452,12 +452,12 @@ TextureImporter:
       name: ui_select_portraitframe
       rect:
         serializedVersion: 2
-        x: 839
-        y: 800
-        width: 124
-        height: 124
+        x: 365
+        y: 477
+        width: 62
+        height: 62
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -466,6 +466,116 @@ TextureImporter:
       bones: []
       spriteID: cb920904f92d47b41877b4c4951164ee
       internalID: 2049111079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player1_flag
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 0
+        width: 73
+        height: 103
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 783617c8efebec14f808970ab2a5604c
+      internalID: 1190865341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player2_flag
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 0
+        width: 73
+        height: 103
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f15d6c89255cc2b489d12be3847f0c55
+      internalID: 1013314457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_long_chain
+      rect:
+        serializedVersion: 2
+        x: 830
+        y: 4
+        width: 12
+        height: 246
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bf17b3b8ee3aa341ad1f9ea601349c1
+      internalID: 1173024863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_pause_top_plank
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 49
+        width: 387
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c453b906ebe4924b9ca1625aaaca97e
+      internalID: 1453930781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_shortchain
+      rect:
+        serializedVersion: 2
+        x: 830
+        y: 4
+        width: 12
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72538b430aabafb4fa68df20408336b5
+      internalID: -1921181068
       vertices: []
       indices: 
       edges: []
@@ -484,6 +594,8 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
+      player1_flag: 1190865341
+      player2_flag: 1013314457
       ui_btn: -1677584181
       ui_btnMainMenu: -1910344979
       ui_btnMainMenu_pressed: 545736287
@@ -495,11 +607,14 @@ TextureImporter:
       ui_currplayer_bg: -1869900046
       ui_genericpanel: -1582577014
       ui_left_bg: -1531309195
+      ui_long_chain: 1173024863
       ui_main_bg: -368597695
       ui_mapselectframe: -603491997
       ui_mapselectpanel: -1326885539
+      ui_pause_top_plank: 1453930781
       ui_right_bg: 571286884
       ui_select_portraitframe: 2049111079
+      ui_shortchain: -1921181068
       ui_sprites_11: 1166824689
       ui_sprites_5: 149769773
       ui_yn_bg: -431500118

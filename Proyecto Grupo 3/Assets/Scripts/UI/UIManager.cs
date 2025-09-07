@@ -12,6 +12,7 @@ public class UIManager : MonoBehaviour
     public GameObject MenuDePausa;
 
     public GameObject battleUI;
+    public GameObject winUI;
     public GameObject p1WinUI;
     public GameObject p2WinUI;
 
@@ -141,16 +142,21 @@ public class UIManager : MonoBehaviour
     }
     public void GameOverP1Win()
     {
+        winUI.SetActive(true);
         p1WinUI.SetActive(true);
     }
     public void GameOverP2Win()
     {
+        winUI.SetActive(true);
         p2WinUI.SetActive(true);
     }
     public void OnPause()
     {
-        MenuDePausa.SetActive(true);
-        isPaused = true;
+        if (!winUI.activeSelf) // si todavia no termino el juego
+        {
+            MenuDePausa.SetActive(true);
+            isPaused = true;
+        }
     }
 
     // Barras de vida y de mana
