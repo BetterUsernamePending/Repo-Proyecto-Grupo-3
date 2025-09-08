@@ -30,7 +30,8 @@ public class CharacterController : MonoBehaviour
     public int spd = 1;
     public int atkheight = 1;
     public Transform lookingAt;
-    public Animator animator; // animaciones
+    public Animator animator; // animator
+    public GameObject TopView;
 
     private void Start()
     {

@@ -2,7 +2,7 @@ using Unity.Cinemachine;
 using UnityEngine;
 using UnityEngine.UIElements;
 
-public class Characterselection : MonoBehaviour
+/*public class Characterselection : MonoBehaviour
 {
     [SerializeField] private GameObject SorinPref;
     [SerializeField] private GameObject CimarronPref;
@@ -106,3 +106,4 @@ public class Characterselection : MonoBehaviour
 
     //se pasa a la fase de posicionamiento en la escena donde se juega. En orden, los jugadores ubican sus unidades
 }
+*/

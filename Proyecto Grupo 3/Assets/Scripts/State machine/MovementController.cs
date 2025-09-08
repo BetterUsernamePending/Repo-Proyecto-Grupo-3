@@ -2,21 +2,18 @@ using System;
 using System.Collections.Generic;
 using UnityEngine;
 using System.Linq;
-using Unity.VisualScripting;
 
 public class MovementController : MonoBehaviour
 {
     private List<Block> possibleBlocks = new List<Block>();
     private List<Block> pathBlocks = new List<Block>();
-    private bool alreadyMoved = false;
-
     [SerializeField] private GameObject canvas;
     public void OnStateEnter() //Volver "OnStateEnter", placeholder.
     {
-        alreadyMoved = false;
         CharacterController current = TurnController.currentCharacter;
         possibleBlocks = Pathfinding.showPossible(current.currentBlock, current.currentStats["dist"], current.currentStats["jump"], current.belongsToPlayer,true);
         Block.onBlockClicked += ShowPathFound;
+        Block.onBlockClicked += ActivateMovementPan;
         foreach (var block in possibleBlocks)
             block.TextureChange();
     }
@@ -32,7 +29,11 @@ public class MovementController : MonoBehaviour
             block.TextureRevert();
         }
     }
-
+    public void ActivateMovementPan(Block clicked)
+    {
+        if(possibleBlocks.Contains(clicked))
+        UIManager.instance.ActivateMovementPanel();
+    }
     public void ShowPathFound(Block clicked)
     {
 
@@ -50,22 +51,26 @@ public class MovementController : MonoBehaviour
                 block.TextureChange();
             };
         }
+        UIManager.instance.ongoingMovementPanel.SetActive(true);
     }
-
+    
     public void MoveToClicked()
     {
-        if (alreadyMoved == false)
+        if (TurnController.instance.alreadyMoved == false)
         {
             if (pathBlocks.Count > 0) //Por ahora moverse se activa tocando espacio
                 TurnController.currentCharacter.CharacterMove(pathBlocks);
+                UIManager.instance.Move.interactable = false;
+                UIManager.instance.ongoingMovementPanel.SetActive(false);
+ 
             foreach (var block in pathBlocks)
-            {
-                block.TextureRevert();
-            }
-            alreadyMoved = true;
+                {
+                    block.TextureRevert();
+                }
+            TurnController.instance.alreadyMoved = true;
+            UIManager.instance.ReactivateCertainButtons();
             StateEnd();
         }
-        //Cuando termina la animacion del player, el STATE CONTROLLER (crear) debe terminar este estado (la animación del player se ejecuta desde "CharacterController")
     }
     public void StateEnd()
     {

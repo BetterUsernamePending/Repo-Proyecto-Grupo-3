@@ -14,17 +14,13 @@ public class GameController : MonoBehaviour
  MovementController movementController;
     BattleController battleController;
     TurnController turnController;
-    UIManager uiManager;
     CameraBrainController cameraBrainController;
-    Characterselection characterSelection;
     AbilityController abilityController;
     void Start()
     {
         battleController = FindAnyObjectByType<BattleController>();
         turnController = FindAnyObjectByType<TurnController>();
-        uiManager = FindAnyObjectByType<UIManager>();
         cameraBrainController = FindAnyObjectByType<CameraBrainController>();
-        characterSelection = FindAnyObjectByType<Characterselection>();
         blocksInScene = FindObjectsByType<Block>(FindObjectsSortMode.InstanceID).ToList();
     }
     private void Update()
@@ -100,7 +96,7 @@ public class GameController : MonoBehaviour
     public void LaunchAbility()
     {
         abilityController.ExecuteAction();
-        uiManager.HideActionUI();
+        UIManager.instance.HideActionUI();
 
     }
     //End of Battle Section
@@ -128,12 +124,12 @@ public class GameController : MonoBehaviour
         {
             if (checkerp1 > 0)
             {
-                uiManager.GameOverP1Win();
+                UIManager.instance.GameOverP1Win();
                 Debug.Log("Ganó el jugador 1");
             }
             else
             {
-                uiManager.GameOverP2Win();
+                UIManager.instance.GameOverP2Win();
                 Debug.Log("Ganó el jugador 2");
             }
         }

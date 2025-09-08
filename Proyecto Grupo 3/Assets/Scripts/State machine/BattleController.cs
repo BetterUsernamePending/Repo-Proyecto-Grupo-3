@@ -9,14 +9,11 @@ public class BattleController : MonoBehaviour
 
     private List<Block> possibleTargets = new List<Block>();
     private Block targetBlock;
-    public bool alreadyAttacked;
     private GameController gameController;
-    private Animator currentAnimator; // animaciones
-
+    private Animator currentAnimator; // animator (current)
     public void OnStateEnter()
     {
         gameController = FindAnyObjectByType<GameController>();
-        alreadyAttacked = false;
         CharacterController current = TurnController.currentCharacter;
         possibleTargets = Pathfinding.showPossible(current.currentBlock, current.currentStats["range"], current.currentStats["attackHeight"],current.belongsToPlayer,false);
         Block.onBlockClicked += ShowClickedTarget;
@@ -37,7 +34,9 @@ public class BattleController : MonoBehaviour
             }
             targetBlock = clicked;
             targetBlock.TextureChange();
+            UIManager.instance.atkConfirmPanel.SetActive(true);
         }
+
     }
     private float Exponential(float basenumb,int exp)
     {
@@ -67,7 +66,7 @@ public class BattleController : MonoBehaviour
             int damage = (int)Math.Round(TurnController.currentCharacter.currentStats["atk"] / Exponential(1.00069338746258f, (targetBlock.characterOnBlock.currentStats["def"])));
             targetBlock.characterOnBlock.currentStats["hp"] = targetBlock.characterOnBlock.currentStats["hp"] - damage;
             Debug.Log("se hizo" + damage + "de daño");
-            alreadyAttacked = true;
+            TurnController.instance.alreadyAttacked = true;
             if (targetBlock.characterOnBlock.currentStats["hp"] <= 0)
             {   
                 //ejecutar ac� la animaci�n de muerte
@@ -75,6 +74,10 @@ public class BattleController : MonoBehaviour
                 Debug.Log("La unidad enemiga " + targetBlock.characterOnBlock.name + " fue eliminada");
                 gameController.CheckIfGameOver();
             }
+            UIManager.instance.actionPanel.SetActive(false);
+            UIManager.instance.actCancelButton.SetActive(false);
+            UIManager.instance.Act.interactable = false;
+            UIManager.instance.atkConfirmPanel.SetActive(false);
         }
     }
     public void OnStateCancel()
@@ -84,9 +87,5 @@ public class BattleController : MonoBehaviour
         {
             block.TextureRevert();
         }
-    }
-    public void OnTurnFinished()
-    {
-        alreadyAttacked = false;
     }
 }

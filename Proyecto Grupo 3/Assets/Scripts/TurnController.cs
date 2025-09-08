@@ -7,6 +7,7 @@ using UnityEngine;
 
 public class TurnController : MonoBehaviour
 {
+    
     public bool currentp1 = true;
     public static CharacterController currentCharacter; //Personaje de quien es el turno actual.
     private CharacterController currentCharacterType; //Qu� personaje es el que est� seleccionado
@@ -15,13 +16,28 @@ public class TurnController : MonoBehaviour
     public Action OnTurnFinished;
     private CameraBrainController cameraController;
     public bool matchStarted = false;
-    private UIManager uiManager;
+    public bool alreadyMoved;
+    public bool alreadyAttacked;
 
+    #region Singleton
+    private static TurnController _instance;
+    public static TurnController instance
+    {
+        get
+        {
+            if (_instance == null)
+            {
+                _instance = FindFirstObjectByType<TurnController>();
+                DontDestroyOnLoad(_instance.gameObject);
+            }
+                return _instance;
+        }
+    }
+    #endregion
     private void Awake()
     {
         cameraController = FindAnyObjectByType<CameraBrainController>();
         battleController = FindAnyObjectByType<BattleController>();
-        uiManager = FindAnyObjectByType<UIManager>();
     }
     public void FirstTurnSetup()
     {
@@ -29,14 +45,16 @@ public class TurnController : MonoBehaviour
         currentCharacter = characterOrder[0];
         matchStarted = true;
     }
-    private void TurnBegin()
+    private void  TurnBegin()
     {
-        
+
         Debug.Log("current character is " + currentCharacter.name);
         if (!currentCharacter.isAlive)
-            PassTurn();
-        else cameraController.LookAtCurrent();
-
+            {PassTurn();}
+        UIManager.instance.ReactivateActButtons();
+        cameraController.LookAtCurrent();
+        alreadyMoved = false;
+        alreadyAttacked = false;
     }
     private void ActivateBattleUI()
     {
@@ -65,7 +83,6 @@ public class TurnController : MonoBehaviour
         {
             controller.LockBlock();
         }
-        battleController.OnTurnFinished();
         Debug.Log(currentCharacter.name);
         TurnBegin();
         OnTurnFinished?.Invoke();

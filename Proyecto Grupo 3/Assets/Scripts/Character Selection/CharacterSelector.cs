@@ -13,11 +13,9 @@ public class CharacterSelector : MonoBehaviour
   private int charactersLeft = 4;
   private int currentPlayer = 1;
   private int maxPlayers = 2;
-  private UIManager manager;
 
   public void Start()
   {
-    manager = FindFirstObjectByType<UIManager>();
     charCreator = FindFirstObjectByType<CharacterCreator>();
   }
   
@@ -45,9 +43,9 @@ public class CharacterSelector : MonoBehaviour
               vcam.transform.LookAt(midMapTarget.transform);
               if (currentPlayer > maxPlayers)
               {
-                  manager.DeactivateSelectorPanel();
+                  UIManager.instance.DeactivateSelectorPanel();
               }
-              else { manager.ChangeSelectingPlayer(); charactersLeft = 4; }
+              else { UIManager.instance.ChangeSelectingPlayer(); charactersLeft = 4; }
           }
   }
 }

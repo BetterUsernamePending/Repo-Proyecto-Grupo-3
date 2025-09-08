@@ -10,12 +10,12 @@ using DG.Tweening;
 public class UIManager : MonoBehaviour
 {
     public GameObject MenuDePausa;
-
     public GameObject battleUI;
     public GameObject winUI;
     public GameObject p1WinUI;
     public GameObject p2WinUI;
-
+    private static UIManager _instance;
+    public static UIManager instance => _instance;
     [SerializeField] private TurnController turnController;
 
     [Header("Basic Actions")]
@@ -23,6 +23,7 @@ public class UIManager : MonoBehaviour
     public Button Act;
     public Button Skip;
     public List<Button> MoveActSkip;
+    public GameObject ongoingMovementPanel;
 
     public bool isPaused = false;
 
@@ -33,6 +34,9 @@ public class UIManager : MonoBehaviour
     public static Action<int> abilityIndexPressed;
     private List<GameObject> buttonList;
     public GameObject actionPanel;
+    public GameObject actCancelButton;
+    public GameObject atkConfirmPanel;
+    public GameObject ongoingAbilityConfirmPanel;
 
     [Header("TurnAnnouncer")]
     [SerializeField] private TextMeshProUGUI AnnounceCurrentPlayer;
@@ -49,6 +53,19 @@ public class UIManager : MonoBehaviour
     [SerializeField] private GameObject selectorPanelDoneButton;
     [SerializeField] public GameObject blackScreen;
 
+    private void Awake()
+    {
+
+        if (_instance != null && _instance != this)
+        {
+            Destroy(this.gameObject);
+        }
+        else
+        {
+            _instance = this;
+            DontDestroyOnLoad(this.gameObject);
+        }
+    }
     private void Start()
     {
         MenuDePausa.SetActive(false);
@@ -80,7 +97,10 @@ public class UIManager : MonoBehaviour
 #endif
     }
 
-
+    public void ActivateMovementPanel()
+    {
+        ongoingMovementPanel.SetActive(true);
+    }
     // Funcion para el menu de pausa, devuelve al menu principal al jugador.
     public void MainMenuLoad()
     {
@@ -101,6 +121,32 @@ public class UIManager : MonoBehaviour
         {
             buttons.interactable = true;
         }
+    }
+    public void ReactivateCertainButtons()
+    {
+        Act.interactable = !TurnController.instance.alreadyAttacked;
+        Move.interactable = !TurnController.instance.alreadyMoved;
+        Skip.interactable = true;
+    }
+    public void DeactivateActButtons()
+    {
+        foreach(GameObject buttons in buttonList)
+        {
+            buttons.GetComponent<Button>().interactable = false;
+        }
+    }
+    public void ReactivateActButtons()
+    {
+        foreach (GameObject buttons in buttonList)
+        {
+            buttons.GetComponent<Button>().interactable = true;
+        }
+    }
+    public void WhenExecutingAbility()
+    {
+        ongoingAbilityConfirmPanel.SetActive(false);
+        Act.interactable = false;
+        actCancelButton.SetActive(false);
     }
     public void AnnouncePlayerTurn()
     {
@@ -212,11 +258,10 @@ public class UIManager : MonoBehaviour
         {
             blackScreen.GetComponent<Image>().DOFade(1,0.75f).OnComplete(() =>
             {
-            turnController.PassTurn();
+            turnController.PassTurn(); //?????
             blackScreen.GetComponent<Image>().DOFade(0,1f);
             });
         });
-        
     }
 
 }

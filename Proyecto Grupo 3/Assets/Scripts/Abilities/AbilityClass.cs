@@ -12,9 +12,16 @@ public class  AbilityClass : MonoBehaviour
     {
         currentAnimator = TurnController.currentCharacter.animator;
     }
-    public virtual void ShowRange() { }
+    public virtual void ShowRange()
+    {
+        UIManager.instance.ongoingAbilityConfirmPanel.SetActive(true);
+    }
 
     public virtual void ShowClickedTarget(Block clicked) { }
-    public virtual void ExecuteAbility(){}
+    public virtual void ExecuteAbility()
+    {
+        UIManager.instance.WhenExecutingAbility();
+        TurnController.instance.alreadyAttacked = true;
+    }
     public virtual void Cancel() { }
 }

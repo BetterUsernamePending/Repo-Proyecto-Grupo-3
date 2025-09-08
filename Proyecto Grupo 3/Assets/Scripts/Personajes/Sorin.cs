@@ -17,8 +17,6 @@ public class Sorin : CharacterController
 
         gameObject.AddComponent(typeof (Heal));
         abilityList.Add(GetComponent<Heal>());  
-        gameObject.AddComponent(typeof(Heal));
-        abilityList.Add(GetComponent<Heal>());
     }
 
 }

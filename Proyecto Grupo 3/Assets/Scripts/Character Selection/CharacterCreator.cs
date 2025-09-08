@@ -7,7 +7,8 @@ public class CharacterCreator : MonoBehaviour
 
   [SerializeField] public List<GameObject> characters;
 
-  public void CreateCharacter(Block clicked, int characterID, int player)
+  public void 
+        CreateCharacter(Block clicked, int characterID, int player)
   {
     if (characterID != -1)
     {

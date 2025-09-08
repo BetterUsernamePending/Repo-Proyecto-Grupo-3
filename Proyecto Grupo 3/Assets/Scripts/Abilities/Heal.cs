@@ -33,6 +33,7 @@ public class Heal : AbilityClass
 
     public override void ExecuteAbility()
     {
+        base.ExecuteAbility();
         SetAnimator();
         if (targetBlock != null && targetBlock.characterOnBlock != null && possibleTargets.Exists(x => x == targetBlock) && TurnController.currentCharacter.currentStats["mp"] > TurnController.currentCharacter.origStats["mp"] / 4)
         {
@@ -60,6 +61,7 @@ public class Heal : AbilityClass
     }
     public override void ShowRange()
     {
+        base.ShowRange();
         gameController = FindAnyObjectByType<GameController>();
         CharacterController current = TurnController.currentCharacter;
         possibleTargets = Pathfinding.showPossible(current.currentBlock,_range, current.currentStats["attackHeight"],current.belongsToPlayer,false);
@@ -73,6 +75,7 @@ public class Heal : AbilityClass
         foreach (var block in possibleTargets)
         {
             block.TextureRevert();
+            UIManager.instance.ongoingAbilityConfirmPanel.SetActive(false);
         }
     }
 }
