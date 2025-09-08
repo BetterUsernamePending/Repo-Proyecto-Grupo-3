@@ -30,6 +30,7 @@ public class AbilityController : MonoBehaviour
         }
         TurnController.currentCharacter.abilityList[currentAbilityIndex].ExecuteAbility();
         Block.onBlockClicked -= ShowClicked;
+        TurnController.currentCharacter.animator.SetTrigger("Ability"+(currentAbilityIndex+1).ToString());
     }
     public void ShowClicked(Block clicked)
     {

@@ -68,11 +68,17 @@ public class BattleController : MonoBehaviour
             Debug.Log("se hizo" + damage + "de daño");
             TurnController.instance.alreadyAttacked = true;
             if (targetBlock.characterOnBlock.currentStats["hp"] <= 0)
-            {   
+            {
                 //ejecutar ac� la animaci�n de muerte
                 targetBlock.characterOnBlock.IsDead();
+                targetBlock.characterOnBlock.animator.SetTrigger("Death");
                 Debug.Log("La unidad enemiga " + targetBlock.characterOnBlock.name + " fue eliminada");
                 gameController.CheckIfGameOver();
+            }
+            else
+            {
+                targetBlock.characterOnBlock.lookingAt.LookAt(TurnController.currentCharacter.transform);
+                targetBlock.characterOnBlock.animator.SetTrigger("Hurt");
             }
             UIManager.instance.actionPanel.SetActive(false);
             UIManager.instance.actCancelButton.SetActive(false);

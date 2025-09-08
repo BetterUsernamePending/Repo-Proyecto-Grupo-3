@@ -404,6 +404,50 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: solin_hurt_f
+      rect:
+        serializedVersion: 2
+        x: 1416
+        y: 219
+        width: 236
+        height: 219
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b63b398e422ed54bbbda960668211f2
+      internalID: -653857431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: solin_hurt_b
+      rect:
+        serializedVersion: 2
+        x: 1652
+        y: 219
+        width: 236
+        height: 219
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60bea80d8e6884042a80b6e194004e2e
+      internalID: -787554539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     customData: 
     physicsShape: []
@@ -427,6 +471,8 @@ TextureImporter:
       solin_attack_f_1: 1005749661
       solin_attack_f_2: 908835683
       solin_attack_f_3: -962412283
+      solin_hurt_b: -787554539
+      solin_hurt_f: -653857431
       solin_idle_b: 302012805
       solin_idle_f: 1095195310
       solin_walk_b_1: -533632129

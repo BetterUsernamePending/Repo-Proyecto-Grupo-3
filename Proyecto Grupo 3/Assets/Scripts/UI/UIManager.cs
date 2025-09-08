@@ -76,10 +76,7 @@ public class UIManager : MonoBehaviour
 
         turnController.OnTurnFinished += SetValues;
         buttonList = new List<GameObject>() { FirstButton, SecondButton, ThirdButton };
-        blackScreen.GetComponent<Image>().DOFade(1,0.5f).OnComplete(() =>
-                {
-                    blackScreen.GetComponent<Image>().DOFade(0,0.75f);
-                });
+        crossfadeTransition();
     }
 
     private void Update()
@@ -243,25 +240,14 @@ public class UIManager : MonoBehaviour
 
     public void crossfadeTransition()
     {
-        blackScreen.GetComponent<Image>().DOFade(1,0.75f).OnComplete(() =>
-            {
-                blackScreen.GetComponent<Image>().DOFade(1,0.1f).OnComplete(() =>
+        blackScreen.SetActive(true);
+        blackScreen.GetComponent<Image>().DOFade(1, 0.5f).OnComplete(() =>
                 {
-                blackScreen.GetComponent<Image>().DOFade(0,0.75f);
+                    blackScreen.GetComponent<Image>().DOFade(0, 0.75f).OnComplete(() =>
+                    {
+                        blackScreen.SetActive(false);
+                    });
                 });
-            });
-         
-    }
-
-    public void transitionToFirstTurn() {
-        blackScreen.GetComponent<Image>().DOFade(1,0.75f).OnComplete(() =>
-        {
-            blackScreen.GetComponent<Image>().DOFade(1,0.75f).OnComplete(() =>
-            {
-            turnController.PassTurn(); //?????
-            blackScreen.GetComponent<Image>().DOFade(0,1f);
-            });
-        });
     }
 
 }

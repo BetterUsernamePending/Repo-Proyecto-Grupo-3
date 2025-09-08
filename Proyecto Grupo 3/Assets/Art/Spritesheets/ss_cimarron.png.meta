@@ -404,6 +404,270 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: cimarron_heal_f_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 438
+        width: 236
+        height: 219
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4477de1d98751248adae188c8622131
+      internalID: 1938756759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cimarron_heal_f_1
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 438
+        width: 236
+        height: 219
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce7c7b94257327f45acb9c3741f59b92
+      internalID: -1882611389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cimarron_heal_f_2
+      rect:
+        serializedVersion: 2
+        x: 472
+        y: 438
+        width: 236
+        height: 219
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b4380e514c8dbb48a1d6da70b6140ce
+      internalID: 2091048261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cimarron_heal_f_3
+      rect:
+        serializedVersion: 2
+        x: 708
+        y: 438
+        width: 236
+        height: 219
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eeb3a2527e547594687db8cea428c114
+      internalID: 1633065525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cimarron_heal_f_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 657
+        width: 236
+        height: 219
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88ea7f5318a2cd24aaf78c0fa6e0b2d7
+      internalID: -1918589543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cimarron_heal_b_4
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 657
+        width: 236
+        height: 219
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b5f9a7bbeb72a842be5f59a718055ed
+      internalID: 62692861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cimarron_heal_b_0
+      rect:
+        serializedVersion: 2
+        x: 944
+        y: 438
+        width: 236
+        height: 219
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90efdd9dff540aa44b9153f87dcd6830
+      internalID: -1196864663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cimarron_heal_b_1
+      rect:
+        serializedVersion: 2
+        x: 1180
+        y: 438
+        width: 236
+        height: 219
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3f8ddef561e90b4a9be163222ed51f7
+      internalID: -1597294582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cimarron_heal_b_2
+      rect:
+        serializedVersion: 2
+        x: 1416
+        y: 438
+        width: 236
+        height: 219
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96b71b7e3a9d9aa41a16a23995bad551
+      internalID: -567272182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cimarron_heal_b_3
+      rect:
+        serializedVersion: 2
+        x: 1652
+        y: 438
+        width: 236
+        height: 219
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5bd3c527013de349bc7ecc1a7fb47c4
+      internalID: -885164055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cimarron_hurt_f
+      rect:
+        serializedVersion: 2
+        x: 1416
+        y: 219
+        width: 236
+        height: 219
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 346eabfa675570640af85551a8c5b6b3
+      internalID: -724141997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cimarron_hurt_b
+      rect:
+        serializedVersion: 2
+        x: 1652
+        y: 219
+        width: 236
+        height: 219
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18c5c05b6b2f1ef4887cbc0d3cb23afa
+      internalID: -1168053432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     customData: 
     physicsShape: []
@@ -426,6 +690,18 @@ TextureImporter:
       cimarron_attack_f_1: 1005749661
       cimarron_attack_f_2: 908835683
       cimarron_attack_f_3: -962412283
+      cimarron_heal_b_0: -1196864663
+      cimarron_heal_b_1: -1597294582
+      cimarron_heal_b_2: -567272182
+      cimarron_heal_b_3: -885164055
+      cimarron_heal_b_4: 62692861
+      cimarron_heal_f_0: 1938756759
+      cimarron_heal_f_1: -1882611389
+      cimarron_heal_f_2: 2091048261
+      cimarron_heal_f_3: 1633065525
+      cimarron_heal_f_4: -1918589543
+      cimarron_hurt_b: -1168053432
+      cimarron_hurt_f: -724141997
       cimarron_idle_b: 302012805
       cimarron_idle_f: 1095195310
       cimarron_walk_b_1: -533632129

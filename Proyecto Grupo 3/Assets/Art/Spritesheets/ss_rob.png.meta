@@ -236,8 +236,8 @@ TextureImporter:
         y: 0
         width: 236
         height: 219
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.49058378, y: 0.46448478}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -404,6 +404,226 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: rob_dash_f_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 438
+        width: 236
+        height: 219
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8630a83b91964ce49acd564a279a19c6
+      internalID: -977541162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rob_dash_f_1
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 438
+        width: 236
+        height: 219
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c23759c5c59ec840890d59ac531b8b5
+      internalID: 240130606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rob_dash_f_2
+      rect:
+        serializedVersion: 2
+        x: 472
+        y: 438
+        width: 236
+        height: 219
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d3f2dd3fb8306c40937c207f9979a91
+      internalID: -1322223160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rob_dash_f_3
+      rect:
+        serializedVersion: 2
+        x: 708
+        y: 438
+        width: 236
+        height: 219
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bfbda903767ea94fa6ecf511cb6fc33
+      internalID: 101619632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rob_dash_b_0
+      rect:
+        serializedVersion: 2
+        x: 944
+        y: 438
+        width: 236
+        height: 219
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 896c3704e8978e0479af4817e5a54b81
+      internalID: 923242187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rob_dash_b_1
+      rect:
+        serializedVersion: 2
+        x: 1180
+        y: 438
+        width: 236
+        height: 219
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af80bf5da07c7db4296557b6e53f7b25
+      internalID: 209882908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rob_dash_b_2
+      rect:
+        serializedVersion: 2
+        x: 1416
+        y: 438
+        width: 236
+        height: 219
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20fda4c498de7014ebe7beb6af16cbd5
+      internalID: 1624161487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rob_dash_b_3
+      rect:
+        serializedVersion: 2
+        x: 1652
+        y: 438
+        width: 236
+        height: 219
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 100f4259937083b42865af7e80890b80
+      internalID: -1107120026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rob_hurt_f
+      rect:
+        serializedVersion: 2
+        x: 1416
+        y: 219
+        width: 236
+        height: 219
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfe91f19b9161f745a5e00a2671e599c
+      internalID: -835142784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rob_hurt_b
+      rect:
+        serializedVersion: 2
+        x: 1652
+        y: 219
+        width: 236
+        height: 219
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efdfade1c603401419d7a2aa01e5a37a
+      internalID: -1671798041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     customData: 
     physicsShape: []
@@ -426,6 +646,16 @@ TextureImporter:
       rob_attack_f_1: 1005749661
       rob_attack_f_2: 908835683
       rob_attack_f_3: -962412283
+      rob_dash_b_0: 923242187
+      rob_dash_b_1: 209882908
+      rob_dash_b_2: 1624161487
+      rob_dash_b_3: -1107120026
+      rob_dash_f_0: -977541162
+      rob_dash_f_1: 240130606
+      rob_dash_f_2: -1322223160
+      rob_dash_f_3: 101619632
+      rob_hurt_b: -1671798041
+      rob_hurt_f: -835142784
       rob_idle_b: 302012805
       rob_idle_f: 1095195310
       rob_walk_b_1: -533632129

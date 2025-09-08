@@ -404,6 +404,182 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: pigius_death_f_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 438
+        width: 236
+        height: 219
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33818c53c7ceef94d9861e2539b4dfb9
+      internalID: -414304423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pigius_death_f_1
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 438
+        width: 236
+        height: 219
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ea1fec581625ba469fdcc323670a9a6
+      internalID: -1450865619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pigius_death_f_2
+      rect:
+        serializedVersion: 2
+        x: 472
+        y: 438
+        width: 236
+        height: 219
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ed82e34c53d2fc41b4c10b4a4817c54
+      internalID: 146682485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pigius_death_f_3
+      rect:
+        serializedVersion: 2
+        x: 708
+        y: 438
+        width: 236
+        height: 219
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fee894618ae4cc0428566f2412e96f76
+      internalID: -653757816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pigius_death_b_0
+      rect:
+        serializedVersion: 2
+        x: 944
+        y: 438
+        width: 236
+        height: 219
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 674ba34385a807f469ff9e2878644a2d
+      internalID: 1088802847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pigius_death_b_1
+      rect:
+        serializedVersion: 2
+        x: 1180
+        y: 438
+        width: 236
+        height: 219
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d71013f71e533104ba7a07fbc4b5e0ae
+      internalID: -1058150629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pigius_death_b_2
+      rect:
+        serializedVersion: 2
+        x: 1416
+        y: 438
+        width: 236
+        height: 219
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8a82a3168eac8144bd9a6e18440c02b
+      internalID: -1038332423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pigius_death_b_3
+      rect:
+        serializedVersion: 2
+        x: 1652
+        y: 438
+        width: 236
+        height: 219
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccc317707e88094429bc3b90b305f602
+      internalID: -1020486862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     customData: 
     physicsShape: []
@@ -426,6 +602,14 @@ TextureImporter:
       pigius_attack_f_1: 1005749661
       pigius_attack_f_2: 908835683
       pigius_attack_f_3: -962412283
+      pigius_death_b_0: 1088802847
+      pigius_death_b_1: -1058150629
+      pigius_death_b_2: -1038332423
+      pigius_death_b_3: -1020486862
+      pigius_death_f_0: -414304423
+      pigius_death_f_1: -1450865619
+      pigius_death_f_2: 146682485
+      pigius_death_f_3: -653757816
       pigius_idle_b: 302012805
       pigius_idle_f: 1095195310
       pigius_walk_b_1: -533632129

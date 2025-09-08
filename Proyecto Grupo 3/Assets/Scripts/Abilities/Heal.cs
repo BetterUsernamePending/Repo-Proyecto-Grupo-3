@@ -37,7 +37,7 @@ public class Heal : AbilityClass
         SetAnimator();
         if (targetBlock != null && targetBlock.characterOnBlock != null && possibleTargets.Exists(x => x == targetBlock) && TurnController.currentCharacter.currentStats["mp"] > TurnController.currentCharacter.origStats["mp"] / 4)
         {
-            // Cambiar la dirección hacia la que mira el personaje
+            // Cambiar la direcciï¿½n hacia la que mira el personaje
             Vector3 newForward = targetBlock.coord - TurnController.currentCharacter.currentBlock.coord;
             newForward.y = 0;
             Transform lookingAt = TurnController.currentCharacter.lookingAt;
@@ -48,7 +48,7 @@ public class Heal : AbilityClass
             int healing = (targetBlock.characterOnBlock.currentStats["hp"] / 3);
             targetBlock.characterOnBlock.currentStats["hp"] += (targetBlock.characterOnBlock.currentStats["hp"] / 3);
             Debug.Log("se curaron" + healing + "de hp");
-            currentAnimator.SetTrigger("Attack");
+            currentAnimator.SetTrigger("Ability1");
             targetBlock.TextureRevert();
             // -
         }
