@@ -4,6 +4,7 @@ using UnityEngine;
 using UnityEngine.EventSystems;
 using DG.Tweening;
 using System.Collections;
+using System;
 
 public class CharacterController : MonoBehaviour
 {
@@ -59,7 +60,7 @@ public class CharacterController : MonoBehaviour
                 break;
         }
         animator = GetComponentInChildren<Animator>(); // animaciones
-        lookingAt =  transform.GetChild(2); // transform de objeto LookingAt
+        lookingAt = transform.GetChild(2); // transform de objeto LookingAt
     }
 
     Vector3[] blockPositions;
@@ -75,7 +76,7 @@ public class CharacterController : MonoBehaviour
             blockPositions[i] = new Vector3(blockPath[i].transform.position.x, ypos, blockPath[i].transform.position.z);
         }
         animator.SetBool("isMoving", true);
-        transform.DOPath(blockPositions,1.5f).OnWaypointChange(OnWaypointChanged)
+        transform.DOPath(blockPositions, 1.5f).OnWaypointChange(OnWaypointChanged)
             .OnComplete(() =>
             {
                 Reposition();
@@ -86,7 +87,7 @@ public class CharacterController : MonoBehaviour
     public void IsDead()
     {
         this.isAlive = false;
-        this.gameObject.SetActive(false);
+        StartCoroutine(ExecuteDelayed(() => { this.gameObject.SetActive(false); }));  
     }
     public void Reposition()
     {
@@ -156,6 +157,13 @@ public class CharacterController : MonoBehaviour
         {
             //Debug.Log("Reached the last waypoint.");
         }
+    }
+    
+    public IEnumerator ExecuteDelayed(Action code)
+    {
+        yield return new WaitForSeconds(2);
+        // Execute delayed code
+        code();
     }
 }
 

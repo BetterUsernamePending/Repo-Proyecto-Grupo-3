@@ -413,7 +413,7 @@ TextureImporter:
         width: 236
         height: 219
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -435,7 +435,7 @@ TextureImporter:
         width: 236
         height: 219
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -444,6 +444,138 @@ TextureImporter:
       bones: []
       spriteID: 60bea80d8e6884042a80b6e194004e2e
       internalID: -787554539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: solin_death_f_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 438
+        width: 236
+        height: 219
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4466b452b8e01a4cbf90ef09fae5424
+      internalID: 1795840721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: solin_death_f_1
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 438
+        width: 236
+        height: 219
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c849cb9240b71bf41b9111c7a4782936
+      internalID: -969551553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: solin_death_f_2
+      rect:
+        serializedVersion: 2
+        x: 472
+        y: 438
+        width: 236
+        height: 219
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6e9752bec4150840b14f9a1a788a72b
+      internalID: 1225051167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: solin_death_b_0
+      rect:
+        serializedVersion: 2
+        x: 708
+        y: 438
+        width: 236
+        height: 219
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d29c94cc755919f49a82e5928aab9ae0
+      internalID: -1251293749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: solin_death_b_1
+      rect:
+        serializedVersion: 2
+        x: 944
+        y: 438
+        width: 236
+        height: 219
+      alignment: 9
+      pivot: {x: 0.5179843, y: 0.9831858}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fff28fcb9ef7e6449cc36f128dc8f97
+      internalID: -847572551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: solin_death_b_2
+      rect:
+        serializedVersion: 2
+        x: 1180
+        y: 438
+        width: 236
+        height: 219
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2803d93c26eecd04dbc8308536fba840
+      internalID: 1785350914
       vertices: []
       indices: 
       edges: []
@@ -471,6 +603,12 @@ TextureImporter:
       solin_attack_f_1: 1005749661
       solin_attack_f_2: 908835683
       solin_attack_f_3: -962412283
+      solin_death_b_0: -1251293749
+      solin_death_b_1: -847572551
+      solin_death_b_2: 1785350914
+      solin_death_f_0: 1795840721
+      solin_death_f_1: -969551553
+      solin_death_f_2: 1225051167
       solin_hurt_b: -787554539
       solin_hurt_f: -653857431
       solin_idle_b: 302012805

@@ -413,7 +413,7 @@ TextureImporter:
         width: 236
         height: 219
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -435,7 +435,7 @@ TextureImporter:
         width: 236
         height: 219
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -457,7 +457,7 @@ TextureImporter:
         width: 236
         height: 219
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -479,7 +479,7 @@ TextureImporter:
         width: 236
         height: 219
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -501,7 +501,7 @@ TextureImporter:
         width: 236
         height: 219
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -523,7 +523,7 @@ TextureImporter:
         width: 236
         height: 219
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -545,7 +545,7 @@ TextureImporter:
         width: 236
         height: 219
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -567,7 +567,7 @@ TextureImporter:
         width: 236
         height: 219
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -589,7 +589,7 @@ TextureImporter:
         width: 236
         height: 219
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -611,7 +611,7 @@ TextureImporter:
         width: 236
         height: 219
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -633,7 +633,7 @@ TextureImporter:
         width: 236
         height: 219
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -655,7 +655,7 @@ TextureImporter:
         width: 236
         height: 219
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -664,6 +664,138 @@ TextureImporter:
       bones: []
       spriteID: 18c5c05b6b2f1ef4887cbc0d3cb23afa
       internalID: -1168053432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cimarron_death_f_0
+      rect:
+        serializedVersion: 2
+        x: 472
+        y: 657
+        width: 236
+        height: 219
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5a1148f16824504fba2a216a6c4af12
+      internalID: 1218831390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cimarron_death_f_1
+      rect:
+        serializedVersion: 2
+        x: 708
+        y: 657
+        width: 236
+        height: 219
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 729eff0809bd37449b90c77f102eeed1
+      internalID: 1417815263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cimarron_death_f_2
+      rect:
+        serializedVersion: 2
+        x: 944
+        y: 657
+        width: 236
+        height: 219
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70d310601c1166b4e801578d97989b3a
+      internalID: 48727637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cimarron_death_b_0
+      rect:
+        serializedVersion: 2
+        x: 1180
+        y: 657
+        width: 236
+        height: 219
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1f2c8ef37f3ddb4faa8d86008daf740
+      internalID: -1612270836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cimarron_death_b_1
+      rect:
+        serializedVersion: 2
+        x: 1416
+        y: 657
+        width: 236
+        height: 219
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94a6942ae4e3f5b48bc8dcacf0d1f4e8
+      internalID: 928957652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cimarron_death_b_2
+      rect:
+        serializedVersion: 2
+        x: 1652
+        y: 657
+        width: 236
+        height: 219
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cfbfc71c74f86b408a19f3b45051477
+      internalID: -1657969913
       vertices: []
       indices: 
       edges: []
@@ -690,6 +822,12 @@ TextureImporter:
       cimarron_attack_f_1: 1005749661
       cimarron_attack_f_2: 908835683
       cimarron_attack_f_3: -962412283
+      cimarron_death_b_0: -1612270836
+      cimarron_death_b_1: 928957652
+      cimarron_death_b_2: -1657969913
+      cimarron_death_f_0: 1218831390
+      cimarron_death_f_1: 1417815263
+      cimarron_death_f_2: 48727637
       cimarron_heal_b_0: -1196864663
       cimarron_heal_b_1: -1597294582
       cimarron_heal_b_2: -567272182
