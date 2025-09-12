@@ -14,6 +14,9 @@ public class Rob : CharacterController
         origStats.Add("range", atkrange);
         origStats.Add("attackHeight", atkheight);
         currentStats = origStats;
+
+        gameObject.AddComponent(typeof(Stab));
+        abilityList.Add(GetComponent<Stab>());
     }
 
 }

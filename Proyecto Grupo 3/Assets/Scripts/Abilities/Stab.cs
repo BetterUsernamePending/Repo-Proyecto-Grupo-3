@@ -12,7 +12,7 @@ public class Stab : AbilityClass
     private void Start()
     {
         _name = "Stab";
-        _description = "Run in a straight line and damage the enemy for atk*2 damage";
+        _description = "Run in a straight line and damage the enemy for half their HP";
         _cost = 0;
         _range = 5;
     }
@@ -37,12 +37,36 @@ public class Stab : AbilityClass
         CharacterController current = TurnController.currentCharacter;
         possibleTargets = Pathfinding.showPossible(current.currentBlock, _range, current.currentStats["attackHeight"], current.belongsToPlayer, false);
         List<Block> targetsInLine = new List<Block> { };
-        foreach(Block currentBlock in  possibleTargets)
-            if(currentBlock.transform.position.x == current.transform.position.x || currentBlock.transform.position.z == current.transform.position.z)
+        foreach (Block currentBlock in possibleTargets)
+            if (currentBlock.transform.position.x == current.transform.position.x || currentBlock.transform.position.z == current.transform.position.z)
                 targetsInLine.Add(currentBlock);
         foreach (var block in targetsInLine)
         {
-                block.TextureChange();
+            block.TextureChange();
+        }
+    }
+    public override void ExecuteAbility()
+    {
+        base.ExecuteAbility();
+        if (targetBlock != null && targetBlock.characterOnBlock != null && possibleTargets.Exists(x => x == targetBlock))
+        {
+            //cambio de dirección de mirada del personaje
+            Vector3 newForward = targetBlock.coord - TurnController.currentCharacter.currentBlock.coord;
+            newForward.y = 0;
+            Transform lookingAt = TurnController.currentCharacter.lookingAt;
+            lookingAt.rotation = Quaternion.LookRotation(newForward, lookingAt.up);
+            //
+            int damage = (targetBlock.characterOnBlock.currentStats["hp"] / 2);
+            targetBlock.characterOnBlock.currentStats["hp"] -= (targetBlock.characterOnBlock.currentStats["hp"] / 2);
+            Debug.Log("se hicieron" + damage + "puntos de daño");
+            currentAnimator.SetTrigger("Ability1");
+            targetBlock.TextureRevert();
+        }
+        if (targetBlock.characterOnBlock = null)
+        {
+            Debug.Log("Requirements not met");
+            targetBlock.TextureRevert();
+            return;
         }
     }
 }
