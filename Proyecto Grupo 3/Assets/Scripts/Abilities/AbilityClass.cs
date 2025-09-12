@@ -23,5 +23,5 @@ public class  AbilityClass : MonoBehaviour
         UIManager.instance.WhenExecutingAbility();
         TurnController.instance.alreadyAttacked = true;
     }
-    public virtual void Cancel() { }
+    public virtual void Cancel() {  }
 }

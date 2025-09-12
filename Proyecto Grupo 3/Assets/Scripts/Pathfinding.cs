@@ -8,9 +8,9 @@ using UnityEngine.UIElements;
 
 public class Pathfinding
 {
-    public static List<Block> showPossible(Block startingBlock, int dist, int jump, int belongsToPlayer,bool moving) //crea una lista con las casillas posibles a las que se puede mover el jugador
+    public static List<Block> showPossible(Block startingBlock, int dist, int jump, int belongsToPlayer, bool moving) //crea una lista con las casillas posibles a las que se puede mover el jugador
     {
-        dist ++;
+        dist++;
         List<Block> toSearch = new List<Block>() { startingBlock };
         List<Block> processed = new List<Block>();
         List<Block> nextToSearch = new List<Block>();
@@ -49,12 +49,11 @@ public class Pathfinding
     }
 
 
-    public static List<Block> findPath(Block startingBlock, Block targetBlock, int jump, int belongsToPlayer,bool moving) //Crea una lista con los bloques en el camino mas corto hacia el targetBlock
+    public static List<Block> findPath(Block startingBlock, Block targetBlock, int jump, int belongsToPlayer, bool moving, bool isAbility) //Crea una lista con los bloques en el camino mas corto hacia el targetBlock
     {
-        bool isMoving = moving;
         List<Block> toSearch = new List<Block>() { startingBlock };
         List<Block> processed = new List<Block>();
-        if (targetBlock.containsCharacter != true)
+        if (!targetBlock.containsCharacter || isAbility)
         {
             while (toSearch.Any())
             {
@@ -104,23 +103,48 @@ public class Pathfinding
                 }
                 else
                 {
-                    foreach (Block block in current.Neighbors.Where(block => block.isWalkable(Mathf.Abs(current.height - block.height), jump) == true
-                                && !processed.Contains(block) && !block.obstacle && (belongsToPlayer == block.ReturnCharacterPlayerNumber() || !block.containsCharacter)))
+                    if (!isAbility)
                     {
-                        var inSearch = toSearch.Contains(block);
-                        var costToNeighbor = current.G + current.GetDistance(current, block);
-
-                        if (!inSearch || costToNeighbor < block.G)
+                        foreach (Block block in current.Neighbors.Where(block => block.isWalkable(Mathf.Abs(current.height - block.height), jump) == true
+                                    && !processed.Contains(block) && !block.obstacle && (belongsToPlayer == block.ReturnCharacterPlayerNumber() || !block.containsCharacter)))
                         {
-                            block.SetG(costToNeighbor);
-                            block.SetConnection(current);
+                            var inSearch = toSearch.Contains(block);
+                            var costToNeighbor = current.G + current.GetDistance(current, block);
 
-                            if (!inSearch)
+                            if (!inSearch || costToNeighbor < block.G)
                             {
-                                block.SetH(block.GetDistance(startingBlock, targetBlock));
-                                toSearch.Add(block);
-                            }
+                                block.SetG(costToNeighbor);
+                                block.SetConnection(current);
 
+                                if (!inSearch)
+                                {
+                                    block.SetH(block.GetDistance(startingBlock, targetBlock));
+                                    toSearch.Add(block);
+                                }
+
+                            }
+                        }
+                    }
+                    else
+                    {
+                        foreach (Block block in current.Neighbors.Where(block => block.isWalkable(Mathf.Abs(current.height - block.height), jump) == true
+                                    && !processed.Contains(block) && !block.obstacle))
+                        {
+                            var inSearch = toSearch.Contains(block);
+                            var costToNeighbor = current.G + current.GetDistance(current, block);
+
+                            if (!inSearch || costToNeighbor < block.G)
+                            {
+                                block.SetG(costToNeighbor);
+                                block.SetConnection(current);
+
+                                if (!inSearch)
+                                {
+                                    block.SetH(block.GetDistance(startingBlock, targetBlock));
+                                    toSearch.Add(block);
+                                }
+
+                            }
                         }
                     }
                 }

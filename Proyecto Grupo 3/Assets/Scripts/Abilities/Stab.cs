@@ -18,6 +18,11 @@ public class Stab : AbilityClass
     }
     public override void ShowClickedTarget(Block clicked)
     {
+        List<Block> everyblock = Pathfinding.showPossible(clicked, 70, 70, 1, false);
+        foreach (var block in everyblock)
+        {
+            block.TextureRevert();
+        }
         if (possibleTargets.Exists(Block => Block == clicked && (clicked.transform.position.x == TurnController.currentCharacter.transform.position.x)) || (clicked.transform.position.z == TurnController.currentCharacter.transform.position.z))
         {
             CharacterController current = TurnController.currentCharacter;
@@ -50,7 +55,17 @@ public class Stab : AbilityClass
         base.ExecuteAbility();
         if (targetBlock != null && targetBlock.characterOnBlock != null && possibleTargets.Exists(x => x == targetBlock))
         {
-            //cambio de dirección de mirada del personaje
+            List<Block> path = new List<Block>();
+            path = Pathfinding.findPath(TurnController.currentCharacter.currentBlock, targetBlock, TurnController.currentCharacter.jump, TurnController.currentCharacter.belongsToPlayer, true,true);
+            if (path.Count > 1)
+            {
+                path.RemoveAt(path.Count - 1);
+            }
+            if (path.Count != 1)
+            {
+                TurnController.currentCharacter.CharacterMove(path);
+            }
+                //cambio de dirección de mirada del personaje
             Vector3 newForward = targetBlock.coord - TurnController.currentCharacter.currentBlock.coord;
             newForward.y = 0;
             Transform lookingAt = TurnController.currentCharacter.lookingAt;
@@ -62,6 +77,7 @@ public class Stab : AbilityClass
             currentAnimator.SetTrigger("Ability1");
             targetBlock.TextureRevert();
         }
+        else Debug.Log("Operationfailed");
         if (targetBlock.characterOnBlock = null)
         {
             Debug.Log("Requirements not met");

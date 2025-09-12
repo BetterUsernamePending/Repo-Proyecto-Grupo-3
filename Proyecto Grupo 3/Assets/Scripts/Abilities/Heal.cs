@@ -18,6 +18,11 @@ public class Heal : AbilityClass
 
     public override void ShowClickedTarget(Block clicked)
     {
+        List<Block> everyblock = Pathfinding.showPossible(clicked, 70, 70, 1, false);
+        foreach (var block in everyblock)
+        {
+            block.TextureRevert();
+        }
         if (possibleTargets.Exists(Block => Block == clicked))
         {
             CharacterController current = TurnController.currentCharacter;

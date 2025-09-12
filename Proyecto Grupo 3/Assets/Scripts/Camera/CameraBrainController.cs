@@ -64,7 +64,7 @@ public class CameraBrainController : MonoBehaviour
                 case 5:
                     vcam5.enabled = true;
                     vcam5.LookAt = turnController.characterOrder[0].transform;
-                    vcam5.transform.position = new Vector3(turnController.characterOrder[0].transform.position.x, turnController.characterOrder[0].transform.position.y + 5, turnController.characterOrder[0].transform.position.z);
+                    vcam5.transform.position = new Vector3(turnController.characterOrder[0].transform.position.x, turnController.characterOrder[0].transform.position.y + 20, turnController.characterOrder[0].transform.position.z);
                     vcam.enabled = false;
                     vcam2.enabled = false;
                     vcam3.enabled = false;

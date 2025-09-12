@@ -15,8 +15,8 @@ public class Sorin : CharacterController
         origStats.Add("attackHeight", atkheight);
         currentStats = origStats;
 
-        gameObject.AddComponent(typeof (Heal));
-        abilityList.Add(GetComponent<Heal>());  
+        gameObject.AddComponent(typeof (Fireball));
+        abilityList.Add(GetComponent<Fireball>());  
     }
 
 }

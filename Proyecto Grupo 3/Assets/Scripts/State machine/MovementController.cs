@@ -44,7 +44,7 @@ public class MovementController : MonoBehaviour
             {
                 block.TextureRevert();
             }
-            pathBlocks = Pathfinding.findPath(current.currentBlock, clicked, current.currentStats["jump"],current.belongsToPlayer,true);
+            pathBlocks = Pathfinding.findPath(current.currentBlock, clicked, current.currentStats["jump"],current.belongsToPlayer,true,false);
 
             foreach (var block in pathBlocks)
             {

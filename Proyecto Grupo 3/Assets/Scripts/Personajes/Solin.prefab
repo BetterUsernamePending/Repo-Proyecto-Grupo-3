@@ -290,7 +290,7 @@ MonoBehaviour:
   def: 0
   hp: 500
   mp: 500
-  movedist: 2
+  movedist: 3
   atkrange: 5
   jump: 1
   spd: 50
