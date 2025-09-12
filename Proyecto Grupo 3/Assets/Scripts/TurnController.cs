@@ -47,10 +47,11 @@ public class TurnController : MonoBehaviour
     }
     private void  TurnBegin()
     {
-
         Debug.Log("current character is " + currentCharacter.name);
         if (!currentCharacter.isAlive)
             {PassTurn();}
+        Debug.Log("current hp is " + currentCharacter.currentStats["hp"]);
+        Debug.Log("max hp is " + currentCharacter.origStats["hp"]);
         UIManager.instance.ReactivateActButtons();
         cameraController.LookAtCurrent();
         alreadyMoved = false;
