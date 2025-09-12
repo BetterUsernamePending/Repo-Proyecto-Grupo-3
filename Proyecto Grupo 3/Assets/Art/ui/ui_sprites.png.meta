@@ -567,7 +567,7 @@ TextureImporter:
         width: 12
         height: 42
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -576,6 +576,50 @@ TextureImporter:
       bones: []
       spriteID: 72538b430aabafb4fa68df20408336b5
       internalID: -1921181068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_left_panel
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 493
+        width: 387
+        height: 104
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba87607662d53b74b89c3dcedec97b18
+      internalID: -914714741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_portraitbackpanel
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 515
+        width: 129
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e127f6968ddac7e478a461cdaec9ecaa
+      internalID: 1094053927
       vertices: []
       indices: 
       edges: []
@@ -607,11 +651,13 @@ TextureImporter:
       ui_currplayer_bg: -1869900046
       ui_genericpanel: -1582577014
       ui_left_bg: -1531309195
+      ui_left_panel: -914714741
       ui_long_chain: 1173024863
       ui_main_bg: -368597695
       ui_mapselectframe: -603491997
       ui_mapselectpanel: -1326885539
       ui_pause_top_plank: 1453930781
+      ui_portraitbackpanel: 1094053927
       ui_right_bg: 571286884
       ui_select_portraitframe: 2049111079
       ui_shortchain: -1921181068

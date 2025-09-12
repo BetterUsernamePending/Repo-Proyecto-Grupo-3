@@ -624,6 +624,138 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: rob_death_f_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 657
+        width: 236
+        height: 219
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13c999e4908ae9749bc303dec951c4ae
+      internalID: 1336559141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rob_death_f_1
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 657
+        width: 236
+        height: 219
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4de2009e9290fd440943a9f60b9e2689
+      internalID: -850717323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rob_death_f_2
+      rect:
+        serializedVersion: 2
+        x: 472
+        y: 657
+        width: 236
+        height: 219
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d2c22fc459637a40a0d80ff2e7a19f3
+      internalID: -1693716372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rob_death_b_0
+      rect:
+        serializedVersion: 2
+        x: 708
+        y: 657
+        width: 236
+        height: 219
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c4e5f675faaeb545bd299baaa6e630d
+      internalID: 2099303033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rob_death_b_1
+      rect:
+        serializedVersion: 2
+        x: 944
+        y: 657
+        width: 236
+        height: 219
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 357948fd1a471fc49a2062285d64d83e
+      internalID: -543203298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rob_death_b_2
+      rect:
+        serializedVersion: 2
+        x: 1180
+        y: 657
+        width: 236
+        height: 219
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aecf055bdffe85641a449e4e364de7c1
+      internalID: -1293613719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     customData: 
     physicsShape: []
@@ -654,6 +786,12 @@ TextureImporter:
       rob_dash_f_1: 240130606
       rob_dash_f_2: -1322223160
       rob_dash_f_3: 101619632
+      rob_death_b_0: 2099303033
+      rob_death_b_1: -543203298
+      rob_death_b_2: -1293613719
+      rob_death_f_0: 1336559141
+      rob_death_f_1: -850717323
+      rob_death_f_2: -1693716372
       rob_hurt_b: -1671798041
       rob_hurt_f: -835142784
       rob_idle_b: 302012805

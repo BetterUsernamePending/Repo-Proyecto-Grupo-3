@@ -47,9 +47,12 @@ public class UIManager : MonoBehaviour
     [SerializeField] private TextMeshProUGUI CharacterName;
     [SerializeField] private Image CharacterPortrait;
     [SerializeField] private Image CharacterPortraitBorder;
+    [SerializeField] private GameObject Player1Flag;
+    [SerializeField] private GameObject Player2Flag;
 
     [SerializeField] private GameObject selectorPanel;
     [SerializeField] private TextMeshProUGUI playerSelectorPanel;
+    [SerializeField] private TextMeshProUGUI playerTurnText;
     [SerializeField] private GameObject selectorPanelDoneButton;
     [SerializeField] public GameObject blackScreen;
 
@@ -216,6 +219,23 @@ public class UIManager : MonoBehaviour
         CharacterPortrait.sprite = CurrentCharacter.Portrait;
         CharacterPortraitBorder.sprite = CurrentCharacter.PortraitBorder;
         CharacterName.text = CurrentCharacter.PortraitName;
+        if (CurrentCharacter.belongsToPlayer == 1)
+        {
+            Player1Flag.SetActive(true);
+            Player2Flag.SetActive(false);
+            playerTurnText.text = "Jugador 1";
+            playerTurnText.color = CurrentCharacter.teamColor;
+        }
+        else
+        {
+            Player1Flag.SetActive(false);
+            Player2Flag.SetActive(true);
+            playerTurnText.text = "Jugador 2";
+            playerTurnText.color = CurrentCharacter.teamColor;
+        }
+
+        
+
     }
 
     public void OnAbilityPressed(int i)
@@ -235,7 +255,7 @@ public class UIManager : MonoBehaviour
     public void ChangeSelectingPlayer()
     {
         playerSelectorPanel.text = "Jugador 2";
-        playerSelectorPanel.color = Color.red;
+        playerSelectorPanel.color = new Color(0.71f, 0.16f, 0.15f);//Color.red;
     }
 
     public void crossfadeTransition()

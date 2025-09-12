@@ -5,10 +5,12 @@ using UnityEngine.EventSystems;
 using DG.Tweening;
 using System.Collections;
 using System;
+using NUnit.Framework.Api;
 
 public class CharacterController : MonoBehaviour
 {
     public int belongsToPlayer;
+    public Color teamColor;
     public Block currentBlock; //bloque en el que est� parado el personaje
     public Block targetBlock;
     private LayerMask layerToFind;
@@ -47,16 +49,20 @@ public class CharacterController : MonoBehaviour
         switch (belongsToPlayer)
         {
             case 1:
-                transform.GetChild(0).GetComponent<Renderer>().materials[0].SetColor("_OutlineColor", Color.blue);
+                teamColor = Color.blue;//new Color(0.15f, 0.29f, 1f);
+                transform.GetChild(0).GetComponent<Renderer>().materials[0].SetColor("_OutlineColor", teamColor);
                 break;
             case 2:
-                transform.GetChild(0).GetComponent<Renderer>().materials[0].SetColor("_OutlineColor", Color.red);
+                teamColor = Color.red;//new Color(1f, 0.16f, 0.15f);
+                transform.GetChild(0).GetComponent<Renderer>().materials[0].SetColor("_OutlineColor", teamColor);
                 break;
             case 3:
-                transform.GetChild(0).GetComponent<Renderer>().materials[0].SetColor("_OutlineColor", Color.green);
+                teamColor = Color.green;
+                transform.GetChild(0).GetComponent<Renderer>().materials[0].SetColor("_OutlineColor", teamColor);
                 break;
             case 4:
-                transform.GetChild(0).GetComponent<Renderer>().materials[0].SetColor("_OutlineColor", Color.yellow);
+                teamColor = Color.yellow;
+                transform.GetChild(0).GetComponent<Renderer>().materials[0].SetColor("_OutlineColor", teamColor);
                 break;
         }
         animator = GetComponentInChildren<Animator>(); // animaciones
