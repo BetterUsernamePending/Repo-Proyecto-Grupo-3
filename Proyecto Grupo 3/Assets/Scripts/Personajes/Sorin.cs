@@ -13,7 +13,15 @@ public class Sorin : CharacterController
         origStats.Add("dist", movedist);
         origStats.Add("range", atkrange);
         origStats.Add("attackHeight", atkheight);
-        currentStats = origStats;
+        currentStats.Add("atk", atk);
+        currentStats.Add("def", def);
+        currentStats.Add("spd", spd);
+        currentStats.Add("hp", hp);
+        currentStats.Add("mp", mp);
+        currentStats.Add("jump", jump);
+        currentStats.Add("dist", movedist);
+        currentStats.Add("range", atkrange);
+        currentStats.Add("attackHeight", atkheight);
 
         gameObject.AddComponent(typeof (Fireball));
         abilityList.Add(GetComponent<Fireball>());  

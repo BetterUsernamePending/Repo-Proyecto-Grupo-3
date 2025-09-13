@@ -233,9 +233,6 @@ public class UIManager : MonoBehaviour
             playerTurnText.text = "Jugador 2";
             playerTurnText.color = CurrentCharacter.teamColor;
         }
-
-        
-
     }
 
     public void OnAbilityPressed(int i)
