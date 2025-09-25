@@ -28,11 +28,6 @@ public class MovementController : MonoBehaviour
             block.TextureRevert();
         }
     }
-    public void ActivateMovementPan(Block clicked)
-    {
-        if(possibleBlocks.Contains(clicked))
-        UIManager.instance.ActivateMovementPanel();
-    }
     public void ShowPathFound(Block clicked)
     {
 

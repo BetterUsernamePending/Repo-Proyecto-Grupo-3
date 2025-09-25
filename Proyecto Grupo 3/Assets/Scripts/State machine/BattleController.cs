@@ -52,21 +52,20 @@ public class BattleController : MonoBehaviour
         //llamar animaci�n de ataque ac�
         if (targetBlock == null)
             return;
-        if (targetBlock.characterOnBlock != null)
-        {
-            // animacion + rotacion para orientar el sprite del personaje
+        // animacion + rotacion para orientar el sprite del personaje
             currentAnimator.SetTrigger("Attack");
             Vector3 newForward = targetBlock.coord - TurnController.currentCharacter.currentBlock.coord;
             newForward.y = 0;
             Transform lookingAt = TurnController.currentCharacter.lookingAt; // transform de objeto LookingAt
             lookingAt.rotation = Quaternion.LookRotation(newForward, lookingAt.up);
-            // -
-
-            targetBlock.TextureRevert();
+        // -
+        targetBlock.TextureRevert();
+        TurnController.instance.alreadyAttacked = true;
+        if (targetBlock.characterOnBlock != null)
+        {
             int damage = (int)Math.Round(TurnController.currentCharacter.currentStats["atk"] / Exponential(1.00069338746258f, (targetBlock.characterOnBlock.currentStats["def"])));
             targetBlock.characterOnBlock.currentStats["hp"] = targetBlock.characterOnBlock.currentStats["hp"] - damage;
             Debug.Log("se hizo" + damage + "de daño");
-            TurnController.instance.alreadyAttacked = true;
             if (targetBlock.characterOnBlock.currentStats["hp"] <= 0)
             {
                 //ejecutar ac� la animaci�n de muerte
@@ -80,11 +79,12 @@ public class BattleController : MonoBehaviour
                 targetBlock.characterOnBlock.lookingAt.LookAt(TurnController.currentCharacter.transform);
                 targetBlock.characterOnBlock.animator.SetTrigger("Hurt");
             }
-            UIManager.instance.actionPanel.SetActive(false);
-            UIManager.instance.actCancelButton.SetActive(false);
-            UIManager.instance.Act.interactable = false;
-            UIManager.instance.atkConfirmPanel.SetActive(false);
+
         }
+        UIManager.instance.actionPanel.SetActive(false);
+        UIManager.instance.actCancelButton.SetActive(false);
+        UIManager.instance.Act.interactable = false;
+        UIManager.instance.atkConfirmPanel.SetActive(false);
     }
     public void OnStateCancel()
     {
