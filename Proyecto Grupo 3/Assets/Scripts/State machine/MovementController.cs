@@ -13,7 +13,6 @@ public class MovementController : MonoBehaviour
         CharacterController current = TurnController.currentCharacter;
         possibleBlocks = Pathfinding.showPossible(current.currentBlock, current.currentStats["dist"], current.currentStats["jump"], current.belongsToPlayer,true);
         Block.onBlockClicked += ShowPathFound;
-        Block.onBlockClicked += ActivateMovementPan;
         foreach (var block in possibleBlocks)
             block.TextureChange();
     }
