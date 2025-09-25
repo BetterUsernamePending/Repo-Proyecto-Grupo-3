@@ -33,21 +33,25 @@ public class CharacterSelector : MonoBehaviour
 
     public void OnCharacterPlaced(Block clicked)
     {
-        Block.onBlockClicked -= OnCharacterPlaced;
-        charCreator.CreateCharacter(clicked, selectedCharacterID, currentPlayer);
-        selectedCharacterID = -1;
-        charactersLeft--;
-        m_CharacterSelectedSFX.Play();
-        if (charactersLeft == 0)
+        clicked.DetectCharacter();
+        if (!clicked.containsCharacter && !clicked.obstacle)
         {
-            currentPlayer++;
-            vcam.transform.position = new Vector3(26, 6, 13);
-            vcam.transform.LookAt(midMapTarget.transform);
-            if (currentPlayer > maxPlayers)
+            Block.onBlockClicked -= OnCharacterPlaced;
+            charCreator.CreateCharacter(clicked, selectedCharacterID, currentPlayer);
+            selectedCharacterID = -1;
+            charactersLeft--;
+            m_CharacterSelectedSFX.Play();
+            if (charactersLeft == 0)
             {
-                UIManager.instance.DeactivateSelectorPanel();
+                currentPlayer++;
+                vcam.transform.position = new Vector3(26, 6, 13);
+                vcam.transform.LookAt(midMapTarget.transform);
+                if (currentPlayer > maxPlayers)
+                {
+                    UIManager.instance.DeactivateSelectorPanel();
+                }
+                else { UIManager.instance.ChangeSelectingPlayer(); charactersLeft = 4; }
             }
-            else { UIManager.instance.ChangeSelectingPlayer(); charactersLeft = 4; }
         }
     }
 }
