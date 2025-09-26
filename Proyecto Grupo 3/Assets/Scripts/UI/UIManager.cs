@@ -37,6 +37,8 @@ public class UIManager : MonoBehaviour
     public GameObject actCancelButton;
     public GameObject atkConfirmPanel;
     public GameObject ongoingAbilityConfirmPanel;
+    public Button attackButton;
+    public Button cancelAtkButton;
 
     [Header("TurnAnnouncer")]
     [SerializeField] private TextMeshProUGUI AnnounceCurrentPlayer;
